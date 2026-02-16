@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sessions on BSides Amsterdam</title>
+    <link>http://localhost:1313/sessions/</link>
+    <description>Recent content in Sessions on BSides Amsterdam</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/sessions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Session</title>
+      <link>http://localhost:1313/sessions/example-session-943968/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/example-session-943968/</guid>
+      <description>&lt;p&gt;Description for Example Session&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BSides Amsterdam</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on BSides Amsterdam</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/code-of-conduct.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/code-of-conduct.de/</guid>
+      <description>&lt;h1 class=&#34;heading heading--1&#34; id=&#34;verhaltenskodex&#34;&gt;Verhaltens­kodex&lt;/h1&gt;&#xA;&lt;h2 class=&#34;heading heading--2&#34; id=&#34;zielsetzung&#34;&gt;Zielsetzung&lt;/h2&gt;&lt;p&gt;Alle Konferenzen und Gruppen, die sich auf diesen Verhaltenskodex beziehen, haben es sich als ein wichtiges Ziel gesetzt, die größtmögliche Anzahl an Beitragenden mit den vielfältigsten und unterschiedlichsten Hintergründen einzubeziehen. Wir sehen es als unsere Aufgabe, eine freundliche, sichere und einladende Umgebung zu schaffen, unabhängig von Geschlecht, sexueller Orientierung, Befähigung, Herkunft, Religion (oder deren Nichtvorhandensein) sowie gesellschaftlichem und wirtschaftlichem Status.&lt;/p&gt;&#xA;&lt;p&gt;Dieser Verhaltenskodex umreißt unsere Erwartungen an alle Beteiligten unserer Community, sowie die Konsequenzen für inakzeptables Verhalten.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/code-of-conduct/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/bams_logo.png&#34; alt=&#34;BAms logo&#34;&gt;&lt;/p&gt;&#xA;&#xA;&lt;h1 class=&#34;heading heading--1&#34; id=&#34;attendee-code-of-conduct&#34;&gt;Attendee Code-of-Conduct&lt;/h1&gt;&lt;p&gt;BSides Amsterdam is a conference by the information security community, for the information security community. Facilitating a pleasant atmosphere for all attendees is a core aim of the BSides Amsterdam organisers and as an attendee/participant you agree to be bound by the BSides Amsterdam Attendee Code-of-Conduct.&lt;/p&gt;&#xA;&#xA;&lt;h4 class=&#34;heading heading--4&#34; id=&#34;purpose&#34;&gt;Purpose&lt;/h4&gt;&lt;p&gt;The purpose of this Code-of-Conduct is:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To ensure a constructive, inclusive and pleasant atmosphere for all volunteers and attendees of the BSides Amsterdam conference.&lt;/li&gt;&#xA;&lt;li&gt;To ensure that all participants know what behaviour they have a right to expect from other attendees, volunteers and organisers.&lt;/li&gt;&#xA;&lt;li&gt;To ensure that all participants know what behaviour is expected of them whilst attending the BSides Amsterdam conference.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h4 class=&#34;heading heading--4&#34; id=&#34;respect-for-others&#34;&gt;Respect for Others&lt;/h4&gt;&lt;p&gt;Attendees will:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ctf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ctf/</guid>
+      <description>&lt;h2 class=&#34;heading heading--2&#34; id=&#34;bsides-amsterdam-ctf&#34;&gt;BSides Amsterdam CTF&lt;/h2&gt;&lt;p&gt;Join our limited-edition, BSides Amsterdam-themed Capture-The-Flag competition!&lt;/p&gt;&#xA;&lt;p&gt;Created by nerds, for nerds, this CTF will have 15 challenges ranging from beginner to insanely hard. Think you’ve got what it takes to solve ‘em all?&lt;/p&gt;&#xA;&lt;p&gt;We are also proud and excited to announce SANS as a BSides Amsterdam CTF sponsor! The first place winner receives a SANS course of their choosing.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Prizes&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;🥇1st place: SANS course of choosing&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/sponsorship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sponsorship/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/bams_logo.png&#34; alt=&#34;BAms logo&#34;&gt;&lt;/p&gt;&#xA;&#xA;&lt;h1 class=&#34;heading heading--1&#34; id=&#34;become-a-sponsor&#34;&gt;Become a sponsor&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Thank you for considering sponsoring BSides Amsterdam!&lt;/strong&gt;&lt;/p&gt;&#xA;&#xA;&lt;h3 class=&#34;heading heading--3&#34; id=&#34;what-is-bsides&#34;&gt;What Is BSides?&lt;/h3&gt;&lt;p&gt;BSides events combine security expertise from a variety of platforms in search of the “next big thing” in information security. BSides is an open platform that gives security experts and industry professionals the opportunity to share ideas, insights, and develop longstanding relationships with others in the community. It is a rare opportunity to directly connect and create trusted relationships with key members of the community.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example Session</title>
+      <link>http://localhost:1313/sessions/example-session-943968/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/example-session-943968/</guid>
+      <description>&lt;p&gt;Description for Example Session&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>feedback</title>
+      <link>http://localhost:1313/feedback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/feedback/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Joey Dreijer</title>
+      <link>http://localhost:1313/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/</guid>
+      <description>&lt;p&gt;SpecterOps - Technical Architect&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Location</title>
+      <link>http://localhost:1313/location/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/location/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Preparty</title>
+      <link>http://localhost:1313/preparty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/preparty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Q&amp;A</title>
+      <link>http://localhost:1313/qa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schedule</title>
+      <link>http://localhost:1313/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/schedule/</guid>
+      <description>&lt;p&gt;This page should redirect you to {{ redirect_url }}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Schedule</title>
+      <link>http://localhost:1313/youtube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/youtube/</guid>
+      <description>&lt;p&gt;This page should redirect you to {{ redirect_url }}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sponsors &amp; Partners</title>
+      <link>http://localhost:1313/sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sponsors/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

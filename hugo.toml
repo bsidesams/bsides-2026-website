@@ -1,0 +1,349 @@
+baseURL = 'https://bsidesams.org/'
+languageCode = 'en-us'
+title = 'BSides Amsterdam'
+theme = 'event'
+
+defaultContentLanguage = "en"
+
+[languages.en]
+languageName = "English"
+
+[languages.en.params.themes.event]
+slogan = "Bringing the BSides community back to Amsterdam!"
+description = """
+Security BSides is a community-driven framework for building events, by and for, information security community members. These events are already happening in major cities all over the world! We are responsible for organizing an independent BSides-Approved event in Amsterdam.
+Our goal is to bring together at least 200 people from the InfoSec community."""
+
+directions = """
+## By Car:
+PARKING:
+There are several options for parking The cost for parking is €5,18 per hour with , but there are some spots with a maximum of €15-20 per day. We recommend the following parking for approximately €15,- per day: (1) Next to the KFC (no reservations possible), (2) ParkBee garage Laan van Spartaan (12 min. walk) or (3) ParkBee Wim van Estlaan.
+
+FROM DIRECTION UTRECHT:
+From the A10, take E22 to Jan van Galenstraat/s105 in Amsterdam-West. Take exit 5-S105 from A10/E22. Continue on Jan van Galenstraat/s105. Drive to Admiraal Helfrichstraat.
+
+FROM DIRECTION SCHIPHOL/HAARLEM (A4/A9):
+From the A4, take A10/E22 to Jan van Galenstraat/s105 in Amsterdam-West, Amsterdam. Take exit 5-S105 from A10/E22
+
+## By Public transport:
+Metro 50/51 stop at Metro station Jan van Galenstraat. From there it's a 11 minute walk.
+Tram 13 stops at Admiraal Helfrichstraat. From there it's a 5 minute walk.
+Tram 7 and Bus 15 stop at Jan van Galenstraat. From there it's a 4 minute walk.
+
+"""
+aboutUs = """
+![BAms logo](images/bams_logo.png)
+
+### BSides history
+BSides is a community-driven framework for building events for and by information security community members. The goal is to expand the spectrum of conversation beyond the traditional confines of space and time. It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
+
+BSides Amsterdam was originally hosted for the first time in 2017, and for the last time in 2018. However, after multiple years without BSides Amsterdam, 2025 is the time to re-ignite BSides Amsterdam! The success of our partner-event BSides Groningen, inspired a small group of people to make BSides Amsterdam happen again!
+
+### Non-profit foundation
+The organization of BSides Amsterdam is a non-profit foundation (Stichting in Dutch), with goal to host events for the InfoSec community to allow knowledge sharing and eduction within the industry.
+
+The foundation aims to:
+* Promote the interests of Information Security and Information Technology industry members.
+* Disseminate knowledge about cloud and cybersecurity.
+* Stimulate the application of Information Security in the broaderst sense in the professional environment of, among others, companies, organizations, government and education.
+* Improve contacts between students, professionals and organizations that deal with Information Security and Information Technology, both nationally and internationally.
+* And furthermore everything that is related to this in the broadest sense, belongs to it and/or can be conducive to it.
+
+The foundation tries to achieve its goal by, among others:
+* Regularly organizing independent conferences for interested parties as well as organizations that deal with and/or use Information Security or Information Technology, where suppliers and affiliated groups can also present themselves;
+* Stimulate, initiate and organize community meetings;
+* Maintain contacts with other national and international organizations with similar objectives; and
+* Building and maintaining contacts with users and suppliers with knowledge and/or expertise that are deemed to be of importance to the Foundation and the goals it pursues and aims to achieve.
+"""
+
+#[[languages.en.menus.main]]
+#identifier = "sessions"
+#pageRef = "/sessions"
+#weight = 10
+
+[[languages.en.menus.main]]
+identifier = "schedule"
+pageRef = "/schedule"
+weight = 10
+
+[[languages.en.menus.main]]
+identifier = "speaker"
+pageRef = "/speakers"
+weight = 20
+
+[[languages.en.menus.main]]
+identifier = "ctf"
+pageRef = "/ctf"
+weight = 30
+
+[[languages.en.menus.main]]
+identifier = "preparty"
+pageRef = "/preparty"
+weight = 35
+
+[[languages.en.menus.main]]
+identifier = "Q&A"
+pageRef = "/QA"
+weight = 36
+
+[[languages.en.menus.main]]
+identifier = "feedback"
+pageRef = "/feedback"
+weight = 37
+
+[[languages.en.menus.main]]
+identifier = "location"
+pageRef = "/location"
+weight = 40
+
+[[languages.en.menus.main]]
+identifier = "sponsors"
+pageRef = "/sponsors"
+weight = 50
+
+[[languages.en.menus.main]]
+identifier = "about"
+pageRef = "/about"
+weight = 60
+
+[[languages.en.menus.main]]
+identifier = "youtube"
+pageRef = "/youtube"
+weight = 15
+
+
+[[languages.en.menus.secondary]]
+identifier = "about"
+pageRef = "/about"
+weight = 10
+ [languages.en.menus.secondary.params]
+description = """
+Learn more about our mission, values, and the people behind our organization.
+"""
+
+#[[languages.en.menus.secondary]]
+#identifier = "speakers"
+#pageRef = "/speakers"
+#weight = 30
+#
+  #[languages.en.menus.secondary.params]
+  #description = """
+#Meet our speakers who will will be speaking at BSides.
+#Learn more about their backgrounds and what they will discuss.
+#"""
+
+[[languages.en.menus.secondary]]
+identifier = "location"
+pageRef = "/location"
+weight = 40
+
+[languages.en.menus.secondary.params]
+description = """
+Find out where the event will take place.
+This section provides details on the venue and directions.
+"""
+
+[[languages.en.menus.secondary]]
+identifier = "code_of_conduct"
+pageRef = "/code-of-conduct"
+weight = 60
+
+  [languages.en.menus.secondary.params]
+  description = """
+This outlines the expectations for participant behavior and event policies.
+"""
+
+[[languages.en.menus.footer]]
+identifier = "code_of_conduct"
+pageRef = "/code-of-conduct"
+weight = 10
+
+[[languages.en.menus.footer]]
+identifier = "about"
+pageRef = "/about"
+weight = 20
+
+[params.themes.event]
+title = "BSides Amsterdam"
+sessionizeId = "1d4jw7co"
+startDate = "2025-11-20"
+endDate = "2025-11-20"
+location = "Amsterdam, the Netherlands"
+address = [ "PONG – House of Ping", "Jan van Galenstraat 315", "Amsterdam", "The Netherlands" ]
+favicon = "favicon.ico"
+trackCategoryTitle = "Track"
+organizers = [
+  "598f92b5-24e8-45a7-9e59-35883259aaa2",
+  "bfdf8ccd-2e44-4def-a337-597e2bffbd18",
+  "08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8",
+  "180bd1d9-532a-4957-9b6e-d373f22d650f",
+  "dae3b7a3-806e-405b-8f26-2e8885f4592e",
+  "48615645-061c-4128-90e2-1987ceb235bc",
+  "e8f118f8-10a2-475f-aa17-9b30b68e632c"
+]
+#featuredSessions = [ "944942", "943968", "945011" ]
+
+[params.themes.event.callToAction]
+enableBanner = false
+
+# Fill in event ID when known
+[params.themes.event.callToAction.eventbrite]
+eventId = "1389051192509"
+#[params.themes.event.callToAction.other]
+#url = "https://sessionize.com/bsides-ams-2025"
+
+[params.themes.event.map]
+# Placeholders which point to a venue on openstreetmap
+embeddableMapUrl = "https://www.openstreetmap.org/export/embed.html?bbox=4.843809306621552%2C52.37074061981059%2C4.846813380718231%2C52.37275321123435&amp;layer=mapnik"
+viewLargerMapUrl = "https://www.openstreetmap.org/?#map=19/52.371747/4.845311"
+
+[params.themes.event.socialLinks]
+#xUrl = "https://x.com/bsidesams"
+linkedinUrl = "https://www.linkedin.com/company/bsides-amsterdam/"
+
+[params.themes.event.images]
+logo = "images/bams_logo.png"
+titleBackground = "images/pong.png"
+location = "images/pong2.png"
+
+## Sponsors here
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/escape.png"
+url = "https://escape.tech"
+name = "Escape"
+sponstype = "Bronze"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/falconforce.png"
+url = "https://falconforce.nl"
+name = "FalconForce"
+sponstype = "Bronze"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/cqure.png"
+url = "https://cqure.nl"
+name = "CQure"
+sponstype = "Bronze"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/warpnet-dark.png"
+url = "https://warpnet.nl"
+name = "WarpNet"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/specterops-dark.png"
+url = "https://specterops.io"
+name = "SpecterOps"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/nerium.png"
+url = "https://www.nerium.nl"
+name = "Nerium"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/invictus.png"
+url = "https://www.invictus-ir.com"
+name = "Invictus"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/intigriti.png"
+url = "https://www.intigriti.com/"
+name = "Intigriti"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/holdsecurity.png"
+url = "https://holdsecurity.com"
+name = "Hold Security"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/sysdig.png"
+url = "https://www.sysdig.com"
+name = "Sysdig"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/hardened.png"
+url = "https://hardened.eu/"
+name = "Hardened"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/responders.png"
+url = "https://responders.now/"
+name = "Responders"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/sans.png"
+url = "https://sans.org/"
+name = "SANS"
+sponstype = "Gold"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/aikido-dark.png"
+url = "https://www.aikido.dev"
+name = "Aikodo Security"
+sponstype = "Gold"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/armorcode.png"
+url = "https://www.armorcode.com/"
+name = "ArmorCode"
+sponstype = "Gold"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/semgrep.png"
+url = "https://www.semgrep.dev/"
+name = "Semgrep"
+sponstype = "Gold"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/booking.png"
+url = "https://www.booking.com/"
+name = "Booking"
+sponstype = "Gold"
+
+[[params.themes.event.sponsors]]
+logo = "images/sponsors/adyen.png"
+url = "https://www.adyen.com/"
+name = "Adyen"
+sponstype = "Platinum"
+
+## Partners here
+[[params.themes.event.partners]]
+logo = "images/partners/bsides-groningen.png"
+# Seems like there is a bug in the partner url, refering to the /sponsors page instead of partner URL
+url = "https://bsidesgrunn.org"
+name = "BSides Groningen"
+
+[[params.themes.event.partners]]
+logo = "images/sessionize.png"
+url = "https://sessionize.com"
+name = "Sessionize"
+
+[[params.themes.event.partners]]
+logo = "images/partners/orangecon.png"
+url = "https://orangecon.nl/"
+name = "OrangeCon"
+
+[params.themes.event.colors]
+primaryLighter = "#FF6B70"
+primary = "#DA1219"
+primaryDarker = "#B00F15"
+primaryDarkest = "#DA1219"
+secondary = "#F8F9FA"
+secondaryDarker = "#6C757D"
+track = "#2D5A87"
+shadow = "#ADB5BD"
+secondary-menu-description-1 = "#28A745"
+root = "#6C757D"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

@@ -1,0 +1,161 @@
+{{ define "main" }}
+    {{ $event := .Site.Params.themes.event }}
+
+    <section class="sponsors">
+        <div class="section">
+            {{ $validSponsors := slice }}
+            {{ range $sponsor := $event.sponsors }}
+                {{ if and $sponsor.logo $sponsor.url $sponsor.sponstype }}
+                    {{ $validSponsors = $validSponsors | append $sponsor }}
+                {{ end }}
+            {{- end }}
+
+
+            {{ if gt (len $validSponsors) 0 }}
+                <h1 class="heading heading--1">
+                    {{- T "sponsors_page.heading_sponsors" }}
+                </h1>
+                
+                <h2>Platinum</h2>
+                    <ul class="sponsors__list">
+                        {{ range $sponsor := $validSponsors }}
+                        {{ if eq $sponsor.sponstype "Platinum" }}
+                         <li class="sponsors__list-item">
+                                {{- partial "sponsor-card.html" (
+                                    dict
+                                    "companyUrl" $sponsor.url
+                                    "logoResource" $sponsor.logo
+                                    "name" $sponsor.name
+                                    "sponstype" $sponsor.sponstype
+                                    )
+                                }}
+                        </li>
+                        {{ else }}
+                            {{ continue }}
+                        {{ end }}
+
+                        {{- end }}
+                    </ul>
+
+                <h2>Gold</h2>
+                    <ul class="sponsors__list">
+                        {{ range $sponsor := $validSponsors }}
+                        {{ if eq $sponsor.sponstype "Gold" }}
+                         <li class="sponsors__list-item">
+                                {{- partial "sponsor-card.html" (
+                                    dict
+                                    "companyUrl" $sponsor.url
+                                    "logoResource" $sponsor.logo
+                                    "name" $sponsor.name
+                                    "sponstype" $sponsor.sponstype
+                                    )
+                                }}
+                        </li>
+                        {{ else }}
+                            {{ continue }}
+                        {{ end }}
+
+                        {{- end }}
+                    </ul>
+
+                <h2>Silver</h2>
+                    <ul class="sponsors__list">
+                        {{ range $sponsor := $validSponsors }}
+                        {{ if eq $sponsor.sponstype "Silver" }}
+                        <li class="sponsors__list-item">
+                                {{- partial "sponsor-card.html" (
+                                    dict
+                                    "companyUrl" $sponsor.url
+                                    "logoResource" $sponsor.logo
+                                    "name" $sponsor.name
+                                    "sponstype" $sponsor.sponstype
+                                    )
+                                }}
+                        </li>
+                        {{ else }}
+                            {{ continue }}
+                        {{ end }}
+
+                        {{- end }}
+                    </ul>
+
+
+                <h2>Bronze</h2>
+                    <ul class="sponsors__list">
+                        {{ range $sponsor := $validSponsors }}
+                        {{ if eq $sponsor.sponstype "Bronze" }}
+                        <li class="sponsors__list-item">
+                                {{- partial "sponsor-card.html" (
+                                    dict
+                                    "companyUrl" $sponsor.url
+                                    "logoResource" $sponsor.logo
+                                    "name" $sponsor.name
+                                    "sponstype" $sponsor.sponstype
+                                    )
+                                }}
+                        </li>
+                        {{ else }}
+                            {{ continue }}
+                        {{ end }}
+
+                        {{- end }}
+                    </ul>
+
+                <!-- <h2>Special sponsorships</h2> -->
+                    <ul class="sponsors__list">
+                        {{ range $sponsor := $validSponsors }}
+                        {{ if eq $sponsor.sponstype "Special" }}
+                        <li class="sponsors__list-item" style="--color-primary: black;">
+                                {{- partial "sponsor-card.html" (
+                                    dict
+                                    "companyUrl" $sponsor.url
+                                    "logoResource" $sponsor.logo
+                                    "name" $sponsor.name
+                                    "sponstype" $sponsor.sponstype
+                                    )
+                                }}
+                        </li>
+                        {{ else }}
+                            {{ continue }}
+                        {{ end }}
+
+                        {{- end }}
+                    </ul>
+
+            {{- end }}
+
+            {{ $validPartners := slice }}
+            {{ range $partner := $event.partners }}
+                {{ if and $partner.logo $partner.url }}
+                    {{ $validPartners = $validPartners | append $partner }}
+                {{ end }}
+            {{- end }}
+
+            {{ if gt (len $validPartners) 0 }}
+                <h1 class="heading heading--1">
+                    {{- T "sponsors_page.heading_partners" }}
+                </h1>
+                <ul class="sponsors__list">
+                    {{ range $partner := $validPartners }}
+                        <li class="sponsors__list-item" style="">
+                            {{- partial "sponsor-card.html" (
+                                dict
+                                "companyUrl" $partner.url
+                                "logoResource" $partner.logo
+                                "name" $partner.name
+                                )
+                            }}
+                        </li>
+                    {{- end }}
+                </ul>
+            {{ end }}
+        </div>
+    </section>
+
+    {{- partial "sections/cta.html" (
+        dict
+        "eventbriteId" $event.callToAction.eventbrite.eventId
+        "ctaUrl" $event.callToAction.other.url
+        )
+    }}
+{{ end }}
