@@ -92,6 +92,11 @@ pageRef = "/about"
 weight = 60
 
 [[languages.en.menus.main]]
+identifier = "previous"
+pageRef = "/previous"
+weight = 65
+
+[[languages.en.menus.main]]
 identifier = "youtube"
 pageRef = "/youtube"
 weight = 15
@@ -188,8 +193,8 @@ linkedinUrl = "https://www.linkedin.com/company/bsides-amsterdam/"
 
 [params.themes.event.images]
 logo = "images/bams_logo.png"
-titleBackground = "images/pong.png"
-location = "images/pong2.png"
+titleBackground = "images/banner25.jpg"
+location = "images/banner25.jpg"
 
 ## Sponsors here
 #[[params.themes.event.sponsors]]

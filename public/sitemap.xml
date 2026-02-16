@@ -140,6 +140,8 @@
     <loc>http://localhost:1313/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/previous/</loc>
+  </url><url>
     <loc>http://localhost:1313/sessions/registrations-516057cf-ebf5-4413-93f9-874485e83dcd/</loc>
     <priority>0</priority>
   </url><url>

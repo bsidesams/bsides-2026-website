@@ -330,6 +330,13 @@
       <description>&lt;p&gt;A transformational cybersecurity executive with over 20 years of experience building and leading security teams and programs across diverse industries. I specialize in aligning cybersecurity strategy with business objectives, risk tolerance, and compliance requirements that empower startups and scale-ups to drive growth and innovation while maintaining robust security postures. I&amp;rsquo;ve contributed to multiple successful acquisitions and IPOs.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Previous</title>
+      <link>http://localhost:1313/previous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/previous/</guid>
+      <description>&lt;p&gt;This page should redirect you to {{ redirect_url }}&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Registrations</title>
       <link>http://localhost:1313/sessions/registrations-516057cf-ebf5-4413-93f9-874485e83dcd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
