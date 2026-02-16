@@ -14,33 +14,18 @@ description = """
 Security BSides is a community-driven framework for building events, by and for, information security community members. These events are already happening in major cities all over the world! We are responsible for organizing an independent BSides-Approved event in Amsterdam.
 Our goal is to bring together at least 200 people from the InfoSec community."""
 
-directions = """
-## By Car:
-PARKING:
-There are several options for parking The cost for parking is €5,18 per hour with , but there are some spots with a maximum of €15-20 per day. We recommend the following parking for approximately €15,- per day: (1) Next to the KFC (no reservations possible), (2) ParkBee garage Laan van Spartaan (12 min. walk) or (3) ParkBee Wim van Estlaan.
-
-FROM DIRECTION UTRECHT:
-From the A10, take E22 to Jan van Galenstraat/s105 in Amsterdam-West. Take exit 5-S105 from A10/E22. Continue on Jan van Galenstraat/s105. Drive to Admiraal Helfrichstraat.
-
-FROM DIRECTION SCHIPHOL/HAARLEM (A4/A9):
-From the A4, take A10/E22 to Jan van Galenstraat/s105 in Amsterdam-West, Amsterdam. Take exit 5-S105 from A10/E22
-
-## By Public transport:
-Metro 50/51 stop at Metro station Jan van Galenstraat. From there it's a 11 minute walk.
-Tram 13 stops at Admiraal Helfrichstraat. From there it's a 5 minute walk.
-Tram 7 and Bus 15 stop at Jan van Galenstraat. From there it's a 4 minute walk.
-
-"""
+directions = """-"""
 aboutUs = """
 ![BAms logo](images/bams_logo.png)
 
 ### BSides history
 BSides is a community-driven framework for building events for and by information security community members. The goal is to expand the spectrum of conversation beyond the traditional confines of space and time. It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
 
-BSides Amsterdam was originally hosted for the first time in 2017, and for the last time in 2018. However, after multiple years without BSides Amsterdam, 2025 is the time to re-ignite BSides Amsterdam! The success of our partner-event BSides Groningen, inspired a small group of people to make BSides Amsterdam happen again!
+After the great revivial of BSides Amsterdam in 2025, we are back for more in 2026!
 
 ### Non-profit foundation
 The organization of BSides Amsterdam is a non-profit foundation (Stichting in Dutch), with goal to host events for the InfoSec community to allow knowledge sharing and eduction within the industry.
+BSides Amsterdam is organized by [Stichting Polder Security](https://poldersecurity.nl).
 
 The foundation aims to:
 * Promote the interests of Information Security and Information Technology industry members.
@@ -61,40 +46,40 @@ The foundation tries to achieve its goal by, among others:
 #pageRef = "/sessions"
 #weight = 10
 
-[[languages.en.menus.main]]
-identifier = "schedule"
-pageRef = "/schedule"
-weight = 10
+#[[languages.en.menus.main]]
+#identifier = "schedule"
+#pageRef = "/schedule"
+#weight = 10
 
-[[languages.en.menus.main]]
-identifier = "speaker"
-pageRef = "/speakers"
-weight = 20
+#[[languages.en.menus.main]]
+#identifier = "speaker"
+#pageRef = "/speakers"
+#weight = 20
 
-[[languages.en.menus.main]]
-identifier = "ctf"
-pageRef = "/ctf"
-weight = 30
+#[[languages.en.menus.main]]
+#identifier = "ctf"
+#pageRef = "/ctf"
+#weight = 30
 
-[[languages.en.menus.main]]
-identifier = "preparty"
-pageRef = "/preparty"
-weight = 35
+#[[languages.en.menus.main]]
+#identifier = "preparty"
+#pageRef = "/preparty"
+#weight = 35
 
-[[languages.en.menus.main]]
-identifier = "Q&A"
-pageRef = "/QA"
-weight = 36
+#[[languages.en.menus.main]]
+#identifier = "Q&A"
+#pageRef = "/QA"
+#weight = 36
 
-[[languages.en.menus.main]]
-identifier = "feedback"
-pageRef = "/feedback"
-weight = 37
+#[[languages.en.menus.main]]
+#identifier = "feedback"
+#pageRef = "/feedback"
+#weight = 37
 
-[[languages.en.menus.main]]
-identifier = "location"
-pageRef = "/location"
-weight = 40
+#[[languages.en.menus.main]]
+#identifier = "location"
+#pageRef = "/location"
+#weight = 40
 
 [[languages.en.menus.main]]
 identifier = "sponsors"
@@ -132,10 +117,10 @@ Learn more about our mission, values, and the people behind our organization.
 #Learn more about their backgrounds and what they will discuss.
 #"""
 
-[[languages.en.menus.secondary]]
-identifier = "location"
-pageRef = "/location"
-weight = 40
+#[[languages.en.menus.secondary]]
+#identifier = "location"
+#pageRef = "/location"
+#weight = 40
 
 [languages.en.menus.secondary.params]
 description = """
@@ -166,10 +151,10 @@ weight = 20
 [params.themes.event]
 title = "BSides Amsterdam"
 sessionizeId = "1d4jw7co"
-startDate = "2025-11-20"
-endDate = "2025-11-20"
+startDate = "2026-11-13"
+endDate = "2026-11-13"
 location = "Amsterdam, the Netherlands"
-address = [ "PONG – House of Ping", "Jan van Galenstraat 315", "Amsterdam", "The Netherlands" ]
+address = [ "Unknown", "tba", "Amsterdam", "The Netherlands" ]
 favicon = "favicon.ico"
 trackCategoryTitle = "Track"
 organizers = [
@@ -188,14 +173,14 @@ enableBanner = false
 
 # Fill in event ID when known
 [params.themes.event.callToAction.eventbrite]
-eventId = "1389051192509"
-#[params.themes.event.callToAction.other]
-#url = "https://sessionize.com/bsides-ams-2025"
+#eventId = "1389051192509"
+[params.themes.event.callToAction.other]
+url = "https://sessionize.com/bsides-ams-2026"
 
 [params.themes.event.map]
 # Placeholders which point to a venue on openstreetmap
-embeddableMapUrl = "https://www.openstreetmap.org/export/embed.html?bbox=4.843809306621552%2C52.37074061981059%2C4.846813380718231%2C52.37275321123435&amp;layer=mapnik"
-viewLargerMapUrl = "https://www.openstreetmap.org/?#map=19/52.371747/4.845311"
+#embeddableMapUrl = "https://www.openstreetmap.org/export/embed.html?bbox=4.843809306621552%2C52.37074061981059%2C4.846813380718231%2C52.37275321123435&amp;layer=mapnik"
+#viewLargerMapUrl = "https://www.openstreetmap.org/?#map=19/52.371747/4.845311"
 
 [params.themes.event.socialLinks]
 #xUrl = "https://x.com/bsidesams"
@@ -207,113 +192,113 @@ titleBackground = "images/pong.png"
 location = "images/pong2.png"
 
 ## Sponsors here
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/escape.png"
-url = "https://escape.tech"
-name = "Escape"
-sponstype = "Bronze"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/falconforce.png"
-url = "https://falconforce.nl"
-name = "FalconForce"
-sponstype = "Bronze"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/cqure.png"
-url = "https://cqure.nl"
-name = "CQure"
-sponstype = "Bronze"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/warpnet-dark.png"
-url = "https://warpnet.nl"
-name = "WarpNet"
-sponstype = "Silver"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/specterops-dark.png"
-url = "https://specterops.io"
-name = "SpecterOps"
-sponstype = "Silver"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/nerium.png"
-url = "https://www.nerium.nl"
-name = "Nerium"
-sponstype = "Silver"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/invictus.png"
-url = "https://www.invictus-ir.com"
-name = "Invictus"
-sponstype = "Silver"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/intigriti.png"
-url = "https://www.intigriti.com/"
-name = "Intigriti"
-sponstype = "Silver"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/holdsecurity.png"
-url = "https://holdsecurity.com"
-name = "Hold Security"
-sponstype = "Silver"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/sysdig.png"
-url = "https://www.sysdig.com"
-name = "Sysdig"
-sponstype = "Silver"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/hardened.png"
-url = "https://hardened.eu/"
-name = "Hardened"
-sponstype = "Silver"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/responders.png"
-url = "https://responders.now/"
-name = "Responders"
-sponstype = "Silver"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/sans.png"
-url = "https://sans.org/"
-name = "SANS"
-sponstype = "Gold"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/aikido-dark.png"
-url = "https://www.aikido.dev"
-name = "Aikodo Security"
-sponstype = "Gold"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/armorcode.png"
-url = "https://www.armorcode.com/"
-name = "ArmorCode"
-sponstype = "Gold"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/semgrep.png"
-url = "https://www.semgrep.dev/"
-name = "Semgrep"
-sponstype = "Gold"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/booking.png"
-url = "https://www.booking.com/"
-name = "Booking"
-sponstype = "Gold"
-
-[[params.themes.event.sponsors]]
-logo = "images/sponsors/adyen.png"
-url = "https://www.adyen.com/"
-name = "Adyen"
-sponstype = "Platinum"
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/escape.png"
+#url = "https://escape.tech"
+#name = "Escape"
+#sponstype = "Bronze"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/falconforce.png"
+#url = "https://falconforce.nl"
+#name = "FalconForce"
+#sponstype = "Bronze"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/cqure.png"
+#url = "https://cqure.nl"
+#name = "CQure"
+#sponstype = "Bronze"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/warpnet-dark.png"
+#url = "https://warpnet.nl"
+#name = "WarpNet"
+#sponstype = "Silver"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/specterops-dark.png"
+#url = "https://specterops.io"
+#name = "SpecterOps"
+#sponstype = "Silver"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/nerium.png"
+#url = "https://www.nerium.nl"
+#name = "Nerium"
+#sponstype = "Silver"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/invictus.png"
+#url = "https://www.invictus-ir.com"
+#name = "Invictus"
+#sponstype = "Silver"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/intigriti.png"
+#url = "https://www.intigriti.com/"
+#name = "Intigriti"
+#sponstype = "Silver"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/holdsecurity.png"
+#url = "https://holdsecurity.com"
+#name = "Hold Security"
+#sponstype = "Silver"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/sysdig.png"
+#url = "https://www.sysdig.com"
+#name = "Sysdig"
+#sponstype = "Silver"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/hardened.png"
+#url = "https://hardened.eu/"
+#name = "Hardened"
+#sponstype = "Silver"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/responders.png"
+#url = "https://responders.now/"
+#name = "Responders"
+#sponstype = "Silver"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/sans.png"
+#url = "https://sans.org/"
+#name = "SANS"
+#sponstype = "Gold"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/aikido-dark.png"
+#url = "https://www.aikido.dev"
+#name = "Aikodo Security"
+#sponstype = "Gold"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/armorcode.png"
+#url = "https://www.armorcode.com/"
+#name = "ArmorCode"
+#sponstype = "Gold"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/semgrep.png"
+#url = "https://www.semgrep.dev/"
+#name = "Semgrep"
+#sponstype = "Gold"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/booking.png"
+#url = "https://www.booking.com/"
+#name = "Booking"
+#sponstype = "Gold"
+#
+#[[params.themes.event.sponsors]]
+#logo = "images/sponsors/adyen.png"
+#url = "https://www.adyen.com/"
+#name = "Adyen"
+#sponstype = "Platinum"
 
 ## Partners here
 [[params.themes.event.partners]]
