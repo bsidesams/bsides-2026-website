@@ -13,26 +13,153 @@
     <loc>http://localhost:1313/about/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/sessions/abusing-the-rules-detect-and-defend-against-business-logic-attacks-in-apis-975536/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/ai-security-lessons-from-the-frontline-1046328/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/alexandra-charikova-e8f118f8-10a2-475f-aa17-9b30b68e632c/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/arohi-naik-307d5862-f507-4e38-b551-def81d008a0e/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/behind-enemy-lines-engaging-and-disrupting-ransomware-web-panels-997766/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/beyond-the-pink-data-risks-in-femtech-you-cant-ignore-992241/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/bob-van-der-staak-7c348910-e086-4ec4-b6e4-be9e54ec35de/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/sessions/example-session-943968/</loc>
+    <loc>http://localhost:1313/sessions/closing-remarks-1039824/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/feedback/</loc>
+    <loc>http://localhost:1313/sessions/cloud-security-anno-2025-start-secure-stay-secure-983167/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/coffee-break-82ae90a3-bba1-4006-8988-687e0d5b3ab5/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/coffee-break-82b16322-d4d1-4c29-8b54-12a2ff9a7968/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/ctf-bbc8ae52-4a76-44bf-88f8-3115dc7aa8d8/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/fergus-hay-11f5e88c-7184-4368-9b0e-c0e2940b56d0/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/finding-vulnerabilities-in-windows-with-context-aware-fuzzing-ms-rpc-983610/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/from-factory-floor-to-global-door-ot-security-in-supply-chain-1023695/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/from-hours-to-minutes-automating-incident-response-triage-with-open-source-tools-975760/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/getting-your-scope-in-control-during-a-quishing-red-teaming-assessment-1016718/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/happy-hour-sponsored-by-aikido-de516cf0-dc89-425a-8c97-841070e3ed62/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/hugo-van-den-toorn-598f92b5-24e8-45a7-9e59-35883259aaa2/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/inside-the-mind-of-the-attacker-edr-blind-spots-and-exploits-986771/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/jiggyasu-sharma-afb90e22-1886-4bc7-840a-d1050a7db842/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/kes-greuter-3a66f58f-6a1a-42fa-8025-5b600ab9aedd/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/korstiaan-stam-dae3b7a3-806e-405b-8f26-2e8885f4592e/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/lars-lefebvre-9b653c45-134a-4ed2-9ce8-bce4234ed43c/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/leandro-quibem-magnabosco-170193a3-9546-4748-94de-755100396350/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/lex-crielaars-f5760543-8307-4c9e-b997-47f6cd1132cc/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/location/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/preparty/</loc>
+    <loc>http://localhost:1313/sessions/lunch-break-0e6261f0-9517-4fac-8160-fce869a8471e/</loc>
+    <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/qa/</loc>
+    <loc>http://localhost:1313/speakers/marina-bochenkova-48615645-061c-4128-90e2-1987ceb235bc/</loc>
+    <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/schedule/</loc>
+    <loc>http://localhost:1313/speakers/markus-einarsson-ae6a0c7a-dcf9-4860-be9a-53e3f46d2a01/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/marnie-wilking-0488ed0b-2ef5-481a-9481-57f736638cfe/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/marty-wijnen-172316b7-845b-4168-b874-1c9d8c7974aa/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/marvin-ngoma-81456d3b-b74f-4d70-b10f-259f04b1c40a/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/mayank-joshi-7666d65d-8020-481c-9629-7c04a06598b6/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/mickey-de-baets-3218d458-13fa-44ea-8e9b-cae0284ad723/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/no-access-to-tech-track-e33c07a9-3ad3-4275-8a87-f1c06261aef7/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/noh%C3%A9-hinniger-foray-337e0789-6c10-4e16-90d9-88da35a79754/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/opening-talk-944942/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/panel-the-state-of-product-security-2025-1062285/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/registrations-516057cf-ebf5-4413-93f9-874485e83dcd/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/remco-van-der-meer-33c51be0-8aec-4c14-9ad5-02ba4a902b40/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/remote-desktop-exploitation-a-deep-dive-into-midnight-blizzards-rdp-phishing-tactics-995423/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/rhesa-baar-8917a5da-312d-43a6-a30f-8b24d08ea169/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/roald-nefs-180bd1d9-532a-4957-9b6e-d373f22d650f/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/rob-van-der-veer-392a8144-9b27-469f-98dd-9ae07eb41866/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/rutger-flohil-ae8297e1-6ff6-417b-9327-cb626492847b/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/youtube/</loc>
   </url><url>
@@ -44,5 +171,20 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sessions/teetering-on-the-precipice---how-we-can-save-kids-from-a-career-in-cybercrime-1041532/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/tracking-the-adversaries-in-the-middle-1022121/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/vangelis-stykas-a5950a64-a289-47f4-88c6-fd75020fae38/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/vendor-area-df787110-ba59-400c-80b3-c13c79d21e6f/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/what-ill-tell-my-kids-about-k8s-security-1015970/</loc>
+    <priority>0</priority>
   </url>
 </urlset>

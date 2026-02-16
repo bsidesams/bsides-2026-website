@@ -122,11 +122,11 @@ Learn more about our mission, values, and the people behind our organization.
 #pageRef = "/location"
 #weight = 40
 
-[languages.en.menus.secondary.params]
-description = """
-Find out where the event will take place.
-This section provides details on the venue and directions.
-"""
+#[languages.en.menus.secondary.params]
+#description = """
+#Find out where the event will take place.
+#This section provides details on the venue and directions.
+#"""
 
 [[languages.en.menus.secondary]]
 identifier = "code_of_conduct"
@@ -172,10 +172,10 @@ organizers = [
 enableBanner = false
 
 # Fill in event ID when known
-[params.themes.event.callToAction.eventbrite]
+#[params.themes.event.callToAction.eventbrite]
 #eventId = "1389051192509"
 [params.themes.event.callToAction.other]
-url = "https://sessionize.com/bsides-ams-2026"
+url = "https://www.bsidesams.org/sponsorship"
 
 [params.themes.event.map]
 # Placeholders which point to a venue on openstreetmap

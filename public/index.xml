@@ -26,14 +26,14 @@
       <link>http://localhost:1313/ctf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ctf/</guid>
-      <description>&lt;h2 class=&#34;heading heading--2&#34; id=&#34;bsides-amsterdam-ctf&#34;&gt;BSides Amsterdam CTF&lt;/h2&gt;&lt;p&gt;Join our limited-edition, BSides Amsterdam-themed Capture-The-Flag competition!&lt;/p&gt;&#xA;&lt;p&gt;Created by nerds, for nerds, this CTF will have 15 challenges ranging from beginner to insanely hard. Think you’ve got what it takes to solve ‘em all?&lt;/p&gt;&#xA;&lt;p&gt;We are also proud and excited to announce SANS as a BSides Amsterdam CTF sponsor! The first place winner receives a SANS course of their choosing.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Prizes&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;🥇1st place: SANS course of choosing&lt;/p&gt;</description>
+      <description>&lt;h2 class=&#34;heading heading--2&#34; id=&#34;bsides-amsterdam-ctf&#34;&gt;BSides Amsterdam CTF&lt;/h2&gt;&lt;p&gt;More information will follow.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/sponsorship/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/sponsorship/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/bams_logo.png&#34; alt=&#34;BAms logo&#34;&gt;&lt;/p&gt;&#xA;&#xA;&lt;h1 class=&#34;heading heading--1&#34; id=&#34;become-a-sponsor&#34;&gt;Become a sponsor&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Thank you for considering sponsoring BSides Amsterdam!&lt;/strong&gt;&lt;/p&gt;&#xA;&#xA;&lt;h3 class=&#34;heading heading--3&#34; id=&#34;what-is-bsides&#34;&gt;What Is BSides?&lt;/h3&gt;&lt;p&gt;BSides events combine security expertise from a variety of platforms in search of the “next big thing” in information security. BSides is an open platform that gives security experts and industry professionals the opportunity to share ideas, insights, and develop longstanding relationships with others in the community. It is a rare opportunity to directly connect and create trusted relationships with key members of the community.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/bams_logo.png&#34; alt=&#34;BAms logo&#34;&gt;&lt;/p&gt;&#xA;&#xA;&lt;h1 class=&#34;heading heading--1&#34; id=&#34;become-a-sponsor&#34;&gt;Become a sponsor&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Thank you for considering sponsoring BSides Amsterdam!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The sponsorship packages will be revealed in Q2 2026, stay tuned.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Us</title>
@@ -43,25 +43,193 @@
       <description></description>
     </item>
     <item>
-      <title>Example Session</title>
-      <link>http://localhost:1313/sessions/example-session-943968/</link>
+      <title>Abusing the Rules: Detect and Defend Against Business Logic Attacks in APIs</title>
+      <link>http://localhost:1313/sessions/abusing-the-rules-detect-and-defend-against-business-logic-attacks-in-apis-975536/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/example-session-943968/</guid>
-      <description>&lt;p&gt;Description for Example Session&lt;/p&gt;</description>
+      <guid>http://localhost:1313/sessions/abusing-the-rules-detect-and-defend-against-business-logic-attacks-in-apis-975536/</guid>
+      <description>&lt;p&gt;Business logic vulnerabilities in APIs are often design oversights that lead to dangerous outcomes. They occur when attackers abuse legitimate API behavior to bypass controls or exploit workflows. In this talk, we’ll share field experience developing behavioral analysis techniques that surface exploitable API behaviors at scale.&lt;/p&gt;&#xA;&lt;p&gt;We developed a method for passively analyzing API responses - clustering similar logic flows and flagging anomalies that suggest potential abuse paths. You’ll see how business logic vulns manifest in real-world APIs, how attackers chain together valid actions to achieve unintended outcomes, and how defenders can catch these issues early. The session will conclude with practical strategies for integrating business logic awareness into threat modeling and CI/CD pipelines.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>feedback</title>
-      <link>http://localhost:1313/feedback/</link>
+      <title>AI security lessons from the frontline</title>
+      <link>http://localhost:1313/sessions/ai-security-lessons-from-the-frontline-1046328/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/feedback/</guid>
+      <guid>http://localhost:1313/sessions/ai-security-lessons-from-the-frontline-1046328/</guid>
+      <description>&lt;p&gt;In this opening keynote, Rob wants to make absolutely clear that with the rise of AI, humanity now depends on security people. He&amp;rsquo;ll take the audience through a compelling series of AI triumphs and disasters, drawn from his own three decade experience in the AI industry, his work with clients, and his unique role in international AI standardization. These cases illustrate the often-unforeseen risks, and highlight key strategies for developing AI systems that will not get us all killed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alexandra Charikova</title>
+      <link>http://localhost:1313/speakers/alexandra-charikova-e8f118f8-10a2-475f-aa17-9b30b68e632c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/alexandra-charikova-e8f118f8-10a2-475f-aa17-9b30b68e632c/</guid>
+      <description>&lt;p&gt;Passionate about advancing knowledge in application security and challenging industry leaders, Alexandra is a cybersecurity content creator and hosts the podcast &amp;ldquo;The Elephant in AppSec.&amp;rdquo; This podcast brings together cybersecurity professionals and industry leaders to discuss and tackle challenging topics in application security.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Arohi Naik</title>
+      <link>http://localhost:1313/speakers/arohi-naik-307d5862-f507-4e38-b551-def81d008a0e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/arohi-naik-307d5862-f507-4e38-b551-def81d008a0e/</guid>
+      <description>&lt;p&gt;Arohi Naik is a Security Engineer at SQR and brings both technical depth and a human-focused lens to her work. With a Master’s in Cybersecurity and experience across threat intelligence, incident response, risk management, and GRC she is passionate about creating security solutions that are not just effective, but also inclusive and user-aware.&#xA;A committed advocate for gender equity in tech and a vocal feminist, she works to elevate diverse voices and drive meaningful change in the cybersecurity space. With a lens grounded in empathy and inclusion, Arohi examines how behaviour, psychology, and culture intersect with the security landscape. Whether she’s building threat models or speaking on stage, she brings clarity, and a mission to make security safer, smarter, and more accessible for everyone.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Behind Enemy Lines: Engaging and Disrupting Ransomware Web Panels</title>
+      <link>http://localhost:1313/sessions/behind-enemy-lines-engaging-and-disrupting-ransomware-web-panels-997766/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/behind-enemy-lines-engaging-and-disrupting-ransomware-web-panels-997766/</guid>
+      <description>&lt;p&gt;Ransomware groups have become notably proficient at wreaking havoc across various sectors , but we can turn the tables. However, a less explored avenue in the fight against these digital adversaries lies in the proactive offense against their web panels. In this presentation, I will delve into the strategies and methodologies for infiltrating and commandeering the web panels used by ransomware groups to manage their malicious operations or the APIs used during their initial exfiltration of data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Beyond the Pink: Data Risks in Femtech You Can’t Ignore</title>
+      <link>http://localhost:1313/sessions/beyond-the-pink-data-risks-in-femtech-you-cant-ignore-992241/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/beyond-the-pink-data-risks-in-femtech-you-cant-ignore-992241/</guid>
+      <description>&lt;p&gt;Femtech apps are changing the way millions of women track their reproductive health. But beneath these friendly and helpful interfaces lies a complex and often opaque system of data practices. This talk explores the privacy concerns surrounding femtech apps, examining how they collect, store, and at times misuse deeply personal health information. Many of these tools operate outside the scope of medical device regulation and exploit loopholes in data governance, while positioning themselves as harmless lifestyle products.&#xA;From a cybersecurity standpoint, the talk examines technical vulnerabilities and regulatory blind spots that make femtech uniquely exposed. It argues for a socio-technical threat model; one that accounts for sensitivity of reproductive health data. Finally, this talk challenges complacency, invites critical conversation, and calls for design and policy changes that return control of intimate data to the user.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bob van der Staak</title>
+      <link>http://localhost:1313/speakers/bob-van-der-staak-7c348910-e086-4ec4-b6e4-be9e54ec35de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/bob-van-der-staak-7c348910-e086-4ec4-b6e4-be9e54ec35de/</guid>
+      <description>&lt;p&gt;Bob van der Staak is a Ethical hacker and red teamer at the Dutch Railways. Sharing knowledge is his passion, and with his background in software development and technical informatics, he implements code to assist with his daily assessments.&#xA;From web penetration testing to malware development and cloud technologies, he is eager to learn and share his expertise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Closing remarks</title>
+      <link>http://localhost:1313/sessions/closing-remarks-1039824/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/closing-remarks-1039824/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Cloud Security anno 2025: Start Secure, Stay Secure</title>
+      <link>http://localhost:1313/sessions/cloud-security-anno-2025-start-secure-stay-secure-983167/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/cloud-security-anno-2025-start-secure-stay-secure-983167/</guid>
+      <description>&lt;p&gt;In 2025, cloud security is no longer just about reacting to threats—it&amp;rsquo;s about building secure foundations and maintaining continuous resilience. This talk is designed for security professionals navigating the complexities of modern cloud environments. We’ll explore how to start secure with well-architected landing zones and secure development environments, and how to stay secure through continuous threat and exposure management, robust access controls, and policy enforcement. You&amp;rsquo;ll also learn how to leverage Microsoft Defender for Cloud to proactively detect, respond to, and mitigate threats across your cloud estate.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Coffee Break</title>
+      <link>http://localhost:1313/sessions/coffee-break-82ae90a3-bba1-4006-8988-687e0d5b3ab5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/coffee-break-82ae90a3-bba1-4006-8988-687e0d5b3ab5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coffee Break</title>
+      <link>http://localhost:1313/sessions/coffee-break-82b16322-d4d1-4c29-8b54-12a2ff9a7968/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/coffee-break-82b16322-d4d1-4c29-8b54-12a2ff9a7968/</guid>
+      <description>&lt;p&gt;Short break to refresh for the next set of talks!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF</title>
+      <link>http://localhost:1313/sessions/ctf-bbc8ae52-4a76-44bf-88f8-3115dc7aa8d8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/ctf-bbc8ae52-4a76-44bf-88f8-3115dc7aa8d8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fergus Hay</title>
+      <link>http://localhost:1313/speakers/fergus-hay-11f5e88c-7184-4368-9b0e-c0e2940b56d0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/fergus-hay-11f5e88c-7184-4368-9b0e-c0e2940b56d0/</guid>
+      <description>&lt;p&gt;Fergus Hay is the Co-Founder and CEO of The Hacking Games, an entertainment, training and talent enterprise committed to creating a generation of Ethical Hackers to make the world safer. With $10.5 Trn forecasted to be lost to Cybercrime in 2025 and 69% of European teenagers having committed a cybercrime/misdemeanor, we are facing a generational crisis. The Hacking Games will inspire, educate and equip this generation to be defenders and not attackers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Finding vulnerabilities in Windows with context aware fuzzing MS-RPC</title>
+      <link>http://localhost:1313/sessions/finding-vulnerabilities-in-windows-with-context-aware-fuzzing-ms-rpc-983610/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/finding-vulnerabilities-in-windows-with-context-aware-fuzzing-ms-rpc-983610/</guid>
+      <description>&lt;p&gt;Microsoft’s Remote Procedure Call (MS-RPC) protocol exposes a vast, often undocumented attack surface that’s ripe for exploration (and exploitation 😉). In this talk, we dive deep into automated, context-aware fuzzing of MS-RPC interfaces using the open-source MS-RPC-Fuzzer PowerShell module. Building on the foundation laid by NtObjectManager, this tool enables large-scale, coverage-guided fuzzing of Windows RPC endpoints without ever writing a line of IDL.&lt;/p&gt;&#xA;&lt;p&gt;We’ll walk through how to dynamically extract and inventory every MS-RPC interface from a target binary or the entire Windows system32 directory. Then we’ll show how the fuzzer generates client stubs, mutates inputs across a wide range of values, and automatically feeds context handles from one procedure to another, increasing the number of reachable code paths.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Factory Floor to Global Door: OT Security in Supply Chain</title>
+      <link>http://localhost:1313/sessions/from-factory-floor-to-global-door-ot-security-in-supply-chain-1023695/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/from-factory-floor-to-global-door-ot-security-in-supply-chain-1023695/</guid>
+      <description>&lt;p&gt;The manufacturing and critical infrastructure sectors are now at the epicenter of cyberattacks, with manufacturing becoming the most targeted industry globally. Operational Technology (OT) environments, particularly those embedded in supply chains, face growing exposure with over 1,200 new OT-related CVEs identified in the past year alone. As cyber-physical systems (CPS) like SCADA, ICS, and PLCs increasingly converge with corporate IT for integrated supply chain management, attackers gain expanded vectors to disrupt industrial operations. This convergence transforms previously isolated OT systems into critical weak points in the global supply chain.&#xA;This talk examines the evolving OT threat landscape—spanning ransomware, wireless protocol exploits, PLC firmware attacks, insider threats, and exploitation of SCADA-specific protocols (e.g., Modbus, BACnet, OPC, IEC 60870). It highlights how adversaries leverage commodity tools such as FlipperZero, HackRF, and PLC injection kits to compromise sensors, valves, and robotic systems, directly impacting manufacturing reliability and supply chain resilience. The paper underscores that attacks on OT are not isolated incidents but ripple across entire supply chains, affecting production continuity, logistics, and downstream business operations.&#xA;To counter this, we discuss a defense-in-depth approach tailored for OT and supply chain ecosystems, integrating secure network segmentation, Zero Trust architectures, authenticated operations, proactive threat intelligence, and rigorous vulnerability and patch management. With insurance providers now mandating OT-specific cybersecurity controls, it is clear that safeguarding OT is no longer optional but a core requirement for operational and supply chain continuity. This session emphasizes why OT security must be treated as a foundational pillar of modern supply chain resilience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Hours to Minutes: Automating Incident Response Triage with Open-Source Tools</title>
+      <link>http://localhost:1313/sessions/from-hours-to-minutes-automating-incident-response-triage-with-open-source-tools-975760/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/from-hours-to-minutes-automating-incident-response-triage-with-open-source-tools-975760/</guid>
+      <description>&lt;p&gt;Traditional forensic acquisitions create bottlenecks in incident response, requiring specialized expertise and significant time that delays investigations. This presentation introduces an automated forensic triage workflow using open-source tools to accelerate response operations.&lt;/p&gt;&#xA;&lt;p&gt;The workflow utilizes a Velociraptor offline collector to acquire forensic triage images, automatically uploaded to cloud storage. This triggers an OpenRelik workflow that processes triage data using tools like Hayabusa and Plaso/log2timeline, with AI-powered analysis and summarization. The processed output is uploaded to Timesketch for collaborative analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting your scope in control during a Quishing Red Teaming Assessment</title>
+      <link>http://localhost:1313/sessions/getting-your-scope-in-control-during-a-quishing-red-teaming-assessment-1016718/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/getting-your-scope-in-control-during-a-quishing-red-teaming-assessment-1016718/</guid>
+      <description>&lt;p&gt;Red teaming can be challenging especially when simulating real-world attacks like QR code phishing (“quishing”) within a tightly defined scope. How do you credibly launch a phishing campaign without wanting to know the specific targets, exposing sensitive information, or putting unintended users at risk?&lt;/p&gt;&#xA;&lt;p&gt;This session offers a behind-the-scenes look at how our team tackled these constraints. We will dig into some opensource tools that can be used and some custom tweaks that we made to make it more secure / believable and the pitfalls you can hopefully avoid.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Happy hour (Sponsored by Aikido)</title>
+      <link>http://localhost:1313/sessions/happy-hour-sponsored-by-aikido-de516cf0-dc89-425a-8c97-841070e3ed62/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/happy-hour-sponsored-by-aikido-de516cf0-dc89-425a-8c97-841070e3ed62/</guid>
+      <description>&lt;p&gt;Happy hour with drinks provided, runs till 18:30.&#xA;Sponsored by Aikido.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo van den Toorn</title>
+      <link>http://localhost:1313/speakers/hugo-van-den-toorn-598f92b5-24e8-45a7-9e59-35883259aaa2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/hugo-van-den-toorn-598f92b5-24e8-45a7-9e59-35883259aaa2/</guid>
+      <description>&lt;p&gt;Hugo is former Chief Information Security Officer and has now transitioned back to help other organizations understand adversary tradecraft. With over twelve years of experience in the Information Security industry, he has a solid technical background as hands-on security professional.&lt;/p&gt;&#xA;&lt;p&gt;Hugo has experience with and a keen interest in Social engineering, phishing and physical penetration testing. Nowadays, Hugo takes pride and joy in helping individual team members and the business grow. With a strong technical foundation, Hugo combines his passion for security, teaching and hacking with a drive for continuous improvement and optimization of people, processes and technology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inside the Mind of the Attacker: EDR Blind Spots and Exploits</title>
+      <link>http://localhost:1313/sessions/inside-the-mind-of-the-attacker-edr-blind-spots-and-exploits-986771/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/inside-the-mind-of-the-attacker-edr-blind-spots-and-exploits-986771/</guid>
+      <description>&lt;p&gt;Attackers aren’t standing still  and neither are their evasion tactics.&lt;/p&gt;&#xA;&lt;p&gt;This session dives into how adversaries bypass EDR detection, from classic obfuscation to advanced in-memory techniques. You’ll get a breakdown of how anti-malware systems (AV, EDR, XDR, etc)  work, and how they’re being defeated.&lt;/p&gt;&#xA;&lt;p&gt;Expect real-world examples, cutting-edge evasion methods like PE and reflective DLL injection, and actionable strategies to fortify your defenses against these evolving threats.&lt;/p&gt;&#xA;&lt;p&gt;Key Highlights:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;How Detection Works: AV, EDR, XDR basics — signatures, heuristics, behavior analytics&#xD;&#xA;&#xD;&#xA;Common Evasion Techniques: E.g. Obfuscation, packers, crypters, fileless malware, etc&#xD;&#xA;&#xD;&#xA;Advanced Evasion Methods: PE injection, reflective DLL injection, including other real-world examples&#xD;&#xA;&#xD;&#xA;Defensive Strategies: Behavioral analytics, advanced threat detection, and threat intelligence integration&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Jiggyasu Sharma</title>
+      <link>http://localhost:1313/speakers/jiggyasu-sharma-afb90e22-1886-4bc7-840a-d1050a7db842/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/jiggyasu-sharma-afb90e22-1886-4bc7-840a-d1050a7db842/</guid>
+      <description>&lt;p&gt;Lead Info Sec Engg Consultant at Nike with over 15 years of experience in information and application security, specializing in IOT/OT. My expertise spans web and mobile application security, API/web services, network and wireless security, Bluetooth and Zigbee, embedded device security, and 3G/4G spectrum security, where I have led large-scale security initiatives to strengthen enterprise resilience and enable secure product innovation. I hold OSCP, ECSA, and SANS-561 certifications and am an active member of the global security community, having presented at leading conferences such as RSA, c0c0n, and CysInfo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Joey Dreijer</title>
       <link>http://localhost:1313/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/</guid>
-      <description>&lt;p&gt;SpecterOps - Technical Architect&lt;/p&gt;</description>
+      <description>&lt;p&gt;Technical Architect at SpecterOps&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kes Greuter</title>
+      <link>http://localhost:1313/speakers/kes-greuter-3a66f58f-6a1a-42fa-8025-5b600ab9aedd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/kes-greuter-3a66f58f-6a1a-42fa-8025-5b600ab9aedd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Korstiaan Stam</title>
+      <link>http://localhost:1313/speakers/korstiaan-stam-dae3b7a3-806e-405b-8f26-2e8885f4592e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/korstiaan-stam-dae3b7a3-806e-405b-8f26-2e8885f4592e/</guid>
+      <description>&lt;p&gt;Korstiaan Stam is the Founder and CEO of Invictus Incident Response &amp;amp; Trainer at DEF CON, BlackHat &amp;amp; BruCON. Korstiaan is a passionate incident responder, preferably in the cloud. Before starting Invictus he was doing IR at PwC and Northwave.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lars Lefebvre</title>
+      <link>http://localhost:1313/speakers/lars-lefebvre-9b653c45-134a-4ed2-9ce8-bce4234ed43c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/lars-lefebvre-9b653c45-134a-4ed2-9ce8-bce4234ed43c/</guid>
+      <description>&lt;p&gt;Lars is a dedicated Cloud and Application Security Engineer with a strong background in the Cloud Native stack. He’s experienced in managing multi-cloud environments, promoting cloud-native practices, and enhancing security measures in software development lifecycles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leandro Quibem Magnabosco</title>
+      <link>http://localhost:1313/speakers/leandro-quibem-magnabosco-170193a3-9546-4748-94de-755100396350/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/leandro-quibem-magnabosco-170193a3-9546-4748-94de-755100396350/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lex Crielaars</title>
+      <link>http://localhost:1313/speakers/lex-crielaars-f5760543-8307-4c9e-b997-47f6cd1132cc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/lex-crielaars-f5760543-8307-4c9e-b997-47f6cd1132cc/</guid>
+      <description>&lt;p&gt;As the former CTO of one of the largest, dedicated data analytics consultancy companies in the Benelux, Lex has always had an eye for how to transform data into information, knowledge and ultimately: wisdom. He now applies his keen, analytical mind in the detection of anomalies. Things you don&amp;rsquo;t want to see in your security logs but are looking for anyway.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Location</title>
@@ -71,25 +239,144 @@
       <description></description>
     </item>
     <item>
-      <title>Preparty</title>
-      <link>http://localhost:1313/preparty/</link>
+      <title>Lunch break</title>
+      <link>http://localhost:1313/sessions/lunch-break-0e6261f0-9517-4fac-8160-fce869a8471e/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/preparty/</guid>
+      <guid>http://localhost:1313/sessions/lunch-break-0e6261f0-9517-4fac-8160-fce869a8471e/</guid>
+      <description>&lt;p&gt;Lunch is provided&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Marina Bochenkova</title>
+      <link>http://localhost:1313/speakers/marina-bochenkova-48615645-061c-4128-90e2-1987ceb235bc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/marina-bochenkova-48615645-061c-4128-90e2-1987ceb235bc/</guid>
+      <description>&lt;p&gt;Marina wears many hats as a cybersecurity analyst focusing on digital forensics, incident response, and OT security, while also dabbling in security awareness and culture. She combines a passion for protecting people, a strong belief in digital privacy as a human right, and an overly-enthusiastic approach to problem-solving. When not defending digital spaces, Marina actively nurtures her already-unhealthy obsession with cats and resorts to baking or martial arts when desperate.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markus Einarsson</title>
+      <link>http://localhost:1313/speakers/markus-einarsson-ae6a0c7a-dcf9-4860-be9a-53e3f46d2a01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/markus-einarsson-ae6a0c7a-dcf9-4860-be9a-53e3f46d2a01/</guid>
+      <description>&lt;p&gt;Markus Einarsson is a Security Architect and Incident Response Lead at Sectra in Sweden, where he secures cloud-hosted environments for healthcare customers worldwide. With over a decade of experience in cybersecurity, Markus specializes in incident response, digital forensics and security architecture.&lt;/p&gt;&#xA;&lt;p&gt;As part of the Sectra Hunt and Incident Response Team, he has extensive hands-on experience with forensic workflows and modern DFIR toolchains. Markus holds multiple GIAC certifications including GEIR, GCDA, GCFE, GCFA, GRID, GNFA, GCIA and GCIH. He is passionate about scalable incident response methodologies and advancing open-source forensic tools.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Marnie Wilking</title>
+      <link>http://localhost:1313/speakers/marnie-wilking-0488ed0b-2ef5-481a-9481-57f736638cfe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/marnie-wilking-0488ed0b-2ef5-481a-9481-57f736638cfe/</guid>
       <description></description>
     </item>
     <item>
-      <title>Q&amp;A</title>
-      <link>http://localhost:1313/qa/</link>
+      <title>Marty Wijnen</title>
+      <link>http://localhost:1313/speakers/marty-wijnen-172316b7-845b-4168-b874-1c9d8c7974aa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/qa/</guid>
+      <guid>http://localhost:1313/speakers/marty-wijnen-172316b7-845b-4168-b874-1c9d8c7974aa/</guid>
       <description></description>
     </item>
     <item>
-      <title>Schedule</title>
-      <link>http://localhost:1313/schedule/</link>
+      <title>Marvin Ngoma</title>
+      <link>http://localhost:1313/speakers/marvin-ngoma-81456d3b-b74f-4d70-b10f-259f04b1c40a/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/schedule/</guid>
-      <description>&lt;p&gt;This page should redirect you to {{ redirect_url }}&lt;/p&gt;</description>
+      <guid>http://localhost:1313/speakers/marvin-ngoma-81456d3b-b74f-4d70-b10f-259f04b1c40a/</guid>
+      <description>&lt;p&gt;Marvin is a seasoned consultant and security architect. He has a strong passion for helping organizations succeed in their cybersecurity programs. He has led many projects in both the private and public sectors, architecting and building Security Operations and Intelligence capabilities; unifying tools, processes, and people. Prior to joining Elastic, Marvin worked as a security consultant at IBM and was the primary SME for QRadar in the nordics.&lt;/p&gt;&#xA;&lt;p&gt;In addition to his work with clients, Marvin frequently speaks at conferences, summits, and meetups on the latest security topics, making him a dedicated security evangelist. He holds a masters in Computer Science &amp;amp; Engineering from Chalmers University of Technology in Sweden, and is a very proactive member of ISC2, among other security bodies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mayank Joshi</title>
+      <link>http://localhost:1313/speakers/mayank-joshi-7666d65d-8020-481c-9629-7c04a06598b6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/mayank-joshi-7666d65d-8020-481c-9629-7c04a06598b6/</guid>
+      <description>&lt;p&gt;I try to find and do the hard things before they get harder.&#xA;Believe in building guard-rails and than patching potholes later. Make the secure obvious and the insecure difficult.&#xA;Build trust through a bias towards action and enablement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mickey De Baets</title>
+      <link>http://localhost:1313/speakers/mickey-de-baets-3218d458-13fa-44ea-8e9b-cae0284ad723/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/mickey-de-baets-3218d458-13fa-44ea-8e9b-cae0284ad723/</guid>
+      <description>&lt;p&gt;Mickey De Baets, a seasoned Penetration Tester, Red Teamer, and currently Lead Offensive Security Engineer at Vectra AI, brings a wealth of expertise in offensive security, focusing on complex threat landscapes. With a strong background in Red Teaming, Mickey actively contributes to cybersecurity education, teaching at Thomas More and hosting community meetups as a Belgian Hack The Box Ambassador&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>No access to Tech track</title>
+      <link>http://localhost:1313/sessions/no-access-to-tech-track-e33c07a9-3ad3-4275-8a87-f1c06261aef7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/no-access-to-tech-track-e33c07a9-3ad3-4275-8a87-f1c06261aef7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nohé Hinniger-Foray</title>
+      <link>http://localhost:1313/speakers/noh%C3%A9-hinniger-foray-337e0789-6c10-4e16-90d9-88da35a79754/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/noh%C3%A9-hinniger-foray-337e0789-6c10-4e16-90d9-88da35a79754/</guid>
+      <description>&lt;p&gt;Nohé is Full-Stack R&amp;amp;D Engineer @ Escape. As computer science enthusiast, he loves to craft new technologies, tools &amp;amp; applications for the open-source community. He has also shared his expertise at various security and tech conferences like BSides Berlin, engaging with a broader audience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Opening talk</title>
+      <link>http://localhost:1313/sessions/opening-talk-944942/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/opening-talk-944942/</guid>
+      <description>&lt;p&gt;A brief opening talk to welcome all the amazing folks that are making BSides Amsterdam happen. Sponsors, speakers and attendees. All a warm welcome and enjoy your day!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Panel: The State of Product Security 2025</title>
+      <link>http://localhost:1313/sessions/panel-the-state-of-product-security-2025-1062285/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/panel-the-state-of-product-security-2025-1062285/</guid>
+      <description>&lt;p&gt;Product security is evolving fast - and its impact is being felt across every industry in the Netherlands.&lt;/p&gt;&#xA;&lt;p&gt;That’s why we’re bringing together an incredible panel during this session, to unpack the state of product security in 2025.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Paul Moreno</title>
+      <link>http://localhost:1313/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/</guid>
+      <description>&lt;p&gt;A transformational cybersecurity executive with over 20 years of experience building and leading security teams and programs across diverse industries. I specialize in aligning cybersecurity strategy with business objectives, risk tolerance, and compliance requirements that empower startups and scale-ups to drive growth and innovation while maintaining robust security postures. I&amp;rsquo;ve contributed to multiple successful acquisitions and IPOs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Registrations</title>
+      <link>http://localhost:1313/sessions/registrations-516057cf-ebf5-4413-93f9-874485e83dcd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/registrations-516057cf-ebf5-4413-93f9-874485e83dcd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remco van der Meer</title>
+      <link>http://localhost:1313/speakers/remco-van-der-meer-33c51be0-8aec-4c14-9ad5-02ba4a902b40/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/remco-van-der-meer-33c51be0-8aec-4c14-9ad5-02ba4a902b40/</guid>
+      <description>&lt;p&gt;I like Windows security&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Remote Desktop Exploitation: A Deep Dive into Midnight Blizzard’s RDP Phishing Tactics</title>
+      <link>http://localhost:1313/sessions/remote-desktop-exploitation-a-deep-dive-into-midnight-blizzards-rdp-phishing-tactics-995423/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/remote-desktop-exploitation-a-deep-dive-into-midnight-blizzards-rdp-phishing-tactics-995423/</guid>
+      <description>&lt;p&gt;In late 2024, Russian state-sponsored threat actor APT29 (Midnight Blizzard) launched a sophisticated spear-phishing campaign leveraging weaponized .rdp files to gain covert access to critical infrastructure across the globe.&lt;/p&gt;&#xA;&lt;p&gt;This talk dissects the operation through the lens of CERT-UA#116903, demonstrating how adversaries abused Remote Desktop Protocol (RDP) in an unexpected, reverse-access fashion.&lt;/p&gt;&#xA;&lt;p&gt;We’ll explore how APT29 leveraged signed .rdp files and social engineering to lure victims across governments, NGOs, and academia. From infrastructure preparation and phishing lures to stealthy execution and persistent access, the session walks through every stage of the kill chain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rhesa Baar</title>
+      <link>http://localhost:1313/speakers/rhesa-baar-8917a5da-312d-43a6-a30f-8b24d08ea169/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/rhesa-baar-8917a5da-312d-43a6-a30f-8b24d08ea169/</guid>
+      <description>&lt;p&gt;My name is Rhesa, a security enthusiast. I work in the security field for 13 years now. I have a technical background. I have worked as a consultant doing technical threat and vulnerability analysis but also as a security architect at a High Tech company.&#xA;I really enjoy to work on multidisciplinary challenges where people and technology need to be brought together.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Roald Nefs</title>
+      <link>http://localhost:1313/speakers/roald-nefs-180bd1d9-532a-4957-9b6e-d373f22d650f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/roald-nefs-180bd1d9-532a-4957-9b6e-d373f22d650f/</guid>
+      <description>&lt;p&gt;As a Chief Technolog Officer at Warpnet, Roald uses his acquired skills daily within a variety of context related to cybersecurity. He understands both IT security and IT compliance. Bridging between teams, organizations and people is one of his key skills. He has made several contributions to open source. Roald enjoys tinkering with electronics, hardware hacking and software development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rob van der Veer</title>
+      <link>http://localhost:1313/speakers/rob-van-der-veer-392a8144-9b27-469f-98dd-9ae07eb41866/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/rob-van-der-veer-392a8144-9b27-469f-98dd-9ae07eb41866/</guid>
+      <description>&lt;p&gt;Rob van der Veer has over 33 years of experience in AI and security, from hacker to CEO.  He open sourced international standardization of AI security by creating the OWASP AI Exchange, as the elected co-editor of the AI Act security standard, contributor to ISO/IEC 27090 and the main author of ISO/IEC 5338 on AI system lifecycle.  As Chief AI Officer at the Software Improvement Group, Rob advises governments, enterprises, and institutions worldwide,  co-founded OpenCRE.org, and has delivered over 300 speaking engagements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rutger Flohil</title>
+      <link>http://localhost:1313/speakers/rutger-flohil-ae8297e1-6ff6-417b-9327-cb626492847b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/rutger-flohil-ae8297e1-6ff6-417b-9327-cb626492847b/</guid>
+      <description>&lt;p&gt;Rutger Flohil began his career as a .NET developer, building a solid base in software development before switching gears to focus on cybersecurity. After gaining valuable experience in the Security Operations Center (SOC) of the Dutch TLD, he moved on to his current role as a Red Teamer at Dutch Railways (NS). Rutger enjoys the creative side of security, especially when it comes to writing offensive scripts in Python. Always curious and eager to learn, he’s passionate about discovering new techniques and fresh perspectives to tackle security challenges.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Schedule</title>
@@ -104,6 +391,41 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/sponsors/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Teetering on the precipice - how we can save kids from a career in cybercrime</title>
+      <link>http://localhost:1313/sessions/teetering-on-the-precipice---how-we-can-save-kids-from-a-career-in-cybercrime-1041532/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/teetering-on-the-precipice---how-we-can-save-kids-from-a-career-in-cybercrime-1041532/</guid>
+      <description>&lt;p&gt;What draws a teenager from gaming late into the night to probing systems they were never meant to access? This keynote traces the journey many young people now take, beginning with cheat codes and exploits on gaming platforms, sliding into forums where tools and tactics are shared, and too often crossing the line into cybercrime. Almost 69% of European teens admit to committing a cybercrime/misdemeanor, showing just how blurred that line has become. The average cybercriminal today is just 19 years old, far younger than the average age of 37 for traditional crime.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tracking the Adversaries in the Middle</title>
+      <link>http://localhost:1313/sessions/tracking-the-adversaries-in-the-middle-1022121/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/tracking-the-adversaries-in-the-middle-1022121/</guid>
+      <description>&lt;p&gt;Adversary in The Middle (AiTM) attacks and token theft has grown steadily as MFA becomes more widely adopted. From our managed SOC we have observed how the right phishing email, at the right time, from a compromised sender makes it extremely difficult for the end-user to discern good from evil. Often these attacks arrive from the compromised emails of a trusted partner, supplier, or co-worker. Sometimes just mere moments after a conversation has taken place between the two victims. Phishing awareness and training can only help so much.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vangelis Stykas</title>
+      <link>http://localhost:1313/speakers/vangelis-stykas-a5950a64-a289-47f4-88c6-fd75020fae38/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/speakers/vangelis-stykas-a5950a64-a289-47f4-88c6-fd75020fae38/</guid>
+      <description>&lt;p&gt;Vangelis began as a developer from Greece. Six years ago he realized that only his dog didn’t have an API, so he decided to steer his focus towards security.&#xA;That led him to pursue a PhD in Web Application Security with an extra focus on machine learning. He’s still actively pursuing it.&#xA;He currently applies his skills as a Chief Technology Officer at Atropos, and during his free time, Vangelis is helping start-ups secure themselves on the internet and get a leg up in security terms.&#xA;His love of a simplistic approach to hacking by exploiting vulnerable APIs led him to publish research regarding API controlling ships, smart locks, IP cameras, car alarms, EV chargers, and many other IoT devices. Since our lives are nowadays extremely cyber-dependent, his goal is to convince all companies to never neglect their API security as rush-to-market mentality is almost certain to lead to catastrophic security failure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vendor area</title>
+      <link>http://localhost:1313/sessions/vendor-area-df787110-ba59-400c-80b3-c13c79d21e6f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/vendor-area-df787110-ba59-400c-80b3-c13c79d21e6f/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>What I’ll Tell My Kids About K8s Security</title>
+      <link>http://localhost:1313/sessions/what-ill-tell-my-kids-about-k8s-security-1015970/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sessions/what-ill-tell-my-kids-about-k8s-security-1015970/</guid>
+      <description>&lt;p&gt;What I’ll Tell My Kids About K8s Security is a creative and story-driven talk that makes Kubernetes security approachable — even for those who aren’t deep in the weeds of K8s. Framed through metaphors and everyday analogies (like thermostats as a control plane or opening windows in cold winter as malicious action), the talk explores complex security challenges in a fun and memorable way. In the second half, I’ll share the story behind an open source tool we built at ING to help teams uncover and understand real-world security issues in their clusters.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
