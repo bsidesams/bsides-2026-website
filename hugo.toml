@@ -156,8 +156,8 @@ weight = 20
 [params.themes.event]
 title = "BSides Amsterdam"
 sessionizeId = "i731pf0j"
-startDate = "2026-11-13"
-endDate = "2026-11-13"
+startDate = "2026-11-19"
+endDate = "2026-11-19"
 location = "Amsterdam, the Netherlands"
 address = [ "Unknown", "tba", "Amsterdam", "The Netherlands" ]
 favicon = "favicon.ico"
