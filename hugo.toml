@@ -172,7 +172,7 @@ shortTitle = "BAMS"
 sessionizeId = "i731pf0j"
 startDate = "2026-11-19"
 endDate = "2026-11-19"
-location = "Amsterdam, the Netherlands"
+location = "Amsterdam"
 address = [ "Unknown", "tba", "Amsterdam", "The Netherlands" ]
 favicon = "favicon.ico"
 trackCategoryTitle = "Track"
@@ -336,6 +336,11 @@ name = "Sessionize"
 logo = "images/partners/orangecon.png"
 url = "https://orangecon.nl/"
 name = "OrangeCon"
+
+[[params.themes.event.partners]]
+logo = "images/partners/vancouver.png"
+url = "https://www.bsidesvancouver.com/"
+name = "BSides Vancouver"
 
 [params.themes.event.colors]
 primaryLighter = "#FF6B70"

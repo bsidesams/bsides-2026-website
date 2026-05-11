@@ -25,6 +25,24 @@
         {{- end }}
     {{- end }}
 
+    {{/* Count "real" talks: not service sessions, and not given exclusively by
+         organizers (catches opening notes / closing notes without needing the
+         Sessionize admin to mark them as service sessions). */}}
+    {{- $sessionPages := where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false }}
+    {{- $realSessions := slice }}
+    {{- range $sessionPages }}
+        {{- $speakerIds := .Params.speakerIds | default slice }}
+        {{- $organizerOnly := and (gt (len $speakerIds) 0) true }}
+        {{- range $speakerIds }}
+            {{- if not (in $organizerIds .) }}
+                {{- $organizerOnly = false }}
+            {{- end }}
+        {{- end }}
+        {{- if not $organizerOnly }}
+            {{- $realSessions = $realSessions | append . }}
+        {{- end }}
+    {{- end }}
+
     {{ partial "sections/event-highlights.html" (
         dict
         "title" .Site.Params.themes.event.title
@@ -32,7 +50,7 @@
         "description" .Site.Params.themes.event.description
         "logo" .Site.Params.themes.event.images.logo
         "numberOfSpeakers" (len $nonOrganizerSpeakers)
-        "numberOfSessions" (where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len)
+        "numberOfSessions" (len $realSessions)
         "numberOfDays" (div (sub (add $eventEndDate.Unix $dayInSeconds) $eventStartDate.Unix) $dayInSeconds)
         "location" .Site.Params.themes.event.location )
     }}
