@@ -4,14 +4,14 @@
 {{ if eq $input.sessionizeId "test" }}
     {{ $path := "test/sessionize-view-all.json" }}
     {{ with resources.Get $path }}
-        {{ $data = . | transform.Unmarshal }}
+        {{ $data = .Content | transform.Unmarshal }}
     {{ else }}
         {{ errorf "Unable to get test data resource %q." $path }}
     {{ end }}
 {{ else }}
-    {{ $url := printf "https://sessionize.com/api/v2/%s/view/all" $input.sessionizeId }}
+    {{ $url := printf "https://sessionize.com/api/v2/%s/view/All" $input.sessionizeId }}
     {{ with resources.GetRemote $url }}
-        {{ $data = . | transform.Unmarshal }}
+        {{ $data = .Content | transform.Unmarshal }}
     {{ else }}
         {{ errorf "Unable to get remote resource %s" $url }}
     {{ end }}
