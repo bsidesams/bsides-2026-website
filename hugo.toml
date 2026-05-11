@@ -82,6 +82,11 @@ The foundation tries to achieve its goal by, among others:
 #weight = 40
 
 [[languages.en.menus.main]]
+identifier = "sponsorship"
+pageRef = "/sponsorship"
+weight = 40
+
+[[languages.en.menus.main]]
 identifier = "sponsors"
 pageRef = "/sponsors"
 weight = 50
@@ -91,15 +96,23 @@ identifier = "about"
 pageRef = "/about"
 weight = 60
 
+# Parent (no pageRef) — renders as a dropdown trigger
 [[languages.en.menus.main]]
-identifier = "previous"
-pageRef = "/previous"
-weight = 65
+identifier = "media"
+name = "Media"
+weight = 70
 
 [[languages.en.menus.main]]
 identifier = "youtube"
 pageRef = "/youtube"
-weight = 15
+parent = "media"
+weight = 71
+
+[[languages.en.menus.main]]
+identifier = "previous"
+pageRef = "/previous"
+parent = "media"
+weight = 72
 
 
 [[languages.en.menus.secondary]]
@@ -155,6 +168,7 @@ weight = 20
 
 [params.themes.event]
 title = "BSides Amsterdam"
+shortTitle = "BAMS"
 sessionizeId = "i731pf0j"
 startDate = "2026-11-19"
 endDate = "2026-11-19"

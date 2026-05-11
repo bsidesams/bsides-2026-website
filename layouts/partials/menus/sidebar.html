@@ -1,0 +1,44 @@
+{{ $input := . }}
+
+
+<ul class="sidebar-menu">
+    {{- $currentNode := $input.context }}
+    {{- range $input.menu }}
+        {{- if .HasChildren }}
+            <li class="sidebar-menu__item sidebar-menu__item--group">
+                <span class="sidebar-menu__group-label" aria-hidden="true">
+                    {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
+                </span>
+                <ul class="sidebar-menu__submenu">
+                    {{- range .Children }}
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="{{ .URL }}"
+                                {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+                                    class="sidebar-menu__link sidebar-menu__link--active" aria-current="page"
+                                {{- else }}
+                                    class="sidebar-menu__link"
+                                {{- end }}
+                                aria-label="{{- or (T (printf " menu.%s" .Identifier)) .Name }}">
+                                {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
+                            </a>
+                        </li>
+                    {{- end }}
+                </ul>
+            </li>
+        {{- else }}
+            <li class="sidebar-menu__item">
+                <a
+                    href="{{ .URL }}"
+                    {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+                        class="sidebar-menu__link sidebar-menu__link--active" aria-current="page"
+                    {{- else }}
+                        class="sidebar-menu__link"
+                    {{- end }}
+                    aria-label="{{- or (T (printf " menu.%s" .Identifier)) .Name }}">
+                    {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
+                </a>
+            </li>
+        {{- end }}
+    {{- end }}
+</ul>

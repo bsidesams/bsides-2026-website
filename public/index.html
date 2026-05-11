@@ -27,7 +27,7 @@ Our goal is to bring together at least 400 people from the InfoSec community thi
 
 
         
-            <link rel="stylesheet" href="/styles.min.a0f2ae9e4cde441f3e01545d169faf174f97a2d0be819c1ce0ae97d4d0d88411.css" type="text/css" media="screen" integrity="sha256-oPKunkzeRB8&#43;AVRdFp&#43;vF0&#43;XotC&#43;gZwc4K6X1NDYhBE=" />
+            <link rel="stylesheet" href="/styles.min.d314b84278975769176831c93f3d189ac164f337487776b1ddb03a6e62328829.css" type="text/css" media="screen" integrity="sha256-0xS4QniXV2kXaDHJPz0YmsFk8zdId3ax3bA6bmIyiCk=" />
         
 
     <style>
@@ -61,7 +61,7 @@ Our goal is to bring together at least 400 people from the InfoSec community thi
 
                     </label>
                     <a class="page-header__title-link" href="/">
-                        BSides Amsterdam
+                        BAMS
                     </a>
 
                     <div class="page-header__menu-container">
@@ -77,34 +77,76 @@ Our goal is to bring together at least 400 people from the InfoSec community thi
         <a
                 class="header-menu__link header-menu__link--active"
             href="/">
-            BSides Amsterdam
+            BAMS
         </a>
     </li>
-        <li>
-            <a
-                href="/youtube/"
-                    class="header-menu__link">YouTube
-            </a>
-        </li>
-        <li>
-            <a
-                href="/sponsors/"
-                    class="header-menu__link">Sponsors & Partners
-            </a>
-        </li>
-        <li>
-            <a
-                href="/about/"
-                    class="header-menu__link">About Us
-            </a>
-        </li>
-        <li>
-            <a
-                href="/previous/"
-                    class="header-menu__link">2025 Website
-            </a>
-        </li>
+            <li>
+                <a
+                    href="/sponsorship/"
+                        class="header-menu__link">Become a sponsor
+                </a>
+            </li>
+            <li>
+                <a
+                    href="/sponsors/"
+                        class="header-menu__link">Sponsors & Partners
+                </a>
+            </li>
+            <li>
+                <a
+                    href="/about/"
+                        class="header-menu__link">About Us
+                </a>
+            </li>
+            <li class="header-menu__item header-menu__item--has-children">
+                <button
+                    type="button"
+                    class="header-menu__link header-menu__dropdown-toggle"
+                    aria-haspopup="true"
+                    aria-expanded="false">Media
+                    <span class="header-menu__caret" aria-hidden="true">▾</span>
+                </button>
+                <ul class="header-menu__submenu" role="menu">
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/youtube/"
+                                    class="header-menu__sublink">YouTube
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/previous/"
+                                    class="header-menu__sublink">2025 Website
+                            </a>
+                        </li>
+                </ul>
+            </li>
 </ul>
+
+<script>
+    
+    document.querySelectorAll('.header-menu__dropdown-toggle').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            var expanded = btn.getAttribute('aria-expanded') === 'true';
+            
+            document.querySelectorAll('.header-menu__dropdown-toggle[aria-expanded="true"]').forEach(function (other) {
+                if (other !== btn) other.setAttribute('aria-expanded', 'false');
+            });
+            btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        });
+    });
+    
+    document.addEventListener('click', function (e) {
+        if (!e.target.closest('.header-menu__item--has-children')) {
+            document.querySelectorAll('.header-menu__dropdown-toggle[aria-expanded="true"]').forEach(function (btn) {
+                btn.setAttribute('aria-expanded', 'false');
+            });
+        }
+    });
+</script>
 
                         </div>
                     </div>
@@ -144,7 +186,7 @@ Our goal is to bring together at least 400 people from the InfoSec community thi
             <nav class="page-sidebar__navigation" aria-labelledby="main-navigation-label">
                 <header class="page-sidebar__header">
                     <a class="page-sidebar__heading-link" href="/">
-                        BSides Amsterdam
+                        BAMS
                     </a>
 
                     <label class="page-sidebar__close-label" for="sidebarToggle"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -185,34 +227,47 @@ Our goal is to bring together at least 400 people from the InfoSec community thi
 
 
 <ul class="sidebar-menu">
-        <li class="sidebar-menu__item">
-            <a
-                href="/youtube/"
-                    class="sidebar-menu__link"
-                aria-label="Schedule">YouTube
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/sponsors/"
-                    class="sidebar-menu__link"
-                aria-label="Sponsors &amp; Partners">Sponsors & Partners
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/about/"
-                    class="sidebar-menu__link"
-                aria-label="About Us">About Us
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/previous/"
-                    class="sidebar-menu__link"
-                aria-label="Previous">2025 Website
-            </a>
-        </li>
+            <li class="sidebar-menu__item">
+                <a
+                    href="/sponsorship/"
+                        class="sidebar-menu__link"
+                    aria-label="">Become a sponsor
+                </a>
+            </li>
+            <li class="sidebar-menu__item">
+                <a
+                    href="/sponsors/"
+                        class="sidebar-menu__link"
+                    aria-label="Sponsors &amp; Partners">Sponsors & Partners
+                </a>
+            </li>
+            <li class="sidebar-menu__item">
+                <a
+                    href="/about/"
+                        class="sidebar-menu__link"
+                    aria-label="About Us">About Us
+                </a>
+            </li>
+            <li class="sidebar-menu__item sidebar-menu__item--group">
+                <span class="sidebar-menu__group-label" aria-hidden="true">Media
+                </span>
+                <ul class="sidebar-menu__submenu">
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/youtube/"
+                                    class="sidebar-menu__link"
+                                aria-label="Schedule">YouTube
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/previous/"
+                                    class="sidebar-menu__link"
+                                aria-label="Previous">2025 Website
+                            </a>
+                        </li>
+                </ul>
+            </li>
 </ul>
 
 
@@ -222,9 +277,9 @@ Our goal is to bring together at least 400 people from the InfoSec community thi
 
 
 
-<label id="social-links-list-label-2" class="sr-only"></label>
+<label id="social-links-list-label-0" class="sr-only"></label>
 
-<ul class="social-links" aria-labelledby="social-links-list-label-2">
+<ul class="social-links" aria-labelledby="social-links-list-label-0">
         <li class="social-links__menu-item">
             <a
                 href="https://www.linkedin.com/company/bsides-amsterdam/"
@@ -613,9 +668,9 @@ Our goal is to bring together at least 400 people from the InfoSec community thi
 
 
 
-<label id="social-links-list-label-3" class="sr-only">Social media links</label>
+<label id="social-links-list-label-1" class="sr-only">Social media links</label>
 
-<ul class="social-links" aria-labelledby="social-links-list-label-3">
+<ul class="social-links" aria-labelledby="social-links-list-label-1">
         <li class="social-links__menu-item">
             <a
                 href="https://www.linkedin.com/company/bsides-amsterdam/"

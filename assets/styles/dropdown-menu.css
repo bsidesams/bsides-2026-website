@@ -1,0 +1,124 @@
+/* Header dropdown menu — added by Polder Security for BAMS 2026 */
+
+/* Theme override: the theme's .page-header__content has `overflow-x: hidden`,
+   which forces `overflow-y: auto` per CSS spec — creating a stray vertical
+   scrollbar AND clipping our dropdown. `overflow-x: clip` has no such side
+   effect, so the dropdown can escape vertically. The header already establishes
+   its own stacking context (z-index: 1, position: sticky), so the dropdown's
+   high z-index keeps it above page content. */
+.page-header__content {
+    overflow-x: clip;
+    overflow-y: visible;
+}
+
+.header-menu__item--has-children {
+    position: relative;
+}
+
+.header-menu__dropdown-toggle {
+    all: unset;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-secondary-darker);
+    text-wrap: nowrap;
+}
+
+.header-menu__dropdown-toggle:hover,
+.header-menu__dropdown-toggle:focus-visible {
+    color: var(--color-primary-darkest);
+    outline: none;
+}
+
+.header-menu__caret {
+    font-size: 0.75rem;
+    line-height: 1;
+    transition: transform 0.15s ease;
+}
+
+.header-menu__dropdown-toggle[aria-expanded="true"] .header-menu__caret,
+.header-menu__item--has-children:hover .header-menu__caret {
+    transform: rotate(180deg);
+}
+
+.header-menu__submenu {
+    all: unset;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 12rem;
+    margin: 0;
+    padding: 0.5rem 0;
+    background-color: white;
+    border: 1px solid var(--color-shadow);
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+}
+
+/* Open on hover (desktop) or when the toggle is expanded (keyboard/touch). */
+.header-menu__item--has-children:hover .header-menu__submenu,
+.header-menu__item--has-children:focus-within .header-menu__submenu,
+.header-menu__dropdown-toggle[aria-expanded="true"] + .header-menu__submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.header-menu__submenu li {
+    list-style: none;
+    margin: 0;
+}
+
+.header-menu__sublink {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: var(--color-secondary-darker);
+    text-wrap: nowrap;
+}
+
+.header-menu__sublink:hover,
+.header-menu__sublink:focus-visible {
+    background-color: var(--color-secondary);
+    color: var(--color-primary-darkest);
+    outline: none;
+}
+
+.header-menu__sublink--active {
+    color: var(--color-primary-darkest);
+    font-weight: 600;
+}
+
+/* Sidebar grouping (mobile/narrow viewports) — flat-style, label + nested links. */
+.sidebar-menu__item--group {
+    padding-top: 0.5rem;
+}
+
+.sidebar-menu__group-label {
+    display: block;
+    padding: 0.5rem 0;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.sidebar-menu__submenu {
+    all: unset;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.75rem;
+}

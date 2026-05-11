@@ -1,0 +1,83 @@
+{{ $input := . }}
+
+
+<ul class="header-menu">
+    <li>
+        <a
+            {{- if $input.context.IsHome }}
+                class="header-menu__link header-menu__link--active"
+            {{- else }}
+                class="header-menu__link"
+            {{- end }}
+            href="{{ site.Home.RelPermalink }}">
+            {{ $input.homeLabel | default "Home" }}
+        </a>
+    </li>
+
+    {{- $currentNode := $input.context }}
+    {{- range $input.menu }}
+        {{- if .HasChildren }}
+            <li class="header-menu__item header-menu__item--has-children">
+                <button
+                    type="button"
+                    class="header-menu__link header-menu__dropdown-toggle"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
+                    <span class="header-menu__caret" aria-hidden="true">▾</span>
+                </button>
+                <ul class="header-menu__submenu" role="menu">
+                    {{- range .Children }}
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="{{ .URL }}"
+                                {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+                                    class="header-menu__sublink header-menu__sublink--active" aria-current="page"
+                                {{- else }}
+                                    class="header-menu__sublink"
+                                {{- end }}>
+                                {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
+                            </a>
+                        </li>
+                    {{- end }}
+                </ul>
+            </li>
+        {{- else }}
+            <li>
+                <a
+                    href="{{ .URL }}"
+                    {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+                        class="header-menu__link header-menu__link--active" aria-current="page"
+                    {{- else }}
+                        class="header-menu__link"
+                    {{- end }}>
+                    {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
+                </a>
+            </li>
+        {{- end }}
+    {{- end }}
+</ul>
+
+<script>
+    // Toggle dropdowns on click (keyboard + touch friendly). Hover handled by CSS.
+    document.querySelectorAll('.header-menu__dropdown-toggle').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            var expanded = btn.getAttribute('aria-expanded') === 'true';
+            // Close any other open dropdowns.
+            document.querySelectorAll('.header-menu__dropdown-toggle[aria-expanded="true"]').forEach(function (other) {
+                if (other !== btn) other.setAttribute('aria-expanded', 'false');
+            });
+            btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        });
+    });
+    // Close dropdowns when clicking outside.
+    document.addEventListener('click', function (e) {
+        if (!e.target.closest('.header-menu__item--has-children')) {
+            document.querySelectorAll('.header-menu__dropdown-toggle[aria-expanded="true"]').forEach(function (btn) {
+                btn.setAttribute('aria-expanded', 'false');
+            });
+        }
+    });
+</script>
