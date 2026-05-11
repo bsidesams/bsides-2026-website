@@ -342,6 +342,11 @@ logo = "images/partners/vancouver.png"
 url = "https://www.bsidesvancouver.com/"
 name = "BSides Vancouver"
 
+[[params.themes.event.partners]]
+logo = "images/partners/prague.png"
+url = "https://www.bsidesprg.cz/"
+name = "BSides Prague"
+
 [params.themes.event.colors]
 primaryLighter = "#FF6B70"
 primary = "#DA1219"
