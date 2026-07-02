@@ -23,7 +23,7 @@ BSides is a community-driven framework for building events for and by informatio
 
 After the great revivial of BSides Amsterdam in 2025, we are back for more in 2026!
 
-### Non-profit foundation
+### Our not-for-profit mission
 The organization of BSides Amsterdam is a non-profit foundation (Stichting in Dutch), with goal to host events for the InfoSec community to allow knowledge sharing and eduction within the industry.
 BSides Amsterdam is organized by [Stichting Polder Security](https://poldersecurity.nl).
 
@@ -39,6 +39,39 @@ The foundation tries to achieve its goal by, among others:
 * Stimulate, initiate and organize community meetings;
 * Maintain contacts with other national and international organizations with similar objectives; and
 * Building and maintaining contacts with users and suppliers with knowledge and/or expertise that are deemed to be of importance to the Foundation and the goals it pursues and aims to achieve.
+
+### About the company behind BSides AMS
+#### Stichting Polder Security
+Stichting Polder Security is a registered Dutch non-profit foundation (*stichting*). Below you'll find our official details.
+
+#### Foundation Details
+- **Legal name:** Stichting Polder Security
+- **KVK (Chamber of Commerce):** 42056206
+- **RSIN / Fiscal number:** 869507096
+- **Date of establishment:** 8 May 2026
+
+#### Address
+- **Street:** Van Linschotenlaan 423
+- **Postal code & city:** 1212 DW Hilversum
+- **Country:** The Netherlands
+
+#### Bank Details
+- **Account holder:** Stichting Polder Security
+- **IBAN:** NL59 INGB 0119 3314 62
+- **BIC:** INGBNL2A
+- **Bank:** ING Bank N.V.
+
+#### Contact
+- **Email:** info@poldersecurity.nl
+- **Website:** poldersecurity.nl
+
+#### ANBI
+
+**Non-profit status:** Stichting Polder Security does not aim to make a profit. Any surplus shall be used exclusively to further the foundation's statutory objectives.
+
+**Remuneration policy:** Board members receive no remuneration for their work, only reimbursement of actual expenses incurred.
+
+For more information, see the [Stichting Polder Security website](https://www.poldersecurity.nl/about/).
 """
 
 #[[languages.en.menus.main]]
