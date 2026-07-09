@@ -94,10 +94,10 @@ For more information, see the [Stichting Polder Security website](https://www.po
 #pageRef = "/ctf"
 #weight = 30
 
-#[[languages.en.menus.main]]
-#identifier = "preparty"
-#pageRef = "/preparty"
-#weight = 35
+[[languages.en.menus.main]]
+identifier = "preparty"
+pageRef = "/party"
+weight = 35
 
 #[[languages.en.menus.main]]
 #identifier = "Q&A"
@@ -269,11 +269,18 @@ location = "images/banner25.jpg"
 #name = "WarpNet"
 #sponstype = "Silver"
 #
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/specterops-dark.png"
-#url = "https://specterops.io"
-#name = "SpecterOps"
-#sponstype = "Silver"
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/01. Gold/SpecterOps/SO-Logo_PurpleGreen_Tagline.png"
+url = "https://specterops.io"
+name = "SpecterOps"
+sponstype = "Gold"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/02. Silver/Semgrep/png/Semgrep logo.png"
+url = "https://www.semgrep.dev/"
+name = "Semgrep"
+sponstype = "Silver"
+
 #
 #[[params.themes.event.sponsors]]
 #logo = "images/sponsors/nerium.png"
@@ -333,12 +340,6 @@ location = "images/banner25.jpg"
 #logo = "images/sponsors/armorcode.png"
 #url = "https://www.armorcode.com/"
 #name = "ArmorCode"
-#sponstype = "Gold"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/semgrep.png"
-#url = "https://www.semgrep.dev/"
-#name = "Semgrep"
 #sponstype = "Gold"
 #
 #[[params.themes.event.sponsors]]
