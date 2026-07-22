@@ -44,6 +44,8 @@ There are several public parking spot closeby:
 * Mobihub P+R Oostpoort, Polderweg 92, free parking spaces in combination with a rental bicycle.
 * There are various P+R locations around the city, which can be combined with public transport (under certain conditions) at a discount. KIT can be reached by tram 7, 14 and 19.
 
+#### More information
+For additional information about the venue, please visit the [KIT website](https://www.kit.nl/).
 """
 aboutUs = """
 ![BAms logo](images/bams_logo.png)
@@ -202,12 +204,11 @@ Learn more about our mission, values, and the people behind our organization.
 identifier = "location"
 pageRef = "/location"
 weight = 40
-
-#[languages.en.menus.secondary.params]
-#description = """
-#Find out where the event will take place.
-#This section provides details on the venue and directions.
-#"""
+[languages.en.menus.secondary.params]
+description = """
+Find out where the event will take place.
+This section provides details on the venue and directions.
+"""
 
 [[languages.en.menus.secondary]]
 identifier = "code_of_conduct"
