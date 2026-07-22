@@ -14,7 +14,37 @@ description = """
 Security BSides is a community-driven framework for building events, by and for, information security community members. These events are already happening in major cities all over the world! We are responsible for organizing an independent BSides-Approved event in Amsterdam.
 Our goal is to bring together at least 400 people from the InfoSec community this year. Back, and planning to be bigger than ever!"""
 
-directions = """-"""
+directions = """
+#### Public transport
+The Tram stops Alexanderplein and Linnaeusstraat are both right in front of our building and are easy and quickly available:
+* From Amsterdam Central Station: tram 14 – tram stop Alexanderplein
+* From Amsterdam Sloterdijk: tram 19 – tram stop Alexanderplein
+* From Diemen: tram 19 – tram stop Linnaeusstraat 1e van Swindenstraat
+
+**NOTE:** There is a lot of construction happening around KIT.
+For the latest information on tram route changes, always check a route-planner such as the [Reisplanner GVB](https://gvb.nl/reisinformatie/reisplanner).
+
+#### By car
+Take the Watergraafsmeer/Diemen (s113) exit from the A10 ring road. At the end of the road choose the exit heading to Centrum/Watergraafsmeer. Continue through via the Middenweg that turns into the Linnaeusstraat. Koninklijk Instituut voor de Tropen is located at the end of this street on the corner of Mauritskade.
+
+#### Parking garage
+The nearest parking garage is:
+  * Q-Park Oostpoort
+  * Polderweg 92
+  * 1093 KP Amsterdam
+
+From this parking garage you can take tram 19 and you will arrive to our building in two stops.
+
+#### Public parking
+There are several public parking spot closeby:
+* Parking on the public road in the Dapperbuurt/Oosterparkbuurt, the rate in this zone is €6.00 per hour.
+* The parking garage at the OLVG, ‘s Gravesandeplein 120, rate is €6.00 per hour.
+* Q-Park Oostpoort parking garage, Polderweg 92, rate €3.33 per hour.
+* Parking garage Park Bee Ingenieur Jakoba Mulderplein, rate €3.50 per hour.
+* Mobihub P+R Oostpoort, Polderweg 92, free parking spaces in combination with a rental bicycle.
+* There are various P+R locations around the city, which can be combined with public transport (under certain conditions) at a discount. KIT can be reached by tram 7, 14 and 19.
+
+"""
 aboutUs = """
 ![BAms logo](images/bams_logo.png)
 
@@ -97,7 +127,7 @@ For more information, see the [Stichting Polder Security website](https://www.po
 [[languages.en.menus.main]]
 identifier = "preparty"
 pageRef = "/party"
-weight = 35
+weight = 59
 
 #[[languages.en.menus.main]]
 #identifier = "Q&A"
@@ -109,15 +139,15 @@ weight = 35
 #pageRef = "/feedback"
 #weight = 37
 
-#[[languages.en.menus.main]]
-#identifier = "location"
-#pageRef = "/location"
-#weight = 40
-
 [[languages.en.menus.main]]
-identifier = "sponsorship"
-pageRef = "/sponsorship"
+identifier = "location"
+pageRef = "/location"
 weight = 40
+
+#[[languages.en.menus.main]]
+#identifier = "sponsorship"
+#pageRef = "/sponsorship"
+#weight = 40
 
 [[languages.en.menus.main]]
 identifier = "sponsors"
@@ -168,10 +198,10 @@ Learn more about our mission, values, and the people behind our organization.
 #Learn more about their backgrounds and what they will discuss.
 #"""
 
-#[[languages.en.menus.secondary]]
-#identifier = "location"
-#pageRef = "/location"
-#weight = 40
+[[languages.en.menus.secondary]]
+identifier = "location"
+pageRef = "/location"
+weight = 40
 
 #[languages.en.menus.secondary.params]
 #description = """
@@ -205,8 +235,8 @@ shortTitle = "BAMS"
 sessionizeId = "i731pf0j"
 startDate = "2026-11-19"
 endDate = "2026-11-19"
-location = "Amsterdam"
-address = [ "Unknown", "tba", "Amsterdam", "The Netherlands" ]
+location = "KIT Institute"
+address = [ "KIT Institute", "Mauritskade 64", "1092 AD, Amsterdam", "The Netherlands" ]
 favicon = "favicon.ico"
 trackCategoryTitle = "Track"
 organizers = [
@@ -242,7 +272,7 @@ linkedinUrl = "https://www.linkedin.com/company/bsides-amsterdam/"
 [params.themes.event.images]
 logo = "images/bams_logo.png"
 titleBackground = "images/banner25.jpg"
-location = "images/banner25.jpg"
+location = "images/kit.jpg"
 
 ## Sponsors here
 #[[params.themes.event.sponsors]]
