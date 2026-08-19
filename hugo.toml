@@ -252,13 +252,13 @@ organizers = [
 #featuredSessions = [ "944942", "943968", "945011" ]
 
 [params.themes.event.callToAction]
-enableBanner = false
+enableBanner = true
 
 # Fill in event ID when known
 #[params.themes.event.callToAction.eventbrite]
 #eventId = "1389051192509"
 [params.themes.event.callToAction.other]
-url = "https://sessionize.com/bsides-amsterdam-2026"
+url = "https://www.kit.nl/events/rooms/"
 #url = "https://www.bsidesams.org/sponsorship"
 
 [params.themes.event.map]

@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/code-of-conduct.de/</loc>
+    <loc>https://bsidesams.org/code-of-conduct.de/</loc>
   </url><url>
-    <loc>http://localhost:1313/code-of-conduct/</loc>
+    <loc>https://bsidesams.org/code-of-conduct/</loc>
   </url><url>
-    <loc>http://localhost:1313/ctf/</loc>
+    <loc>https://bsidesams.org/ctf/</loc>
   </url><url>
-    <loc>http://localhost:1313/google-verification/</loc>
+    <loc>https://bsidesams.org/google-verification/</loc>
   </url><url>
-    <loc>http://localhost:1313/sponsorship/</loc>
+    <loc>https://bsidesams.org/sponsorship/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://bsidesams.org/about/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://bsidesams.org/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://bsidesams.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/location/</loc>
+    <loc>https://bsidesams.org/location/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/party/</loc>
+    <loc>https://bsidesams.org/party/</loc>
   </url><url>
-    <loc>http://localhost:1313/previous/</loc>
+    <loc>https://bsidesams.org/previous/</loc>
   </url><url>
-    <loc>http://localhost:1313/youtube/</loc>
+    <loc>https://bsidesams.org/youtube/</loc>
   </url><url>
-    <loc>http://localhost:1313/sponsors/</loc>
+    <loc>https://bsidesams.org/sponsors/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://bsidesams.org/tags/</loc>
   </url>
 </urlset>

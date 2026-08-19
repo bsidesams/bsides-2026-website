@@ -185,7 +185,7 @@
             <section class="section section--short page-footer-section">
                 <div class="page-footer-section__start">
                     <!-- Show language selector only if multiple languages are configured -->
-                    {{ if gt (len .Sites) 1 }}
+                    {{ if gt (len hugo.Sites) 1 }}
                         <!-- Label for assistive technologies only -->
                         <label for="language-select" class="sr-only">{{ T "language_menu.label" }}</label>
                         <select

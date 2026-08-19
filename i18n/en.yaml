@@ -2,8 +2,8 @@ countdown.days: Days
 countdown.hours: Hrs
 countdown.minutes: Mins
 countdown.seconds: Secs
-cta_banner.message: 'Our agenda is now published. Tickets go on sale October 1st at 20:00!'
-cta_button.get_ticket: CFP open - Submit your talk!
+cta_banner.message: 'CFP has closed. Thank you for all submissions. Stay tuned for our speaker line-up!'
+cta_button.get_ticket: Location confirmed - Check out KIT!
 cta_section.heading: Join us in Amsterdam!
 cta_section.subheading: November 19, 2026
 cta_section.message: Hang out, learn something awesome and make new friends.
@@ -56,7 +56,7 @@ featured_sessions_section.heading: Featured Sessions
 featured_sessions_section.read_more: read more
 featured_sessions_section.action: All Sessions
 sponsors_section.heading: Our Sponsors
-sponsors_section.subheading: A big thank you to our supporters!
+sponsors_section.subheading: A big thank you to our sponsors, who make this event possible!
 event_highlights_section.number_of_speakers:
     one: '{{ . }} Speaker'
     other: '{{ . }} Speakers'
