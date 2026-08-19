@@ -275,31 +275,85 @@ logo = "images/bams_logo.png"
 titleBackground = "images/banner25.jpg"
 location = "images/kit.jpg"
 
-## Sponsors here
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/escape.png"
-#url = "https://escape.tech"
-#name = "Escape"
-#sponstype = "Bronze"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/falconforce.png"
-#url = "https://falconforce.nl"
-#name = "FalconForce"
-#sponstype = "Bronze"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/cqure.png"
-#url = "https://cqure.nl"
-#name = "CQure"
-#sponstype = "Bronze"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/warpnet-dark.png"
-#url = "https://warpnet.nl"
-#name = "WarpNet"
-#sponstype = "Silver"
-#
+# Sponsors here
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/02. Silver/BHIS/logo.png"
+url = "https://blackhillsinfosec.com"
+name = "BHIS"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/01. Gold/Socket/logo.png"
+url = "https://socket.dev"
+name = "Socket"
+sponstype = "Gold"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/02. Silver/Semgrep/png/Semgrep logo.png"
+url = "https://semgrep.com"
+name = "Semgrep"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/02. Silver/FalconForce/FFLogo.png"
+url = "https://falconforce.nl"
+name = "Falconforce"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/01. Gold/Booking.com/Booking_Com_Logotype_Aug2020_Blue.svg"
+url = "https://booking.com"
+name = "Booking"
+sponstype = "Gold"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/00. Platinum/Indurex/indurex.png"
+url = "https://indurex.io"
+name = "Indurex"
+sponstype = "Platinum"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/02. Silver/VirtualMetric/logo.png"
+url = "https://virtualmetric.com"
+name = "VirtualMetric"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/01. Gold/Adyen/logo-adyen-rgb-green.png"
+url = "https://adyen.com"
+name = "Adyen"
+sponstype = "Gold"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/02. Silver/Sysdig/sysdig-logo-black.jpg"
+url = "https://sysdig.com"
+name = "Sysdig"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/02. Silver/ArmorCode/logo.png"
+url = "https://armorcode.io"
+name = "ArmorCode"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/02. Silver/Aikido/Logo-PrimaryColor-Large 2.png"
+url = "https://aikido.dev"
+name = "Aikido"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/02. Silver/Invictus/Invictus.png"
+url = "https://invictus-ir.com"
+name = "Invictus"
+sponstype = "Silver"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/01. Gold/Fortra/fortra-logo-forest-green.svg"
+url = "https://fortra.com"
+name = "Fortra"
+sponstype = "Gold"
+
 [[params.themes.event.sponsors]]
 logo = "images/Sponsor Logos/01. Gold/SpecterOps/SO-Logo_PurpleGreen_Tagline.png"
 url = "https://specterops.io"
@@ -307,83 +361,10 @@ name = "SpecterOps"
 sponstype = "Gold"
 
 [[params.themes.event.sponsors]]
-logo = "images/Sponsor Logos/02. Silver/Semgrep/png/Semgrep logo.png"
-url = "https://www.semgrep.dev/"
-name = "Semgrep"
-sponstype = "Silver"
-
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/nerium.png"
-#url = "https://www.nerium.nl"
-#name = "Nerium"
-#sponstype = "Silver"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/invictus.png"
-#url = "https://www.invictus-ir.com"
-#name = "Invictus"
-#sponstype = "Silver"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/intigriti.png"
-#url = "https://www.intigriti.com/"
-#name = "Intigriti"
-#sponstype = "Silver"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/holdsecurity.png"
-#url = "https://holdsecurity.com"
-#name = "Hold Security"
-#sponstype = "Silver"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/sysdig.png"
-#url = "https://www.sysdig.com"
-#name = "Sysdig"
-#sponstype = "Silver"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/hardened.png"
-#url = "https://hardened.eu/"
-#name = "Hardened"
-#sponstype = "Silver"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/responders.png"
-#url = "https://responders.now/"
-#name = "Responders"
-#sponstype = "Silver"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/sans.png"
-#url = "https://sans.org/"
-#name = "SANS"
-#sponstype = "Gold"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/aikido-dark.png"
-#url = "https://www.aikido.dev"
-#name = "Aikodo Security"
-#sponstype = "Gold"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/armorcode.png"
-#url = "https://www.armorcode.com/"
-#name = "ArmorCode"
-#sponstype = "Gold"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/booking.png"
-#url = "https://www.booking.com/"
-#name = "Booking"
-#sponstype = "Gold"
-#
-#[[params.themes.event.sponsors]]
-#logo = "images/sponsors/adyen.png"
-#url = "https://www.adyen.com/"
-#name = "Adyen"
-#sponstype = "Platinum"
+logo = "images/Sponsor Logos/03. Bronze/Escape/logo.png"
+url = "https://escape.tech"
+name = "Escape"
+sponstype = "Bronze"
 
 ## Partners here
 [[params.themes.event.partners]]
