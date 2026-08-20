@@ -394,9 +394,15 @@ url = "https://www.bsidesprg.cz/"
 name = "BSides Prague"
 
 [[params.themes.event.partners]]
-logo = "images/partners/bsides-porto.png"
-url = "https://www.bsidesporto.org/"
-name = "BSides Porto"
+logo = "images/partners/InfoSecMap.png"
+url = "https://infosecmap.com/"
+name = "InfoSecMap"
+
+[[params.themes.event.partners]]
+logo = "images/partners/bsides-groningen.png"
+# Seems like there is a bug in the partner url, refering to the /sponsors page instead of partner URL
+url = "https://bsidesgrunn.org"
+name = "BSides Groningen"
 
 [params.themes.event.colors]
 primaryLighter = "#FF6B70"
