@@ -399,6 +399,11 @@ url = "https://infosecmap.com/"
 name = "InfoSecMap"
 
 [[params.themes.event.partners]]
+logo = "images/partners/RBLN-08.jpg"
+url = "https://www.rbln.com/"
+name = "RBLN"
+
+[[params.themes.event.partners]]
 logo = "images/partners/bsides-groningen.png"
 # Seems like there is a bug in the partner url, refering to the /sponsors page instead of partner URL
 url = "https://bsidesgrunn.org"
