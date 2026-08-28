@@ -331,7 +331,7 @@ name = "Sysdig"
 sponstype = "Silver"
 
 [[params.themes.event.sponsors]]
-logo = "images/Sponsor Logos/02. Silver/ArmorCode/logo.png"
+logo = "images/Sponsor Logos/02. Silver/ArmorCode/SVG/ArmorCode Logo - Standard - Dark.svg"
 url = "https://armorcode.io"
 name = "ArmorCode"
 sponstype = "Silver"
