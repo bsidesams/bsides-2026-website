@@ -307,7 +307,7 @@ name = "Booking"
 sponstype = "Gold"
 
 [[params.themes.event.sponsors]]
-logo = "images/Sponsor Logos/00. Platinum/Indurex/indurex.png"
+logo = "images/Sponsor Logos/00. Platinum/Indurex/Logo and Text/Color/Indurex-Logo_Primary-Color.svg"
 url = "https://indurex.io"
 name = "Indurex"
 sponstype = "Platinum"
@@ -405,7 +405,6 @@ name = "RBLN"
 
 [[params.themes.event.partners]]
 logo = "images/partners/bsides-groningen.png"
-# Seems like there is a bug in the partner url, refering to the /sponsors page instead of partner URL
 url = "https://bsidesgrunn.org"
 name = "BSides Groningen"
 
