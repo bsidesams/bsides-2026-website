@@ -361,7 +361,7 @@ name = "SpecterOps"
 sponstype = "Gold"
 
 [[params.themes.event.sponsors]]
-logo = "images/Sponsor Logos/03. Bronze/Escape/logo.png"
+logo = "images/Sponsor Logos/03. Bronze/Escape/escape-black.png"
 url = "https://escape.tech"
 name = "Escape"
 sponstype = "Bronze"
