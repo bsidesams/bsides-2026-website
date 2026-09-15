@@ -12,7 +12,7 @@ label = "English"
 slogan = "Bringing the BSides community back to Amsterdam!"
 description = """
 Security BSides is a community-driven framework for building events, by and for, information security community members. These events are already happening in major cities all over the world! We are responsible for organizing an independent BSides-Approved event in Amsterdam.
-Our goal is to bring together at least 400 people from the InfoSec community this year. Back, and planning to be bigger than ever!"""
+Our goal is to bring together at 450 people from the InfoSec community this year. Back, and planning to be bigger than ever!"""
 
 directions = """
 #### Public transport
@@ -53,7 +53,7 @@ aboutUs = """
 ### BSides history
 BSides is a community-driven framework for building events for and by information security community members. The goal is to expand the spectrum of conversation beyond the traditional confines of space and time. It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
 
-After the great revivial of BSides Amsterdam in 2025, we are back for more in 2026!
+After the great revival of BSides Amsterdam in 2025, we are back for more in 2026!
 
 ### Our not-for-profit mission
 The organization of BSides Amsterdam is a non-profit foundation (Stichting in Dutch), with goal to host events for the InfoSec community to allow knowledge sharing and eduction within the industry.
@@ -258,8 +258,7 @@ enableBanner = true
 #[params.themes.event.callToAction.eventbrite]
 #eventId = "1389051192509"
 [params.themes.event.callToAction.other]
-url = "https://www.kit.nl/events/rooms/"
-#url = "https://www.bsidesams.org/sponsorship"
+url = "https://app.tixnu.com/events/bsides/amsterdam-2026"
 
 [params.themes.event.map]
 # Placeholders which point to a venue on openstreetmap
@@ -407,6 +406,11 @@ name = "RBLN"
 logo = "images/partners/bsides-groningen.png"
 url = "https://bsidesgrunn.org"
 name = "BSides Groningen"
+
+[[params.themes.event.partners]]
+logo = "images/partners/tixnu.png"
+url = "https://tixnu.com"
+name = "Tixnu"
 
 [params.themes.event.colors]
 primaryLighter = "#FF6B70"
