@@ -106,30 +106,40 @@ Stichting Polder Security is a registered Dutch non-profit foundation (*stichtin
 For more information, see the [Stichting Polder Security website](https://www.poldersecurity.nl/about/).
 """
 
-#[[languages.en.menus.main]]
-#identifier = "sessions"
-#pageRef = "/sessions"
-#weight = 10
-
-#[[languages.en.menus.main]]
-#identifier = "schedule"
-#pageRef = "/schedule"
-#weight = 10
-
-#[[languages.en.menus.main]]
-#identifier = "speaker"
-#pageRef = "/speakers"
-#weight = 20
-
-#[[languages.en.menus.main]]
-#identifier = "ctf"
-#pageRef = "/ctf"
-#weight = 30
+# Parent (no pageRef) — renders as a dropdown trigger
+[[languages.en.menus.main]]
+identifier = "activities"
+name = "Activities & Schedule"
+weight = 20
 
 [[languages.en.menus.main]]
 identifier = "preparty"
 pageRef = "/party"
-weight = 59
+parent = "activities"
+weight = 9
+
+[[languages.en.menus.main]]
+identifier = "ctf"
+pageRef = "/ctf"
+parent = "activities"
+weight = 8
+
+[[languages.en.menus.main]]
+identifier = "sessions"
+pageRef = "/sessions"
+parent = "activities"
+weight = 2
+
+[[languages.en.menus.main]]
+identifier = "speakers"
+pageRef = "/speakers"
+parent = "activities"
+weight = 1
+
+#[[languages.en.menus.main]]
+#identifier = "schedule"
+#pageRef = "/schedule"
+#parent = "activities"
 
 #[[languages.en.menus.main]]
 #identifier = "Q&A"
@@ -159,7 +169,7 @@ weight = 50
 [[languages.en.menus.main]]
 identifier = "about"
 pageRef = "/about"
-weight = 60
+weight = 90
 
 # Parent (no pageRef) — renders as a dropdown trigger
 [[languages.en.menus.main]]
@@ -189,22 +199,21 @@ description = """
 Learn more about our mission, values, and the people behind our organization.
 """
 
-#[[languages.en.menus.secondary]]
-#identifier = "speakers"
-#pageRef = "/speakers"
-#weight = 30
-#
-  #[languages.en.menus.secondary.params]
-  #description = """
-#Meet our speakers who will will be speaking at BSides.
-#Learn more about their backgrounds and what they will discuss.
-#"""
+[[languages.en.menus.secondary]]
+identifier = "speakers"
+pageRef = "/speakers"
+weight = 30
+  [languages.en.menus.secondary.params]
+description = """
+Meet our speakers who will will be speaking at BSides.
+Learn more about their backgrounds and what they will discuss.
+"""
 
 [[languages.en.menus.secondary]]
 identifier = "location"
 pageRef = "/location"
 weight = 40
-[languages.en.menus.secondary.params]
+  [languages.en.menus.secondary.params]
 description = """
 Find out where the event will take place.
 This section provides details on the venue and directions.

@@ -15,14 +15,14 @@ Our goal is to bring together at 450 people from the InfoSec community this year
         
 
         <meta property="og:url" content="http://localhost:1313/categories/">
-  <meta property="og:site_name" content="BSides Amsterdam">
-  <meta property="og:title" content="Categories">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+	<meta property="og:site_name" content="BSides Amsterdam">
+	<meta property="og:title" content="Categories">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="website">
 
         
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Categories">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Categories">
 
 
         
@@ -83,6 +83,45 @@ Our goal is to bring together at 450 people from the InfoSec community this year
             BAMS
         </a>
     </li>
+            <li class="header-menu__item header-menu__item--has-children">
+                <button
+                    type="button"
+                    class="header-menu__link header-menu__dropdown-toggle"
+                    aria-haspopup="true"
+                    aria-expanded="false">Activities & Schedule
+                    <span class="header-menu__caret" aria-hidden="true">▾</span>
+                </button>
+                <ul class="header-menu__submenu" role="menu">
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href=""
+                                    class="header-menu__sublink">Speakers
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href=""
+                                    class="header-menu__sublink">Schedule
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/ctf/"
+                                    class="header-menu__sublink">Capture the Flag
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/party/"
+                                    class="header-menu__sublink">Party (Nov 18)
+                            </a>
+                        </li>
+                </ul>
+            </li>
             <li>
                 <a
                     href="/location/"
@@ -93,18 +132,6 @@ Our goal is to bring together at 450 people from the InfoSec community this year
                 <a
                     href="/sponsors/"
                         class="header-menu__link">Sponsors & Partners
-                </a>
-            </li>
-            <li>
-                <a
-                    href="/party/"
-                        class="header-menu__link">Party (Nov 18)
-                </a>
-            </li>
-            <li>
-                <a
-                    href="/about/"
-                        class="header-menu__link">About Us
                 </a>
             </li>
             <li class="header-menu__item header-menu__item--has-children">
@@ -131,6 +158,12 @@ Our goal is to bring together at 450 people from the InfoSec community this year
                             </a>
                         </li>
                 </ul>
+            </li>
+            <li>
+                <a
+                    href="/about/"
+                        class="header-menu__link">About Us
+                </a>
             </li>
 </ul>
 
@@ -236,6 +269,40 @@ Our goal is to bring together at 450 people from the InfoSec community this year
 
 
 <ul class="sidebar-menu">
+            <li class="sidebar-menu__item sidebar-menu__item--group">
+                <span class="sidebar-menu__group-label" aria-hidden="true">Activities & Schedule
+                </span>
+                <ul class="sidebar-menu__submenu">
+                        <li class="sidebar-menu__item">
+                            <a
+                                href=""
+                                    class="sidebar-menu__link"
+                                aria-label="">Speakers
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href=""
+                                    class="sidebar-menu__link"
+                                aria-label="">Schedule
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/ctf/"
+                                    class="sidebar-menu__link"
+                                aria-label="">Capture the Flag
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/party/"
+                                    class="sidebar-menu__link"
+                                aria-label="Party">Party (Nov 18)
+                            </a>
+                        </li>
+                </ul>
+            </li>
             <li class="sidebar-menu__item">
                 <a
                     href="/location/"
@@ -248,20 +315,6 @@ Our goal is to bring together at 450 people from the InfoSec community this year
                     href="/sponsors/"
                         class="sidebar-menu__link"
                     aria-label="Sponsors &amp; Partners">Sponsors & Partners
-                </a>
-            </li>
-            <li class="sidebar-menu__item">
-                <a
-                    href="/party/"
-                        class="sidebar-menu__link"
-                    aria-label="Party">Party (Nov 18)
-                </a>
-            </li>
-            <li class="sidebar-menu__item">
-                <a
-                    href="/about/"
-                        class="sidebar-menu__link"
-                    aria-label="About Us">About Us
                 </a>
             </li>
             <li class="sidebar-menu__item sidebar-menu__item--group">
@@ -283,6 +336,13 @@ Our goal is to bring together at 450 people from the InfoSec community this year
                             </a>
                         </li>
                 </ul>
+            </li>
+            <li class="sidebar-menu__item">
+                <a
+                    href="/about/"
+                        class="sidebar-menu__link"
+                    aria-label="About Us">About Us
+                </a>
             </li>
 </ul>
 
@@ -464,12 +524,35 @@ Our goal is to bring together at 450 people from the InfoSec community this year
         <li>
             <a
                 class="menu-item__link"
+                href=""
+                aria-label="Speakers"
+                aria-describedby="secondary-menu-description-1">
+                <h1 class="heading heading--3 heading--embedded">Speakers</h1>
+                <div class="secondary-menu__description">
+                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-1">Meet our speakers who will will be speaking at BSides.
+Learn more about their backgrounds and what they will discuss.
+                    </p>
+                </div>
+                <div class="menu-item__icon"><svg width="34" height="16" viewBox="0 0 34 16" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M1 8.13208H33M33 8.13208L23.784 1M33 8.13208L23.784 15"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
+</div>
+            </a>
+        </li>
+        <li>
+            <a
+                class="menu-item__link"
                 href="/location/"
                 aria-label="Location"
-                aria-describedby="secondary-menu-description-1">
+                aria-describedby="secondary-menu-description-2">
                 <h1 class="heading heading--3 heading--embedded">Location</h1>
                 <div class="secondary-menu__description">
-                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-1">Find out where the event will take place.
+                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-2">Find out where the event will take place.
 This section provides details on the venue and directions.
                     </p>
                 </div>
@@ -489,10 +572,10 @@ This section provides details on the venue and directions.
                 class="menu-item__link"
                 href="/code-of-conduct/"
                 aria-label="Code of Conduct"
-                aria-describedby="secondary-menu-description-2">
+                aria-describedby="secondary-menu-description-3">
                 <h1 class="heading heading--3 heading--embedded">Code of Conduct</h1>
                 <div class="secondary-menu__description">
-                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-2">This outlines the expectations for participant behavior and event policies.
+                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-3">This outlines the expectations for participant behavior and event policies.
                     </p>
                 </div>
                 <div class="menu-item__icon"><svg width="34" height="16" viewBox="0 0 34 16" xmlns="http://www.w3.org/2000/svg">
