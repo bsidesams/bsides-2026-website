@@ -2,7 +2,7 @@ countdown.days: Days
 countdown.hours: Hrs
 countdown.minutes: Mins
 countdown.seconds: Secs
-cta_banner.message: 'Ticket sales start Sept 20 at 12:00 - Get ready to grab yours on Tixnu!'
+cta_banner.message: 'Ticket sales have started, grab your ticket while they last!'
 cta_button.get_ticket: 'Get Tickets'
 cta_section.heading: Join us in Amsterdam!
 cta_section.subheading: November 19, 2026
@@ -34,6 +34,8 @@ menu.previous: 2025 Website
 menu.Q&A: Questions & Answers (Through Slido)
 menu.schedule: Schedule (Sessionize app)
 menu.preparty: Party (Nov 18)
+menu.overview: Overview
+menu.references: References
 main_menu.label: Main Menu
 social-links_list.label: Social media links
 secondary_menu.label: Secondary menu
@@ -72,3 +74,19 @@ session_page.further_sessions_from: Further Sessions from
 carousel.button_next: Next item
 carousel.button_previous: Previous item
 session_categories.label: Session Categories
+event_at_a_glance.heading: Event timeline
+event_at_a_glance.description: All important dates for BSides Amsterdam. For more detail see the
+event_at_a_glance.references_link: references page
+references.introduction: The authoritative reference for BSides Amsterdam 2026 dates, milestones, and links.
+references.conference: Conference
+references.location: Location
+references.website: Website
+references.registration: Registration
+references.dates_heading: For participants
+references.sponsors_heading: For sponsors
+references.date: Date
+references.time: Time
+references.milestone: Activity
+references.notes: Notes
+references.action: Link
+references.more_information: More information

@@ -1,0 +1,72 @@
+{{- $input := . }}
+{{- $milestones := sort $input.milestones "sort_order" }}
+{{- $dateLabel := $input.dateLabel | default (T "references.date") }}
+
+<div class="references-table-wrapper">
+    <table class="references-table">
+        <thead>
+            <tr>
+                <th scope="col">{{ $dateLabel }}</th>
+                {{- if not $input.compact }}
+                    <th scope="col">{{ T "references.time" }}</th>
+                {{- end }}
+                <th scope="col">{{ T "references.milestone" }}</th>
+                {{- if not $input.compact }}
+                    <th scope="col">{{ T "references.notes" }}</th>
+                    <th scope="col">{{ T "references.action" }}</th>
+                {{- end }}
+            </tr>
+        </thead>
+        <tbody>
+            {{- range $milestones }}
+                {{- $milestone := . }}
+                {{- $date := .date_display }}
+                {{- $dateWeekday := "" }}
+                {{- $dateCalendar := "" }}
+                {{- $time := "" }}
+                {{- if $input.compact }}
+                    {{- with .end }}
+                        {{- $dateWeekday = (time.AsTime .).Format "Mon," }}
+                        {{- $dateCalendar = (time.AsTime .).Format "2 Jan" }}
+                    {{- end }}
+                {{- else if .start }}
+                    {{- $start := time.AsTime .start }}
+                    {{- $dateWeekday = $start.Format "Mon," }}
+                    {{- $dateCalendar = $start.Format "2 Jan" }}
+                    {{- $time = $start.Format "15:04" }}
+                    {{- with .end }}
+                        {{- $end := time.AsTime . }}
+                        {{- if ne $start.Unix $end.Unix }}
+                            {{- if eq ($start.Format "2006-01-02") ($end.Format "2006-01-02") }}
+                                {{- $time = printf "%s-%s" $time ($end.Format "15:04") }}
+                            {{- else }}
+                                {{- $time = printf "%s to %s" $time ($end.Format "Mon, 2 Jan 15:04") }}
+                            {{- end }}
+                        {{- end }}
+                    {{- end }}
+                {{- else if .date }}
+                    {{- $dateWeekday = (time.AsTime .date).Format "Mon," }}
+                    {{- $dateCalendar = (time.AsTime .date).Format "2 Jan" }}
+                {{- end }}
+                <tr>
+                    <td data-label="{{ $dateLabel }}">
+                        {{- with $dateWeekday }}<span class="references-table__date-weekday">{{ . }}</span>{{ end }}
+                        {{- with $dateCalendar }}<span>{{ . }}</span>{{ else }}{{ $date }}{{ end }}
+                    </td>
+                    {{- if not $input.compact }}
+                        <td data-label="{{ T "references.time" }}">{{ $time }}</td>
+                    {{- end }}
+                    <th scope="row" data-label="{{ T "references.milestone" }}">{{ .title }}</th>
+                    {{- if not $input.compact }}
+                        <td data-label="{{ T "references.notes" }}">{{ .notes }}</td>
+                        <td class="references-table__action">
+                            {{- with .url }}
+                                <a class="link" href="{{ . }}">{{ $milestone.link_label | default (T "references.more_information") }}</a>
+                            {{- end }}
+                        </td>
+                    {{- end }}
+                </tr>
+            {{- end }}
+        </tbody>
+    </table>
+</div>

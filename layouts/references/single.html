@@ -1,0 +1,30 @@
+{{- define "main" }}
+    {{- $references := hugo.Data.references }}
+    <div class="section-container">
+        <section class="section section--long references-page">
+            <header class="references-page__header">
+                <h1 class="heading heading--1">{{ .Title }}</h1>
+                <p>{{ T "references.introduction" }}</p>
+            </header>
+
+            <dl class="references-event-details">
+                <dt>{{ T "references.conference" }}</dt>
+                <dd>{{ $references.event.name }}</dd>
+                <dt>{{ T "references.location" }}</dt>
+                <dd>{{ $references.event.location }}, {{ $references.event.address }}</dd>
+                <dt>{{ T "references.website" }}</dt>
+                <dd><a class="link" href="{{ $references.event.website }}">{{ $references.event.website }}</a></dd>
+                <dt>{{ T "references.registration" }}</dt>
+                <dd><a class="link" href="{{ $references.event.registration_url }}">{{ $references.event.registration_label }}</a></dd>
+            </dl>
+
+            <h2 class="heading heading--3">{{ T "references.dates_heading" }}</h2>
+            {{- $participantMilestones := where $references.participants "published" true }}
+            {{- partial "references-table.html" (dict "milestones" $participantMilestones) }}
+
+            <h2 class="heading heading--3 references-page__sponsors-heading">{{ T "references.sponsors_heading" }}</h2>
+            {{- $sponsorMilestones := where $references.sponsors "published" true }}
+            {{- partial "references-table.html" (dict "milestones" $sponsorMilestones) }}
+        </section>
+    </div>
+{{- end }}

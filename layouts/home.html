@@ -55,6 +55,8 @@
         "location" .Site.Params.themes.event.location )
     }}
 
+    {{- partial "sections/event-at-a-glance.html" . }}
+
     {{- $tracks := slice }}
     {{- range (.Site.RegularPages.GroupByParam "track") }}
         {{- $tracks = $tracks | append (.Key) }}

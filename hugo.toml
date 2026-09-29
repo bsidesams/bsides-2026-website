@@ -136,6 +136,12 @@ pageRef = "/speakers"
 parent = "activities"
 weight = 1
 
+[[languages.en.menus.main]]
+identifier = "overview"
+pageRef = "/references"
+parent = "activities"
+weight = -1
+
 #[[languages.en.menus.main]]
 #identifier = "schedule"
 #pageRef = "/schedule"

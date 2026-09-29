@@ -1,0 +1,48 @@
+{{- $now := now }}
+{{- $milestones := where (where hugo.Data.references.participants "published" true) "homepage" true }}
+{{- $milestones = sort $milestones "sort_order" }}
+{{- $referencesURL := "/references/" }}
+{{- with .Site.GetPage "references" }}{{ $referencesURL = .RelPermalink }}{{ end }}
+
+{{- if gt (len $milestones) 0 }}
+    <div class="section-container event-at-a-glance-section">
+        <section class="section section--short">
+            <header class="event-at-a-glance-section__header">
+                <div>
+                    <h2 class="heading heading--3 heading--embedded">{{ T "event_at_a_glance.heading" }}</h2>
+                    <p>
+                        {{ T "event_at_a_glance.description" }}
+                        <a class="link" href="{{ $referencesURL }}">{{ T "event_at_a_glance.references_link" }}</a>.
+                    </p>
+                </div>
+            </header>
+            <ol class="event-at-a-glance-section__cards">
+                {{- range $milestones }}
+                    {{- $href := $referencesURL }}
+                    {{- $date := now }}
+                    {{- if .end }}
+                        {{- $date = time.AsTime .end }}
+                    {{- else if .date }}
+                        {{- $date = time.AsTime .date }}
+                    {{- else if .start }}
+                        {{- $date = time.AsTime .start }}
+                    {{- end }}
+                    {{- $past := lt $date.Unix $now.Unix }}
+                    {{- if not $past }}{{ with .url }}{{ $href = . }}{{ end }}{{ end }}
+                    <li class="event-at-a-glance-section__card{{ if $past }} event-at-a-glance-section__card--past{{ end }}">
+                        <a class="event-at-a-glance-section__card-link" href="{{ $href }}">
+                            <time class="event-at-a-glance-section__date" datetime="{{ $date.Format "2006-01-02" }}">
+                                <span class="event-at-a-glance-section__weekday">{{ $date.Format "Mon" }}</span>
+                                <span class="event-at-a-glance-section__day">{{ $date.Format "2" }}</span>
+                                <span class="event-at-a-glance-section__month">{{ $date.Format "Jan" | upper }}</span>
+                            </time>
+                            <div class="event-at-a-glance-section__activity">
+                                <h3>{{ .short_name | default .title }}</h3>
+                            </div>
+                        </a>
+                    </li>
+                {{- end }}
+            </ol>
+        </section>
+    </div>
+{{- end }}

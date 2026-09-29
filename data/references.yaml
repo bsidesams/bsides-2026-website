@@ -1,0 +1,123 @@
+event:
+  name: BSides Amsterdam 2026
+  location: KIT Amsterdam
+  address: Mauritskade 64, 1092 AD Amsterdam, The Netherlands
+  website: https://bsidesams.org/
+  registration_url: https://app.tixnu.com/events/bsides/amsterdam-2026
+  registration_label: Get tickets
+
+participants:
+  - title: Date announcement
+    short_name: Date announcement
+    date: 2026-04-15
+    sort_order: 20260415
+    notes: The conference date is announced. This is a target date.
+    homepage: true
+    published: true
+
+  - title: CFP opens
+    short_name: CFP opens
+    start: 2026-05-11T09:00:00+02:00
+    end: 2026-05-11T09:00:00+02:00
+    sort_order: 20260511
+    notes: Speakers can submit proposals for BSides Amsterdam.
+    url: https://sessionize.com/bsides-amsterdam-2026
+    link_label: Submit to the CFP
+    homepage: true
+    published: true
+
+  - title: CFP closes
+    short_name: CFP closes
+    start: 2026-08-11T23:59:00+02:00
+    end: 2026-08-11T23:59:00+02:00
+    sort_order: 20260811
+    notes: The CFP closes and anonymous speaker selection begins.
+    homepage: true
+    published: true
+
+  - title: Speaker selection
+    short_name: Speaker selection
+    start: 2026-09-08T09:00:00+02:00
+    end: 2026-09-08T09:00:00+02:00
+    sort_order: 20260908
+    notes: Selected speakers are invited to confirm their participation.
+    published: true
+
+  - title: General ticket sales go live
+    short_name: Ticket sales start
+    date: 2026-09-15
+    sort_order: 20260915
+    notes: General ticket sales open. This is a target date.
+    url: https://tixnu.com/
+    link_label: Tixnu platform
+    homepage: true
+    published: true
+
+  - title: Pre-party
+    short_name: Pre-party
+    start: 2026-11-18T19:00:00+01:00
+    end: 2026-11-18T23:00:00+01:00
+    sort_order: 20261118
+    notes: Join the BSides Amsterdam community the evening before the conference.
+    url: https://luma.com/guyfgy7c
+    link_label: Register on Luma
+    homepage: true
+    published: true
+
+  - title: BSides Amsterdam 2026
+    short_name: Conference day
+    start: 2026-11-19T08:00:00+01:00
+    end: 2026-11-19T19:00:00+01:00
+    sort_order: 20261119
+    notes: The one-day BSides Amsterdam conference at KIT Amsterdam.
+    url: https://app.tixnu.com/events/bsides/amsterdam-2026
+    link_label: Get your tickets
+    homepage: true
+    published: true
+
+sponsors:
+  - title: Early-access sponsorship opens
+    short_name: Early-access sponsorship opens
+    date: 2026-04-13
+    sort_order: 20260413
+    notes: Early access is available for returning sponsors.
+    url: /sponsorship/
+    link_label: Become a sponsor
+    published: true
+
+  - title: Date announcement
+    short_name: Date announcement
+    date: 2026-04-15
+    sort_order: 20260415
+    notes: The conference date is announced. This is a target date.
+    published: true
+
+  - title: Sponsorship opens
+    short_name: Sponsorship opens
+    date: 2026-05-01
+    sort_order: 20260501
+    notes: The website is updated as new sponsors sign up.
+    url: /sponsorship/
+    link_label: Become a sponsor
+    published: true
+
+  - title: Sponsorship materials deadline
+    short_name: Sponsorship materials deadline
+    date: 2026-09-15
+    sort_order: 20260915
+    notes: Provide sponsorship materials, including your logo and company description.
+    published: true
+
+  - title: Complimentary ticket deadline
+    short_name: Complimentary ticket deadline
+    date: 2026-10-22
+    sort_order: 20261022
+    notes: Deadline to claim complimentary tickets.
+    published: true
+
+  - title: Media creation and printing deadline
+    short_name: Media creation and printing deadline
+    date: 2026-10-23
+    sort_order: 20261023
+    notes: Deadline for media creation and printing.
+    published: true
