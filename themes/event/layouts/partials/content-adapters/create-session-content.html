@@ -54,6 +54,14 @@
     {{ range $speakers }}
         {{/* Store profile pictures of speakers. */}}
         {{ $speaker := . }}
+        {{ $avatar := resources.Get "images/BAMS-Logo-Full-Dark-HQ-Compressed.png" }}
+        {{ with $avatar }}
+            {{ with . | images.Filter (images.Process "resize 256x q90 webp") }}
+                {{ $avatar = . }}
+            {{ end }}
+        {{ else }}
+            {{ errorf "Unable to get fallback speaker image" }}
+        {{ end }}
         {{ with $url := $speaker.profilePicture }}
             {{ with try (resources.GetRemote $url) }}
                 {{ with .Err }}
@@ -61,14 +69,7 @@
                 {{ else with .Value }}
                     {{ if reflect.IsImageResourceProcessable . }}
                         {{ with . | images.Filter (images.Process "q90 webp") }}
-                            {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
-                            {{ $params := dict "alt" $speaker.fullName }}
-                            {{ $resource := dict
-                                "content" $content
-                                "params" $params
-                                "path" (printf "avatar %s %s.%s" $sessionId $speaker.id .MediaType.SubType)
-                            }}
-                            {{ $resources = $resources | append $resource }}
+                            {{ $avatar = . }}
                         {{ end }}
                     {{ else }}
                         {{ warnf "Speaker profile picture is not a processable image for %s: %s" $speaker.fullName $url }}
@@ -78,6 +79,14 @@
                 {{ end }}
             {{ end }}
         {{ end }}
+        {{ $content := dict "mediaType" $avatar.MediaType.Type "value" $avatar.Content }}
+        {{ $params := dict "alt" $speaker.fullName }}
+        {{ $resource := dict
+            "content" $content
+            "params" $params
+            "path" (printf "avatar %s %s.%s" $sessionId $speaker.id $avatar.MediaType.SubType)
+        }}
+        {{ $resources = $resources | append $resource }}
     {{ end }}
 {{ end }}
 

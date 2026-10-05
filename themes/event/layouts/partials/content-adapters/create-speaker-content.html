@@ -33,20 +33,39 @@
 
     {{/* Store the speaker's profile picture. */}}
     {{ $item := . }}
+    {{ $avatar := resources.Get "images/BAMS-Logo-Full-Dark-HQ-Compressed.png" }}
+    {{ with $avatar }}
+        {{ with . | images.Filter (images.Process "resize 256x q90 webp") }}
+            {{ $avatar = . }}
+        {{ end }}
+    {{ else }}
+        {{ errorf "Unable to get fallback speaker image" }}
+    {{ end }}
     {{ with $url := $item.profilePicture }}
-        {{ with resources.GetRemote $url  | images.Filter (images.Process "q90 webp") }}
-            {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
-            {{ $params := dict "alt" $item.fullName }}
-            {{ $resource := dict
-                "content" $content
-                "params" $params
-                "path" (printf "%s/avatar.%s" $path .MediaType.SubType)
-            }}
-            {{ $resources = $resources | append $resource }}
-        {{ else }}
-            {{ errorf "Unable to get remote resource %s" $url }}
+        {{ with try (resources.GetRemote $url) }}
+            {{ with .Err }}
+                {{ warnf "Unable to get profile picture for %s (%s): %s" $item.fullName $url . }}
+            {{ else with .Value }}
+                {{ if reflect.IsImageResourceProcessable . }}
+                    {{ with . | images.Filter (images.Process "q90 webp") }}
+                        {{ $avatar = . }}
+                    {{ end }}
+                {{ else }}
+                    {{ warnf "Speaker profile picture is not a processable image for %s: %s" $item.fullName $url }}
+                {{ end }}
+            {{ else }}
+                {{ warnf "Unable to get profile picture for %s (%s)" $item.fullName $url }}
+            {{ end }}
         {{ end }}
     {{ end }}
+    {{ $content := dict "mediaType" $avatar.MediaType.Type "value" $avatar.Content }}
+    {{ $params := dict "alt" $item.fullName }}
+    {{ $resource := dict
+        "content" $content
+        "params" $params
+        "path" (printf "%s/avatar.%s" $path $avatar.MediaType.SubType)
+    }}
+    {{ $resources = $resources | append $resource }}
 {{ end }}
 
 {{ return dict "pages" $pages "resources" $resources }}
