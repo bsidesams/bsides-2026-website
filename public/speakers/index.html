@@ -10,23 +10,23 @@
         </title>
 
         <meta name="description" content="Security BSides is a community-driven framework for building events, by and for, information security community members. These events are already happening in major cities all over the world! We are responsible for organizing an independent BSides-Approved event in Amsterdam.
-Our goal is to bring together at least 200 people from the InfoSec community." />
+Our goal is to bring together at 450 people from the InfoSec community this year. Back, and planning to be bigger than ever!" />
 
         
 
         <meta property="og:url" content="http://localhost:1313/speakers/">
-  <meta property="og:site_name" content="BSides Amsterdam">
-  <meta property="og:title" content="Speakers">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+	<meta property="og:site_name" content="BSides Amsterdam">
+	<meta property="og:title" content="Speakers">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="website">
 
         
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Speakers">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Speakers">
 
 
         
-            <link rel="stylesheet" href="/styles.min.17fc6ebb4dda1c46a25e6276e61800ecbb767b443331f080fc0befd9a6860300.css" type="text/css" media="screen" integrity="sha256-F/xuu03aHEaiXmJ25hgA7Lt2e0QzMfCA/Avv2aaGAwA=" />
+            <link rel="stylesheet" href="/styles.min.8f0a79b933f7b85d8b9fb79725edb23192e77d243bd8fd2c30ff4cba9407f173.css" type="text/css" media="screen" integrity="sha256-jwp5uTP3uF2Ln7eXJe2yMZLnfSQ72P0sMP9MupQH8XM=" />
         
 
     <style>
@@ -44,7 +44,11 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </head>
 
     <body class="page-body">
-        <input type="checkbox" class="sidebar-toggle" id="sidebarToggle" />
+        <input type="checkbox" class="sidebar-toggle" id="sidebarToggle" /><div class="cta-banner" aria-hidden="true">
+    <span>Ticket sales have started, grab your ticket while they last!</span>
+</div>
+
+        
 
 
         <header class="section-container page-header" id="pageHeader">
@@ -60,7 +64,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
                     </label>
                     <a class="page-header__title-link" href="/">
-                        BSides Amsterdam
+                        BAMS
                     </a>
 
                     <div class="page-header__menu-container">
@@ -76,34 +80,122 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
         <a
                 class="header-menu__link"
             href="/">
-            BSides Amsterdam
+            BAMS
         </a>
     </li>
-        <li>
-            <a
-                href="/youtube/"
-                    class="header-menu__link">YouTube
-            </a>
-        </li>
-        <li>
-            <a
-                href="/sponsors/"
-                    class="header-menu__link">Sponsors & Partners
-            </a>
-        </li>
-        <li>
-            <a
-                href="/about/"
-                    class="header-menu__link">About Us
-            </a>
-        </li>
-        <li>
-            <a
-                href="/previous/"
-                    class="header-menu__link">2025 Website
-            </a>
-        </li>
+            <li class="header-menu__item header-menu__item--has-children">
+                <button
+                    type="button"
+                    class="header-menu__link header-menu__dropdown-toggle"
+                    aria-haspopup="true"
+                    aria-expanded="false">Activities & Schedule
+                    <span class="header-menu__caret" aria-hidden="true">▾</span>
+                </button>
+                <ul class="header-menu__submenu" role="menu">
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/references/"
+                                    class="header-menu__sublink">Overview
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/speakers/"
+                                    class="header-menu__sublink header-menu__sublink--active" aria-current="page">Speakers
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/sessions/"
+                                    class="header-menu__sublink">Schedule
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/ctf/"
+                                    class="header-menu__sublink">Capture the Flag
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/party/"
+                                    class="header-menu__sublink">Party (Nov 18)
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li>
+                <a
+                    href="/location/"
+                        class="header-menu__link">Location
+                </a>
+            </li>
+            <li>
+                <a
+                    href="/sponsors/"
+                        class="header-menu__link">Sponsors & Partners
+                </a>
+            </li>
+            <li class="header-menu__item header-menu__item--has-children">
+                <button
+                    type="button"
+                    class="header-menu__link header-menu__dropdown-toggle"
+                    aria-haspopup="true"
+                    aria-expanded="false">Media
+                    <span class="header-menu__caret" aria-hidden="true">▾</span>
+                </button>
+                <ul class="header-menu__submenu" role="menu">
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/youtube/"
+                                    class="header-menu__sublink">YouTube
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/previous/"
+                                    class="header-menu__sublink">2025 Website
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li>
+                <a
+                    href="/about/"
+                        class="header-menu__link">About Us
+                </a>
+            </li>
 </ul>
+
+<script>
+    
+    document.querySelectorAll('.header-menu__dropdown-toggle').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            var expanded = btn.getAttribute('aria-expanded') === 'true';
+            
+            document.querySelectorAll('.header-menu__dropdown-toggle[aria-expanded="true"]').forEach(function (other) {
+                if (other !== btn) other.setAttribute('aria-expanded', 'false');
+            });
+            btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        });
+    });
+    
+    document.addEventListener('click', function (e) {
+        if (!e.target.closest('.header-menu__item--has-children')) {
+            document.querySelectorAll('.header-menu__dropdown-toggle[aria-expanded="true"]').forEach(function (btn) {
+                btn.setAttribute('aria-expanded', 'false');
+            });
+        }
+    });
+</script>
 
                         </div>
                     </div>
@@ -111,8 +203,8 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
     
     
-    <a class="button button--outlined" href="https://www.bsidesams.org/sponsorship" rel="noopener noreferrer" rel="external" target="_blank">
-        Become a sponsor!
+    <a class="button button--outlined" href="https://app.tixnu.com/events/bsides/amsterdam-2026" rel="noopener noreferrer" rel="external" target="_blank">
+        Get Tickets
         <div class="button__icon">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" width="100%" height="100%">
     <path
@@ -143,7 +235,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
             <nav class="page-sidebar__navigation" aria-labelledby="main-navigation-label">
                 <header class="page-sidebar__header">
                     <a class="page-sidebar__heading-link" href="/">
-                        BSides Amsterdam
+                        BAMS
                     </a>
 
                     <label class="page-sidebar__close-label" for="sidebarToggle"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -157,8 +249,8 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
     
     
-    <a class="button button--outlined" href="https://www.bsidesams.org/sponsorship" rel="noopener noreferrer" rel="external" target="_blank">
-        Become a sponsor!
+    <a class="button button--outlined" href="https://app.tixnu.com/events/bsides/amsterdam-2026" rel="noopener noreferrer" rel="external" target="_blank">
+        Get Tickets
         <div class="button__icon">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" width="100%" height="100%">
     <path
@@ -184,34 +276,88 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 <ul class="sidebar-menu">
-        <li class="sidebar-menu__item">
-            <a
-                href="/youtube/"
-                    class="sidebar-menu__link"
-                aria-label="Schedule">YouTube
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/sponsors/"
-                    class="sidebar-menu__link"
-                aria-label="Sponsors &amp; Partners">Sponsors & Partners
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/about/"
-                    class="sidebar-menu__link"
-                aria-label="About Us">About Us
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/previous/"
-                    class="sidebar-menu__link"
-                aria-label="Previous">2025 Website
-            </a>
-        </li>
+            <li class="sidebar-menu__item sidebar-menu__item--group">
+                <span class="sidebar-menu__group-label" aria-hidden="true">Activities & Schedule
+                </span>
+                <ul class="sidebar-menu__submenu">
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/references/"
+                                    class="sidebar-menu__link"
+                                aria-label="References">Overview
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/speakers/"
+                                    class="sidebar-menu__link sidebar-menu__link--active" aria-current="page"
+                                aria-label="Speakers">Speakers
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/sessions/"
+                                    class="sidebar-menu__link"
+                                aria-label="Sessions">Schedule
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/ctf/"
+                                    class="sidebar-menu__link"
+                                aria-label="">Capture the Flag
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/party/"
+                                    class="sidebar-menu__link"
+                                aria-label="Party">Party (Nov 18)
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="sidebar-menu__item">
+                <a
+                    href="/location/"
+                        class="sidebar-menu__link"
+                    aria-label="Location">Location
+                </a>
+            </li>
+            <li class="sidebar-menu__item">
+                <a
+                    href="/sponsors/"
+                        class="sidebar-menu__link"
+                    aria-label="Sponsors &amp; Partners">Sponsors & Partners
+                </a>
+            </li>
+            <li class="sidebar-menu__item sidebar-menu__item--group">
+                <span class="sidebar-menu__group-label" aria-hidden="true">Media
+                </span>
+                <ul class="sidebar-menu__submenu">
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/youtube/"
+                                    class="sidebar-menu__link"
+                                aria-label="Schedule">YouTube
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/previous/"
+                                    class="sidebar-menu__link"
+                                aria-label="Previous">2025 Website
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="sidebar-menu__item">
+                <a
+                    href="/about/"
+                        class="sidebar-menu__link"
+                    aria-label="About Us">About Us
+                </a>
+            </li>
 </ul>
 
 
@@ -356,21 +502,46 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
             <menu class="speaker-list__menu">
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/rhesa-baar-8917a5da-312d-43a6-a30f-8b24d08ea169/" aria-label="Rhesa Baar">
+    <a class="speaker-card__link" href="/speakers/--tcccorp---1a36f7c8-3f9b-40c2-8619-04453a6fce3a/" aria-label="- Tcccorp -">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/rhesa-baar-8917a5da-312d-43a6-a30f-8b24d08ea169/avatar_hu_1a757a98e609ecf2.webp"
-                    alt="Rhesa Baar"
+                    src="/speakers/--tcccorp---1a36f7c8-3f9b-40c2-8619-04453a6fce3a/avatar_hu_1aa51d0bf2c572c0.webp"
+                    alt="- Tcccorp -"
                     width="256"
                     height="256" />
-        <h1 class="heading">Rhesa Baar</h1>
-        <p class="speaker-card__description">Cloud &amp; AI Infrastructure and Security Solution Engineer at Microsoft</p>
+        <h1 class="heading">- Tcccorp -</h1>
+        <p class="speaker-card__description">Hardware enthusiast turning ideas into real circuits</p>
+    </a>
+    <div class="speaker-card__social-links">
+        
+    </div>
+</div>
+
+                            </li>
+                    
+                
+                    
+                            <li class="speaker-list__item">
+
+
+<div class="speaker-card">
+    <a class="speaker-card__link" href="/speakers/k%C4%B1van%C3%A7-ayd%C4%B1n-9112c993-35e6-420c-9d11-9b45907a728d/" aria-label="Kıvanç Aydın">
+        
+            
+                <img
+                    class="speaker-card__avatar"
+                    src="/speakers/k%C4%B1van%C3%A7-ayd%C4%B1n-9112c993-35e6-420c-9d11-9b45907a728d/avatar_hu_84754ed5cc42b1d.webp"
+                    alt="Kıvanç Aydın"
+                    width="256"
+                    height="256" />
+        <h1 class="heading">Kıvanç Aydın</h1>
+        <p class="speaker-card__description">Platform Security @Adyen</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -378,12 +549,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-1" class="sr-only">Rhesa Baar social media links</label>
+<label id="social-links-list-label-1" class="sr-only">Kıvanç Aydın social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-1">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/rhesabaar/"
+                href="https://www.linkedin.com/in/kivanc-aydin/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -401,25 +572,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/marina-bochenkova-48615645-061c-4128-90e2-1987ceb235bc/" aria-label="Marina Bochenkova">
+    <a class="speaker-card__link" href="/speakers/zafer-balkan-6e35f54a-97fb-4b88-bf9c-8708cfe3eb1e/" aria-label="Zafer Balkan">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/marina-bochenkova-48615645-061c-4128-90e2-1987ceb235bc/avatar_hu_3c97c37140a87b1e.webp"
-                    alt="Marina Bochenkova"
+                    src="/speakers/zafer-balkan-6e35f54a-97fb-4b88-bf9c-8708cfe3eb1e/avatar_hu_f773de4f081fab51.webp"
+                    alt="Zafer Balkan"
                     width="256"
                     height="256" />
-        <h1 class="heading">Marina Bochenkova</h1>
-        <p class="speaker-card__description">Empress of Cybersecurity at Corbion Group BV</p>
+        <h1 class="heading">Zafer Balkan</h1>
+        <p class="speaker-card__description">Nets Estonia, Security and Compliance Manager</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -427,12 +598,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-2" class="sr-only">Marina Bochenkova social media links</label>
+<label id="social-links-list-label-2" class="sr-only">Zafer Balkan social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-2">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/marina-bochenkova-atrytone"
+                href="https://linkedin.com/in/zbalkan"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -450,25 +621,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/alexandra-charikova-e8f118f8-10a2-475f-aa17-9b30b68e632c/" aria-label="Alexandra Charikova">
+    <a class="speaker-card__link" href="/speakers/nancy-beers-1ea6c7c0-5dc4-46bd-b950-05ecb9f20495/" aria-label="Nancy Beers">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/alexandra-charikova-e8f118f8-10a2-475f-aa17-9b30b68e632c/avatar_hu_a26aab919a6b45bb.webp"
-                    alt="Alexandra Charikova"
+                    src="/speakers/nancy-beers-1ea6c7c0-5dc4-46bd-b950-05ecb9f20495/avatar_hu_d6cfbf9e95c0ab2d.webp"
+                    alt="Nancy Beers"
                     width="256"
                     height="256" />
-        <h1 class="heading">Alexandra Charikova</h1>
-        <p class="speaker-card__description">AppSec Community @ Escape &amp; Podcast Host at The Elephant in AppSec </p>
+        <h1 class="heading">Nancy Beers</h1>
+        <p class="speaker-card__description">Eindbaas Sanne Cyber/ Co-Chair IFCAT</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -476,12 +647,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-3" class="sr-only">Alexandra Charikova social media links</label>
+<label id="social-links-list-label-3" class="sr-only">Nancy Beers social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-3">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/alexandra-charikova/"
+                href="https://www.linkedin.com/in/nancybeers/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -499,25 +670,28 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                    
+                
+                    
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/lex-crielaars-f5760543-8307-4c9e-b997-47f6cd1132cc/" aria-label="Lex Crielaars">
+    <a class="speaker-card__link" href="/speakers/jalal-bouhdada-72bf7c9c-d37a-4a80-a8e4-b0a594a6fd7e/" aria-label="Jalal Bouhdada">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/lex-crielaars-f5760543-8307-4c9e-b997-47f6cd1132cc/avatar_hu_f6ecc16b103a5388.webp"
-                    alt="Lex Crielaars"
+                    src="/speakers/jalal-bouhdada-72bf7c9c-d37a-4a80-a8e4-b0a594a6fd7e/avatar_hu_f5ea7430aeec27fb.webp"
+                    alt="Jalal Bouhdada"
                     width="256"
                     height="256" />
-        <h1 class="heading">Lex Crielaars</h1>
-        <p class="speaker-card__description">Cybersecurity Specialist at mnemonic</p>
+        <h1 class="heading">Jalal Bouhdada</h1>
+        <p class="speaker-card__description">Founder, Indurex AI</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -525,12 +699,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-4" class="sr-only">Lex Crielaars social media links</label>
+<label id="social-links-list-label-4" class="sr-only">Jalal Bouhdada social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-4">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/lex-crielaars-03b8a129/"
+                href="https://linkedin.com/in/jalalbouhdada"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -548,25 +722,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/mickey-de-baets-3218d458-13fa-44ea-8e9b-cae0284ad723/" aria-label="Mickey De Baets">
+    <a class="speaker-card__link" href="/speakers/antoine-carossio-e09dad0e-8506-42a0-8d2c-71bbb79bd2da/" aria-label="Antoine Carossio">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/mickey-de-baets-3218d458-13fa-44ea-8e9b-cae0284ad723/avatar_hu_7c0a86c5d3f594d8.webp"
-                    alt="Mickey De Baets"
+                    src="/speakers/antoine-carossio-e09dad0e-8506-42a0-8d2c-71bbb79bd2da/avatar_hu_f1b8ea2993f84863.webp"
+                    alt="Antoine Carossio"
                     width="256"
                     height="256" />
-        <h1 class="heading">Mickey De Baets</h1>
-        <p class="speaker-card__description">Lead Offensive Security Engineer</p>
+        <h1 class="heading">Antoine Carossio</h1>
+        <p class="speaker-card__description">Co-founder and CTO of Escape</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -574,12 +748,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-5" class="sr-only">Mickey De Baets social media links</label>
+<label id="social-links-list-label-5" class="sr-only">Antoine Carossio social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-5">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/mickey-de-baets-4aa6b5186?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app"
+                href="https://www.linkedin.com/in/acarossio/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -594,7 +768,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     
         <li class="social-links__menu-item">
             <a
-                href="https://x.com/mickey_de_baets?s=21&amp;t=mrf8TPihZJS9yzhAV3ikng"
+                href="https://x.com/icarossio"
                 aria-label="X (Twitter)"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -612,50 +786,28 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                    
+                
+                    
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/" aria-label="Joey Dreijer">
+    <a class="speaker-card__link" href="/speakers/kieran-croucher-6cda0301-74d3-489b-b1cf-05e582b8d7ef/" aria-label="Kieran Croucher">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/avatar_hu_6020041411a88b8a.webp"
-                    alt="Joey Dreijer"
+                    src="/speakers/kieran-croucher-6cda0301-74d3-489b-b1cf-05e582b8d7ef/avatar_hu_b68ce9728d783d87.webp"
+                    alt="Kieran Croucher"
                     width="256"
                     height="256" />
-        <h1 class="heading">Joey Dreijer</h1>
-        <p class="speaker-card__description">Technical Architect at SpecterOps</p>
-    </a>
-    <div class="speaker-card__social-links">
-        
-    </div>
-</div>
-
-                        </li>
-                    
-                
-                    
-                        <li class="speaker-list__item">
-
-
-<div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/markus-einarsson-ae6a0c7a-dcf9-4860-be9a-53e3f46d2a01/" aria-label="Markus Einarsson">
-        
-            
-                <img
-                    class="speaker-card__avatar"
-                    src="/speakers/markus-einarsson-ae6a0c7a-dcf9-4860-be9a-53e3f46d2a01/avatar_hu_d023c5ef8b1ba63a.webp"
-                    alt="Markus Einarsson"
-                    width="256"
-                    height="256" />
-        <h1 class="heading">Markus Einarsson</h1>
-        <p class="speaker-card__description">Security Architect and Incident Response Lead, Sectra, Sweden</p>
+        <h1 class="heading">Kieran Croucher</h1>
+        <p class="speaker-card__description">Anam0x – Red Teamer at SpecterOps</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -663,12 +815,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-6" class="sr-only">Markus Einarsson social media links</label>
+<label id="social-links-list-label-6" class="sr-only">Kieran Croucher social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-6">
         <li class="social-links__menu-item">
             <a
-                href="https://linkedin.com/in/markuseinarsson/"
+                href="https://www.linkedin.com/in/croucherk/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -683,7 +835,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     
         <li class="social-links__menu-item">
             <a
-                href="https://x.com/einarssonm/"
+                href="https://x.com/Anam0x"
                 aria-label="X (Twitter)"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -701,25 +853,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/rutger-flohil-ae8297e1-6ff6-417b-9327-cb626492847b/" aria-label="Rutger Flohil">
+    <a class="speaker-card__link" href="/speakers/robin-de-vries-af13777a-301a-4767-bc12-d766ad70cd2d/" aria-label="Robin de Vries">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/rutger-flohil-ae8297e1-6ff6-417b-9327-cb626492847b/avatar_hu_cce29a78d51f315c.webp"
-                    alt="Rutger Flohil"
+                    src="/speakers/robin-de-vries-af13777a-301a-4767-bc12-d766ad70cd2d/avatar_hu_d630bc38d05fd3ff.webp"
+                    alt="Robin de Vries"
                     width="256"
                     height="256" />
-        <h1 class="heading">Rutger Flohil</h1>
-        <p class="speaker-card__description">Ethical hacker / Red teamer @ Nederlandse Spoorwegen</p>
+        <h1 class="heading">Robin de Vries</h1>
+        <p class="speaker-card__description">CEO at ThingsRecon - Supply Chain Intelligence</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -727,12 +879,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-7" class="sr-only">Rutger Flohil social media links</label>
+<label id="social-links-list-label-7" class="sr-only">Robin de Vries social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-7">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/rflohil/"
+                href="https://www.linkedin.com/in/robind2/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -750,25 +902,28 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                    
+                
+                    
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/kes-greuter-3a66f58f-6a1a-42fa-8025-5b600ab9aedd/" aria-label="Kes Greuter">
+    <a class="speaker-card__link" href="/speakers/toni-dujmovi%C4%87-acf1216c-804b-4c56-89e9-cfd19ef6655e/" aria-label="Toni Dujmović">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/kes-greuter-3a66f58f-6a1a-42fa-8025-5b600ab9aedd/avatar_hu_d9db9ec24476a7df.webp"
-                    alt="Kes Greuter"
+                    src="/speakers/toni-dujmovi%C4%87-acf1216c-804b-4c56-89e9-cfd19ef6655e/avatar_hu_cb954ff2145db326.webp"
+                    alt="Toni Dujmović"
                     width="256"
                     height="256" />
-        <h1 class="heading">Kes Greuter</h1>
-        <p class="speaker-card__description">Product Security Lead, Signify</p>
+        <h1 class="heading">Toni Dujmović</h1>
+        <p class="speaker-card__description">Threat Analyst at ReversingLabs</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -776,12 +931,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-8" class="sr-only">Kes Greuter social media links</label>
+<label id="social-links-list-label-8" class="sr-only">Toni Dujmović social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-8">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/kes-greuter-24b270156/"
+                href="https://hr.linkedin.com/in/toni-dujmovic"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -799,25 +954,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/fergus-hay-11f5e88c-7184-4368-9b0e-c0e2940b56d0/" aria-label="Fergus Hay">
+    <a class="speaker-card__link" href="/speakers/mehmet-ergene-11312fa2-3d24-4a2b-8f57-5cc1e0f1ec75/" aria-label="Mehmet Ergene">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/fergus-hay-11f5e88c-7184-4368-9b0e-c0e2940b56d0/avatar_hu_5f0f8207275337ba.webp"
-                    alt="Fergus Hay"
+                    src="/speakers/mehmet-ergene-11312fa2-3d24-4a2b-8f57-5cc1e0f1ec75/avatar_hu_7c34f1e6ea1acb0e.webp"
+                    alt="Mehmet Ergene"
                     width="256"
                     height="256" />
-        <h1 class="heading">Fergus Hay</h1>
-        <p class="speaker-card__description">CEO and Co-Founder, The Hacking Games</p>
+        <h1 class="heading">Mehmet Ergene</h1>
+        <p class="speaker-card__description">Founder and Threat Researcher, Blu Raven Academy</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -825,12 +980,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-9" class="sr-only">Fergus Hay social media links</label>
+<label id="social-links-list-label-9" class="sr-only">Mehmet Ergene social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-9">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/company/the-hacking-games/"
+                href="https://www.linkedin.com/in/mehmetergene/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -843,30 +998,45 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
             </a>
         </li>
     
+        <li class="social-links__menu-item">
+            <a
+                href="https://x.com/Cyb3rMonk"
+                aria-label="X (Twitter)"
+                target="_blank"
+                rel="noopener noreferrer external"
+                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
+        fill="currentColor" />
+</svg>
+
+            </a>
+        </li>
+    
 </ul>
 
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/noh%C3%A9-hinniger-foray-337e0789-6c10-4e16-90d9-88da35a79754/" aria-label="Nohé Hinniger-Foray">
+    <a class="speaker-card__link" href="/speakers/brigitte-heijkoop-169640e5-7dfb-47da-88ac-863f8863b703/" aria-label="Brigitte Heijkoop">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/noh%C3%A9-hinniger-foray-337e0789-6c10-4e16-90d9-88da35a79754/avatar_hu_7caf5f748ff01f21.webp"
-                    alt="Nohé Hinniger-Foray"
+                    src="/speakers/brigitte-heijkoop-169640e5-7dfb-47da-88ac-863f8863b703/avatar_hu_731097db27ebc8bc.webp"
+                    alt="Brigitte Heijkoop"
                     width="256"
                     height="256" />
-        <h1 class="heading">Nohé Hinniger-Foray</h1>
-        <p class="speaker-card__description">Full-Stack R&amp;D Engineer @ Escape</p>
+        <h1 class="heading">Brigitte Heijkoop</h1>
+        <p class="speaker-card__description">Security Specialist at the Dutch Ministry of Defence | Part-time HBO-ICT Student at Fontys University of Applied Sciences | Volunteer in WICCON’s social media and communications team</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -874,12 +1044,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-10" class="sr-only">Nohé Hinniger-Foray social media links</label>
+<label id="social-links-list-label-10" class="sr-only">Brigitte Heijkoop social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-10">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/nohehf/"
+                href="https://www.linkedin.com/in/brigitte-h/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -897,25 +1067,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/mayank-joshi-7666d65d-8020-481c-9629-7c04a06598b6/" aria-label="Mayank Joshi">
+    <a class="speaker-card__link" href="/speakers/ivan-iushkevich-8b85dc5e-264f-4f9f-b8a2-bc8afdc680d2/" aria-label="Ivan Iushkevich">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/mayank-joshi-7666d65d-8020-481c-9629-7c04a06598b6/avatar_hu_f3f367b46b860f1b.webp"
-                    alt="Mayank Joshi"
+                    src="/speakers/ivan-iushkevich-8b85dc5e-264f-4f9f-b8a2-bc8afdc680d2/avatar_hu_3d25d4fa7086cdb0.webp"
+                    alt="Ivan Iushkevich"
                     width="256"
                     height="256" />
-        <h1 class="heading">Mayank Joshi</h1>
-        <p class="speaker-card__description">Director of Security at NetApp </p>
+        <h1 class="heading">Ivan Iushkevich</h1>
+        <p class="speaker-card__description">Steph, Justeattakeaway.com</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -923,12 +1093,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-11" class="sr-only">Mayank Joshi social media links</label>
+<label id="social-links-list-label-11" class="sr-only">Ivan Iushkevich social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-11">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/mayankjoshi15/"
+                href="https://www.linkedin.com/in/ivan-iushkevich/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -941,30 +1111,95 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
             </a>
         </li>
     
+        <li class="social-links__menu-item">
+            <a
+                href="https://x.com/w34kp455"
+                aria-label="X (Twitter)"
+                target="_blank"
+                rel="noopener noreferrer external"
+                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
+        fill="currentColor" />
+</svg>
+
+            </a>
+        </li>
+    
 </ul>
 
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/lars-lefebvre-9b653c45-134a-4ed2-9ce8-bce4234ed43c/" aria-label="Lars Lefebvre">
+    <a class="speaker-card__link" href="/speakers/pascal-kahn-18a36427-2481-4bb0-a332-ff77ccf9b69e/" aria-label="Pascal Kahn">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/lars-lefebvre-9b653c45-134a-4ed2-9ce8-bce4234ed43c/avatar_hu_dd6d83f712e88d15.webp"
-                    alt="Lars Lefebvre"
+                    src="/speakers/pascal-kahn-18a36427-2481-4bb0-a332-ff77ccf9b69e/avatar_hu_533b28a4f7d7f570.webp"
+                    alt="Pascal Kahn"
                     width="256"
                     height="256" />
-        <h1 class="heading">Lars Lefebvre</h1>
-        <p class="speaker-card__description">Cloud Security Engineer @ ING</p>
+        <h1 class="heading">Pascal Kahn</h1>
+        <p class="speaker-card__description">-</p>
+    </a>
+    <div class="speaker-card__social-links">
+        
+    </div>
+</div>
+
+                            </li>
+                    
+                
+                    
+                            <li class="speaker-list__item">
+
+
+<div class="speaker-card">
+    <a class="speaker-card__link" href="/speakers/alan-lewis-8f34a362-fd6e-4450-aac8-be635c0e7186/" aria-label="Alan Lewis">
+        
+            
+                <img
+                    class="speaker-card__avatar"
+                    src="/speakers/alan-lewis-8f34a362-fd6e-4450-aac8-be635c0e7186/avatar_hu_dd3bd001ca618c63.webp"
+                    alt="Alan Lewis"
+                    width="256"
+                    height="256" />
+        <h1 class="heading">Alan Lewis</h1>
+        <p class="speaker-card__description">Unconventional Thinking for a Connected World</p>
+    </a>
+    <div class="speaker-card__social-links">
+        
+    </div>
+</div>
+
+                            </li>
+                    
+                
+                    
+                            <li class="speaker-list__item">
+
+
+<div class="speaker-card">
+    <a class="speaker-card__link" href="/speakers/domagoj-mari%C4%87-bbdfba43-ebac-45b7-b092-83682bf8c07e/" aria-label="Domagoj Marić">
+        
+            
+                <img
+                    class="speaker-card__avatar"
+                    src="/speakers/domagoj-mari%C4%87-bbdfba43-ebac-45b7-b092-83682bf8c07e/avatar_hu_25cd95906f272a0d.webp"
+                    alt="Domagoj Marić"
+                    width="256"
+                    height="256" />
+        <h1 class="heading">Domagoj Marić</h1>
+        <p class="speaker-card__description">AI Customer Delivery Manager @ Pontis Technology</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -972,12 +1207,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-12" class="sr-only">Lars Lefebvre social media links</label>
+<label id="social-links-list-label-12" class="sr-only">Domagoj Marić social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-12">
         <li class="social-links__menu-item">
             <a
-                href="https://linkedin.com/in/lars-lefebvre-36249690"
+                href="https://www.linkedin.com/in/domagoj-maric/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -995,25 +1230,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/" aria-label="Paul Moreno">
+    <a class="speaker-card__link" href="/speakers/xavier-mertens-7bb45c6b-337d-4c50-8bb2-9a29db68cc0b/" aria-label="Xavier Mertens">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/avatar_hu_85584c94439448a4.webp"
-                    alt="Paul Moreno"
+                    src="/speakers/xavier-mertens-7bb45c6b-337d-4c50-8bb2-9a29db68cc0b/avatar_hu_9555251059f534e3.webp"
+                    alt="Xavier Mertens"
                     width="256"
                     height="256" />
-        <h1 class="heading">Paul Moreno</h1>
-        <p class="speaker-card__description">vCISO on Demand</p>
+        <h1 class="heading">Xavier Mertens</h1>
+        <p class="speaker-card__description">Malware Enthusiast</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1021,12 +1256,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-13" class="sr-only">Paul Moreno social media links</label>
+<label id="social-links-list-label-13" class="sr-only">Xavier Mertens social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-13">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/unic0rn/"
+                href="https://linkedin.com/in/xme"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1039,30 +1274,45 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
             </a>
         </li>
     
+        <li class="social-links__menu-item">
+            <a
+                href="https://twitter.com/xme"
+                aria-label="X (Twitter)"
+                target="_blank"
+                rel="noopener noreferrer external"
+                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
+        fill="currentColor" />
+</svg>
+
+            </a>
+        </li>
+    
 </ul>
 
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/arohi-naik-307d5862-f507-4e38-b551-def81d008a0e/" aria-label="Arohi Naik">
+    <a class="speaker-card__link" href="/speakers/kaja-m%C3%B6ller-42c65f9c-f22b-4e4b-b26a-30102dc663a4/" aria-label="Kaja Möller">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/arohi-naik-307d5862-f507-4e38-b551-def81d008a0e/avatar_hu_33a5fb3039c3cea2.webp"
-                    alt="Arohi Naik"
+                    src="/speakers/kaja-m%C3%B6ller-42c65f9c-f22b-4e4b-b26a-30102dc663a4/avatar_hu_c1b7ebca6af6f33f.webp"
+                    alt="Kaja Möller"
                     width="256"
                     height="256" />
-        <h1 class="heading">Arohi Naik</h1>
-        <p class="speaker-card__description">Security Engineer, SQR</p>
+        <h1 class="heading">Kaja Möller</h1>
+        <p class="speaker-card__description">Founder CyberMaster</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1070,12 +1320,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-14" class="sr-only">Arohi Naik social media links</label>
+<label id="social-links-list-label-14" class="sr-only">Kaja Möller social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-14">
         <li class="social-links__menu-item">
             <a
-                href="http://www.linkedin.com/in/arohi-naik"
+                href="https://www.linkedin.com/in/kaja-m%c3%b6ller"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1093,60 +1343,17 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
-
-
-<div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/roald-nefs-180bd1d9-532a-4957-9b6e-d373f22d650f/" aria-label="Roald Nefs">
-        
-            
-                <img
-                    class="speaker-card__avatar"
-                    src="/speakers/roald-nefs-180bd1d9-532a-4957-9b6e-d373f22d650f/avatar_hu_dd2a8029dc00e18c.webp"
-                    alt="Roald Nefs"
-                    width="256"
-                    height="256" />
-        <h1 class="heading">Roald Nefs</h1>
-        <p class="speaker-card__description">Chief Technology Officer at Warpnet</p>
-    </a>
-    <div class="speaker-card__social-links">
-        
-
-
-
-
-<label id="social-links-list-label-15" class="sr-only">Roald Nefs social media links</label>
-
-<ul class="social-links" aria-labelledby="social-links-list-label-15">
-        <li class="social-links__menu-item">
-            <a
-                href="https://www.linkedin.com/in/roaldnefs/"
-                aria-label="LinkedIn"
-                target="_blank"
-                rel="noopener noreferrer external"
-                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="5 5 30 30" xmlns="http://www.w3.org/2000/svg">
-    <path
-        fill="currentColor"
-        d="M10.9886 8.41679C10.9882 9.25664 10.6542 10.0619 10.06 10.6555C9.46583 11.2491 8.66021 11.5823 7.82036 11.5819C6.9805 11.5814 6.17522 11.2474 5.58165 10.6533C4.98808 10.0591 4.65485 9.25347 4.65527 8.41362C4.65569 7.57377 4.98973 6.76848 5.58389 6.17491C6.17805 5.58134 6.98367 5.24812 7.82352 5.24854C8.66338 5.24896 9.46866 5.58299 10.0622 6.17715C10.6558 6.77131 10.989 7.57693 10.9886 8.41679ZM11.0836 13.9268H4.75027V33.7501H11.0836V13.9268ZM21.0903 13.9268H14.7886V33.7501H21.0269V23.3476C21.0269 17.5526 28.5794 17.0143 28.5794 23.3476V33.7501H34.8336V21.1943C34.8336 11.4251 23.6553 11.7893 21.0269 16.5868L21.0903 13.9268Z" />
-</svg>
-
-            </a>
-        </li>
-    
-</ul>
-
-    </div>
-</div>
-
-                        </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                    
+                
+                    
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
@@ -1155,7 +1362,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/marvin-ngoma-81456d3b-b74f-4d70-b10f-259f04b1c40a/avatar_hu_74c9fc17fde24736.webp"
+                    src="/speakers/marvin-ngoma-81456d3b-b74f-4d70-b10f-259f04b1c40a/avatar_hu_6051efd112321623.webp"
                     alt="Marvin Ngoma"
                     width="256"
                     height="256" />
@@ -1168,9 +1375,9 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-16" class="sr-only">Marvin Ngoma social media links</label>
+<label id="social-links-list-label-15" class="sr-only">Marvin Ngoma social media links</label>
 
-<ul class="social-links" aria-labelledby="social-links-list-label-16">
+<ul class="social-links" aria-labelledby="social-links-list-label-15">
         <li class="social-links__menu-item">
             <a
                 href="https://www.linkedin.com/in/tyolani/"
@@ -1191,25 +1398,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/leandro-quibem-magnabosco-170193a3-9546-4748-94de-755100396350/" aria-label="Leandro Quibem Magnabosco">
+    <a class="speaker-card__link" href="/speakers/filipi-pires-e0ec5130-2811-4426-833e-17a29010269b/" aria-label="Filipi Pires">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/leandro-quibem-magnabosco-170193a3-9546-4748-94de-755100396350/avatar_hu_3514280372a409ca.webp"
-                    alt="Leandro Quibem Magnabosco"
+                    src="/speakers/filipi-pires-e0ec5130-2811-4426-833e-17a29010269b/avatar_hu_9c3b8aa7c316b073.webp"
+                    alt="Filipi Pires"
                     width="256"
                     height="256" />
-        <h1 class="heading">Leandro Quibem Magnabosco</h1>
-        <p class="speaker-card__description">Security Lead, Albert Heijn</p>
+        <h1 class="heading">Filipi Pires</h1>
+        <p class="speaker-card__description">Head of Technical Advocacy</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1217,12 +1424,101 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-17" class="sr-only">Leandro Quibem Magnabosco social media links</label>
+<label id="social-links-list-label-16" class="sr-only">Filipi Pires social media links</label>
+
+<ul class="social-links" aria-labelledby="social-links-list-label-16">
+        <li class="social-links__menu-item">
+            <a
+                href="https://www.linkedin.com/in/filipipires/"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer external"
+                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="5 5 30 30" xmlns="http://www.w3.org/2000/svg">
+    <path
+        fill="currentColor"
+        d="M10.9886 8.41679C10.9882 9.25664 10.6542 10.0619 10.06 10.6555C9.46583 11.2491 8.66021 11.5823 7.82036 11.5819C6.9805 11.5814 6.17522 11.2474 5.58165 10.6533C4.98808 10.0591 4.65485 9.25347 4.65527 8.41362C4.65569 7.57377 4.98973 6.76848 5.58389 6.17491C6.17805 5.58134 6.98367 5.24812 7.82352 5.24854C8.66338 5.24896 9.46866 5.58299 10.0622 6.17715C10.6558 6.77131 10.989 7.57693 10.9886 8.41679ZM11.0836 13.9268H4.75027V33.7501H11.0836V13.9268ZM21.0903 13.9268H14.7886V33.7501H21.0269V23.3476C21.0269 17.5526 28.5794 17.0143 28.5794 23.3476V33.7501H34.8336V21.1943C34.8336 11.4251 23.6553 11.7893 21.0269 16.5868L21.0903 13.9268Z" />
+</svg>
+
+            </a>
+        </li>
+    
+        <li class="social-links__menu-item">
+            <a
+                href="https://twitter.com/FilipiPires"
+                aria-label="X (Twitter)"
+                target="_blank"
+                rel="noopener noreferrer external"
+                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
+        fill="currentColor" />
+</svg>
+
+            </a>
+        </li>
+    
+</ul>
+
+    </div>
+</div>
+
+                            </li>
+                    
+                
+                    
+                            <li class="speaker-list__item">
+
+
+<div class="speaker-card">
+    <a class="speaker-card__link" href="/speakers/nicholas-pockl-deen-6e7376d5-b155-4d05-b100-5d2bc548313b/" aria-label="Nicholas Pockl-Deen">
+        
+            
+                <img
+                    class="speaker-card__avatar"
+                    src="/speakers/nicholas-pockl-deen-6e7376d5-b155-4d05-b100-5d2bc548313b/avatar_hu_f25cbe6eb6dc018a.webp"
+                    alt="Nicholas Pockl-Deen"
+                    width="256"
+                    height="256" />
+        <h1 class="heading">Nicholas Pockl-Deen</h1>
+        <p class="speaker-card__description">Principal, Cyber Incident Response, Unit 42</p>
+    </a>
+    <div class="speaker-card__social-links">
+        
+    </div>
+</div>
+
+                            </li>
+                    
+                
+                    
+                            <li class="speaker-list__item">
+
+
+<div class="speaker-card">
+    <a class="speaker-card__link" href="/speakers/randy-snellenburg-2ff40373-ec92-4101-9a6b-6384368fb7ad/" aria-label="Randy Snellenburg">
+        
+            
+                <img
+                    class="speaker-card__avatar"
+                    src="/speakers/randy-snellenburg-2ff40373-ec92-4101-9a6b-6384368fb7ad/avatar_hu_ccf213db2782a49c.webp"
+                    alt="Randy Snellenburg"
+                    width="256"
+                    height="256" />
+        <h1 class="heading">Randy Snellenburg</h1>
+        <p class="speaker-card__description">Trust but verify</p>
+    </a>
+    <div class="speaker-card__social-links">
+        
+
+
+
+
+<label id="social-links-list-label-17" class="sr-only">Randy Snellenburg social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-17">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/leandromagnabosco/"
+                href="https://www.linkedin.com/in/randy-snellenburg"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1240,25 +1536,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/jiggyasu-sharma-afb90e22-1886-4bc7-840a-d1050a7db842/" aria-label="Jiggyasu Sharma">
+    <a class="speaker-card__link" href="/speakers/martin-sohn-christensen-d1efda77-9ef9-4268-8b7a-5aaf5fbf602d/" aria-label="Martin Sohn Christensen">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/jiggyasu-sharma-afb90e22-1886-4bc7-840a-d1050a7db842/avatar_hu_88c2603077453d2e.webp"
-                    alt="Jiggyasu Sharma"
+                    src="/speakers/martin-sohn-christensen-d1efda77-9ef9-4268-8b7a-5aaf5fbf602d/avatar_hu_8f4bd2cbccef14c6.webp"
+                    alt="Martin Sohn Christensen"
                     width="256"
                     height="256" />
-        <h1 class="heading">Jiggyasu Sharma</h1>
-        <p class="speaker-card__description">Information Security Evangelist</p>
+        <h1 class="heading">Martin Sohn Christensen</h1>
+        <p class="speaker-card__description">Security Researcher @ SpecterOps</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1266,12 +1562,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-18" class="sr-only">Jiggyasu Sharma social media links</label>
+<label id="social-links-list-label-18" class="sr-only">Martin Sohn Christensen social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-18">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/jiggyasu"
+                href="https://linkedin.com/in/martinsohn"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1286,7 +1582,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     
         <li class="social-links__menu-item">
             <a
-                href="https://x.com/jiggyasu_sharma"
+                href="https://twitter.com/martinsohndk"
                 aria-label="X (Twitter)"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1304,25 +1600,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/korstiaan-stam-dae3b7a3-806e-405b-8f26-2e8885f4592e/" aria-label="Korstiaan Stam">
+    <a class="speaker-card__link" href="/speakers/yacine-souam-61ab3d70-5995-4207-a7bf-5303e1b66bcb/" aria-label="Yacine Souam">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/korstiaan-stam-dae3b7a3-806e-405b-8f26-2e8885f4592e/avatar_hu_b3210c65050415cb.webp"
-                    alt="Korstiaan Stam"
+                    src="/speakers/yacine-souam-61ab3d70-5995-4207-a7bf-5303e1b66bcb/avatar_hu_1e7a82ee56aa35fe.webp"
+                    alt="Yacine Souam"
                     width="256"
                     height="256" />
-        <h1 class="heading">Korstiaan Stam</h1>
-        <p class="speaker-card__description">Founder &amp; CEO at Invictus Incident Response</p>
+        <h1 class="heading">Yacine Souam</h1>
+        <p class="speaker-card__description">R&amp;D Engineer - Escape</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1330,12 +1626,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-19" class="sr-only">Korstiaan Stam social media links</label>
+<label id="social-links-list-label-19" class="sr-only">Yacine Souam social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-19">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/korstiaanstam/"
+                href="https://www.linkedin.com/in/yacine-souam/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1353,25 +1649,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/vangelis-stykas-a5950a64-a289-47f4-88c6-fd75020fae38/" aria-label="Vangelis Stykas">
+    <a class="speaker-card__link" href="/speakers/john-strand-2566494e-a2df-4bf7-9db7-233cb372831e/" aria-label="John Strand">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/vangelis-stykas-a5950a64-a289-47f4-88c6-fd75020fae38/avatar_hu_646460fcfc06fef1.webp"
-                    alt="Vangelis Stykas"
+                    src="/speakers/john-strand-2566494e-a2df-4bf7-9db7-233cb372831e/avatar_hu_62fbbb4771fc1749.webp"
+                    alt="John Strand"
                     width="256"
                     height="256" />
-        <h1 class="heading">Vangelis Stykas</h1>
-        <p class="speaker-card__description">CTO</p>
+        <h1 class="heading">John Strand</h1>
+        <p class="speaker-card__description">Managing Intern BHIS</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1379,12 +1675,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-20" class="sr-only">Vangelis Stykas social media links</label>
+<label id="social-links-list-label-20" class="sr-only">John Strand social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-20">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/vangelis-stykas/"
+                href="https://www.linkedin.com/in/john-strand-a1b4b62/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1399,7 +1695,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     
         <li class="social-links__menu-item">
             <a
-                href="https://www.twitter.com/evstykas"
+                href="https://x.com/strandjs"
                 aria-label="X (Twitter)"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1417,25 +1713,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/hugo-van-den-toorn-598f92b5-24e8-45a7-9e59-35883259aaa2/" aria-label="Hugo van den Toorn">
+    <a class="speaker-card__link" href="/speakers/tom-sturme-49f759f6-164d-4d03-9279-f66d00c08f2d/" aria-label="Tom Sturme">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/hugo-van-den-toorn-598f92b5-24e8-45a7-9e59-35883259aaa2/avatar_hu_fd37a65c40d131ff.webp"
-                    alt="Hugo van den Toorn"
+                    src="/speakers/tom-sturme-49f759f6-164d-4d03-9279-f66d00c08f2d/avatar_hu_9a4aba5f60e93eb0.webp"
+                    alt="Tom Sturme"
                     width="256"
                     height="256" />
-        <h1 class="heading">Hugo van den Toorn</h1>
-        <p class="speaker-card__description">Managing Director at SpecterOps</p>
+        <h1 class="heading">Tom Sturme</h1>
+        <p class="speaker-card__description">Co-founder @ Nerium</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1443,12 +1739,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-21" class="sr-only">Hugo van den Toorn social media links</label>
+<label id="social-links-list-label-21" class="sr-only">Tom Sturme social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-21">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/hugovdt/"
+                href="https://www.linkedin.com/in/tomsturme/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1466,25 +1762,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/remco-van-der-meer-33c51be0-8aec-4c14-9ad5-02ba4a902b40/" aria-label="Remco van der Meer">
+    <a class="speaker-card__link" href="/speakers/johan-sydseter-900c2489-01d9-412e-aa78-a4df14b461ae/" aria-label="Johan Sydseter">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/remco-van-der-meer-33c51be0-8aec-4c14-9ad5-02ba4a902b40/avatar_hu_8274e39074ee42cf.webp"
-                    alt="Remco van der Meer"
+                    src="/speakers/johan-sydseter-900c2489-01d9-412e-aa78-a4df14b461ae/avatar_hu_d8647cbb81971e51.webp"
+                    alt="Johan Sydseter"
                     width="256"
                     height="256" />
-        <h1 class="heading">Remco van der Meer</h1>
-        <p class="speaker-card__description">Ethical hacker, security researcher</p>
+        <h1 class="heading">Johan Sydseter</h1>
+        <p class="speaker-card__description">Johan (Uncle Joe) Sydseter - The guy with the long hair, not the beard</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1492,12 +1788,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-22" class="sr-only">Remco van der Meer social media links</label>
+<label id="social-links-list-label-22" class="sr-only">Johan Sydseter social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-22">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/remco-vandermeer/"
+                href="https://www.linkedin.com/in/sydseter/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1515,25 +1811,25 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/bob-van-der-staak-7c348910-e086-4ec4-b6e4-be9e54ec35de/" aria-label="Bob van der Staak">
+    <a class="speaker-card__link" href="/speakers/mine-tem%C3%BCrhan-eb3cb4a4-5407-4267-93bf-c2369a761fb5/" aria-label="Mine Temürhan">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/bob-van-der-staak-7c348910-e086-4ec4-b6e4-be9e54ec35de/avatar_hu_b2c305e80210237d.webp"
-                    alt="Bob van der Staak"
+                    src="/speakers/mine-tem%C3%BCrhan-eb3cb4a4-5407-4267-93bf-c2369a761fb5/avatar_hu_8d66cc648b896282.webp"
+                    alt="Mine Temürhan"
                     width="256"
                     height="256" />
-        <h1 class="heading">Bob van der Staak</h1>
-        <p class="speaker-card__description">Nederlandse Spoorwegen</p>
+        <h1 class="heading">Mine Temürhan</h1>
+        <p class="speaker-card__description">Cybersecurity specialist | Cryptography, PQC &amp; digital resilience in government</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1541,12 +1837,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-23" class="sr-only">Bob van der Staak social media links</label>
+<label id="social-links-list-label-23" class="sr-only">Mine Temürhan social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-23">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/bobvanderstaak/"
+                href="https://www.linkedin.com/in/minetemurhan/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1559,45 +1855,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
             </a>
         </li>
     
-        <li class="social-links__menu-item">
-            <a
-                href="https://x.com/ignifexlabs"
-                aria-label="X (Twitter)"
-                target="_blank"
-                rel="noopener noreferrer external"
-                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
-        fill="currentColor" />
-</svg>
-
-            </a>
-        </li>
-    
 </ul>
 
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/rob-van-der-veer-392a8144-9b27-469f-98dd-9ae07eb41866/" aria-label="Rob van der Veer">
+    <a class="speaker-card__link" href="/speakers/kerry-tomlinson-6e2b04cb-e09c-416d-9a4d-c34b98f8cf16/" aria-label="Kerry Tomlinson">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/rob-van-der-veer-392a8144-9b27-469f-98dd-9ae07eb41866/avatar_hu_92458aad676e3bb3.webp"
-                    alt="Rob van der Veer"
+                    src="/speakers/kerry-tomlinson-6e2b04cb-e09c-416d-9a4d-c34b98f8cf16/avatar_hu_89c7e30a15721d44.webp"
+                    alt="Kerry Tomlinson"
                     width="256"
                     height="256" />
-        <h1 class="heading">Rob van der Veer</h1>
-        <p class="speaker-card__description">AI security leader</p>
+        <h1 class="heading">Kerry Tomlinson</h1>
+        <p class="speaker-card__description">Emmy Award-winning news reporter focusing on cyber</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1605,12 +1886,61 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-24" class="sr-only">Rob van der Veer social media links</label>
+<label id="social-links-list-label-24" class="sr-only">Kerry Tomlinson social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-24">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/robvanderveer/"
+                href="https://www.linkedin.com/in/kerry-tomlinson-6131b8110/"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer external"
+                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="5 5 30 30" xmlns="http://www.w3.org/2000/svg">
+    <path
+        fill="currentColor"
+        d="M10.9886 8.41679C10.9882 9.25664 10.6542 10.0619 10.06 10.6555C9.46583 11.2491 8.66021 11.5823 7.82036 11.5819C6.9805 11.5814 6.17522 11.2474 5.58165 10.6533C4.98808 10.0591 4.65485 9.25347 4.65527 8.41362C4.65569 7.57377 4.98973 6.76848 5.58389 6.17491C6.17805 5.58134 6.98367 5.24812 7.82352 5.24854C8.66338 5.24896 9.46866 5.58299 10.0622 6.17715C10.6558 6.77131 10.989 7.57693 10.9886 8.41679ZM11.0836 13.9268H4.75027V33.7501H11.0836V13.9268ZM21.0903 13.9268H14.7886V33.7501H21.0269V23.3476C21.0269 17.5526 28.5794 17.0143 28.5794 23.3476V33.7501H34.8336V21.1943C34.8336 11.4251 23.6553 11.7893 21.0269 16.5868L21.0903 13.9268Z" />
+</svg>
+
+            </a>
+        </li>
+    
+</ul>
+
+    </div>
+</div>
+
+                            </li>
+                    
+                
+                    
+                            <li class="speaker-list__item">
+
+
+<div class="speaker-card">
+    <a class="speaker-card__link" href="/speakers/leo-tsaousis-c7530b04-00a2-44dc-8e39-8beeb0897943/" aria-label="Leo Tsaousis">
+        
+            
+                <img
+                    class="speaker-card__avatar"
+                    src="/speakers/leo-tsaousis-c7530b04-00a2-44dc-8e39-8beeb0897943/avatar_hu_f88717367ed32338.webp"
+                    alt="Leo Tsaousis"
+                    width="256"
+                    height="256" />
+        <h1 class="heading">Leo Tsaousis</h1>
+        <p class="speaker-card__description">Senior Security Consultant</p>
+    </a>
+    <div class="speaker-card__social-links">
+        
+
+
+
+
+<label id="social-links-list-label-25" class="sr-only">Leo Tsaousis social media links</label>
+
+<ul class="social-links" aria-labelledby="social-links-list-label-25">
+        <li class="social-links__menu-item">
+            <a
+                href="https://www.linkedin.com/in/leonidastsaousis"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1625,7 +1955,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     
         <li class="social-links__menu-item">
             <a
-                href="https://x.com/robvanderveer"
+                href="https://x.com/LAripping"
                 aria-label="X (Twitter)"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1643,25 +1973,28 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </div>
 </div>
 
-                        </li>
+                            </li>
                     
                 
                     
-                        <li class="speaker-list__item">
+                    
+                
+                    
+                            <li class="speaker-list__item">
 
 
 <div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/marty-wijnen-172316b7-845b-4168-b874-1c9d8c7974aa/" aria-label="Marty Wijnen">
+    <a class="speaker-card__link" href="/speakers/robbe-van-roey-27c505a2-ab1d-4b0b-ac5b-dc076bba1fa5/" aria-label="Robbe Van Roey">
         
             
                 <img
                     class="speaker-card__avatar"
-                    src="/speakers/marty-wijnen-172316b7-845b-4168-b874-1c9d8c7974aa/avatar_hu_7bb8394b0691877a.webp"
-                    alt="Marty Wijnen"
+                    src="/speakers/robbe-van-roey-27c505a2-ab1d-4b0b-ac5b-dc076bba1fa5/avatar_hu_366ee05c21e9c81c.webp"
+                    alt="Robbe Van Roey"
                     width="256"
                     height="256" />
-        <h1 class="heading">Marty Wijnen</h1>
-        <p class="speaker-card__description">Chief Information Security Officer, Mollie</p>
+        <h1 class="heading">Robbe Van Roey</h1>
+        <p class="speaker-card__description">Security researcher @ Aikido</p>
     </a>
     <div class="speaker-card__social-links">
         
@@ -1669,61 +2002,12 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-25" class="sr-only">Marty Wijnen social media links</label>
-
-<ul class="social-links" aria-labelledby="social-links-list-label-25">
-        <li class="social-links__menu-item">
-            <a
-                href="https://www.linkedin.com/in/marty-wijnen/"
-                aria-label="LinkedIn"
-                target="_blank"
-                rel="noopener noreferrer external"
-                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="5 5 30 30" xmlns="http://www.w3.org/2000/svg">
-    <path
-        fill="currentColor"
-        d="M10.9886 8.41679C10.9882 9.25664 10.6542 10.0619 10.06 10.6555C9.46583 11.2491 8.66021 11.5823 7.82036 11.5819C6.9805 11.5814 6.17522 11.2474 5.58165 10.6533C4.98808 10.0591 4.65485 9.25347 4.65527 8.41362C4.65569 7.57377 4.98973 6.76848 5.58389 6.17491C6.17805 5.58134 6.98367 5.24812 7.82352 5.24854C8.66338 5.24896 9.46866 5.58299 10.0622 6.17715C10.6558 6.77131 10.989 7.57693 10.9886 8.41679ZM11.0836 13.9268H4.75027V33.7501H11.0836V13.9268ZM21.0903 13.9268H14.7886V33.7501H21.0269V23.3476C21.0269 17.5526 28.5794 17.0143 28.5794 23.3476V33.7501H34.8336V21.1943C34.8336 11.4251 23.6553 11.7893 21.0269 16.5868L21.0903 13.9268Z" />
-</svg>
-
-            </a>
-        </li>
-    
-</ul>
-
-    </div>
-</div>
-
-                        </li>
-                    
-                
-                    
-                        <li class="speaker-list__item">
-
-
-<div class="speaker-card">
-    <a class="speaker-card__link" href="/speakers/marnie-wilking-0488ed0b-2ef5-481a-9481-57f736638cfe/" aria-label="Marnie Wilking">
-        
-            
-                <img
-                    class="speaker-card__avatar"
-                    src="/speakers/marnie-wilking-0488ed0b-2ef5-481a-9481-57f736638cfe/avatar_hu_4ef3d02df21f9835.webp"
-                    alt="Marnie Wilking"
-                    width="256"
-                    height="256" />
-        <h1 class="heading">Marnie Wilking</h1>
-        <p class="speaker-card__description">Chief Security Officer, Booking.com</p>
-    </a>
-    <div class="speaker-card__social-links">
-        
-
-
-
-
-<label id="social-links-list-label-26" class="sr-only">Marnie Wilking social media links</label>
+<label id="social-links-list-label-26" class="sr-only">Robbe Van Roey social media links</label>
 
 <ul class="social-links" aria-labelledby="social-links-list-label-26">
         <li class="social-links__menu-item">
             <a
-                href="https://www.linkedin.com/in/marnie-huss-wilking/"
+                href="https://www.linkedin.com/in/robbe-van-roey/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer external"
@@ -1736,12 +2020,91 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
             </a>
         </li>
     
+        <li class="social-links__menu-item">
+            <a
+                href="https://x.com/PinkDraconian"
+                aria-label="X (Twitter)"
+                target="_blank"
+                rel="noopener noreferrer external"
+                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
+        fill="currentColor" />
+</svg>
+
+            </a>
+        </li>
+    
 </ul>
 
     </div>
 </div>
 
-                        </li>
+                            </li>
+                    
+                
+                    
+                            <li class="speaker-list__item">
+
+
+<div class="speaker-card">
+    <a class="speaker-card__link" href="/speakers/jorian-woltjer-78d3f642-4ca9-4b01-8c8c-ce2aa8cef7ff/" aria-label="Jorian Woltjer">
+        
+            
+                <img
+                    class="speaker-card__avatar"
+                    src="/speakers/jorian-woltjer-78d3f642-4ca9-4b01-8c8c-ce2aa8cef7ff/avatar_hu_4c6a5225cf0b0111.webp"
+                    alt="Jorian Woltjer"
+                    width="256"
+                    height="256" />
+        <h1 class="heading">Jorian Woltjer</h1>
+        <p class="speaker-card__description">Researcher at Aikido Security, CTF-player and XSS-enjoyer</p>
+    </a>
+    <div class="speaker-card__social-links">
+        
+
+
+
+
+<label id="social-links-list-label-27" class="sr-only">Jorian Woltjer social media links</label>
+
+<ul class="social-links" aria-labelledby="social-links-list-label-27">
+        <li class="social-links__menu-item">
+            <a
+                href="https://www.linkedin.com/in/jorian-woltjer/"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer external"
+                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="5 5 30 30" xmlns="http://www.w3.org/2000/svg">
+    <path
+        fill="currentColor"
+        d="M10.9886 8.41679C10.9882 9.25664 10.6542 10.0619 10.06 10.6555C9.46583 11.2491 8.66021 11.5823 7.82036 11.5819C6.9805 11.5814 6.17522 11.2474 5.58165 10.6533C4.98808 10.0591 4.65485 9.25347 4.65527 8.41362C4.65569 7.57377 4.98973 6.76848 5.58389 6.17491C6.17805 5.58134 6.98367 5.24812 7.82352 5.24854C8.66338 5.24896 9.46866 5.58299 10.0622 6.17715C10.6558 6.77131 10.989 7.57693 10.9886 8.41679ZM11.0836 13.9268H4.75027V33.7501H11.0836V13.9268ZM21.0903 13.9268H14.7886V33.7501H21.0269V23.3476C21.0269 17.5526 28.5794 17.0143 28.5794 23.3476V33.7501H34.8336V21.1943C34.8336 11.4251 23.6553 11.7893 21.0269 16.5868L21.0903 13.9268Z" />
+</svg>
+
+            </a>
+        </li>
+    
+        <li class="social-links__menu-item">
+            <a
+                href="https://x.com/J0R1AN"
+                aria-label="X (Twitter)"
+                target="_blank"
+                rel="noopener noreferrer external"
+                class="social-links__link speaker-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
+        fill="currentColor" />
+</svg>
+
+            </a>
+        </li>
+    
+</ul>
+
+    </div>
+</div>
+
+                            </li>
                     
                 
             </menu>
@@ -1749,19 +2112,21 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </section>
 
 
+
 <div class="section-container section-container--highlighted">
     <section class="section section--long cta-section">
         <h1 class="cta-section__heading">Join us in Amsterdam!</h1>
 
-        <h2 class="cta-section__subheading">November 20, 2026</h2>
+        <h2 class="cta-section__subheading">November 19, 2026
+        </h2>
 
         <p class="cta-section__message">Hang out, learn something awesome and make new friends.</p>
 
 
     
     
-    <a class="button button--outlined" href="https://www.bsidesams.org/sponsorship" rel="noopener noreferrer" rel="external" target="_blank">
-        Become a sponsor!
+    <a class="button button--outlined" href="https://app.tixnu.com/events/bsides/amsterdam-2026" rel="noopener noreferrer" rel="external" target="_blank">
+        Get Tickets
         <div class="button__icon">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" width="100%" height="100%">
     <path
@@ -1821,12 +2186,58 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
         <li>
             <a
                 class="menu-item__link"
+                href="/speakers/"
+                aria-label="Speakers"
+                aria-describedby="secondary-menu-description-1">
+                <h1 class="heading heading--3 heading--embedded">Speakers</h1>
+                <div class="secondary-menu__description">
+                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-1">Meet our speakers who will will be speaking at BSides.
+Learn more about their backgrounds and what they will discuss.
+                    </p>
+                </div>
+                <div class="menu-item__icon"><svg width="34" height="16" viewBox="0 0 34 16" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M1 8.13208H33M33 8.13208L23.784 1M33 8.13208L23.784 15"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
+</div>
+            </a>
+        </li>
+        <li>
+            <a
+                class="menu-item__link"
+                href="/location/"
+                aria-label="Location"
+                aria-describedby="secondary-menu-description-2">
+                <h1 class="heading heading--3 heading--embedded">Location</h1>
+                <div class="secondary-menu__description">
+                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-2">Find out where the event will take place.
+This section provides details on the venue and directions.
+                    </p>
+                </div>
+                <div class="menu-item__icon"><svg width="34" height="16" viewBox="0 0 34 16" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M1 8.13208H33M33 8.13208L23.784 1M33 8.13208L23.784 15"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
+</div>
+            </a>
+        </li>
+        <li>
+            <a
+                class="menu-item__link"
                 href="/code-of-conduct/"
                 aria-label="Code of Conduct"
-                aria-describedby="secondary-menu-description-1">
+                aria-describedby="secondary-menu-description-3">
                 <h1 class="heading heading--3 heading--embedded">Code of Conduct</h1>
                 <div class="secondary-menu__description">
-                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-1">This outlines the expectations for participant behavior and event policies.
+                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-3">This outlines the expectations for participant behavior and event policies.
                     </p>
                 </div>
                 <div class="menu-item__icon"><svg width="34" height="16" viewBox="0 0 34 16" xmlns="http://www.w3.org/2000/svg">
@@ -1854,9 +2265,9 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 
-<label id="social-links-list-label-27" class="sr-only">Social media links</label>
+<label id="social-links-list-label-28" class="sr-only">Social media links</label>
 
-<ul class="social-links" aria-labelledby="social-links-list-label-27">
+<ul class="social-links" aria-labelledby="social-links-list-label-28">
         <li class="social-links__menu-item">
             <a
                 href="https://www.linkedin.com/company/bsides-amsterdam/"

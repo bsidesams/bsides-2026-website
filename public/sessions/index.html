@@ -10,23 +10,23 @@
         </title>
 
         <meta name="description" content="Security BSides is a community-driven framework for building events, by and for, information security community members. These events are already happening in major cities all over the world! We are responsible for organizing an independent BSides-Approved event in Amsterdam.
-Our goal is to bring together at least 200 people from the InfoSec community." />
+Our goal is to bring together at 450 people from the InfoSec community this year. Back, and planning to be bigger than ever!" />
 
         
 
         <meta property="og:url" content="http://localhost:1313/sessions/">
-  <meta property="og:site_name" content="BSides Amsterdam">
-  <meta property="og:title" content="Sessions">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+	<meta property="og:site_name" content="BSides Amsterdam">
+	<meta property="og:title" content="Sessions">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="website">
 
         
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Sessions">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Sessions">
 
 
         
-            <link rel="stylesheet" href="/styles.min.17fc6ebb4dda1c46a25e6276e61800ecbb767b443331f080fc0befd9a6860300.css" type="text/css" media="screen" integrity="sha256-F/xuu03aHEaiXmJ25hgA7Lt2e0QzMfCA/Avv2aaGAwA=" />
+            <link rel="stylesheet" href="/styles.min.8f0a79b933f7b85d8b9fb79725edb23192e77d243bd8fd2c30ff4cba9407f173.css" type="text/css" media="screen" integrity="sha256-jwp5uTP3uF2Ln7eXJe2yMZLnfSQ72P0sMP9MupQH8XM=" />
         
 
     <style>
@@ -44,7 +44,11 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </head>
 
     <body class="page-body">
-        <input type="checkbox" class="sidebar-toggle" id="sidebarToggle" />
+        <input type="checkbox" class="sidebar-toggle" id="sidebarToggle" /><div class="cta-banner" aria-hidden="true">
+    <span>Ticket sales have started, grab your ticket while they last!</span>
+</div>
+
+        
 
 
         <header class="section-container page-header" id="pageHeader">
@@ -60,7 +64,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
                     </label>
                     <a class="page-header__title-link" href="/">
-                        BSides Amsterdam
+                        BAMS
                     </a>
 
                     <div class="page-header__menu-container">
@@ -76,34 +80,122 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
         <a
                 class="header-menu__link"
             href="/">
-            BSides Amsterdam
+            BAMS
         </a>
     </li>
-        <li>
-            <a
-                href="/youtube/"
-                    class="header-menu__link">YouTube
-            </a>
-        </li>
-        <li>
-            <a
-                href="/sponsors/"
-                    class="header-menu__link">Sponsors & Partners
-            </a>
-        </li>
-        <li>
-            <a
-                href="/about/"
-                    class="header-menu__link">About Us
-            </a>
-        </li>
-        <li>
-            <a
-                href="/previous/"
-                    class="header-menu__link">2025 Website
-            </a>
-        </li>
+            <li class="header-menu__item header-menu__item--has-children">
+                <button
+                    type="button"
+                    class="header-menu__link header-menu__dropdown-toggle"
+                    aria-haspopup="true"
+                    aria-expanded="false">Activities & Schedule
+                    <span class="header-menu__caret" aria-hidden="true">▾</span>
+                </button>
+                <ul class="header-menu__submenu" role="menu">
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/references/"
+                                    class="header-menu__sublink">Overview
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/speakers/"
+                                    class="header-menu__sublink">Speakers
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/sessions/"
+                                    class="header-menu__sublink header-menu__sublink--active" aria-current="page">Schedule
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/ctf/"
+                                    class="header-menu__sublink">Capture the Flag
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/party/"
+                                    class="header-menu__sublink">Party (Nov 18)
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li>
+                <a
+                    href="/location/"
+                        class="header-menu__link">Location
+                </a>
+            </li>
+            <li>
+                <a
+                    href="/sponsors/"
+                        class="header-menu__link">Sponsors & Partners
+                </a>
+            </li>
+            <li class="header-menu__item header-menu__item--has-children">
+                <button
+                    type="button"
+                    class="header-menu__link header-menu__dropdown-toggle"
+                    aria-haspopup="true"
+                    aria-expanded="false">Media
+                    <span class="header-menu__caret" aria-hidden="true">▾</span>
+                </button>
+                <ul class="header-menu__submenu" role="menu">
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/youtube/"
+                                    class="header-menu__sublink">YouTube
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a
+                                role="menuitem"
+                                href="/previous/"
+                                    class="header-menu__sublink">2025 Website
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li>
+                <a
+                    href="/about/"
+                        class="header-menu__link">About Us
+                </a>
+            </li>
 </ul>
+
+<script>
+    
+    document.querySelectorAll('.header-menu__dropdown-toggle').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            var expanded = btn.getAttribute('aria-expanded') === 'true';
+            
+            document.querySelectorAll('.header-menu__dropdown-toggle[aria-expanded="true"]').forEach(function (other) {
+                if (other !== btn) other.setAttribute('aria-expanded', 'false');
+            });
+            btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        });
+    });
+    
+    document.addEventListener('click', function (e) {
+        if (!e.target.closest('.header-menu__item--has-children')) {
+            document.querySelectorAll('.header-menu__dropdown-toggle[aria-expanded="true"]').forEach(function (btn) {
+                btn.setAttribute('aria-expanded', 'false');
+            });
+        }
+    });
+</script>
 
                         </div>
                     </div>
@@ -111,8 +203,8 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
     
     
-    <a class="button button--outlined" href="https://www.bsidesams.org/sponsorship" rel="noopener noreferrer" rel="external" target="_blank">
-        Become a sponsor!
+    <a class="button button--outlined" href="https://app.tixnu.com/events/bsides/amsterdam-2026" rel="noopener noreferrer" rel="external" target="_blank">
+        Get Tickets
         <div class="button__icon">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" width="100%" height="100%">
     <path
@@ -143,7 +235,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
             <nav class="page-sidebar__navigation" aria-labelledby="main-navigation-label">
                 <header class="page-sidebar__header">
                     <a class="page-sidebar__heading-link" href="/">
-                        BSides Amsterdam
+                        BAMS
                     </a>
 
                     <label class="page-sidebar__close-label" for="sidebarToggle"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -157,8 +249,8 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
     
     
-    <a class="button button--outlined" href="https://www.bsidesams.org/sponsorship" rel="noopener noreferrer" rel="external" target="_blank">
-        Become a sponsor!
+    <a class="button button--outlined" href="https://app.tixnu.com/events/bsides/amsterdam-2026" rel="noopener noreferrer" rel="external" target="_blank">
+        Get Tickets
         <div class="button__icon">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" width="100%" height="100%">
     <path
@@ -184,34 +276,88 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 
 
 <ul class="sidebar-menu">
-        <li class="sidebar-menu__item">
-            <a
-                href="/youtube/"
-                    class="sidebar-menu__link"
-                aria-label="Schedule">YouTube
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/sponsors/"
-                    class="sidebar-menu__link"
-                aria-label="Sponsors &amp; Partners">Sponsors & Partners
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/about/"
-                    class="sidebar-menu__link"
-                aria-label="About Us">About Us
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/previous/"
-                    class="sidebar-menu__link"
-                aria-label="Previous">2025 Website
-            </a>
-        </li>
+            <li class="sidebar-menu__item sidebar-menu__item--group">
+                <span class="sidebar-menu__group-label" aria-hidden="true">Activities & Schedule
+                </span>
+                <ul class="sidebar-menu__submenu">
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/references/"
+                                    class="sidebar-menu__link"
+                                aria-label="References">Overview
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/speakers/"
+                                    class="sidebar-menu__link"
+                                aria-label="Speakers">Speakers
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/sessions/"
+                                    class="sidebar-menu__link sidebar-menu__link--active" aria-current="page"
+                                aria-label="Sessions">Schedule
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/ctf/"
+                                    class="sidebar-menu__link"
+                                aria-label="">Capture the Flag
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/party/"
+                                    class="sidebar-menu__link"
+                                aria-label="Party">Party (Nov 18)
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="sidebar-menu__item">
+                <a
+                    href="/location/"
+                        class="sidebar-menu__link"
+                    aria-label="Location">Location
+                </a>
+            </li>
+            <li class="sidebar-menu__item">
+                <a
+                    href="/sponsors/"
+                        class="sidebar-menu__link"
+                    aria-label="Sponsors &amp; Partners">Sponsors & Partners
+                </a>
+            </li>
+            <li class="sidebar-menu__item sidebar-menu__item--group">
+                <span class="sidebar-menu__group-label" aria-hidden="true">Media
+                </span>
+                <ul class="sidebar-menu__submenu">
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/youtube/"
+                                    class="sidebar-menu__link"
+                                aria-label="Schedule">YouTube
+                            </a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <a
+                                href="/previous/"
+                                    class="sidebar-menu__link"
+                                aria-label="Previous">2025 Website
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="sidebar-menu__item">
+                <a
+                    href="/about/"
+                        class="sidebar-menu__link"
+                    aria-label="About Us">About Us
+                </a>
+            </li>
 </ul>
 
 
@@ -358,11 +504,126 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
             id="filter-day-0"
                 checked />
 
+    <input
+        name="filter-room"
+        type="radio"
+        class="session-filter-input session-room-filter-input"
+        value="room-all"
+        id="filter-room-all"
+        checked />
+        <input
+            name="filter-room"
+            type="radio"
+            class="session-filter-input session-room-filter-input"
+            value="room-0"
+            id="filter-room-0" />
+        <input
+            name="filter-room"
+            type="radio"
+            class="session-filter-input session-room-filter-input"
+            value="room-1"
+            id="filter-room-1" />
+        <input
+            name="filter-room"
+            type="radio"
+            class="session-filter-input session-room-filter-input"
+            value="room-2"
+            id="filter-room-2" />
+        <input
+            name="filter-room"
+            type="radio"
+            class="session-filter-input session-room-filter-input"
+            value="room-3"
+            id="filter-room-3" />
+        <input
+            name="filter-room"
+            type="radio"
+            class="session-filter-input session-room-filter-input"
+            value="room-4"
+            id="filter-room-4" />
+        <input
+            name="filter-room"
+            type="radio"
+            class="session-filter-input session-room-filter-input"
+            value="room-5"
+            id="filter-room-5" />
+        <input
+            name="filter-room"
+            type="radio"
+            class="session-filter-input session-room-filter-input"
+            value="room-6"
+            id="filter-room-6" />
+        <input
+            name="filter-room"
+            type="radio"
+            class="session-filter-input session-room-filter-input"
+            value="room-7"
+            id="filter-room-7" />
+
 
     <header class="section-container">
         <div class="section">
             <h1 class="heading heading--1">Schedule</h1>
             <div class="session-list-filters">
+                <article class="session-list-filter">
+                    <h2 class="session-list-filter__heading">
+                        Date
+                    </h2>
+                    <menu class="session-list-filter__menu">
+                            <li role="presentation">
+                                <label class="session-list-filter__label" for="filter-day-0">
+                                    November 19, 2026
+                                </label>
+                            </li>
+                    </menu>
+                </article>
+                    <article class="session-list-filter session-list-filter--rooms">
+                        <h2 class="session-list-filter__heading">Room
+                        </h2>
+                        <menu class="session-list-filter__menu">
+                            <li role="presentation">
+                                <label class="session-list-filter__label" for="filter-room-all">All rooms</label>
+                            </li>
+                                <li role="presentation">
+                                    <label class="session-list-filter__label" for="filter-room-0">A-Side
+                                    </label>
+                                </li>
+                                <li role="presentation">
+                                    <label class="session-list-filter__label" for="filter-room-1">B-Side
+                                    </label>
+                                </li>
+                                <li role="presentation">
+                                    <label class="session-list-filter__label" for="filter-room-2">CTF Room
+                                    </label>
+                                </li>
+                                <li role="presentation">
+                                    <label class="session-list-filter__label" for="filter-room-3">Lockpicking
+                                    </label>
+                                </li>
+                                <li role="presentation">
+                                    <label class="session-list-filter__label" for="filter-room-4">Marble Room
+                                    </label>
+                                </li>
+                                <li role="presentation">
+                                    <label class="session-list-filter__label" for="filter-room-5">Off the Record
+                                    </label>
+                                </li>
+                                <li role="presentation">
+                                    <label class="session-list-filter__label" for="filter-room-6">Stream &#39;n Chill (no Netflix)
+                                    </label>
+                                </li>
+                                <li role="presentation">
+                                    <label class="session-list-filter__label" for="filter-room-7">Workshop
+                                    </label>
+                                </li>
+                        </menu>
+                    </article>
+
+                <div class="schedule-zoom" data-schedule-zoom-controls>
+                    <span class="schedule-zoom__label">Timeline size</span>
+                    <button class="schedule-zoom__button" type="button" data-schedule-zoom="-1" aria-label="Decrease timeline size">-</button>
+                    <button class="schedule-zoom__button" type="button" data-schedule-zoom="1" aria-label="Increase timeline size">+</button>
+                </div>
             </div>
         </div>
     </header>
@@ -373,24 +634,1165 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
                     Day 1
                 </h1>
                 <h2 class="heading heading--2">
-                    November 20, 2025
+                    November 19, 2026
                 </h2>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        8:00 am
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                <div class="schedule-grid-scroll">
+                    <div class="schedule-grid" style="--schedule-room-count: 8">
+                    <div class="schedule-grid__corner">Time</div>
+                        <div class="schedule-grid__room" data-room="0" style="--schedule-column: 2">
+                            A-Side
+                        </div>
+                        <div class="schedule-grid__room" data-room="1" style="--schedule-column: 3">
+                            B-Side
+                        </div>
+                        <div class="schedule-grid__room" data-room="2" style="--schedule-column: 4">
+                            CTF Room
+                        </div>
+                        <div class="schedule-grid__room" data-room="3" style="--schedule-column: 5">
+                            Lockpicking
+                        </div>
+                        <div class="schedule-grid__room" data-room="4" style="--schedule-column: 6">
+                            Marble Room
+                        </div>
+                        <div class="schedule-grid__room" data-room="5" style="--schedule-column: 7">
+                            Off the Record
+                        </div>
+                        <div class="schedule-grid__room" data-room="6" style="--schedule-column: 8">
+                            Stream &#39;n Chill (no Netflix)
+                        </div>
+                        <div class="schedule-grid__room" data-room="7" style="--schedule-column: 9">
+                            Workshop
+                        </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 7">
+                                7:00 am
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 13">
+                                7:30 am
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 19">
+                                8:00 am
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 25">
+                                8:30 am
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 31">
+                                9:00 am
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 37">
+                                9:30 am
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 43">
+                                10:00 am
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 49">
+                                10:30 am
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 55">
+                                11:00 am
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 61">
+                                11:30 am
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 67">
+                                12:00 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 73">
+                                12:30 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 79">
+                                1:00 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 85">
+                                1:30 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 91">
+                                2:00 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 97">
+                                2:30 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 103">
+                                3:00 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 109">
+                                3:30 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 115">
+                                4:00 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 121">
+                                4:30 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 127">
+                                5:00 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 133">
+                                5:30 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 139">
+                                6:00 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 145">
+                                6:30 pm
+                            </div>
+                            <div class="schedule-grid__time" style="--schedule-row: 151">
+                                7:00 pm
+                            </div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 7"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 9"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 11"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 13"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 15"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 17"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 19"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 21"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 23"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 25"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 27"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 29"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 31"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 33"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 35"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 37"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 39"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 41"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 43"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 45"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 47"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 49"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 51"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 53"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 55"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 57"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 59"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 61"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 63"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 65"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 67"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 69"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 71"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 73"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 75"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 77"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 79"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 81"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 83"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 85"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 87"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 89"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 91"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 93"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 95"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 97"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 99"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 101"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 103"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 105"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 107"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 109"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 111"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 113"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 115"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 117"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 119"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 121"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 123"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 125"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 127"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 129"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 131"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 133"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 135"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 137"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 139"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 141"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 143"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 145"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 147"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 149"></div>
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: 151"></div>
+                        <article
+                            class="schedule-grid__session schedule-grid__session--service"
+                            data-room="4"
+                            style="--schedule-column: 6; --schedule-row: 19; --schedule-row-span: 10">
+                                <div class="schedule-card schedule-card--service" tabindex="0">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 08:00:00 &#43;0000 UTC">
+                                            8:00 am - 8:50 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Walk-in &amp; Registration</h3>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 08:00:00 &#43;0000 UTC">
+                                            8:00 am - 8:50 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Walk-in &amp; Registration</h3>
+                                        <p class="schedule-card__room">Marble Room</p>
+                                    </div>
+                                </div>
+                        </article>
+                        <article
+                            class="schedule-grid__session schedule-grid__session--plenum"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 29; --schedule-row-span: 4">
+                                <a class="schedule-card" href="/sessions/opening-notes-1231136/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 08:50:00 &#43;0000 UTC">
+                                            8:50 am - 9:10 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Opening notes</h3>
+                                        <p class="schedule-card__speakers">Alexandra Charikova, Hugo van den Toorn, Joey Dreijer, Marina Bochenkova, Paul Moreno, Roald Nefs
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 08:50:00 &#43;0000 UTC">
+                                            8:50 am - 9:10 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Opening notes</h3>
+                                        <p class="schedule-card__speakers">Alexandra Charikova, Hugo van den Toorn, Joey Dreijer, Marina Bochenkova, Paul Moreno, Roald Nefs
+                                        </p>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session schedule-grid__session--service schedule-grid__session--plenum"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 33; --schedule-row-span: 8">
+                                <div class="schedule-card schedule-card--service" tabindex="0">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 09:10:00 &#43;0000 UTC">
+                                            9:10 am - 9:50 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Opening keynote placeholder</h3>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 09:10:00 &#43;0000 UTC">
+                                            9:10 am - 9:50 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Opening keynote placeholder</h3>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </div>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 41; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/staring-into-the-darkness-compromised-c2-server-analysis-for-network-threat-hunting-1306949/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 09:50:00 &#43;0000 UTC">
+                                            9:50 am - 10:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Staring into the Darkness: Compromised C2 Server Analysis for Network Threat Hunting</h3>
+                                        <p class="schedule-card__speakers">John Strand
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 09:50:00 &#43;0000 UTC">
+                                            9:50 am - 10:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Staring into the Darkness: Compromised C2 Server Analysis for Network Threat Hunting</h3>
+                                        <p class="schedule-card__speakers">John Strand
+                                        </p>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session schedule-grid__session--service"
+                            data-room="6"
+                            style="--schedule-column: 8; --schedule-row: 43; --schedule-row-span: 72">
+                                <div class="schedule-card schedule-card--service" tabindex="0">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 4:00 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">B-Side Stream</h3>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 4:00 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">B-Side Stream</h3>
+                                        <p class="schedule-card__room">Stream &#39;n Chill (no Netflix)</p>
+                                    </div>
+                                </div>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="2"
+                            style="--schedule-column: 4; --schedule-row: 43; --schedule-row-span: 6">
+                                <a class="schedule-card" href="/sessions/from-signals-to-shutdowns-tags-transmitters-and-trips-in-cyber-physical-systems-1275276/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 10:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">From Signals to Shutdowns: Tags, Transmitters, and Trips in Cyber-Physical Systems</h3>
+                                        <p class="schedule-card__speakers">Jalal Bouhdada
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 10:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">From Signals to Shutdowns: Tags, Transmitters, and Trips in Cyber-Physical Systems</h3>
+                                        <p class="schedule-card__speakers">Jalal Bouhdada
+                                        </p>
+                                        <p class="schedule-card__room">CTF Room</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="7"
+                            style="--schedule-column: 9; --schedule-row: 43; --schedule-row-span: 25">
+                                <a class="schedule-card" href="/sessions/gamifying-ai-threat-modeling-and-security-requirement-analysis-to-empower-agile-software-development-1276418/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 12:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Gamifying AI Threat Modeling and Security Requirement Analysis to Empower Agile Software Development</h3>
+                                        <p class="schedule-card__speakers">Johan Sydseter
+                                        </p>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 6">
+                                                    Gamifying AI Threat Modeling and Security Requirement Analysis to Empower Agile Software Development
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 12">
+                                                    Gamifying AI Threat Modeling and Security Requirement Analysis to Empower Agile Software Development
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 18">
+                                                    Gamifying AI Threat Modeling and Security Requirement Analysis to Empower Agile Software Development
+                                                </span>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 12:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Gamifying AI Threat Modeling and Security Requirement Analysis to Empower Agile Software Development</h3>
+                                        <p class="schedule-card__speakers">Johan Sydseter
+                                        </p>
+                                        <p class="schedule-card__room">Workshop</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="5"
+                            style="--schedule-column: 7; --schedule-row: 43; --schedule-row-span: 6">
+                                <a class="schedule-card" href="/sessions/how-a-regulator-approaches-the-cyberbeveiligingswet/nis2-1303961/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 10:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">How a regulator approaches the Cyberbeveiligingswet/NIS2</h3>
+                                        <p class="schedule-card__speakers">Alan Lewis, Randy Snellenburg
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 10:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">How a regulator approaches the Cyberbeveiligingswet/NIS2</h3>
+                                        <p class="schedule-card__speakers">Alan Lewis, Randy Snellenburg
+                                        </p>
+                                        <p class="schedule-card__room">Off the Record</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="3"
+                            style="--schedule-column: 5; --schedule-row: 43; --schedule-row-span: 72">
+                                <a class="schedule-card" href="/sessions/social-lockpicking-afternoon-at-bsides-1284071/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 4:00 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Social lockpicking afternoon at Bsides</h3>
+                                        <p class="schedule-card__speakers">Ivan Iushkevich
+                                        </p>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 6">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 12">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 18">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 24">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 30">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 36">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 42">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 48">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 54">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 60">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 66">
+                                                    Social lockpicking afternoon at Bsides
+                                                </span>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 4:00 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Social lockpicking afternoon at Bsides</h3>
+                                        <p class="schedule-card__speakers">Ivan Iushkevich
+                                        </p>
+                                        <p class="schedule-card__room">Lockpicking</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="1"
+                            style="--schedule-column: 3; --schedule-row: 43; --schedule-row-span: 6">
+                                <a class="schedule-card" href="/sessions/the-art-of-same-site-phishing-1247067/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 10:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">The Art of Same-Site Phishing</h3>
+                                        <p class="schedule-card__speakers">Jorian Woltjer
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                            10:00 am - 10:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">The Art of Same-Site Phishing</h3>
+                                        <p class="schedule-card__speakers">Jorian Woltjer
+                                        </p>
+                                        <p class="schedule-card__room">B-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session schedule-grid__session--service schedule-grid__session--plenum"
+                            data-room="4"
+                            style="--schedule-column: 6; --schedule-row: 48; --schedule-row-span: 4">
+                                <div class="schedule-card schedule-card--service" tabindex="0">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:25:00 &#43;0000 UTC">
+                                            10:25 am - 10:45 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Coffee Break</h3>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:25:00 &#43;0000 UTC">
+                                            10:25 am - 10:45 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Coffee Break</h3>
+                                        <p class="schedule-card__room">Marble Room</p>
+                                    </div>
+                                </div>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="2"
+                            style="--schedule-column: 4; --schedule-row: 53; --schedule-row-span: 62">
+                                <a class="schedule-card" href="/sessions/capture-the-flag-1335183/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                            10:50 am - 4:00 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Capture The Flag</h3>
+                                        <p class="schedule-card__speakers">Jalal Bouhdada
+                                        </p>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 6">
+                                                    Capture The Flag
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 12">
+                                                    Capture The Flag
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 18">
+                                                    Capture The Flag
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 24">
+                                                    Capture The Flag
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 30">
+                                                    Capture The Flag
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 36">
+                                                    Capture The Flag
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 42">
+                                                    Capture The Flag
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 48">
+                                                    Capture The Flag
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 54">
+                                                    Capture The Flag
+                                                </span>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                            10:50 am - 4:00 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Capture The Flag</h3>
+                                        <p class="schedule-card__speakers">Jalal Bouhdada
+                                        </p>
+                                        <p class="schedule-card__room">CTF Room</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="1"
+                            style="--schedule-column: 3; --schedule-row: 53; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/osint-in-the-age-of-ai-personal-privacy-and-cyber-threat-intelligence-1269091/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                            10:50 am - 11:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">OSINT in the Age of AI: Personal Privacy and Cyber Threat Intelligence</h3>
+                                        <p class="schedule-card__speakers">Domagoj Marić
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                            10:50 am - 11:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">OSINT in the Age of AI: Personal Privacy and Cyber Threat Intelligence</h3>
+                                        <p class="schedule-card__speakers">Domagoj Marić
+                                        </p>
+                                        <p class="schedule-card__room">B-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="5"
+                            style="--schedule-column: 7; --schedule-row: 53; --schedule-row-span: 6">
+                                <a class="schedule-card" href="/sessions/the-cost-of-security-measuring-the-operational-impact-of-endpoint-and-siem-visibility-1307073/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                            10:50 am - 11:20 am
+                                        </time>
+                                        <h3 class="schedule-card__title">The Cost of Security: Measuring the Operational Impact of Endpoint and SIEM Visibility</h3>
+                                        <p class="schedule-card__speakers">Kıvanç Aydın, Zafer Balkan
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                            10:50 am - 11:20 am
+                                        </time>
+                                        <h3 class="schedule-card__title">The Cost of Security: Measuring the Operational Impact of Endpoint and SIEM Visibility</h3>
+                                        <p class="schedule-card__speakers">Kıvanç Aydın, Zafer Balkan
+                                        </p>
+                                        <p class="schedule-card__room">Off the Record</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 53; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/your-credentials-were-leaked-so-what-1256635/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                            10:50 am - 11:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Your credentials were leaked, so what?</h3>
+                                        <p class="schedule-card__speakers">Pascal Kahn, Xavier Mertens
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                            10:50 am - 11:30 am
+                                        </time>
+                                        <h3 class="schedule-card__title">Your credentials were leaked, so what?</h3>
+                                        <p class="schedule-card__speakers">Pascal Kahn, Xavier Mertens
+                                        </p>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="5"
+                            style="--schedule-column: 7; --schedule-row: 62; --schedule-row-span: 6">
+                                <a class="schedule-card" href="/sessions/physsechound-has-entered-the-building--opengraphing-physical-security-1307017/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 11:35:00 &#43;0000 UTC">
+                                            11:35 am - 12:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">PhysSecHound Has Entered the Building – OpenGraphing Physical Security</h3>
+                                        <p class="schedule-card__speakers">Kieran Croucher
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 11:35:00 &#43;0000 UTC">
+                                            11:35 am - 12:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">PhysSecHound Has Entered the Building – OpenGraphing Physical Security</h3>
+                                        <p class="schedule-card__speakers">Kieran Croucher
+                                        </p>
+                                        <p class="schedule-card__room">Off the Record</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="1"
+                            style="--schedule-column: 3; --schedule-row: 63; --schedule-row-span: 5">
+                                <a class="schedule-card" href="/sessions/finding-the-crypto-lessons-from-cryptographic-asset-discovery-in-government-1305993/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 11:40:00 &#43;0000 UTC">
+                                            11:40 am - 12:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Finding the Crypto: Lessons from Cryptographic Asset Discovery in Government</h3>
+                                        <p class="schedule-card__speakers">Mine Temürhan
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 11:40:00 &#43;0000 UTC">
+                                            11:40 am - 12:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Finding the Crypto: Lessons from Cryptographic Asset Discovery in Government</h3>
+                                        <p class="schedule-card__speakers">Mine Temürhan
+                                        </p>
+                                        <p class="schedule-card__room">B-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 63; --schedule-row-span: 5">
+                                <a class="schedule-card" href="/sessions/n00b-guide-into-the-dutch-hacker-scene-1305445/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 11:40:00 &#43;0000 UTC">
+                                            11:40 am - 12:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">n00b guide into the Dutch Hacker Scene</h3>
+                                        <p class="schedule-card__speakers">Nancy Beers
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 11:40:00 &#43;0000 UTC">
+                                            11:40 am - 12:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">n00b guide into the Dutch Hacker Scene</h3>
+                                        <p class="schedule-card__speakers">Nancy Beers
+                                        </p>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session schedule-grid__session--service schedule-grid__session--plenum"
+                            data-room="4"
+                            style="--schedule-column: 6; --schedule-row: 68; --schedule-row-span: 12">
+                                <div class="schedule-card schedule-card--service" tabindex="0">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 12:05:00 &#43;0000 UTC">
+                                            12:05 pm - 1:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Lunch Break</h3>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 12:05:00 &#43;0000 UTC">
+                                            12:05 pm - 1:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Lunch Break</h3>
+                                        <p class="schedule-card__room">Marble Room</p>
+                                    </div>
+                                </div>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="7"
+                            style="--schedule-column: 9; --schedule-row: 79; --schedule-row-span: 36">
+                                <a class="schedule-card" href="/sessions/design-your-first-pcb-from-concept-to-board-1301163/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:00:00 &#43;0000 UTC">
+                                            1:00 pm - 4:00 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Design Your First PCB: From Concept to Board</h3>
+                                        <p class="schedule-card__speakers">- Tcccorp -
+                                        </p>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 6">
+                                                    Design Your First PCB: From Concept to Board
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 12">
+                                                    Design Your First PCB: From Concept to Board
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 18">
+                                                    Design Your First PCB: From Concept to Board
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 24">
+                                                    Design Your First PCB: From Concept to Board
+                                                </span>
+                                                <span class="schedule-card__continuation" style="--continuation-row: 30">
+                                                    Design Your First PCB: From Concept to Board
+                                                </span>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:00:00 &#43;0000 UTC">
+                                            1:00 pm - 4:00 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Design Your First PCB: From Concept to Board</h3>
+                                        <p class="schedule-card__speakers">- Tcccorp -
+                                        </p>
+                                        <p class="schedule-card__room">Workshop</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="1"
+                            style="--schedule-column: 3; --schedule-row: 80; --schedule-row-span: 6">
+                                <a class="schedule-card" href="/sessions/how-to-think-in-graphs-1308958/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:05:00 &#43;0000 UTC">
+                                            1:05 pm - 1:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">How To Think In Graphs</h3>
+                                        <p class="schedule-card__speakers">Martin Sohn Christensen
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:05:00 &#43;0000 UTC">
+                                            1:05 pm - 1:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">How To Think In Graphs</h3>
+                                        <p class="schedule-card__speakers">Martin Sohn Christensen
+                                        </p>
+                                        <p class="schedule-card__room">B-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 80; --schedule-row-span: 6">
+                                <a class="schedule-card" href="/sessions/inside-a-celebrity-cyber-scam-deepfakes--mind-games-1305868/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:05:00 &#43;0000 UTC">
+                                            1:05 pm - 1:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Inside a celebrity cyber scam: deepfakes &amp; mind games</h3>
+                                        <p class="schedule-card__speakers">Kerry Tomlinson
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:05:00 &#43;0000 UTC">
+                                            1:05 pm - 1:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Inside a celebrity cyber scam: deepfakes &amp; mind games</h3>
+                                        <p class="schedule-card__speakers">Kerry Tomlinson
+                                        </p>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="5"
+                            style="--schedule-column: 7; --schedule-row: 80; --schedule-row-span: 6">
+                                <a class="schedule-card" href="/sessions/tracing-ghost-suppliers-what-dns-tls-and-javascript-reveal-about-your-real-supply-chain-1306969/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:05:00 &#43;0000 UTC">
+                                            1:05 pm - 1:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Tracing Ghost Suppliers: What DNS, TLS and JavaScript Reveal About Your Real Supply Chain</h3>
+                                        <p class="schedule-card__speakers">Robin de Vries
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:05:00 &#43;0000 UTC">
+                                            1:05 pm - 1:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Tracing Ghost Suppliers: What DNS, TLS and JavaScript Reveal About Your Real Supply Chain</h3>
+                                        <p class="schedule-card__speakers">Robin de Vries
+                                        </p>
+                                        <p class="schedule-card__room">Off the Record</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="1"
+                            style="--schedule-column: 3; --schedule-row: 87; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/introducing-cycas-a-scalable-dfir-automation-pipeline-in-azure-1306861/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:40:00 &#43;0000 UTC">
+                                            1:40 pm - 2:20 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Introducing Cycas: a scalable DFIR automation pipeline in Azure</h3>
+                                        <p class="schedule-card__speakers">Tom Sturme
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:40:00 &#43;0000 UTC">
+                                            1:40 pm - 2:20 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Introducing Cycas: a scalable DFIR automation pipeline in Azure</h3>
+                                        <p class="schedule-card__speakers">Tom Sturme
+                                        </p>
+                                        <p class="schedule-card__room">B-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 87; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/signed-sealed-pwned-lolbin-hollowing-in-red-team-operations-1242386/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:40:00 &#43;0000 UTC">
+                                            1:40 pm - 2:20 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Signed, Sealed, Pwned: LOLBin Hollowing in Red Team Operations</h3>
+                                        <p class="schedule-card__speakers">Filipi Pires
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:40:00 &#43;0000 UTC">
+                                            1:40 pm - 2:20 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Signed, Sealed, Pwned: LOLBin Hollowing in Red Team Operations</h3>
+                                        <p class="schedule-card__speakers">Filipi Pires
+                                        </p>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="5"
+                            style="--schedule-column: 7; --schedule-row: 88; --schedule-row-span: 6">
+                                <a class="schedule-card" href="/sessions/trust-by-design-when-deception-becomes-education-1252853/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:45:00 &#43;0000 UTC">
+                                            1:45 pm - 2:15 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Trust by Design: When Deception becomes Education</h3>
+                                        <p class="schedule-card__speakers">Brigitte Heijkoop
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 13:45:00 &#43;0000 UTC">
+                                            1:45 pm - 2:15 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Trust by Design: When Deception becomes Education</h3>
+                                        <p class="schedule-card__speakers">Brigitte Heijkoop
+                                        </p>
+                                        <p class="schedule-card__room">Off the Record</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="1"
+                            style="--schedule-column: 3; --schedule-row: 96; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/1979-called.-they-already-figured-it-out.-1280605/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 14:25:00 &#43;0000 UTC">
+                                            2:25 pm - 3:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">1979 called. They already figured it out.</h3>
+                                        <p class="schedule-card__speakers">Kaja Möller
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 14:25:00 &#43;0000 UTC">
+                                            2:25 pm - 3:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">1979 called. They already figured it out.</h3>
+                                        <p class="schedule-card__speakers">Kaja Möller
+                                        </p>
+                                        <p class="schedule-card__room">B-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 96; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/a-few-dollars-to-disappear-breaking-c2-beaconing-detection-1285407/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 14:25:00 &#43;0000 UTC">
+                                            2:25 pm - 3:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">A Few Dollars to Disappear: Breaking C2 Beaconing Detection</h3>
+                                        <p class="schedule-card__speakers">Mehmet Ergene
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 14:25:00 &#43;0000 UTC">
+                                            2:25 pm - 3:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">A Few Dollars to Disappear: Breaking C2 Beaconing Detection</h3>
+                                        <p class="schedule-card__speakers">Mehmet Ergene
+                                        </p>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="5"
+                            style="--schedule-column: 7; --schedule-row: 96; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/the-context-gap-why-your-soc-misses-attacks-it-already-logged-1289405/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 14:25:00 &#43;0000 UTC">
+                                            2:25 pm - 3:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">The Context Gap: Why Your SOC Misses Attacks It Already Logged</h3>
+                                        <p class="schedule-card__speakers">Marvin Ngoma
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 14:25:00 &#43;0000 UTC">
+                                            2:25 pm - 3:05 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">The Context Gap: Why Your SOC Misses Attacks It Already Logged</h3>
+                                        <p class="schedule-card__speakers">Marvin Ngoma
+                                        </p>
+                                        <p class="schedule-card__room">Off the Record</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session schedule-grid__session--service schedule-grid__session--plenum"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 103; --schedule-row-span: 3">
+                                <div class="schedule-card schedule-card--service" tabindex="0">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:00:00 &#43;0000 UTC">
+                                            3:00 pm - 3:15 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Refreshments served</h3>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:00:00 &#43;0000 UTC">
+                                            3:00 pm - 3:15 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Refreshments served</h3>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </div>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="5"
+                            style="--schedule-column: 7; --schedule-row: 105; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/clickfix-copy-paste-compromise-1287825/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:10:00 &#43;0000 UTC">
+                                            3:10 pm - 3:50 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Clickfix: Copy, Paste, Compromise</h3>
+                                        <p class="schedule-card__speakers">Toni Dujmović
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:10:00 &#43;0000 UTC">
+                                            3:10 pm - 3:50 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Clickfix: Copy, Paste, Compromise</h3>
+                                        <p class="schedule-card__speakers">Toni Dujmović
+                                        </p>
+                                        <p class="schedule-card__room">Off the Record</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="1"
+                            style="--schedule-column: 3; --schedule-row: 106; --schedule-row-span: 6">
+                                <a class="schedule-card" href="/sessions/ants-bricks-and-spiders-threat-emulation-on-the-vmware-stack-1277060/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:15:00 &#43;0000 UTC">
+                                            3:15 pm - 3:45 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Ants, Bricks and Spiders: Threat Emulation on the VMware Stack</h3>
+                                        <p class="schedule-card__speakers">Leo Tsaousis
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:15:00 &#43;0000 UTC">
+                                            3:15 pm - 3:45 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Ants, Bricks and Spiders: Threat Emulation on the VMware Stack</h3>
+                                        <p class="schedule-card__speakers">Leo Tsaousis
+                                        </p>
+                                        <p class="schedule-card__room">B-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="1"
+                            style="--schedule-column: 3; --schedule-row: 114; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/hacking-browsers-the-easy-way-1298434/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:55:00 &#43;0000 UTC">
+                                            3:55 pm - 4:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Hacking Browsers: The Easy Way</h3>
+                                        <p class="schedule-card__speakers">Robbe Van Roey
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:55:00 &#43;0000 UTC">
+                                            3:55 pm - 4:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Hacking Browsers: The Easy Way</h3>
+                                        <p class="schedule-card__speakers">Robbe Van Roey
+                                        </p>
+                                        <p class="schedule-card__room">B-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="5"
+                            style="--schedule-column: 7; --schedule-row: 114; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/racing-the-adversary-accelerating-ir-with-intelligence-led-velocity-1246594/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:55:00 &#43;0000 UTC">
+                                            3:55 pm - 4:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Racing the Adversary: Accelerating IR with Intelligence-Led Velocity</h3>
+                                        <p class="schedule-card__speakers">Nicholas Pockl-Deen
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:55:00 &#43;0000 UTC">
+                                            3:55 pm - 4:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Racing the Adversary: Accelerating IR with Intelligence-Led Velocity</h3>
+                                        <p class="schedule-card__speakers">Nicholas Pockl-Deen
+                                        </p>
+                                        <p class="schedule-card__room">Off the Record</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 114; --schedule-row-span: 8">
+                                <a class="schedule-card" href="/sessions/the-hype-around-autonomous-pentesting-and-where-the-coverage-actually-is-1305014/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:55:00 &#43;0000 UTC">
+                                            3:55 pm - 4:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">The hype around autonomous pentesting, and where the coverage actually is</h3>
+                                        <p class="schedule-card__speakers">Antoine Carossio, Yacine Souam
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 15:55:00 &#43;0000 UTC">
+                                            3:55 pm - 4:35 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">The hype around autonomous pentesting, and where the coverage actually is</h3>
+                                        <p class="schedule-card__speakers">Antoine Carossio, Yacine Souam
+                                        </p>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session schedule-grid__session--service schedule-grid__session--plenum"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 122; --schedule-row-span: 8">
+                                <div class="schedule-card schedule-card--service" tabindex="0">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 16:35:00 &#43;0000 UTC">
+                                            4:35 pm - 5:15 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Closing Keynote Placeholder</h3>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 16:35:00 &#43;0000 UTC">
+                                            4:35 pm - 5:15 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Closing Keynote Placeholder</h3>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </div>
+                        </article>
+                        <article
+                            class="schedule-grid__session schedule-grid__session--plenum"
+                            data-room="0"
+                            style="--schedule-column: 2; --schedule-row: 130; --schedule-row-span: 3">
+                                <a class="schedule-card" href="/sessions/closing-notes-1328339/">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 17:15:00 &#43;0000 UTC">
+                                            5:15 pm - 5:30 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Closing notes</h3>
+                                        <p class="schedule-card__speakers">Alexandra Charikova, Hugo van den Toorn, Joey Dreijer, Marina Bochenkova, Paul Moreno, Roald Nefs
+                                        </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 17:15:00 &#43;0000 UTC">
+                                            5:15 pm - 5:30 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Closing notes</h3>
+                                        <p class="schedule-card__speakers">Alexandra Charikova, Hugo van den Toorn, Joey Dreijer, Marina Bochenkova, Paul Moreno, Roald Nefs
+                                        </p>
+                                        <p class="schedule-card__room">A-Side</p>
+                                    </div>
+                                </a>
+                        </article>
+                        <article
+                            class="schedule-grid__session schedule-grid__session--service schedule-grid__session--plenum"
+                            data-room="4"
+                            style="--schedule-column: 6; --schedule-row: 133; --schedule-row-span: 18">
+                                <div class="schedule-card schedule-card--service" tabindex="0">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="2026-11-19 17:30:00 &#43;0000 UTC">
+                                            5:30 pm - 7:00 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Drinks</h3>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="2026-11-19 17:30:00 &#43;0000 UTC">
+                                            5:30 pm - 7:00 pm
+                                        </time>
+                                        <h3 class="schedule-card__title">Drinks</h3>
+                                        <p class="schedule-card__room">Marble Room</p>
+                                    </div>
+                                </div>
+                        </article>
+                    </div>
+                </div>
+
+                <menu class="session-day-section__session-menu">
+                        <li role="presentation" data-room="4">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 08:00:00 &#43;0000 UTC">
+                                8:00 am - 8:50 am
+                            </time>
 
 
 <a
         class="event-row event-row--service-session">
     <div class="event-row__left">
-        <h2 class="event-row__title">Registrations</h2>
+        <h2 class="event-row__title">Walk-in &amp; Registration</h2>
         <h3 class="event-row__speakers">
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            Marble Room</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
@@ -402,39 +1804,34 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        9:05 am
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 08:50:00 &#43;0000 UTC">
+                                8:50 am - 9:10 am
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/opening-talk-944942/">
+        class="event-row" href="/sessions/opening-notes-1231136/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Opening talk</h2>
+        <h2 class="event-row__title">Opening notes</h2>
         <h3 class="event-row__speakers">
                 <span>Alexandra Charikova</span>
                 <span>Hugo van den Toorn</span>
                 <span>Joey Dreijer</span>
-                <span>Korstiaan Stam</span>
                 <span>Marina Bochenkova</span>
-                <span>Mayank Joshi</span>
                 <span>Paul Moreno</span>
                 <span>Roald Nefs</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            A-Side</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-944942-e8f118f8-10a2-475f-aa17-9b30b68e632c_hu_bbe0cec3631878ca.webp"
+                                src="/sessions/avatar-1231136-e8f118f8-10a2-475f-aa17-9b30b68e632c_hu_5803d0447e8e4a0f.webp"
                                 alt="Alexandra Charikova"
                                 width="128"
                                 height="128" />
@@ -442,7 +1839,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-944942-598f92b5-24e8-45a7-9e59-35883259aaa2_hu_3ec0a5c7c7cbb3d.webp"
+                                src="/sessions/avatar-1231136-598f92b5-24e8-45a7-9e59-35883259aaa2_hu_69d3a8d3f7e6572a.webp"
                                 alt="Hugo van den Toorn"
                                 width="128"
                                 height="128" />
@@ -450,7 +1847,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-944942-bfdf8ccd-2e44-4def-a337-597e2bffbd18_hu_d3832a34bb5430ed.webp"
+                                src="/sessions/avatar-1231136-bfdf8ccd-2e44-4def-a337-597e2bffbd18_hu_35b38c152839f3bc.webp"
                                 alt="Joey Dreijer"
                                 width="128"
                                 height="128" />
@@ -458,15 +1855,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-944942-dae3b7a3-806e-405b-8f26-2e8885f4592e_hu_5f1a433aae65774d.webp"
-                                alt="Korstiaan Stam"
-                                width="128"
-                                height="128" />
-                        </li>
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="/sessions/avatar-944942-48615645-061c-4128-90e2-1987ceb235bc_hu_e4e5cf58567b19f0.webp"
+                                src="/sessions/avatar-1231136-48615645-061c-4128-90e2-1987ceb235bc_hu_cb9c50184088775.webp"
                                 alt="Marina Bochenkova"
                                 width="128"
                                 height="128" />
@@ -474,15 +1863,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-944942-7666d65d-8020-481c-9629-7c04a06598b6_hu_e08867c23d5d11a.webp"
-                                alt="Mayank Joshi"
-                                width="128"
-                                height="128" />
-                        </li>
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="/sessions/avatar-944942-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8_hu_7178e85690af268e.webp"
+                                src="/sessions/avatar-1231136-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8_hu_7e527ee390233e2d.webp"
                                 alt="Paul Moreno"
                                 width="128"
                                 height="128" />
@@ -490,7 +1871,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-944942-180bd1d9-532a-4957-9b6e-d373f22d650f_hu_d2dcf5e9366d2622.webp"
+                                src="/sessions/avatar-1231136-180bd1d9-532a-4957-9b6e-d373f22d650f_hu_4caaf70590ff63b6.webp"
                                 alt="Roald Nefs"
                                 width="128"
                                 height="128" />
@@ -503,62 +1884,21 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        9:20 am
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
-
-
-<a
-        class="event-row" href="/sessions/ai-security-lessons-from-the-frontline-1046328/">
-    <div class="event-row__left">
-        <h2 class="event-row__title">AI security lessons from the frontline</h2>
-        <h3 class="event-row__speakers">
-                <span>Rob van der Veer</span>
-        </h3>
-        <h3 class="event-row__room">Room:
-            Main track</h3>
-    </div>
-    <div class="event-row__right">
-        <ul class="event-row__avatars">
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="/sessions/avatar-1046328-392a8144-9b27-469f-98dd-9ae07eb41866_hu_52d1d955dd21672e.webp"
-                                alt="Rob van der Veer"
-                                width="128"
-                                height="128" />
                         </li>
-        </ul>
-
-
-<ul aria-label="Session Categories" class="session-categories event-row__categories">
-</ul>
-</div>
-</a>
-
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        10:00 am
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 09:10:00 &#43;0000 UTC">
+                                9:10 am - 9:50 am
+                            </time>
 
 
 <a
         class="event-row event-row--service-session">
     <div class="event-row__left">
-        <h2 class="event-row__title">CTF</h2>
+        <h2 class="event-row__title">Opening keynote placeholder</h2>
         <h3 class="event-row__speakers">
         </h3>
         <h3 class="event-row__room">Room:
-            CTF mezzanine</h3>
+            A-Side</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
@@ -570,19 +1910,56 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 09:50:00 &#43;0000 UTC">
+                                9:50 am - 10:30 am
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/staring-into-the-darkness-compromised-c2-server-analysis-for-network-threat-hunting-1306949/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">Staring into the Darkness: Compromised C2 Server Analysis for Network Threat Hunting</h2>
+        <h3 class="event-row__speakers">
+                <span>John Strand</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            A-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1306949-2566494e-a2df-4bf7-9db7-233cb372831e_hu_3fed72b54b90c026.webp"
+                                alt="John Strand"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="6">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                10:00 am - 4:00 pm
+                            </time>
 
 
 <a
         class="event-row event-row--service-session">
     <div class="event-row__left">
-        <h2 class="event-row__title">Vendor area</h2>
+        <h2 class="event-row__title">B-Side Stream</h2>
         <h3 class="event-row__speakers">
         </h3>
         <h3 class="event-row__room">Room:
-            Vendor hallway</h3>
+            Stream &#39;n Chill (no Netflix)</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
@@ -594,33 +1971,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        10:05 am
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="2">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                10:00 am - 10:30 am
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/from-hours-to-minutes-automating-incident-response-triage-with-open-source-tools-975760/">
+        class="event-row" href="/sessions/from-signals-to-shutdowns-tags-transmitters-and-trips-in-cyber-physical-systems-1275276/">
     <div class="event-row__left">
-        <h2 class="event-row__title">From Hours to Minutes: Automating Incident Response Triage with Open-Source Tools</h2>
+        <h2 class="event-row__title">From Signals to Shutdowns: Tags, Transmitters, and Trips in Cyber-Physical Systems</h2>
         <h3 class="event-row__speakers">
-                <span>Markus Einarsson</span>
+                <span>Jalal Bouhdada</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Tech track</h3>
+            CTF Room</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-975760-ae6a0c7a-dcf9-4860-be9a-53e3f46d2a01_hu_51eb2ccef20e916b.webp"
-                                alt="Markus Einarsson"
+                                src="/sessions/avatar-1275276-72bf7c9c-d37a-4a80-a8e4-b0a594a6fd7e_hu_abe5311513c65488.webp"
+                                alt="Jalal Bouhdada"
                                 width="128"
                                 height="128" />
                         </li>
@@ -632,33 +2006,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        10:10 am
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="7">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                10:00 am - 12:05 pm
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/behind-enemy-lines-engaging-and-disrupting-ransomware-web-panels-997766/">
+        class="event-row" href="/sessions/gamifying-ai-threat-modeling-and-security-requirement-analysis-to-empower-agile-software-development-1276418/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Behind Enemy Lines: Engaging and Disrupting Ransomware Web Panels</h2>
+        <h2 class="event-row__title">Gamifying AI Threat Modeling and Security Requirement Analysis to Empower Agile Software Development</h2>
         <h3 class="event-row__speakers">
-                <span>Vangelis Stykas</span>
+                <span>Johan Sydseter</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            Workshop</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-997766-a5950a64-a289-47f4-88c6-fd75020fae38_hu_2282e26399773f2d.webp"
-                                alt="Vangelis Stykas"
+                                src="/sessions/avatar-1276418-900c2489-01d9-412e-aa78-a4df14b461ae_hu_41ebd48b1166de05.webp"
+                                alt="Johan Sydseter"
                                 width="128"
                                 height="128" />
                         </li>
@@ -670,14 +2041,125 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        10:50 am
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="5">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                10:00 am - 10:30 am
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/how-a-regulator-approaches-the-cyberbeveiligingswet/nis2-1303961/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">How a regulator approaches the Cyberbeveiligingswet/NIS2</h2>
+        <h3 class="event-row__speakers">
+                <span>Alan Lewis</span>
+                <span>Randy Snellenburg</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            Off the Record</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1303961-8f34a362-fd6e-4450-aac8-be635c0e7186_hu_c1278e76eeb8cb.webp"
+                                alt="Alan Lewis"
+                                width="128"
+                                height="128" />
+                        </li>
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1303961-2ff40373-ec92-4101-9a6b-6384368fb7ad_hu_44b510191c723c15.webp"
+                                alt="Randy Snellenburg"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="3">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                10:00 am - 4:00 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/social-lockpicking-afternoon-at-bsides-1284071/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">Social lockpicking afternoon at Bsides</h2>
+        <h3 class="event-row__speakers">
+                <span>Ivan Iushkevich</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            Lockpicking</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1284071-8b85dc5e-264f-4f9f-b8a2-bc8afdc680d2_hu_ef32a316b83030bf.webp"
+                                alt="Ivan Iushkevich"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="1">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:00:00 &#43;0000 UTC">
+                                10:00 am - 10:30 am
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/the-art-of-same-site-phishing-1247067/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">The Art of Same-Site Phishing</h2>
+        <h3 class="event-row__speakers">
+                <span>Jorian Woltjer</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            B-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1247067-78d3f642-4ca9-4b01-8c8c-ce2aa8cef7ff_hu_797f12ab5a74f5da.webp"
+                                alt="Jorian Woltjer"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="4">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:25:00 &#43;0000 UTC">
+                                10:25 am - 10:45 am
+                            </time>
 
 
 <a
@@ -687,7 +2169,7 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
         <h3 class="event-row__speakers">
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            Marble Room</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
@@ -699,28 +2181,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="2">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                10:50 am - 4:00 pm
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/finding-vulnerabilities-in-windows-with-context-aware-fuzzing-ms-rpc-983610/">
+        class="event-row" href="/sessions/capture-the-flag-1335183/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Finding vulnerabilities in Windows with context aware fuzzing MS-RPC</h2>
+        <h2 class="event-row__title">Capture The Flag</h2>
         <h3 class="event-row__speakers">
-                <span>Remco van der Meer</span>
+                <span>Jalal Bouhdada</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Tech track</h3>
+            CTF Room</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-983610-33c51be0-8aec-4c14-9ad5-02ba4a902b40_hu_eff8f090565df2d3.webp"
-                                alt="Remco van der Meer"
+                                src="/sessions/avatar-1335183-72bf7c9c-d37a-4a80-a8e4-b0a594a6fd7e_hu_abe5311513c65488.webp"
+                                alt="Jalal Bouhdada"
                                 width="128"
                                 height="128" />
                         </li>
@@ -732,33 +2216,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        11:20 am
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="1">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                10:50 am - 11:30 am
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/beyond-the-pink-data-risks-in-femtech-you-cant-ignore-992241/">
+        class="event-row" href="/sessions/osint-in-the-age-of-ai-personal-privacy-and-cyber-threat-intelligence-1269091/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Beyond the Pink: Data Risks in Femtech You Can’t Ignore</h2>
+        <h2 class="event-row__title">OSINT in the Age of AI: Personal Privacy and Cyber Threat Intelligence</h2>
         <h3 class="event-row__speakers">
-                <span>Arohi Naik</span>
+                <span>Domagoj Marić</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            B-Side</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-992241-307d5862-f507-4e38-b551-def81d008a0e_hu_b33bdd1225937563.webp"
-                                alt="Arohi Naik"
+                                src="/sessions/avatar-1269091-bbdfba43-ebac-45b7-b092-83682bf8c07e_hu_5918ae85dbccffc.webp"
+                                alt="Domagoj Marić"
                                 width="128"
                                 height="128" />
                         </li>
@@ -770,24 +2251,214 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        11:30 am
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="5">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                10:50 am - 11:20 am
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/the-cost-of-security-measuring-the-operational-impact-of-endpoint-and-siem-visibility-1307073/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">The Cost of Security: Measuring the Operational Impact of Endpoint and SIEM Visibility</h2>
+        <h3 class="event-row__speakers">
+                <span>Kıvanç Aydın</span>
+                <span>Zafer Balkan</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            Off the Record</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1307073-9112c993-35e6-420c-9d11-9b45907a728d_hu_a842947db3152727.webp"
+                                alt="Kıvanç Aydın"
+                                width="128"
+                                height="128" />
+                        </li>
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1307073-6e35f54a-97fb-4b88-bf9c-8708cfe3eb1e_hu_a750dc0b38ef8f41.webp"
+                                alt="Zafer Balkan"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 10:50:00 &#43;0000 UTC">
+                                10:50 am - 11:30 am
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/your-credentials-were-leaked-so-what-1256635/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">Your credentials were leaked, so what?</h2>
+        <h3 class="event-row__speakers">
+                <span>Pascal Kahn</span>
+                <span>Xavier Mertens</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            A-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1256635-18a36427-2481-4bb0-a332-ff77ccf9b69e_hu_f1ea27d8117c7b97.webp"
+                                alt="Pascal Kahn"
+                                width="128"
+                                height="128" />
+                        </li>
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1256635-7bb45c6b-337d-4c50-8bb2-9a29db68cc0b_hu_8abe5ed68540662d.webp"
+                                alt="Xavier Mertens"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="5">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 11:35:00 &#43;0000 UTC">
+                                11:35 am - 12:05 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/physsechound-has-entered-the-building--opengraphing-physical-security-1307017/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">PhysSecHound Has Entered the Building – OpenGraphing Physical Security</h2>
+        <h3 class="event-row__speakers">
+                <span>Kieran Croucher</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            Off the Record</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1307017-6cda0301-74d3-489b-b1cf-05e582b8d7ef_hu_ae5b79810623a4e.webp"
+                                alt="Kieran Croucher"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="1">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 11:40:00 &#43;0000 UTC">
+                                11:40 am - 12:05 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/finding-the-crypto-lessons-from-cryptographic-asset-discovery-in-government-1305993/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">Finding the Crypto: Lessons from Cryptographic Asset Discovery in Government</h2>
+        <h3 class="event-row__speakers">
+                <span>Mine Temürhan</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            B-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1305993-eb3cb4a4-5407-4267-93bf-c2369a761fb5_hu_33f6683e193fe562.webp"
+                                alt="Mine Temürhan"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 11:40:00 &#43;0000 UTC">
+                                11:40 am - 12:05 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/n00b-guide-into-the-dutch-hacker-scene-1305445/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">n00b guide into the Dutch Hacker Scene</h2>
+        <h3 class="event-row__speakers">
+                <span>Nancy Beers</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            A-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1305445-1ea6c7c0-5dc4-46bd-b950-05ecb9f20495_hu_24e394776b0833a0.webp"
+                                alt="Nancy Beers"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="4">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 12:05:00 &#43;0000 UTC">
+                                12:05 pm - 1:05 pm
+                            </time>
 
 
 <a
         class="event-row event-row--service-session">
     <div class="event-row__left">
-        <h2 class="event-row__title">Coffee Break</h2>
+        <h2 class="event-row__title">Lunch Break</h2>
         <h3 class="event-row__speakers">
         </h3>
         <h3 class="event-row__room">Room:
-            Tech track</h3>
+            Marble Room</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
@@ -799,33 +2470,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        12:00 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="7">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 13:00:00 &#43;0000 UTC">
+                                1:00 pm - 4:00 pm
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/cloud-security-anno-2025-start-secure-stay-secure-983167/">
+        class="event-row" href="/sessions/design-your-first-pcb-from-concept-to-board-1301163/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Cloud Security anno 2025: Start Secure, Stay Secure</h2>
+        <h2 class="event-row__title">Design Your First PCB: From Concept to Board</h2>
         <h3 class="event-row__speakers">
-                <span>Rhesa Baar</span>
+                <span>- Tcccorp -</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            Workshop</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-983167-8917a5da-312d-43a6-a30f-8b24d08ea169_hu_ef2dfab2f77f3907.webp"
-                                alt="Rhesa Baar"
+                                src="/sessions/avatar-1301163-1a36f7c8-3f9b-40c2-8619-04453a6fce3a_hu_52733cf739ee7f8.webp"
+                                alt="- Tcccorp -"
                                 width="128"
                                 height="128" />
                         </li>
@@ -837,37 +2505,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="1">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 13:05:00 &#43;0000 UTC">
+                                1:05 pm - 1:35 pm
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/getting-your-scope-in-control-during-a-quishing-red-teaming-assessment-1016718/">
+        class="event-row" href="/sessions/how-to-think-in-graphs-1308958/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Getting your scope in control during a Quishing Red Teaming Assessment</h2>
+        <h2 class="event-row__title">How To Think In Graphs</h2>
         <h3 class="event-row__speakers">
-                <span>Bob van der Staak</span>
-                <span>Rutger Flohil</span>
+                <span>Martin Sohn Christensen</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Tech track</h3>
+            B-Side</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-1016718-7c348910-e086-4ec4-b6e4-be9e54ec35de_hu_382ce6cd5cd51253.webp"
-                                alt="Bob van der Staak"
-                                width="128"
-                                height="128" />
-                        </li>
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="/sessions/avatar-1016718-ae8297e1-6ff6-417b-9327-cb626492847b_hu_6a5e4114358d7767.webp"
-                                alt="Rutger Flohil"
+                                src="/sessions/avatar-1308958-d1efda77-9ef9-4268-8b7a-5aaf5fbf602d_hu_6533078a5373a133.webp"
+                                alt="Martin Sohn Christensen"
                                 width="128"
                                 height="128" />
                         </li>
@@ -879,62 +2540,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        12:30 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 13:05:00 &#43;0000 UTC">
+                                1:05 pm - 1:35 pm
+                            </time>
 
 
 <a
-        class="event-row event-row--service-session">
+        class="event-row" href="/sessions/inside-a-celebrity-cyber-scam-deepfakes--mind-games-1305868/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Lunch break</h2>
+        <h2 class="event-row__title">Inside a celebrity cyber scam: deepfakes &amp; mind games</h2>
         <h3 class="event-row__speakers">
+                <span>Kerry Tomlinson</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
-    </div>
-    <div class="event-row__right">
-        <ul class="event-row__avatars">
-        </ul>
-
-
-<ul aria-label="Session Categories" class="session-categories event-row__categories">
-</ul>
-</div>
-</a>
-
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        1:30 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
-
-
-<a
-        class="event-row" href="/sessions/from-factory-floor-to-global-door-ot-security-in-supply-chain-1023695/">
-    <div class="event-row__left">
-        <h2 class="event-row__title">From Factory Floor to Global Door: OT Security in Supply Chain</h2>
-        <h3 class="event-row__speakers">
-                <span>Jiggyasu Sharma</span>
-        </h3>
-        <h3 class="event-row__room">Room:
-            Tech track</h3>
+            A-Side</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-1023695-afb90e22-1886-4bc7-840a-d1050a7db842_hu_9055d5551daf1cc9.webp"
-                                alt="Jiggyasu Sharma"
+                                src="/sessions/avatar-1305868-6e2b04cb-e09c-416d-9a4d-c34b98f8cf16_hu_e77afbb471a35003.webp"
+                                alt="Kerry Tomlinson"
                                 width="128"
                                 height="128" />
                         </li>
@@ -946,28 +2575,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="5">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 13:05:00 &#43;0000 UTC">
+                                1:05 pm - 1:35 pm
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/what-ill-tell-my-kids-about-k8s-security-1015970/">
+        class="event-row" href="/sessions/tracing-ghost-suppliers-what-dns-tls-and-javascript-reveal-about-your-real-supply-chain-1306969/">
     <div class="event-row__left">
-        <h2 class="event-row__title">What I’ll Tell My Kids About K8s Security</h2>
+        <h2 class="event-row__title">Tracing Ghost Suppliers: What DNS, TLS and JavaScript Reveal About Your Real Supply Chain</h2>
         <h3 class="event-row__speakers">
-                <span>Lars Lefebvre</span>
+                <span>Robin de Vries</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            Off the Record</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-1015970-9b653c45-134a-4ed2-9ce8-bce4234ed43c_hu_30f444e2afd533ab.webp"
-                                alt="Lars Lefebvre"
+                                src="/sessions/avatar-1306969-af13777a-301a-4767-bc12-d766ad70cd2d_hu_5fb7fc2c74c2fac0.webp"
+                                alt="Robin de Vries"
                                 width="128"
                                 height="128" />
                         </li>
@@ -979,33 +2610,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        2:10 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="1">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 13:40:00 &#43;0000 UTC">
+                                1:40 pm - 2:20 pm
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/tracking-the-adversaries-in-the-middle-1022121/">
+        class="event-row" href="/sessions/introducing-cycas-a-scalable-dfir-automation-pipeline-in-azure-1306861/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Tracking the Adversaries in the Middle</h2>
+        <h2 class="event-row__title">Introducing Cycas: a scalable DFIR automation pipeline in Azure</h2>
         <h3 class="event-row__speakers">
-                <span>Lex Crielaars</span>
+                <span>Tom Sturme</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Tech track</h3>
+            B-Side</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-1022121-f5760543-8307-4c9e-b997-47f6cd1132cc_hu_ebed2704aa9972c4.webp"
-                                alt="Lex Crielaars"
+                                src="/sessions/avatar-1306861-49f759f6-164d-4d03-9279-f66d00c08f2d_hu_cfbedbba1d1994fd.webp"
+                                alt="Tom Sturme"
                                 width="128"
                                 height="128" />
                         </li>
@@ -1017,60 +2645,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        2:20 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 13:40:00 &#43;0000 UTC">
+                                1:40 pm - 2:20 pm
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/panel-the-state-of-product-security-2025-1062285/">
+        class="event-row" href="/sessions/signed-sealed-pwned-lolbin-hollowing-in-red-team-operations-1242386/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Panel: The State of Product Security 2025</h2>
+        <h2 class="event-row__title">Signed, Sealed, Pwned: LOLBin Hollowing in Red Team Operations</h2>
         <h3 class="event-row__speakers">
-                <span>Kes Greuter</span>
-                <span>Leandro Quibem Magnabosco</span>
-                <span>Marnie Wilking</span>
-                <span>Marty Wijnen</span>
+                <span>Filipi Pires</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            A-Side</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-1062285-3a66f58f-6a1a-42fa-8025-5b600ab9aedd_hu_c233c38bd72bbc44.webp"
-                                alt="Kes Greuter"
-                                width="128"
-                                height="128" />
-                        </li>
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="/sessions/avatar-1062285-170193a3-9546-4748-94de-755100396350_hu_18c71ce3a726c9e2.webp"
-                                alt="Leandro Quibem Magnabosco"
-                                width="128"
-                                height="128" />
-                        </li>
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="/sessions/avatar-1062285-0488ed0b-2ef5-481a-9481-57f736638cfe_hu_b4a67b9ac44a7565.webp"
-                                alt="Marnie Wilking"
-                                width="128"
-                                height="128" />
-                        </li>
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="/sessions/avatar-1062285-172316b7-845b-4168-b874-1c9d8c7974aa_hu_a5844d3bfd6abca8.webp"
-                                alt="Marty Wijnen"
+                                src="/sessions/avatar-1242386-e0ec5130-2811-4426-833e-17a29010269b_hu_cf47c7df8a4fe39b.webp"
+                                alt="Filipi Pires"
                                 width="128"
                                 height="128" />
                         </li>
@@ -1082,32 +2680,134 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        2:50 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="5">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 13:45:00 &#43;0000 UTC">
+                                1:45 pm - 2:15 pm
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/inside-the-mind-of-the-attacker-edr-blind-spots-and-exploits-986771/">
+        class="event-row" href="/sessions/trust-by-design-when-deception-becomes-education-1252853/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Inside the Mind of the Attacker: EDR Blind Spots and Exploits</h2>
+        <h2 class="event-row__title">Trust by Design: When Deception becomes Education</h2>
+        <h3 class="event-row__speakers">
+                <span>Brigitte Heijkoop</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            Off the Record</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1252853-169640e5-7dfb-47da-88ac-863f8863b703_hu_9035f68532a92a6d.webp"
+                                alt="Brigitte Heijkoop"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="1">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 14:25:00 &#43;0000 UTC">
+                                2:25 pm - 3:05 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/1979-called.-they-already-figured-it-out.-1280605/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">1979 called. They already figured it out.</h2>
+        <h3 class="event-row__speakers">
+                <span>Kaja Möller</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            B-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1280605-42c65f9c-f22b-4e4b-b26a-30102dc663a4_hu_7c014b5c41be8110.webp"
+                                alt="Kaja Möller"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 14:25:00 &#43;0000 UTC">
+                                2:25 pm - 3:05 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/a-few-dollars-to-disappear-breaking-c2-beaconing-detection-1285407/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">A Few Dollars to Disappear: Breaking C2 Beaconing Detection</h2>
+        <h3 class="event-row__speakers">
+                <span>Mehmet Ergene</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            A-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1285407-11312fa2-3d24-4a2b-8f57-5cc1e0f1ec75_hu_9f0911bcf241b237.webp"
+                                alt="Mehmet Ergene"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="5">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 14:25:00 &#43;0000 UTC">
+                                2:25 pm - 3:05 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/the-context-gap-why-your-soc-misses-attacks-it-already-logged-1289405/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">The Context Gap: Why Your SOC Misses Attacks It Already Logged</h2>
         <h3 class="event-row__speakers">
                 <span>Marvin Ngoma</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Tech track</h3>
+            Off the Record</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-986771-81456d3b-b74f-4d70-b10f-259f04b1c40a_hu_9ce83cfecbaa8aea.webp"
+                                src="/sessions/avatar-1289405-81456d3b-b74f-4d70-b10f-259f04b1c40a_hu_34c6c07230ed6a57.webp"
                                 alt="Marvin Ngoma"
                                 width="128"
                                 height="128" />
@@ -1120,100 +2820,21 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        3:10 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
-
-
-<a
-        class="event-row" href="/sessions/remote-desktop-exploitation-a-deep-dive-into-midnight-blizzards-rdp-phishing-tactics-995423/">
-    <div class="event-row__left">
-        <h2 class="event-row__title">Remote Desktop Exploitation: A Deep Dive into Midnight Blizzard’s RDP Phishing Tactics</h2>
-        <h3 class="event-row__speakers">
-                <span>Mickey De Baets</span>
-        </h3>
-        <h3 class="event-row__room">Room:
-            Main track</h3>
-    </div>
-    <div class="event-row__right">
-        <ul class="event-row__avatars">
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="/sessions/avatar-995423-3218d458-13fa-44ea-8e9b-cae0284ad723_hu_716b7b06dcc5098b.webp"
-                                alt="Mickey De Baets"
-                                width="128"
-                                height="128" />
                         </li>
-        </ul>
-
-
-<ul aria-label="Session Categories" class="session-categories event-row__categories">
-</ul>
-</div>
-</a>
-
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        3:40 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
-
-
-<a
-        class="event-row" href="/sessions/abusing-the-rules-detect-and-defend-against-business-logic-attacks-in-apis-975536/">
-    <div class="event-row__left">
-        <h2 class="event-row__title">Abusing the Rules: Detect and Defend Against Business Logic Attacks in APIs</h2>
-        <h3 class="event-row__speakers">
-                <span>Nohé Hinniger-Foray</span>
-        </h3>
-        <h3 class="event-row__room">Room:
-            Tech track</h3>
-    </div>
-    <div class="event-row__right">
-        <ul class="event-row__avatars">
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="/sessions/avatar-975536-337e0789-6c10-4e16-90d9-88da35a79754_hu_72507d4ea2f6a3f1.webp"
-                                alt="Nohé Hinniger-Foray"
-                                width="128"
-                                height="128" />
-                        </li>
-        </ul>
-
-
-<ul aria-label="Session Categories" class="session-categories event-row__categories">
-</ul>
-</div>
-</a>
-
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        4:00 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 15:00:00 &#43;0000 UTC">
+                                3:00 pm - 3:15 pm
+                            </time>
 
 
 <a
         class="event-row event-row--service-session">
     <div class="event-row__left">
-        <h2 class="event-row__title">No access to Tech track</h2>
+        <h2 class="event-row__title">Refreshments served</h2>
         <h3 class="event-row__speakers">
         </h3>
         <h3 class="event-row__room">Room:
-            Tech track</h3>
+            A-Side</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
@@ -1225,28 +2846,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="5">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 15:10:00 &#43;0000 UTC">
+                                3:10 pm - 3:50 pm
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/teetering-on-the-precipice---how-we-can-save-kids-from-a-career-in-cybercrime-1041532/">
+        class="event-row" href="/sessions/clickfix-copy-paste-compromise-1287825/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Teetering on the precipice - how we can save kids from a career in cybercrime</h2>
+        <h2 class="event-row__title">Clickfix: Copy, Paste, Compromise</h2>
         <h3 class="event-row__speakers">
-                <span>Fergus Hay</span>
+                <span>Toni Dujmović</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            Off the Record</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-1041532-11f5e88c-7184-4368-9b0e-c0e2940b56d0_hu_55105aa0b292dff8.webp"
-                                alt="Fergus Hay"
+                                src="/sessions/avatar-1287825-acf1216c-804b-4c56-89e9-cfd19ef6655e_hu_3a08b81b29bf2a7.webp"
+                                alt="Toni Dujmović"
                                 width="128"
                                 height="128" />
                         </li>
@@ -1258,36 +2881,253 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        4:45 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="1">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 15:15:00 &#43;0000 UTC">
+                                3:15 pm - 3:45 pm
+                            </time>
 
 
 <a
-        class="event-row" href="/sessions/closing-remarks-1039824/">
+        class="event-row" href="/sessions/ants-bricks-and-spiders-threat-emulation-on-the-vmware-stack-1277060/">
     <div class="event-row__left">
-        <h2 class="event-row__title">Closing remarks</h2>
+        <h2 class="event-row__title">Ants, Bricks and Spiders: Threat Emulation on the VMware Stack</h2>
         <h3 class="event-row__speakers">
-                <span>Hugo van den Toorn</span>
+                <span>Leo Tsaousis</span>
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            B-Side</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
                         <li>
                             <img
                                 class="event-row__avatar-img"
-                                src="/sessions/avatar-1039824-598f92b5-24e8-45a7-9e59-35883259aaa2_hu_3ec0a5c7c7cbb3d.webp"
+                                src="/sessions/avatar-1277060-c7530b04-00a2-44dc-8e39-8beeb0897943_hu_49489b13ca3b938c.webp"
+                                alt="Leo Tsaousis"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="1">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 15:55:00 &#43;0000 UTC">
+                                3:55 pm - 4:35 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/hacking-browsers-the-easy-way-1298434/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">Hacking Browsers: The Easy Way</h2>
+        <h3 class="event-row__speakers">
+                <span>Robbe Van Roey</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            B-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1298434-27c505a2-ab1d-4b0b-ac5b-dc076bba1fa5_hu_cce8a06263e6300e.webp"
+                                alt="Robbe Van Roey"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="5">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 15:55:00 &#43;0000 UTC">
+                                3:55 pm - 4:35 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/racing-the-adversary-accelerating-ir-with-intelligence-led-velocity-1246594/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">Racing the Adversary: Accelerating IR with Intelligence-Led Velocity</h2>
+        <h3 class="event-row__speakers">
+                <span>Nicholas Pockl-Deen</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            Off the Record</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1246594-6e7376d5-b155-4d05-b100-5d2bc548313b_hu_9a69039d1d8e4665.webp"
+                                alt="Nicholas Pockl-Deen"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 15:55:00 &#43;0000 UTC">
+                                3:55 pm - 4:35 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/the-hype-around-autonomous-pentesting-and-where-the-coverage-actually-is-1305014/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">The hype around autonomous pentesting, and where the coverage actually is</h2>
+        <h3 class="event-row__speakers">
+                <span>Antoine Carossio</span>
+                <span>Yacine Souam</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            A-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1305014-e09dad0e-8506-42a0-8d2c-71bbb79bd2da_hu_c0129bb83fd3b1d6.webp"
+                                alt="Antoine Carossio"
+                                width="128"
+                                height="128" />
+                        </li>
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1305014-61ab3d70-5995-4207-a7bf-5303e1b66bcb_hu_ca4f6d85f911f860.webp"
+                                alt="Yacine Souam"
+                                width="128"
+                                height="128" />
+                        </li>
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 16:35:00 &#43;0000 UTC">
+                                4:35 pm - 5:15 pm
+                            </time>
+
+
+<a
+        class="event-row event-row--service-session">
+    <div class="event-row__left">
+        <h2 class="event-row__title">Closing Keynote Placeholder</h2>
+        <h3 class="event-row__speakers">
+        </h3>
+        <h3 class="event-row__room">Room:
+            A-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+        </ul>
+
+
+<ul aria-label="Session Categories" class="session-categories event-row__categories">
+</ul>
+</div>
+</a>
+
+                        </li>
+                        <li role="presentation" data-room="0">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 17:15:00 &#43;0000 UTC">
+                                5:15 pm - 5:30 pm
+                            </time>
+
+
+<a
+        class="event-row" href="/sessions/closing-notes-1328339/">
+    <div class="event-row__left">
+        <h2 class="event-row__title">Closing notes</h2>
+        <h3 class="event-row__speakers">
+                <span>Alexandra Charikova</span>
+                <span>Hugo van den Toorn</span>
+                <span>Joey Dreijer</span>
+                <span>Marina Bochenkova</span>
+                <span>Paul Moreno</span>
+                <span>Roald Nefs</span>
+        </h3>
+        <h3 class="event-row__room">Room:
+            A-Side</h3>
+    </div>
+    <div class="event-row__right">
+        <ul class="event-row__avatars">
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1328339-e8f118f8-10a2-475f-aa17-9b30b68e632c_hu_5803d0447e8e4a0f.webp"
+                                alt="Alexandra Charikova"
+                                width="128"
+                                height="128" />
+                        </li>
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1328339-598f92b5-24e8-45a7-9e59-35883259aaa2_hu_69d3a8d3f7e6572a.webp"
                                 alt="Hugo van den Toorn"
                                 width="128"
                                 height="128" />
                         </li>
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1328339-bfdf8ccd-2e44-4def-a337-597e2bffbd18_hu_35b38c152839f3bc.webp"
+                                alt="Joey Dreijer"
+                                width="128"
+                                height="128" />
+                        </li>
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1328339-48615645-061c-4128-90e2-1987ceb235bc_hu_cb9c50184088775.webp"
+                                alt="Marina Bochenkova"
+                                width="128"
+                                height="128" />
+                        </li>
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1328339-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8_hu_7e527ee390233e2d.webp"
+                                alt="Paul Moreno"
+                                width="128"
+                                height="128" />
+                        </li>
+                        <li>
+                            <img
+                                class="event-row__avatar-img"
+                                src="/sessions/avatar-1328339-180bd1d9-532a-4957-9b6e-d373f22d650f_hu_4caaf70590ff63b6.webp"
+                                alt="Roald Nefs"
+                                width="128"
+                                height="128" />
+                        </li>
         </ul>
 
 
@@ -1296,24 +3136,21 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        5:00 pm
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                            <li
-                                role="presentation">
+                        </li>
+                        <li role="presentation" data-room="4">
+                            <time class="session-day-section__mobile-time" datetime="2026-11-19 17:30:00 &#43;0000 UTC">
+                                5:30 pm - 7:00 pm
+                            </time>
 
 
 <a
         class="event-row event-row--service-session">
     <div class="event-row__left">
-        <h2 class="event-row__title">Happy hour (Sponsored by Aikido)</h2>
+        <h2 class="event-row__title">Drinks</h2>
         <h3 class="event-row__speakers">
         </h3>
         <h3 class="event-row__room">Room:
-            Main track</h3>
+            Marble Room</h3>
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
@@ -1325,26 +3162,28 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
 </div>
 </a>
 
-                            </li>
-                    </menu>
+                        </li>
+                </menu>
             </section>
         
     </div>
+
 
 
 <div class="section-container section-container--highlighted">
     <section class="section section--long cta-section">
         <h1 class="cta-section__heading">Join us in Amsterdam!</h1>
 
-        <h2 class="cta-section__subheading">November 20, 2026</h2>
+        <h2 class="cta-section__subheading">November 19, 2026
+        </h2>
 
         <p class="cta-section__message">Hang out, learn something awesome and make new friends.</p>
 
 
     
     
-    <a class="button button--outlined" href="https://www.bsidesams.org/sponsorship" rel="noopener noreferrer" rel="external" target="_blank">
-        Become a sponsor!
+    <a class="button button--outlined" href="https://app.tixnu.com/events/bsides/amsterdam-2026" rel="noopener noreferrer" rel="external" target="_blank">
+        Get Tickets
         <div class="button__icon">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" width="100%" height="100%">
     <path
@@ -1370,6 +3209,30 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
     </section>
 </div>
 
+
+    <script>
+        const scheduleZoomControls = document.querySelector('[data-schedule-zoom-controls]');
+
+        if (scheduleZoomControls) {
+            let scheduleZoom = 3;
+            const scheduleZoomButtons = scheduleZoomControls.querySelectorAll('[data-schedule-zoom]');
+
+            function updateScheduleZoom() {
+                document.querySelector('.page-main').dataset.scheduleZoom = scheduleZoom;
+                scheduleZoomButtons[0].disabled = scheduleZoom === -1;
+                scheduleZoomButtons[1].disabled = scheduleZoom === 3;
+            }
+
+            scheduleZoomButtons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    scheduleZoom = Math.max(-1, Math.min(3, scheduleZoom + Number(button.dataset.scheduleZoom)));
+                    updateScheduleZoom();
+                });
+            });
+
+            updateScheduleZoom();
+        }
+    </script>
         </main>
                 <div class="section-container section-container--dimmed">
                     <div class="section section--long" role="complementary">
@@ -1403,12 +3266,58 @@ Our goal is to bring together at least 200 people from the InfoSec community." /
         <li>
             <a
                 class="menu-item__link"
+                href="/speakers/"
+                aria-label="Speakers"
+                aria-describedby="secondary-menu-description-1">
+                <h1 class="heading heading--3 heading--embedded">Speakers</h1>
+                <div class="secondary-menu__description">
+                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-1">Meet our speakers who will will be speaking at BSides.
+Learn more about their backgrounds and what they will discuss.
+                    </p>
+                </div>
+                <div class="menu-item__icon"><svg width="34" height="16" viewBox="0 0 34 16" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M1 8.13208H33M33 8.13208L23.784 1M33 8.13208L23.784 15"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
+</div>
+            </a>
+        </li>
+        <li>
+            <a
+                class="menu-item__link"
+                href="/location/"
+                aria-label="Location"
+                aria-describedby="secondary-menu-description-2">
+                <h1 class="heading heading--3 heading--embedded">Location</h1>
+                <div class="secondary-menu__description">
+                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-2">Find out where the event will take place.
+This section provides details on the venue and directions.
+                    </p>
+                </div>
+                <div class="menu-item__icon"><svg width="34" height="16" viewBox="0 0 34 16" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M1 8.13208H33M33 8.13208L23.784 1M33 8.13208L23.784 15"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
+</div>
+            </a>
+        </li>
+        <li>
+            <a
+                class="menu-item__link"
                 href="/code-of-conduct/"
                 aria-label="Code of Conduct"
-                aria-describedby="secondary-menu-description-1">
+                aria-describedby="secondary-menu-description-3">
                 <h1 class="heading heading--3 heading--embedded">Code of Conduct</h1>
                 <div class="secondary-menu__description">
-                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-1">This outlines the expectations for participant behavior and event policies.
+                    <p class="paragraph paragraph-embedded" id="secondary-menu-description-3">This outlines the expectations for participant behavior and event policies.
                     </p>
                 </div>
                 <div class="menu-item__icon"><svg width="34" height="16" viewBox="0 0 34 16" xmlns="http://www.w3.org/2000/svg">

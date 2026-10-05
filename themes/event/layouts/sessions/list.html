@@ -75,6 +75,12 @@
                         </menu>
                     </article>
                 {{- end }}
+
+                <div class="schedule-zoom" data-schedule-zoom-controls>
+                    <span class="schedule-zoom__label">{{ T "sessions_page.timeline_size" }}</span>
+                    <button class="schedule-zoom__button" type="button" data-schedule-zoom="-1" aria-label="{{ T "sessions_page.zoom_out" }}">-</button>
+                    <button class="schedule-zoom__button" type="button" data-schedule-zoom="1" aria-label="{{ T "sessions_page.zoom_in" }}">+</button>
+                </div>
             </div>
         </div>
     </header>
@@ -82,7 +88,13 @@
     <div class="section-container section-container--dimmed">
         {{- range $index, $element := $sessionsGroupedByDay }}
             {{- $daySessions := sort .Pages "Params.startsAt" "asc" }}
-            {{- $dayStart := (index $daySessions 0).Params.startsAt }}
+            {{- $firstSessionStart := (index $daySessions 0).Params.startsAt }}
+            {{- $preScheduleStart := $firstSessionStart.Add (time.Duration "hour" -1) }}
+            {{- $dayStartMinute := "00" }}
+            {{- if ge (int ($preScheduleStart | time.Format "04")) 30 }}
+                {{- $dayStartMinute = "30" }}
+            {{- end }}
+            {{- $dayStart := time.AsTime (printf "%sT%s:%s:00" ($preScheduleStart | time.Format "2006-01-02") ($preScheduleStart | time.Format "15") $dayStartMinute) }}
             {{- $dayEnd := $dayStart }}
             {{- range $daySessions }}
                 {{- if gt .Params.endsAt $dayEnd }}
@@ -90,7 +102,7 @@
                 {{- end }}
             {{- end }}
             {{- $dayDuration := div (sub $dayEnd.Unix $dayStart.Unix) 60 }}
-            {{- $timeSlots := div (add $dayDuration 29) 30 }}
+            {{- $timeSlots := div (add $dayDuration 4) 5 }}
             <section class="section session-day-section" data-day="{{ $index }}">
                 <h1 class="heading heading--highlighted">
                     {{ T "sessions_page.day" (add $index 1) }}
@@ -108,45 +120,78 @@
                     {{- end }}
 
                     {{- range $slotIndex := seq 0 $timeSlots }}
-                        {{- $slotMinute := mul $slotIndex 30 }}
-                        {{- $slotTime := $dayStart.Add (time.Duration (printf "%dm" $slotMinute)) }}
-                        <div class="schedule-grid__time" style="--schedule-row: {{ add $slotIndex 3 }}">
-                            {{ $slotTime | time.Format ":time_short" }}
-                        </div>
+                        {{- $slotMinute := mul $slotIndex 5 }}
+                        {{- $slotTime := $dayStart.Add (time.Duration "minute" $slotMinute) }}
+                        {{- if eq (mod $slotIndex 6) 0 }}
+                            <div class="schedule-grid__time" style="--schedule-row: {{ add $slotIndex 7 }}">
+                                {{ $slotTime | time.Format ":time_short" }}
+                            </div>
+                        {{- end }}
+                    {{- end }}
+
+                    {{- range $tickIndex := seq 0 (div (add $dayDuration 9) 10) }}
+                        <div class="schedule-grid__tick" aria-hidden="true" style="--schedule-row: {{ add (mul $tickIndex 2) 7 }}"></div>
                     {{- end }}
 
                     {{- range $daySessions }}
+                        {{- $session := . }}
                         {{- $startMinute := div (sub .Params.startsAt.Unix $dayStart.Unix) 60 }}
                         {{- $durationMinutes := div (sub .Params.endsAt.Unix .Params.startsAt.Unix) 60 }}
-                        {{- $rowSpan := div (add $durationMinutes 29) 30 }}
+                        {{- $rowSpan := div (add $durationMinutes 4) 5 }}
                         {{- $roomIndex := index $sessionRoomIndices .Params.roomName }}
                         {{- $scheduleColumn := add $roomIndex 2 }}
-                        {{- if .Params.isPlenumSession }}
-                            {{- $scheduleColumn = printf "2 / span %d" (len $sessionsGroupedByRoom) }}
-                        {{- end }}
                         <article
-                            class="schedule-grid__session{{ if .Params.isServiceSession }} schedule-grid__session--service{{ end }}"
+                            class="schedule-grid__session{{ if .Params.isServiceSession }} schedule-grid__session--service{{ end }}{{ if .Params.isPlenumSession }} schedule-grid__session--plenum{{ end }}"
                             data-room="{{ $roomIndex }}"
-                            {{- if .Params.isPlenumSession }} data-plenum {{ end }}
-                            style="--schedule-column: {{ $scheduleColumn }}; --schedule-row: {{ add (div $startMinute 30) 3 }}; --schedule-row-span: {{ $rowSpan }}">
+                            style="--schedule-column: {{ $scheduleColumn }}; --schedule-row: {{ add (div $startMinute 5) 7 }}; --schedule-row-span: {{ $rowSpan }}">
                             {{- if .Params.isServiceSession }}
-                                <div class="schedule-card schedule-card--service">
-                                    <time class="schedule-card__time" datetime="{{ .Params.startsAt }}">
-                                        {{ .Params.startsAt | time.Format ":time_short" }} - {{ .Params.endsAt | time.Format ":time_short" }}
-                                    </time>
-                                    <h3 class="schedule-card__title">{{ .Title }}</h3>
+                                <div class="schedule-card schedule-card--service" tabindex="0">
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="{{ .Params.startsAt }}">
+                                            {{ .Params.startsAt | time.Format ":time_short" }} - {{ .Params.endsAt | time.Format ":time_short" }}
+                                        </time>
+                                        <h3 class="schedule-card__title">{{ .Title }}</h3>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="{{ .Params.startsAt }}">
+                                            {{ .Params.startsAt | time.Format ":time_short" }} - {{ .Params.endsAt | time.Format ":time_short" }}
+                                        </time>
+                                        <h3 class="schedule-card__title">{{ .Title }}</h3>
+                                        <p class="schedule-card__room">{{ .Params.room.name }}</p>
+                                    </div>
                                 </div>
                             {{- else }}
                                 <a class="schedule-card" href="{{ .RelPermalink }}">
-                                    <time class="schedule-card__time" datetime="{{ .Params.startsAt }}">
-                                        {{ .Params.startsAt | time.Format ":time_short" }} - {{ .Params.endsAt | time.Format ":time_short" }}
-                                    </time>
-                                    <h3 class="schedule-card__title">{{ .Title }}</h3>
-                                    <p class="schedule-card__speakers">
-                                        {{- range $speakerIndex, $speaker := .Params.speakers }}
-                                            {{- if gt $speakerIndex 0 }}, {{ end }}{{ $speaker.fullName }}
+                                    <div class="schedule-card__compact">
+                                        <time class="schedule-card__time" datetime="{{ .Params.startsAt }}">
+                                            {{ .Params.startsAt | time.Format ":time_short" }} - {{ .Params.endsAt | time.Format ":time_short" }}
+                                        </time>
+                                        <h3 class="schedule-card__title">{{ .Title }}</h3>
+                                        <p class="schedule-card__speakers">
+                                            {{- range $speakerIndex, $speaker := .Params.speakers }}
+                                                {{- if gt $speakerIndex 0 }}, {{ end }}{{ $speaker.fullName }}
+                                            {{- end }}
+                                        </p>
+                                        {{- if ge $durationMinutes 60 }}
+                                            {{- range $continuationIndex := seq 1 (sub (div $durationMinutes 30) 1) }}
+                                                <span class="schedule-card__continuation" style="--continuation-row: {{ mul $continuationIndex 6 }}">
+                                                    {{ $session.Title }}
+                                                </span>
+                                            {{- end }}
                                         {{- end }}
-                                    </p>
+                                    </div>
+                                    <div class="schedule-card__popover">
+                                        <time class="schedule-card__time" datetime="{{ .Params.startsAt }}">
+                                            {{ .Params.startsAt | time.Format ":time_short" }} - {{ .Params.endsAt | time.Format ":time_short" }}
+                                        </time>
+                                        <h3 class="schedule-card__title">{{ .Title }}</h3>
+                                        <p class="schedule-card__speakers">
+                                            {{- range $speakerIndex, $speaker := .Params.speakers }}
+                                                {{- if gt $speakerIndex 0 }}, {{ end }}{{ $speaker.fullName }}
+                                            {{- end }}
+                                        </p>
+                                        <p class="schedule-card__room">{{ .Params.room.name }}</p>
+                                    </div>
                                 </a>
                             {{- end }}
                         </article>
@@ -194,4 +239,28 @@
         "ctaUrl" .Site.Params.themes.event.callToAction.other.url
         )
     }}
+
+    <script>
+        const scheduleZoomControls = document.querySelector('[data-schedule-zoom-controls]');
+
+        if (scheduleZoomControls) {
+            let scheduleZoom = 3;
+            const scheduleZoomButtons = scheduleZoomControls.querySelectorAll('[data-schedule-zoom]');
+
+            function updateScheduleZoom() {
+                document.querySelector('.page-main').dataset.scheduleZoom = scheduleZoom;
+                scheduleZoomButtons[0].disabled = scheduleZoom === -1;
+                scheduleZoomButtons[1].disabled = scheduleZoom === 3;
+            }
+
+            scheduleZoomButtons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    scheduleZoom = Math.max(-1, Math.min(3, scheduleZoom + Number(button.dataset.scheduleZoom)));
+                    updateScheduleZoom();
+                });
+            });
+
+            updateScheduleZoom();
+        }
+    </script>
 {{- end }}

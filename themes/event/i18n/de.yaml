@@ -15,6 +15,9 @@ sessions_page.heading: Programm
 sessions_page.heading_day_filter: Datum
 sessions_page.heading_track_filter: Track
 sessions_page.all_rooms: Alle Räume
+sessions_page.timeline_size: Zeitachsenhöhe
+sessions_page.zoom_in: Zeitachsenhöhe vergrößern
+sessions_page.zoom_out: Zeitachsenhöhe verkleinern
 sessions_page.day: Tag {{ . }}
 sessions_page.speaker: Sprecher
 sessions_page.room: Raum

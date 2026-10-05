@@ -1,200 +1,274 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Speakers on BSides Amsterdam</title>
-    <link>http://localhost:1313/speakers/</link>
-    <description>Recent content in Speakers on BSides Amsterdam</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/speakers/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Alexandra Charikova</title>
-      <link>http://localhost:1313/speakers/alexandra-charikova-e8f118f8-10a2-475f-aa17-9b30b68e632c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/alexandra-charikova-e8f118f8-10a2-475f-aa17-9b30b68e632c/</guid>
-      <description>&lt;p&gt;Passionate about advancing knowledge in application security and challenging industry leaders, Alexandra is a cybersecurity content creator and hosts the podcast &amp;ldquo;The Elephant in AppSec.&amp;rdquo; This podcast brings together cybersecurity professionals and industry leaders to discuss and tackle challenging topics in application security.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Arohi Naik</title>
-      <link>http://localhost:1313/speakers/arohi-naik-307d5862-f507-4e38-b551-def81d008a0e/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/arohi-naik-307d5862-f507-4e38-b551-def81d008a0e/</guid>
-      <description>&lt;p&gt;Arohi Naik is a Security Engineer at SQR and brings both technical depth and a human-focused lens to her work. With a Master’s in Cybersecurity and experience across threat intelligence, incident response, risk management, and GRC she is passionate about creating security solutions that are not just effective, but also inclusive and user-aware.&#xA;A committed advocate for gender equity in tech and a vocal feminist, she works to elevate diverse voices and drive meaningful change in the cybersecurity space. With a lens grounded in empathy and inclusion, Arohi examines how behaviour, psychology, and culture intersect with the security landscape. Whether she’s building threat models or speaking on stage, she brings clarity, and a mission to make security safer, smarter, and more accessible for everyone.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bob van der Staak</title>
-      <link>http://localhost:1313/speakers/bob-van-der-staak-7c348910-e086-4ec4-b6e4-be9e54ec35de/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/bob-van-der-staak-7c348910-e086-4ec4-b6e4-be9e54ec35de/</guid>
-      <description>&lt;p&gt;Bob van der Staak is a Ethical hacker and red teamer at the Dutch Railways. Sharing knowledge is his passion, and with his background in software development and technical informatics, he implements code to assist with his daily assessments.&#xA;From web penetration testing to malware development and cloud technologies, he is eager to learn and share his expertise.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fergus Hay</title>
-      <link>http://localhost:1313/speakers/fergus-hay-11f5e88c-7184-4368-9b0e-c0e2940b56d0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/fergus-hay-11f5e88c-7184-4368-9b0e-c0e2940b56d0/</guid>
-      <description>&lt;p&gt;Fergus Hay is the Co-Founder and CEO of The Hacking Games, an entertainment, training and talent enterprise committed to creating a generation of Ethical Hackers to make the world safer. With $10.5 Trn forecasted to be lost to Cybercrime in 2025 and 69% of European teenagers having committed a cybercrime/misdemeanor, we are facing a generational crisis. The Hacking Games will inspire, educate and equip this generation to be defenders and not attackers.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hugo van den Toorn</title>
-      <link>http://localhost:1313/speakers/hugo-van-den-toorn-598f92b5-24e8-45a7-9e59-35883259aaa2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/hugo-van-den-toorn-598f92b5-24e8-45a7-9e59-35883259aaa2/</guid>
-      <description>&lt;p&gt;Hugo is former Chief Information Security Officer and has now transitioned back to help other organizations understand adversary tradecraft. With over twelve years of experience in the Information Security industry, he has a solid technical background as hands-on security professional.&lt;/p&gt;&#xA;&lt;p&gt;Hugo has experience with and a keen interest in Social engineering, phishing and physical penetration testing. Nowadays, Hugo takes pride and joy in helping individual team members and the business grow. With a strong technical foundation, Hugo combines his passion for security, teaching and hacking with a drive for continuous improvement and optimization of people, processes and technology.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Jiggyasu Sharma</title>
-      <link>http://localhost:1313/speakers/jiggyasu-sharma-afb90e22-1886-4bc7-840a-d1050a7db842/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/jiggyasu-sharma-afb90e22-1886-4bc7-840a-d1050a7db842/</guid>
-      <description>&lt;p&gt;Lead Info Sec Engg Consultant at Nike with over 15 years of experience in information and application security, specializing in IOT/OT. My expertise spans web and mobile application security, API/web services, network and wireless security, Bluetooth and Zigbee, embedded device security, and 3G/4G spectrum security, where I have led large-scale security initiatives to strengthen enterprise resilience and enable secure product innovation. I hold OSCP, ECSA, and SANS-561 certifications and am an active member of the global security community, having presented at leading conferences such as RSA, c0c0n, and CysInfo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Joey Dreijer</title>
-      <link>http://localhost:1313/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/</guid>
-      <description>&lt;p&gt;Technical Architect at SpecterOps&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kes Greuter</title>
-      <link>http://localhost:1313/speakers/kes-greuter-3a66f58f-6a1a-42fa-8025-5b600ab9aedd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/kes-greuter-3a66f58f-6a1a-42fa-8025-5b600ab9aedd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Korstiaan Stam</title>
-      <link>http://localhost:1313/speakers/korstiaan-stam-dae3b7a3-806e-405b-8f26-2e8885f4592e/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/korstiaan-stam-dae3b7a3-806e-405b-8f26-2e8885f4592e/</guid>
-      <description>&lt;p&gt;Korstiaan Stam is the Founder and CEO of Invictus Incident Response &amp;amp; Trainer at DEF CON, BlackHat &amp;amp; BruCON. Korstiaan is a passionate incident responder, preferably in the cloud. Before starting Invictus he was doing IR at PwC and Northwave.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Lars Lefebvre</title>
-      <link>http://localhost:1313/speakers/lars-lefebvre-9b653c45-134a-4ed2-9ce8-bce4234ed43c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/lars-lefebvre-9b653c45-134a-4ed2-9ce8-bce4234ed43c/</guid>
-      <description>&lt;p&gt;Lars is a dedicated Cloud and Application Security Engineer with a strong background in the Cloud Native stack. He’s experienced in managing multi-cloud environments, promoting cloud-native practices, and enhancing security measures in software development lifecycles.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Leandro Quibem Magnabosco</title>
-      <link>http://localhost:1313/speakers/leandro-quibem-magnabosco-170193a3-9546-4748-94de-755100396350/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/leandro-quibem-magnabosco-170193a3-9546-4748-94de-755100396350/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lex Crielaars</title>
-      <link>http://localhost:1313/speakers/lex-crielaars-f5760543-8307-4c9e-b997-47f6cd1132cc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/lex-crielaars-f5760543-8307-4c9e-b997-47f6cd1132cc/</guid>
-      <description>&lt;p&gt;As the former CTO of one of the largest, dedicated data analytics consultancy companies in the Benelux, Lex has always had an eye for how to transform data into information, knowledge and ultimately: wisdom. He now applies his keen, analytical mind in the detection of anomalies. Things you don&amp;rsquo;t want to see in your security logs but are looking for anyway.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Marina Bochenkova</title>
-      <link>http://localhost:1313/speakers/marina-bochenkova-48615645-061c-4128-90e2-1987ceb235bc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/marina-bochenkova-48615645-061c-4128-90e2-1987ceb235bc/</guid>
-      <description>&lt;p&gt;Marina wears many hats as a cybersecurity analyst focusing on digital forensics, incident response, and OT security, while also dabbling in security awareness and culture. She combines a passion for protecting people, a strong belief in digital privacy as a human right, and an overly-enthusiastic approach to problem-solving. When not defending digital spaces, Marina actively nurtures her already-unhealthy obsession with cats and resorts to baking or martial arts when desperate.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Markus Einarsson</title>
-      <link>http://localhost:1313/speakers/markus-einarsson-ae6a0c7a-dcf9-4860-be9a-53e3f46d2a01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/markus-einarsson-ae6a0c7a-dcf9-4860-be9a-53e3f46d2a01/</guid>
-      <description>&lt;p&gt;Markus Einarsson is a Security Architect and Incident Response Lead at Sectra in Sweden, where he secures cloud-hosted environments for healthcare customers worldwide. With over a decade of experience in cybersecurity, Markus specializes in incident response, digital forensics and security architecture.&lt;/p&gt;&#xA;&lt;p&gt;As part of the Sectra Hunt and Incident Response Team, he has extensive hands-on experience with forensic workflows and modern DFIR toolchains. Markus holds multiple GIAC certifications including GEIR, GCDA, GCFE, GCFA, GRID, GNFA, GCIA and GCIH. He is passionate about scalable incident response methodologies and advancing open-source forensic tools.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Marnie Wilking</title>
-      <link>http://localhost:1313/speakers/marnie-wilking-0488ed0b-2ef5-481a-9481-57f736638cfe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/marnie-wilking-0488ed0b-2ef5-481a-9481-57f736638cfe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Marty Wijnen</title>
-      <link>http://localhost:1313/speakers/marty-wijnen-172316b7-845b-4168-b874-1c9d8c7974aa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/marty-wijnen-172316b7-845b-4168-b874-1c9d8c7974aa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Marvin Ngoma</title>
-      <link>http://localhost:1313/speakers/marvin-ngoma-81456d3b-b74f-4d70-b10f-259f04b1c40a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/marvin-ngoma-81456d3b-b74f-4d70-b10f-259f04b1c40a/</guid>
-      <description>&lt;p&gt;Marvin is a seasoned consultant and security architect. He has a strong passion for helping organizations succeed in their cybersecurity programs. He has led many projects in both the private and public sectors, architecting and building Security Operations and Intelligence capabilities; unifying tools, processes, and people. Prior to joining Elastic, Marvin worked as a security consultant at IBM and was the primary SME for QRadar in the nordics.&lt;/p&gt;&#xA;&lt;p&gt;In addition to his work with clients, Marvin frequently speaks at conferences, summits, and meetups on the latest security topics, making him a dedicated security evangelist. He holds a masters in Computer Science &amp;amp; Engineering from Chalmers University of Technology in Sweden, and is a very proactive member of ISC2, among other security bodies.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mayank Joshi</title>
-      <link>http://localhost:1313/speakers/mayank-joshi-7666d65d-8020-481c-9629-7c04a06598b6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/mayank-joshi-7666d65d-8020-481c-9629-7c04a06598b6/</guid>
-      <description>&lt;p&gt;I try to find and do the hard things before they get harder.&#xA;Believe in building guard-rails and than patching potholes later. Make the secure obvious and the insecure difficult.&#xA;Build trust through a bias towards action and enablement.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mickey De Baets</title>
-      <link>http://localhost:1313/speakers/mickey-de-baets-3218d458-13fa-44ea-8e9b-cae0284ad723/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/mickey-de-baets-3218d458-13fa-44ea-8e9b-cae0284ad723/</guid>
-      <description>&lt;p&gt;Mickey De Baets, a seasoned Penetration Tester, Red Teamer, and currently Lead Offensive Security Engineer at Vectra AI, brings a wealth of expertise in offensive security, focusing on complex threat landscapes. With a strong background in Red Teaming, Mickey actively contributes to cybersecurity education, teaching at Thomas More and hosting community meetups as a Belgian Hack The Box Ambassador&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Nohé Hinniger-Foray</title>
-      <link>http://localhost:1313/speakers/noh%C3%A9-hinniger-foray-337e0789-6c10-4e16-90d9-88da35a79754/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/noh%C3%A9-hinniger-foray-337e0789-6c10-4e16-90d9-88da35a79754/</guid>
-      <description>&lt;p&gt;Nohé is Full-Stack R&amp;amp;D Engineer @ Escape. As computer science enthusiast, he loves to craft new technologies, tools &amp;amp; applications for the open-source community. He has also shared his expertise at various security and tech conferences like BSides Berlin, engaging with a broader audience.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Paul Moreno</title>
-      <link>http://localhost:1313/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/</guid>
-      <description>&lt;p&gt;A transformational cybersecurity executive with over 20 years of experience building and leading security teams and programs across diverse industries. I specialize in aligning cybersecurity strategy with business objectives, risk tolerance, and compliance requirements that empower startups and scale-ups to drive growth and innovation while maintaining robust security postures. I&amp;rsquo;ve contributed to multiple successful acquisitions and IPOs.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Remco van der Meer</title>
-      <link>http://localhost:1313/speakers/remco-van-der-meer-33c51be0-8aec-4c14-9ad5-02ba4a902b40/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/remco-van-der-meer-33c51be0-8aec-4c14-9ad5-02ba4a902b40/</guid>
-      <description>&lt;p&gt;I like Windows security&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rhesa Baar</title>
-      <link>http://localhost:1313/speakers/rhesa-baar-8917a5da-312d-43a6-a30f-8b24d08ea169/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/rhesa-baar-8917a5da-312d-43a6-a30f-8b24d08ea169/</guid>
-      <description>&lt;p&gt;My name is Rhesa, a security enthusiast. I work in the security field for 13 years now. I have a technical background. I have worked as a consultant doing technical threat and vulnerability analysis but also as a security architect at a High Tech company.&#xA;I really enjoy to work on multidisciplinary challenges where people and technology need to be brought together.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Roald Nefs</title>
-      <link>http://localhost:1313/speakers/roald-nefs-180bd1d9-532a-4957-9b6e-d373f22d650f/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/roald-nefs-180bd1d9-532a-4957-9b6e-d373f22d650f/</guid>
-      <description>&lt;p&gt;As a Chief Technolog Officer at Warpnet, Roald uses his acquired skills daily within a variety of context related to cybersecurity. He understands both IT security and IT compliance. Bridging between teams, organizations and people is one of his key skills. He has made several contributions to open source. Roald enjoys tinkering with electronics, hardware hacking and software development.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rob van der Veer</title>
-      <link>http://localhost:1313/speakers/rob-van-der-veer-392a8144-9b27-469f-98dd-9ae07eb41866/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/rob-van-der-veer-392a8144-9b27-469f-98dd-9ae07eb41866/</guid>
-      <description>&lt;p&gt;Rob van der Veer has over 33 years of experience in AI and security, from hacker to CEO.  He open sourced international standardization of AI security by creating the OWASP AI Exchange, as the elected co-editor of the AI Act security standard, contributor to ISO/IEC 27090 and the main author of ISO/IEC 5338 on AI system lifecycle.  As Chief AI Officer at the Software Improvement Group, Rob advises governments, enterprises, and institutions worldwide,  co-founded OpenCRE.org, and has delivered over 300 speaking engagements.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rutger Flohil</title>
-      <link>http://localhost:1313/speakers/rutger-flohil-ae8297e1-6ff6-417b-9327-cb626492847b/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/rutger-flohil-ae8297e1-6ff6-417b-9327-cb626492847b/</guid>
-      <description>&lt;p&gt;Rutger Flohil began his career as a .NET developer, building a solid base in software development before switching gears to focus on cybersecurity. After gaining valuable experience in the Security Operations Center (SOC) of the Dutch TLD, he moved on to his current role as a Red Teamer at Dutch Railways (NS). Rutger enjoys the creative side of security, especially when it comes to writing offensive scripts in Python. Always curious and eager to learn, he’s passionate about discovering new techniques and fresh perspectives to tackle security challenges.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Vangelis Stykas</title>
-      <link>http://localhost:1313/speakers/vangelis-stykas-a5950a64-a289-47f4-88c6-fd75020fae38/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/speakers/vangelis-stykas-a5950a64-a289-47f4-88c6-fd75020fae38/</guid>
-      <description>&lt;p&gt;Vangelis began as a developer from Greece. Six years ago he realized that only his dog didn’t have an API, so he decided to steer his focus towards security.&#xA;That led him to pursue a PhD in Web Application Security with an extra focus on machine learning. He’s still actively pursuing it.&#xA;He currently applies his skills as a Chief Technology Officer at Atropos, and during his free time, Vangelis is helping start-ups secure themselves on the internet and get a leg up in security terms.&#xA;His love of a simplistic approach to hacking by exploiting vulnerable APIs led him to publish research regarding API controlling ships, smart locks, IP cameras, car alarms, EV chargers, and many other IoT devices. Since our lives are nowadays extremely cyber-dependent, his goal is to convince all companies to never neglect their API security as rush-to-market mentality is almost certain to lead to catastrophic security failure.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Speakers on BSides Amsterdam</title>
+		<link>http://localhost:1313/speakers/</link>
+		<description>Recent content in Speakers on BSides Amsterdam</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/speakers/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>- Tcccorp -</title>
+				<link>http://localhost:1313/speakers/--tcccorp---1a36f7c8-3f9b-40c2-8619-04453a6fce3a/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/--tcccorp---1a36f7c8-3f9b-40c2-8619-04453a6fce3a/</guid>
+				<description>&lt;p&gt;I fell into computers when I was a kid and never really climbed back out. I’ve always loved taking things apart — though putting them back together wasn’t always guaranteed. That curiosity naturally pulled me toward hardware, first through basic electronics, then computer‑controlled circuits, and eventually the world of microcontrollers. Today, I’m still fully immersed in it, juggling more projects than I probably should, but enjoying every minute of it. In open hardware I trust.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Alan Lewis</title>
+				<link>http://localhost:1313/speakers/alan-lewis-8f34a362-fd6e-4450-aac8-be635c0e7186/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/alan-lewis-8f34a362-fd6e-4450-aac8-be635c0e7186/</guid>
+				<description>&lt;p&gt;Alan is wired differently and doesn&amp;rsquo;t like to be put into a box, he does his best thinking &amp;ldquo;outside of the box&amp;rdquo; (&amp;ldquo;out of the box&amp;rdquo; implies you are still inside said box&amp;hellip;). This unconventional perspective, combined with his diverse background, enables him to offer different and often unique insights into the challenges facing our modern (digital) society.&#xA;As a regulator, Alan wears many hats. He supervises companies to ensure they meet their obligations under applicable cybersecurity legislation, provides guidance to the sector, and contributes his expertise to the development and evaluation of laws and regulations.&#xA;Alan is equally committed to protecting individuals. While companies suffer the financial and reputational consequences of a data breach, individuals are often &amp;lsquo;forgotten victims&amp;rsquo; who&amp;rsquo;s personal information is now forever exposed through no fault of their own. His mission is to help both (large) organizations and individuals understand the importance of (personal) security and privacy in this society of the future.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Alexandra Charikova</title>
+				<link>http://localhost:1313/speakers/alexandra-charikova-e8f118f8-10a2-475f-aa17-9b30b68e632c/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/alexandra-charikova-e8f118f8-10a2-475f-aa17-9b30b68e632c/</guid>
+				<description>&lt;p&gt;Passionate about advancing knowledge in application security and challenging industry leaders, Alexandra is an AppSec Community &amp;amp; Growth lead at Escape, a cybersecurity content creator and hosts the podcast &amp;ldquo;The Elephant in AppSec.&amp;rdquo; This podcast brings together cybersecurity professionals and industry leaders to discuss and tackle challenging topics in application security.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Antoine Carossio</title>
+				<link>http://localhost:1313/speakers/antoine-carossio-e09dad0e-8506-42a0-8d2c-71bbb79bd2da/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/antoine-carossio-e09dad0e-8506-42a0-8d2c-71bbb79bd2da/</guid>
+				<description>&lt;p&gt;Co-founder and CTO of Escape. He worked as a security engineer and penetration tester for Apple and the French National Cybersecurity Agency. A core maintainer of open-source projects like Clairvoyance and a speaker at top security conferences.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Brigitte Heijkoop</title>
+				<link>http://localhost:1313/speakers/brigitte-heijkoop-169640e5-7dfb-47da-88ac-863f8863b703/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/brigitte-heijkoop-169640e5-7dfb-47da-88ac-863f8863b703/</guid>
+				<description>&lt;p&gt;Brigitte Heijkoop began her career at the Dutch Ministry of Defence as a full-stack software developer, working in a high-security environment across backend and frontend development, testing, and data-conscious design. She now works as a security specialist, combining SOC analysis with more advanced investigative work in support of detection, response, and deeper security research. Her background in both software engineering and security gives her a practical perspective on how systems behave in the real world, and how technical decisions influence trust, learning, and safety.&#xA;She focuses on cybersecurity, privacy, and human-centered security, with a particular interest in translating complex technical and security challenges into responsible, usable solutions. Outside her day-to-day work, she volunteers in WICCON’s social media and communications team, helping amplify women in cybersecurity and strengthen the community around the conference.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Domagoj Marić</title>
+				<link>http://localhost:1313/speakers/domagoj-mari%C4%87-bbdfba43-ebac-45b7-b092-83682bf8c07e/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/domagoj-mari%C4%87-bbdfba43-ebac-45b7-b092-83682bf8c07e/</guid>
+				<description>&lt;p&gt;Domagoj Marić graduated from the Faculty of Electrical Engineering and Computing in Zagreb, where he initially specialized in the field of information security, while towards the end of his studies, he shifted more deeply into the field of data science with a focus on web content extraction (web scraping/crawling). He began his business career at Megatrend poslovna rješenja, where he worked on the development of Python applications and data solutions with a focus on creating virtual assistants and later as the head of the data science department. That role continued through his career at Comping. Today, he works at Pontis Technology as the AI customer delivery manager, leading the delivery of projects in the area of natural language processing, computer vision, predictive analytics and generative AI. In addition to responsibilities in the data science domain, he also has experience and works as a lecturer in the field of programming.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Filipi Pires</title>
+				<link>http://localhost:1313/speakers/filipi-pires-e0ec5130-2811-4426-833e-17a29010269b/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/filipi-pires-e0ec5130-2811-4426-833e-17a29010269b/</guid>
+				<description>&lt;p&gt;I’ve been working as Head of Technical Advocacy at SCYTHE, Founder &amp;amp; Investor at CROSS-INTEL, BSides Porto Organizer, Red Team Village Director (DEF CON), Senior Advisor Raices Cyber Academy, Founder of Red Team Community (Brazil and LATAM),  AWS Community Builder, Snyk Ambassador, Application Security Specialist and Hacking is NOT a crime Advocate. International Speaker at Security and New technologies events in many countries such as US (Black Hat &amp;amp; Defcon), Canada, France, Spain, Germany, Poland, Black Hat MEA - Middle-East - and others, I’ve served as University Professor in Master Degree in Portugal, Graduation and MBA courses at Brazilian colleges, in addition, I&amp;rsquo;m Creator and Instructor of the Course - Malware Attack Types with Kill Chain Methodology (PentestMagazine), PowerShell and Windows for Red Teamers(PentestMagazine) and Malware Analysis - Fundamentals (HackerSec).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hugo van den Toorn</title>
+				<link>http://localhost:1313/speakers/hugo-van-den-toorn-598f92b5-24e8-45a7-9e59-35883259aaa2/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/hugo-van-den-toorn-598f92b5-24e8-45a7-9e59-35883259aaa2/</guid>
+				<description>&lt;p&gt;Hugo is former Chief Information Security Officer and has now transitioned back to help other organizations understand adversary tradecraft. With over twelve years of experience in the Information Security industry, he has a solid technical and executive background as hands-on security leader.&lt;/p&gt;&#xA;&lt;p&gt;Hugo has experience with and a keen interest in Social engineering, phishing and physical penetration testing. Nowadays, Hugo takes pride and joy in helping individual team members and the business grow. With a strong technical foundation, Hugo combines his passion for security, teaching and hacking with a drive for continuous improvement and optimization of people, processes and technology.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ivan Iushkevich</title>
+				<link>http://localhost:1313/speakers/ivan-iushkevich-8b85dc5e-264f-4f9f-b8a2-bc8afdc680d2/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/ivan-iushkevich-8b85dc5e-264f-4f9f-b8a2-bc8afdc680d2/</guid>
+				<description>&lt;p&gt;Researcher, pentester and appsec trainer. Building different security-related stuff at &lt;a&#xA;  class=&#34;link&#34;&#xA;  href=&#34;http://github.com/zzzteph&#34;rel=&#34;external&#34;&gt;http://github.com/zzzteph&lt;/a&gt;&#xA;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Jalal Bouhdada</title>
+				<link>http://localhost:1313/speakers/jalal-bouhdada-72bf7c9c-d37a-4a80-a8e4-b0a594a6fd7e/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/jalal-bouhdada-72bf7c9c-d37a-4a80-a8e4-b0a594a6fd7e/</guid>
+				<description>&lt;p&gt;Jalal Bouhdada is the Founder of Indurex, a next-generation technology company pioneering AI-powered security, and resilience for Cyber-Physical Systems (CPS).&#xA;Jalal brings over 20 years of experience in industrial cybersecurity and OT/ICS protection. He has worked extensively with critical infrastructure operators, automation vendors, and global enterprises, helping them safeguard their most vital systems against evolving cyber and operational threats.&#xA;As the founder of Applied Risk (acquired by DNV), Jalal played a key role in establishing industrial cybersecurity as a recognized discipline and worked on some of the world’s most complex OT security challenges. He is also a published author and contributor to international security standards and industry reports, frequently advising on best practices for OT, IoT, and CPS resilience.&#xA;A trusted industry voice, Jalal is a regular keynote speaker at leading conferences and has been instrumental in driving awareness on the convergence of safety, cybersecurity, and resilience in industrial environments.&amp;quot;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Joey Dreijer</title>
+				<link>http://localhost:1313/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/</guid>
+				<description>&lt;p&gt;SpecterOps - Technical Architect&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Johan Sydseter</title>
+				<link>http://localhost:1313/speakers/johan-sydseter-900c2489-01d9-412e-aa78-a4df14b461ae/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/johan-sydseter-900c2489-01d9-412e-aa78-a4df14b461ae/</guid>
+				<description>&lt;p&gt;Johan Sydseter is an Application Security Engineer at Admincontrol AS, a subsidiary of Euronext, and one of the leaders of OWASP Cornucopia and the co-creator of OWASP Cornucopia Mobile App Edition and Companion Edition. He is a living AppSec Pokemon, application security engineer, developer, architect and DevOps practitioner. He has worked on building and designing secure backend and frontend solutions for a lifetime. He is also a contributor to OWASP ASVS, -MASTG, .DevGuide, Cheat Sheets and Threat Dragon. He has given several presentations on application security at various international conferences.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>John Strand</title>
+				<link>http://localhost:1313/speakers/john-strand-2566494e-a2df-4bf7-9db7-233cb372831e/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/john-strand-2566494e-a2df-4bf7-9db7-233cb372831e/</guid>
+				<description>&lt;p&gt;John Strand has both consulted and taught hundreds of organizations in the areas of security, regulatory compliance, and penetration testing.  He is a coveted speaker and much loved SANS teacher. John is a contributor to the industry-shaping Penetration Testing Execution Standard and 20 Critical Controls frameworks.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Jorian Woltjer</title>
+				<link>http://localhost:1313/speakers/jorian-woltjer-78d3f642-4ca9-4b01-8c8c-ce2aa8cef7ff/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/jorian-woltjer-78d3f642-4ca9-4b01-8c8c-ce2aa8cef7ff/</guid>
+				<description>&lt;p&gt;I like digging deep into source code and browser features, researching to reach the furthest away vulnerabilities. Through CTFs, I learned most of my craft, and enjoy applying it to the real world now.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Kaja Möller</title>
+				<link>http://localhost:1313/speakers/kaja-m%C3%B6ller-42c65f9c-f22b-4e4b-b26a-30102dc663a4/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/kaja-m%C3%B6ller-42c65f9c-f22b-4e4b-b26a-30102dc663a4/</guid>
+				<description>&lt;p&gt;My name is Kaja Möller, next to my fulltime job at the government, I am the founder of CyberMaster, a fully-immersive cybercrisis simulation that puts teams under the kind of pressure a slide deck cannot achieve. The foundation for CyberMaster was laid in my background in criminology, law and technology and cybercrime, cybersecurity and riskmanagement, which is where I learned that cyber problems are rarely just technical: they&amp;rsquo;re about people.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Kerry Tomlinson</title>
+				<link>http://localhost:1313/speakers/kerry-tomlinson-6e2b04cb-e09c-416d-9a4d-c34b98f8cf16/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/kerry-tomlinson-6e2b04cb-e09c-416d-9a4d-c34b98f8cf16/</guid>
+				<description>&lt;p&gt;Kerry Tomlinson is an award-winning cyber news reporter who works to help people stay smarter and safer online. She spent three decades as a TV news reporter, often going undercover to investigate crimes, winning multiple Emmys and other local, regional and national journalism awards. Now she travels the world looking for creative and compelling ways to show people what is happening in the digital world and how it impacts them. She has reported from Russia, the Philippines, Spain, Denmark, Norway, Sweden, Poland, Estonia, Latvia, Turkey, Argentina, Colombia, Peru, Ecuador and more. She has launched a number of new news programs, organizations and investigative units during her career and is excited to launch this one, Ampyx News.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Kieran Croucher</title>
+				<link>http://localhost:1313/speakers/kieran-croucher-6cda0301-74d3-489b-b1cf-05e582b8d7ef/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/kieran-croucher-6cda0301-74d3-489b-b1cf-05e582b8d7ef/</guid>
+				<description>&lt;p&gt;ieran (Anam0x) is an Associate Consultant in Adversary Simulation at SpecterOps, Inc. He specializes in identity-driven offensive tradecraft and has worked as a red teamer since 2024. Prior to joining SpecterOps, he worked as a software engineer in the healthcare security industry at Imprivata. He graduated from Northeastern University in 2022 with a combined B.S. in Computer Science and Biology.&lt;/p&gt;&#xA;&lt;p&gt;Kieran placed second and fourth, respectively, in the DEF CON 33 and DEF CON 34 Social Engineering Community Vishing Challenges.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Kıvanç Aydın</title>
+				<link>http://localhost:1313/speakers/k%C4%B1van%C3%A7-ayd%C4%B1n-9112c993-35e6-420c-9d11-9b45907a728d/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/k%C4%B1van%C3%A7-ayd%C4%B1n-9112c993-35e6-420c-9d11-9b45907a728d/</guid>
+				<description>&lt;p&gt;Kıvanç is a Netherlands-based cybersecurity professional working in platform security. His work focuses on practical security engineering, infrastructure security, endpoint visibility, vulnerability management, and open-source security tooling.&lt;/p&gt;&#xA;&lt;p&gt;He has lecturer experience and holds MSc and MBA degrees, which help him connect technical security decisions with business requirements, risk, compliance, and operational priorities. This background shapes his perspective as a business-oriented security professional who values security controls that are not only effective, but also measurable, sustainable, and practical to operate.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Leo Tsaousis</title>
+				<link>http://localhost:1313/speakers/leo-tsaousis-c7530b04-00a2-44dc-8e39-8beeb0897943/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/leo-tsaousis-c7530b04-00a2-44dc-8e39-8beeb0897943/</guid>
+				<description>&lt;p&gt;Leo is a Senior Security Consultant and Attack Path Mapping lead at Reversec, based in London, UK. His current role involves designing and conducting large scale exercises, while building the team globally and pushing the boundaries of threat simulation.&lt;/p&gt;&#xA;&lt;p&gt;Driven by a passion for offensive research, he frequently blogs about attack techniques in everything from on-premise technologies to cloud, and from mobile platforms to Kubernetes.&lt;/p&gt;&#xA;&lt;p&gt;When not helping SOC teams or leading purple teams for some of the largest financial services organisations, you will find Leo presenting in security conferences around the world including DEFCON, SO-CON, DEATHcon and ROOTCON.Os across the world address their cyber security needs.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Marina Bochenkova</title>
+				<link>http://localhost:1313/speakers/marina-bochenkova-48615645-061c-4128-90e2-1987ceb235bc/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/marina-bochenkova-48615645-061c-4128-90e2-1987ceb235bc/</guid>
+				<description>&lt;p&gt;Marina wears many hats as a cybersecurity analyst focusing on digital forensics, incident response, and OT security, while also dabbling in security awareness and culture. She combines a passion for protecting people, a strong belief in digital privacy as a human right, and an overly-enthusiastic approach to problem-solving. When not defending digital spaces, Marina actively nurtures her already-unhealthy obsession with cats and resorts to baking or martial arts when desperate.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Martin Sohn Christensen</title>
+				<link>http://localhost:1313/speakers/martin-sohn-christensen-d1efda77-9ef9-4268-8b7a-5aaf5fbf602d/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/martin-sohn-christensen-d1efda77-9ef9-4268-8b7a-5aaf5fbf602d/</guid>
+				<description>&lt;p&gt;Martin is a Security Researcher at SpecterOps specializing in identity attack paths with a focus on Microsoft technologies.&lt;/p&gt;&#xA;&lt;p&gt;He contributes to the information security community by sharing knowledge through blogs, international conferences, and is a contributor to various community tools including BloodHound CE, EntraOps, and is the co-creator of the BloodHound Query Library.&lt;/p&gt;&#xA;&lt;p&gt;Martin has a background in Microsoft system administration, information security consultancy, and BloodHound Enterprise technical advisory.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Marvin Ngoma</title>
+				<link>http://localhost:1313/speakers/marvin-ngoma-81456d3b-b74f-4d70-b10f-259f04b1c40a/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/marvin-ngoma-81456d3b-b74f-4d70-b10f-259f04b1c40a/</guid>
+				<description>&lt;p&gt;Marvin is a seasoned consultant and security architect. He has a strong passion for helping organizations succeed in their cybersecurity programs. He has led many projects in both the private and public sectors, architecting and building Security Operations and Intelligence capabilities; unifying tools, processes, and people. Prior to joining Elastic, Marvin worked as a security consultant at IBM and was the primary SME for QRadar in the nordics.&lt;/p&gt;&#xA;&lt;p&gt;In addition to his work with clients, Marvin frequently speaks at conferences, summits, and meetups on the latest security topics, making him a dedicated security evangelist. He holds a masters in Computer Science &amp;amp; Engineering from Chalmers University of Technology in Sweden, and is a very proactive member of ISC2, among other security bodies.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Mehmet Ergene</title>
+				<link>http://localhost:1313/speakers/mehmet-ergene-11312fa2-3d24-4a2b-8f57-5cc1e0f1ec75/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/mehmet-ergene-11312fa2-3d24-4a2b-8f57-5cc1e0f1ec75/</guid>
+				<description>&lt;p&gt;Mehmet Ergene is the founder of Blu Raven Academy and a cybersecurity professional with over 15 years of experience in threat hunting, detection engineering, KQL, and security data science.&lt;/p&gt;&#xA;&lt;p&gt;He focuses on helping security teams build practical detection and investigation skills using real-world telemetry and data-driven methods. Mehmet has been recognized four times as a Microsoft Security MVP and is known for his work adapting the RITA beacon analyzer to KQL, as well as for sharing his research at conferences and in his blogs.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Mine Temürhan</title>
+				<link>http://localhost:1313/speakers/mine-tem%C3%BCrhan-eb3cb4a4-5407-4267-93bf-c2369a761fb5/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/mine-tem%C3%BCrhan-eb3cb4a4-5407-4267-93bf-c2369a761fb5/</guid>
+				<description>&lt;p&gt;Cybersecurity and cryptography specialist working at the intersection of government, research and education. Her work focuses on the real-world impact of post-quantum cryptography, including implementation risks, system behaviour and the practical challenges of migration.&lt;/p&gt;&#xA;&lt;p&gt;She brings together public organisations, academic partners and security practitioners to address shared challenges in cryptographic discovery, PQC migration and the resilience of digital infrastructure.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Nancy Beers</title>
+				<link>http://localhost:1313/speakers/nancy-beers-1ea6c7c0-5dc4-46bd-b950-05ecb9f20495/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/nancy-beers-1ea6c7c0-5dc4-46bd-b950-05ecb9f20495/</guid>
+				<description>&lt;p&gt;Nancy Beers is a seasoned gamification expert, and the owner of Sanne Cyber. With over 25 years of experience in ICT, Nancy brings a wealth of knowledge and expertise to the table. As the co-chair of Stichting IFCAT, hacker and a passionate advocate for digital rights and freedoms, she is helping out in shaping the Dutch hacker community. Nancy is not only an international speaker but also an avid participant in various ICT events worldwide. She is known for her engaging talks on topics ranging from female leadership, Women in Tech, cybersecurity to gamification, captivating audiences with her insights and expertise. In addition to her speaking engagements, Nancy was deeply involved in the organization of WHY2025, the latest big Dutch Hacker Camp. Her dedication to fostering collaboration, innovation, and exploration within the hacker community is evident in her role as a co organizer of this event. Beyond her professional endeavors, Nancy is an amateur social engineer, open source hippie and constantly seeking new ways to leverage technology for positive change. With her unique blend of technical skills and social insight, she continues to push the boundaries of what is possible in the world of hacking and beyond.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Nicholas Pockl-Deen</title>
+				<link>http://localhost:1313/speakers/nicholas-pockl-deen-6e7376d5-b155-4d05-b100-5d2bc548313b/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/nicholas-pockl-deen-6e7376d5-b155-4d05-b100-5d2bc548313b/</guid>
+				<description>&lt;p&gt;Nick is a Principal Consultant with Unit 42’s Incident Response team, where he leads high-stakes engagements for some of the world’s largest organisation. Specialising in digital forensics, Nick navigates complex breach landscapes to help global enterprises recover from sophisticated cyber attacks. He is a GIAC Security Professional (GSP), dedicated to bridging the gap between deep technical analysis and strategic recovery. When he isn&amp;rsquo;t hunting for persistence or reconstructing breach attack paths, you’ll find him training for his next marathon, exploring a new corner of the globe or watching the latest motorsport race.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Pascal Kahn</title>
+				<link>http://localhost:1313/speakers/pascal-kahn-18a36427-2481-4bb0-a332-ff77ccf9b69e/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/pascal-kahn-18a36427-2481-4bb0-a332-ff77ccf9b69e/</guid>
+				<description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Paul Moreno</title>
+				<link>http://localhost:1313/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/</guid>
+				<description>&lt;p&gt;A transformational cybersecurity executive with over 20 years of experience building and leading security teams and programs across diverse industries. I specialize in aligning cybersecurity strategy with business objectives, risk tolerance, and compliance requirements that empower startups and scale-ups to drive growth and innovation while maintaining robust security postures. I&amp;rsquo;ve contributed to multiple successful acquisitions and IPOs.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Randy Snellenburg</title>
+				<link>http://localhost:1313/speakers/randy-snellenburg-2ff40373-ec92-4101-9a6b-6384368fb7ad/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/randy-snellenburg-2ff40373-ec92-4101-9a6b-6384368fb7ad/</guid>
+				<description>&lt;p&gt;Randy Snellenburg is an Inspector at the Dutch Authority for Digital Infrastructure (Rijksinspectie Digitale Infrastructuur). He focusses on regulating companies with the Telecommunication law and the NIS2 (Cyberbeveiligingswet). With over 15 years of professional experience in the cybersecurity field, he understands the operational, tactical and strategic levels of organizations.&#xA;As a typical juvenile hacker, Randy gave system administrators a hard life by hacking their servers with or without permission. It ultimately gave him the incentive to pursue his career path towards cybersecurity and help protect other organizations against breaches. Later in life Randy focused his free time on bypassing physical security for his hobby at the time: Urban Exploring.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Roald Nefs</title>
+				<link>http://localhost:1313/speakers/roald-nefs-180bd1d9-532a-4957-9b6e-d373f22d650f/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/roald-nefs-180bd1d9-532a-4957-9b6e-d373f22d650f/</guid>
+				<description>&lt;p&gt;CTO at Warpnet, a decade deep in security and platform engineering, and co-organizer of BSides Groningen, BSides Amsterdam, and Cloud Native Groningen. Active open source contributor with a current research focus on automotive security, though on any given weekend he&amp;rsquo;s just as likely to be tinkering with AI, reverse engineering an animal microchip, or soldering conference badges at 2am.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Robbe Van Roey</title>
+				<link>http://localhost:1313/speakers/robbe-van-roey-27c505a2-ab1d-4b0b-ac5b-dc076bba1fa5/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/robbe-van-roey-27c505a2-ab1d-4b0b-ac5b-dc076bba1fa5/</guid>
+				<description>&lt;p&gt;Hi! I’m Robbe Van Roey 👋&#xA;I’m a hacker. I like breaking stuff. I&amp;rsquo;m a security researcher at Aikido in the AI penetration testing team, I’ve worked for a bug bounty company, and I’ve found 35+ CVEs. I love hacking web apps, mobile applications, AI systems, and Active Directory.&#xA;I’m also a teacher. I teach developers about secure coding, I teach beginners about Red Teaming for Hack The Box and I’ve created a bunch of YouTube videos on my channel.&#xA;In the online realm, you may know me as PinkDraconian. Come up to me and say hi!&#xA;My life motto is “Hacking you so you don’t get hacked“ and I’d like to show you part of that ideology during my talk. See you there!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Robin de Vries</title>
+				<link>http://localhost:1313/speakers/robin-de-vries-af13777a-301a-4767-bc12-d766ad70cd2d/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/robin-de-vries-af13777a-301a-4767-bc12-d766ad70cd2d/</guid>
+				<description>&lt;p&gt;Robin de Vries spent 22 years founding and leading PQR, a Dutch IT infrastructure company, before turning his attention to a question that kept surfacing in enterprise environments: what does an organization&amp;rsquo;s digital supply chain look like from the outside, and how much of it is invisible to the organization itself. He now leads ThingsRecon, where he builds infrastructure for passive discovery and continuous monitoring of digital supplier relationships and attack paths across government, critical infrastructure, and enterprise environments.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Tom Sturme</title>
+				<link>http://localhost:1313/speakers/tom-sturme-49f759f6-164d-4d03-9279-f66d00c08f2d/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/tom-sturme-49f759f6-164d-4d03-9279-f66d00c08f2d/</guid>
+				<description>&lt;p&gt;My professional focus lies in defending against adversaries from penetrating digital infrastructures. I enjoy keeping myself informed about the latest offensive techniques and methodologies and transforming them into effective defensive measures.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Toni Dujmović</title>
+				<link>http://localhost:1313/speakers/toni-dujmovi%C4%87-acf1216c-804b-4c56-89e9-cfd19ef6655e/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/toni-dujmovi%C4%87-acf1216c-804b-4c56-89e9-cfd19ef6655e/</guid>
+				<description>&lt;p&gt;Toni Dujmović is a Threat Analyst dedicated to turning cutting-edge threat research into precise security solutions. By bridging the gap between researchers and developers, he helps build tools that accurately identify real threats and ruthlessly eliminate false positives.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Xavier Mertens</title>
+				<link>http://localhost:1313/speakers/xavier-mertens-7bb45c6b-337d-4c50-8bb2-9a29db68cc0b/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/xavier-mertens-7bb45c6b-337d-4c50-8bb2-9a29db68cc0b/</guid>
+				<description>&lt;p&gt;Xavier Mertens is a freelance security consultant running his own company based in Belgium (Xameco). With 20+ years of experience in information security, Xavier finds “blue team” activities more attractive. Therefore, his day job focuses on protecting his customers&amp;rsquo; assets by providing services like incident handling, malware analysis, forensic investigations, log management, security visualization, and OSINT). Besides his day job, Xavier is also a Senior Handler at the SANS Internet Storm Center, Certified SANS Instructor (FOR610, FOR710), security blogger and co-organizer of the BruCON security conference.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Yacine Souam</title>
+				<link>http://localhost:1313/speakers/yacine-souam-61ab3d70-5995-4207-a7bf-5303e1b66bcb/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/yacine-souam-61ab3d70-5995-4207-a7bf-5303e1b66bcb/</guid>
+				<description>&lt;p&gt;Yacine is an R&amp;amp;D Engineer at Escape (YCW23), working on building AI Agents for automated pentesting.&lt;/p&gt;&#xA;&lt;p&gt;He&amp;rsquo;s also a speaker at top security conferences, podcasts guest and previously co-author at OWASP AI Exchange&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Zafer Balkan</title>
+				<link>http://localhost:1313/speakers/zafer-balkan-6e35f54a-97fb-4b88-bf9c-8708cfe3eb1e/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/speakers/zafer-balkan-6e35f54a-97fb-4b88-bf9c-8708cfe3eb1e/</guid>
+				<description>&lt;p&gt;Zafer Balkan is a cybersecurity practitioner with a background spanning security engineering, defensive operations, systems administration, software development, and security governance. His work focuses on practical detection engineering, security telemetry, SIEM, and understanding how security controls behave in real operational environments. He has worked across financial services and defence, from hands-on infrastructure and blue-team roles to security and compliance management. He holds an MSc in Cybersecurity from Tallinn University of Technology and is a CISSP. He also develops open-source security tooling and writes about detection engineering, telemetry, and the operational realities of defensive security.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

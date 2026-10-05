@@ -1,186 +1,281 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sessions on BSides Amsterdam</title>
-    <link>http://localhost:1313/sessions/</link>
-    <description>Recent content in Sessions on BSides Amsterdam</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/sessions/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Abusing the Rules: Detect and Defend Against Business Logic Attacks in APIs</title>
-      <link>http://localhost:1313/sessions/abusing-the-rules-detect-and-defend-against-business-logic-attacks-in-apis-975536/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/abusing-the-rules-detect-and-defend-against-business-logic-attacks-in-apis-975536/</guid>
-      <description>&lt;p&gt;Business logic vulnerabilities in APIs are often design oversights that lead to dangerous outcomes. They occur when attackers abuse legitimate API behavior to bypass controls or exploit workflows. In this talk, we’ll share field experience developing behavioral analysis techniques that surface exploitable API behaviors at scale.&lt;/p&gt;&#xA;&lt;p&gt;We developed a method for passively analyzing API responses - clustering similar logic flows and flagging anomalies that suggest potential abuse paths. You’ll see how business logic vulns manifest in real-world APIs, how attackers chain together valid actions to achieve unintended outcomes, and how defenders can catch these issues early. The session will conclude with practical strategies for integrating business logic awareness into threat modeling and CI/CD pipelines.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI security lessons from the frontline</title>
-      <link>http://localhost:1313/sessions/ai-security-lessons-from-the-frontline-1046328/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/ai-security-lessons-from-the-frontline-1046328/</guid>
-      <description>&lt;p&gt;In this opening keynote, Rob wants to make absolutely clear that with the rise of AI, humanity now depends on security people. He&amp;rsquo;ll take the audience through a compelling series of AI triumphs and disasters, drawn from his own three decade experience in the AI industry, his work with clients, and his unique role in international AI standardization. These cases illustrate the often-unforeseen risks, and highlight key strategies for developing AI systems that will not get us all killed.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Behind Enemy Lines: Engaging and Disrupting Ransomware Web Panels</title>
-      <link>http://localhost:1313/sessions/behind-enemy-lines-engaging-and-disrupting-ransomware-web-panels-997766/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/behind-enemy-lines-engaging-and-disrupting-ransomware-web-panels-997766/</guid>
-      <description>&lt;p&gt;Ransomware groups have become notably proficient at wreaking havoc across various sectors , but we can turn the tables. However, a less explored avenue in the fight against these digital adversaries lies in the proactive offense against their web panels. In this presentation, I will delve into the strategies and methodologies for infiltrating and commandeering the web panels used by ransomware groups to manage their malicious operations or the APIs used during their initial exfiltration of data.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Beyond the Pink: Data Risks in Femtech You Can’t Ignore</title>
-      <link>http://localhost:1313/sessions/beyond-the-pink-data-risks-in-femtech-you-cant-ignore-992241/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/beyond-the-pink-data-risks-in-femtech-you-cant-ignore-992241/</guid>
-      <description>&lt;p&gt;Femtech apps are changing the way millions of women track their reproductive health. But beneath these friendly and helpful interfaces lies a complex and often opaque system of data practices. This talk explores the privacy concerns surrounding femtech apps, examining how they collect, store, and at times misuse deeply personal health information. Many of these tools operate outside the scope of medical device regulation and exploit loopholes in data governance, while positioning themselves as harmless lifestyle products.&#xA;From a cybersecurity standpoint, the talk examines technical vulnerabilities and regulatory blind spots that make femtech uniquely exposed. It argues for a socio-technical threat model; one that accounts for sensitivity of reproductive health data. Finally, this talk challenges complacency, invites critical conversation, and calls for design and policy changes that return control of intimate data to the user.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Closing remarks</title>
-      <link>http://localhost:1313/sessions/closing-remarks-1039824/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/closing-remarks-1039824/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cloud Security anno 2025: Start Secure, Stay Secure</title>
-      <link>http://localhost:1313/sessions/cloud-security-anno-2025-start-secure-stay-secure-983167/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/cloud-security-anno-2025-start-secure-stay-secure-983167/</guid>
-      <description>&lt;p&gt;In 2025, cloud security is no longer just about reacting to threats—it&amp;rsquo;s about building secure foundations and maintaining continuous resilience. This talk is designed for security professionals navigating the complexities of modern cloud environments. We’ll explore how to start secure with well-architected landing zones and secure development environments, and how to stay secure through continuous threat and exposure management, robust access controls, and policy enforcement. You&amp;rsquo;ll also learn how to leverage Microsoft Defender for Cloud to proactively detect, respond to, and mitigate threats across your cloud estate.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Coffee Break</title>
-      <link>http://localhost:1313/sessions/coffee-break-82ae90a3-bba1-4006-8988-687e0d5b3ab5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/coffee-break-82ae90a3-bba1-4006-8988-687e0d5b3ab5/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Coffee Break</title>
-      <link>http://localhost:1313/sessions/coffee-break-82b16322-d4d1-4c29-8b54-12a2ff9a7968/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/coffee-break-82b16322-d4d1-4c29-8b54-12a2ff9a7968/</guid>
-      <description>&lt;p&gt;Short break to refresh for the next set of talks!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CTF</title>
-      <link>http://localhost:1313/sessions/ctf-bbc8ae52-4a76-44bf-88f8-3115dc7aa8d8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/ctf-bbc8ae52-4a76-44bf-88f8-3115dc7aa8d8/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Finding vulnerabilities in Windows with context aware fuzzing MS-RPC</title>
-      <link>http://localhost:1313/sessions/finding-vulnerabilities-in-windows-with-context-aware-fuzzing-ms-rpc-983610/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/finding-vulnerabilities-in-windows-with-context-aware-fuzzing-ms-rpc-983610/</guid>
-      <description>&lt;p&gt;Microsoft’s Remote Procedure Call (MS-RPC) protocol exposes a vast, often undocumented attack surface that’s ripe for exploration (and exploitation 😉). In this talk, we dive deep into automated, context-aware fuzzing of MS-RPC interfaces using the open-source MS-RPC-Fuzzer PowerShell module. Building on the foundation laid by NtObjectManager, this tool enables large-scale, coverage-guided fuzzing of Windows RPC endpoints without ever writing a line of IDL.&lt;/p&gt;&#xA;&lt;p&gt;We’ll walk through how to dynamically extract and inventory every MS-RPC interface from a target binary or the entire Windows system32 directory. Then we’ll show how the fuzzer generates client stubs, mutates inputs across a wide range of values, and automatically feeds context handles from one procedure to another, increasing the number of reachable code paths.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>From Factory Floor to Global Door: OT Security in Supply Chain</title>
-      <link>http://localhost:1313/sessions/from-factory-floor-to-global-door-ot-security-in-supply-chain-1023695/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/from-factory-floor-to-global-door-ot-security-in-supply-chain-1023695/</guid>
-      <description>&lt;p&gt;The manufacturing and critical infrastructure sectors are now at the epicenter of cyberattacks, with manufacturing becoming the most targeted industry globally. Operational Technology (OT) environments, particularly those embedded in supply chains, face growing exposure with over 1,200 new OT-related CVEs identified in the past year alone. As cyber-physical systems (CPS) like SCADA, ICS, and PLCs increasingly converge with corporate IT for integrated supply chain management, attackers gain expanded vectors to disrupt industrial operations. This convergence transforms previously isolated OT systems into critical weak points in the global supply chain.&#xA;This talk examines the evolving OT threat landscape—spanning ransomware, wireless protocol exploits, PLC firmware attacks, insider threats, and exploitation of SCADA-specific protocols (e.g., Modbus, BACnet, OPC, IEC 60870). It highlights how adversaries leverage commodity tools such as FlipperZero, HackRF, and PLC injection kits to compromise sensors, valves, and robotic systems, directly impacting manufacturing reliability and supply chain resilience. The paper underscores that attacks on OT are not isolated incidents but ripple across entire supply chains, affecting production continuity, logistics, and downstream business operations.&#xA;To counter this, we discuss a defense-in-depth approach tailored for OT and supply chain ecosystems, integrating secure network segmentation, Zero Trust architectures, authenticated operations, proactive threat intelligence, and rigorous vulnerability and patch management. With insurance providers now mandating OT-specific cybersecurity controls, it is clear that safeguarding OT is no longer optional but a core requirement for operational and supply chain continuity. This session emphasizes why OT security must be treated as a foundational pillar of modern supply chain resilience.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>From Hours to Minutes: Automating Incident Response Triage with Open-Source Tools</title>
-      <link>http://localhost:1313/sessions/from-hours-to-minutes-automating-incident-response-triage-with-open-source-tools-975760/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/from-hours-to-minutes-automating-incident-response-triage-with-open-source-tools-975760/</guid>
-      <description>&lt;p&gt;Traditional forensic acquisitions create bottlenecks in incident response, requiring specialized expertise and significant time that delays investigations. This presentation introduces an automated forensic triage workflow using open-source tools to accelerate response operations.&lt;/p&gt;&#xA;&lt;p&gt;The workflow utilizes a Velociraptor offline collector to acquire forensic triage images, automatically uploaded to cloud storage. This triggers an OpenRelik workflow that processes triage data using tools like Hayabusa and Plaso/log2timeline, with AI-powered analysis and summarization. The processed output is uploaded to Timesketch for collaborative analysis.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Getting your scope in control during a Quishing Red Teaming Assessment</title>
-      <link>http://localhost:1313/sessions/getting-your-scope-in-control-during-a-quishing-red-teaming-assessment-1016718/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/getting-your-scope-in-control-during-a-quishing-red-teaming-assessment-1016718/</guid>
-      <description>&lt;p&gt;Red teaming can be challenging especially when simulating real-world attacks like QR code phishing (“quishing”) within a tightly defined scope. How do you credibly launch a phishing campaign without wanting to know the specific targets, exposing sensitive information, or putting unintended users at risk?&lt;/p&gt;&#xA;&lt;p&gt;This session offers a behind-the-scenes look at how our team tackled these constraints. We will dig into some opensource tools that can be used and some custom tweaks that we made to make it more secure / believable and the pitfalls you can hopefully avoid.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Happy hour (Sponsored by Aikido)</title>
-      <link>http://localhost:1313/sessions/happy-hour-sponsored-by-aikido-de516cf0-dc89-425a-8c97-841070e3ed62/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/happy-hour-sponsored-by-aikido-de516cf0-dc89-425a-8c97-841070e3ed62/</guid>
-      <description>&lt;p&gt;Happy hour with drinks provided, runs till 18:30.&#xA;Sponsored by Aikido.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Inside the Mind of the Attacker: EDR Blind Spots and Exploits</title>
-      <link>http://localhost:1313/sessions/inside-the-mind-of-the-attacker-edr-blind-spots-and-exploits-986771/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/inside-the-mind-of-the-attacker-edr-blind-spots-and-exploits-986771/</guid>
-      <description>&lt;p&gt;Attackers aren’t standing still  and neither are their evasion tactics.&lt;/p&gt;&#xA;&lt;p&gt;This session dives into how adversaries bypass EDR detection, from classic obfuscation to advanced in-memory techniques. You’ll get a breakdown of how anti-malware systems (AV, EDR, XDR, etc)  work, and how they’re being defeated.&lt;/p&gt;&#xA;&lt;p&gt;Expect real-world examples, cutting-edge evasion methods like PE and reflective DLL injection, and actionable strategies to fortify your defenses against these evolving threats.&lt;/p&gt;&#xA;&lt;p&gt;Key Highlights:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;How Detection Works: AV, EDR, XDR basics — signatures, heuristics, behavior analytics&#xD;&#xA;&#xD;&#xA;Common Evasion Techniques: E.g. Obfuscation, packers, crypters, fileless malware, etc&#xD;&#xA;&#xD;&#xA;Advanced Evasion Methods: PE injection, reflective DLL injection, including other real-world examples&#xD;&#xA;&#xD;&#xA;Defensive Strategies: Behavioral analytics, advanced threat detection, and threat intelligence integration&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
-      <title>Lunch break</title>
-      <link>http://localhost:1313/sessions/lunch-break-0e6261f0-9517-4fac-8160-fce869a8471e/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/lunch-break-0e6261f0-9517-4fac-8160-fce869a8471e/</guid>
-      <description>&lt;p&gt;Lunch is provided&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>No access to Tech track</title>
-      <link>http://localhost:1313/sessions/no-access-to-tech-track-e33c07a9-3ad3-4275-8a87-f1c06261aef7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/no-access-to-tech-track-e33c07a9-3ad3-4275-8a87-f1c06261aef7/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Opening talk</title>
-      <link>http://localhost:1313/sessions/opening-talk-944942/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/opening-talk-944942/</guid>
-      <description>&lt;p&gt;A brief opening talk to welcome all the amazing folks that are making BSides Amsterdam happen. Sponsors, speakers and attendees. All a warm welcome and enjoy your day!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Panel: The State of Product Security 2025</title>
-      <link>http://localhost:1313/sessions/panel-the-state-of-product-security-2025-1062285/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/panel-the-state-of-product-security-2025-1062285/</guid>
-      <description>&lt;p&gt;Product security is evolving fast - and its impact is being felt across every industry in the Netherlands.&lt;/p&gt;&#xA;&lt;p&gt;That’s why we’re bringing together an incredible panel during this session, to unpack the state of product security in 2025.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Registrations</title>
-      <link>http://localhost:1313/sessions/registrations-516057cf-ebf5-4413-93f9-874485e83dcd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/registrations-516057cf-ebf5-4413-93f9-874485e83dcd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Remote Desktop Exploitation: A Deep Dive into Midnight Blizzard’s RDP Phishing Tactics</title>
-      <link>http://localhost:1313/sessions/remote-desktop-exploitation-a-deep-dive-into-midnight-blizzards-rdp-phishing-tactics-995423/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/remote-desktop-exploitation-a-deep-dive-into-midnight-blizzards-rdp-phishing-tactics-995423/</guid>
-      <description>&lt;p&gt;In late 2024, Russian state-sponsored threat actor APT29 (Midnight Blizzard) launched a sophisticated spear-phishing campaign leveraging weaponized .rdp files to gain covert access to critical infrastructure across the globe.&lt;/p&gt;&#xA;&lt;p&gt;This talk dissects the operation through the lens of CERT-UA#116903, demonstrating how adversaries abused Remote Desktop Protocol (RDP) in an unexpected, reverse-access fashion.&lt;/p&gt;&#xA;&lt;p&gt;We’ll explore how APT29 leveraged signed .rdp files and social engineering to lure victims across governments, NGOs, and academia. From infrastructure preparation and phishing lures to stealthy execution and persistent access, the session walks through every stage of the kill chain.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Teetering on the precipice - how we can save kids from a career in cybercrime</title>
-      <link>http://localhost:1313/sessions/teetering-on-the-precipice---how-we-can-save-kids-from-a-career-in-cybercrime-1041532/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/teetering-on-the-precipice---how-we-can-save-kids-from-a-career-in-cybercrime-1041532/</guid>
-      <description>&lt;p&gt;What draws a teenager from gaming late into the night to probing systems they were never meant to access? This keynote traces the journey many young people now take, beginning with cheat codes and exploits on gaming platforms, sliding into forums where tools and tactics are shared, and too often crossing the line into cybercrime. Almost 69% of European teens admit to committing a cybercrime/misdemeanor, showing just how blurred that line has become. The average cybercriminal today is just 19 years old, far younger than the average age of 37 for traditional crime.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tracking the Adversaries in the Middle</title>
-      <link>http://localhost:1313/sessions/tracking-the-adversaries-in-the-middle-1022121/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/tracking-the-adversaries-in-the-middle-1022121/</guid>
-      <description>&lt;p&gt;Adversary in The Middle (AiTM) attacks and token theft has grown steadily as MFA becomes more widely adopted. From our managed SOC we have observed how the right phishing email, at the right time, from a compromised sender makes it extremely difficult for the end-user to discern good from evil. Often these attacks arrive from the compromised emails of a trusted partner, supplier, or co-worker. Sometimes just mere moments after a conversation has taken place between the two victims. Phishing awareness and training can only help so much.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Vendor area</title>
-      <link>http://localhost:1313/sessions/vendor-area-df787110-ba59-400c-80b3-c13c79d21e6f/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/vendor-area-df787110-ba59-400c-80b3-c13c79d21e6f/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>What I’ll Tell My Kids About K8s Security</title>
-      <link>http://localhost:1313/sessions/what-ill-tell-my-kids-about-k8s-security-1015970/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sessions/what-ill-tell-my-kids-about-k8s-security-1015970/</guid>
-      <description>&lt;p&gt;What I’ll Tell My Kids About K8s Security is a creative and story-driven talk that makes Kubernetes security approachable — even for those who aren’t deep in the weeds of K8s. Framed through metaphors and everyday analogies (like thermostats as a control plane or opening windows in cold winter as malicious action), the talk explores complex security challenges in a fun and memorable way. In the second half, I’ll share the story behind an open source tool we built at ING to help teams uncover and understand real-world security issues in their clusters.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Sessions on BSides Amsterdam</title>
+		<link>http://localhost:1313/sessions/</link>
+		<description>Recent content in Sessions on BSides Amsterdam</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/sessions/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>1979 called. They already figured it out.</title>
+				<link>http://localhost:1313/sessions/1979-called.-they-already-figured-it-out.-1280605/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/1979-called.-they-already-figured-it-out.-1280605/</guid>
+				<description>&lt;p&gt;You still think cybersecurity is a modern industry?&#xA;It&amp;rsquo;s 2 o&amp;rsquo;clock in the morning, September 2023. A helpdesk operator at a Las Vegas casino gets a call. Male voice, calm, says he lost MFA access. She does exactly what she was trained to do: resets his credentials. Ten minutes later, ALPHV/Scattered Spider is inside MGM. Nine days later, MGM is 100 million dollars lighter and 30 percent of its systems are still down.&#xA;The public post-mortem: &amp;ldquo;the employee should have caught it.&amp;rdquo;&#xA;That is the sentence I want to talk about. Not because it is wrong, though it is, but because it is the blame our industry keeps defaulting to. And it is the blame that keeps people quiet the next time they see something strange.&#xA;We&amp;rsquo;re not the only ones dealing with this blame urge. However, we are the only ones still giving in to it. After numerous incidents, aviation stopped saying &amp;ldquo;pilot error&amp;rdquo; in 1979 and rebuilt the systems pilots operate in. Healthcare stopped firing surgeons and started fixing the environment they work in. Road safety abandoned &amp;ldquo;pay more attention&amp;rdquo; in the nineties and started designing survivable failure into every intersection. All of them cut fatalities by double digits.&#xA;We like to call cybersecurity a modern field. Frontier. Cutting-edge. Next-gen. But when it comes to the human factor we are still doing what airlines were doing forty years ago and hospitals thirty years ago. We are still telling Hans from accounting he fell for it.&#xA;I will show you what happens in a human brain when we apply blame publicly, why it breaks organisational detection, and what a small number of companies are starting to do about it.&#xA;And if at the end you still want to blame someone, at least you will know what it is really costing you.&#xA;In aviation, they redesigned their system.&#xA;In cybersecurity, we still blame the people.&#xA;It&amp;rsquo;s about time we catch up!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Few Dollars to Disappear: Breaking C2 Beaconing Detection</title>
+				<link>http://localhost:1313/sessions/a-few-dollars-to-disappear-breaking-c2-beaconing-detection-1285407/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/a-few-dollars-to-disappear-breaking-c2-beaconing-detection-1285407/</guid>
+				<description>&lt;p&gt;Most C2 beaconing detections are built around a familiar set of assumptions: connections repeat at measurable intervals, sleep and jitter remain relatively stable, and enough traffic reaches the same destination to establish a pattern.&lt;/p&gt;&#xA;&lt;p&gt;Those assumptions do not always reflect how an adversary actually operates.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, I will examine how specific C2 operating modes alter timing, volume, and communication patterns in ways that automatically evade common beaconing-detection techniques. I will also demonstrate how inexpensive infrastructure changes can fragment the observable signal and reduce it below the practical detection threshold of current algorithms—without requiring sophisticated traffic shaping or custom malware.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ants, Bricks and Spiders: Threat Emulation on the VMware Stack</title>
+				<link>http://localhost:1313/sessions/ants-bricks-and-spiders-threat-emulation-on-the-vmware-stack-1277060/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/ants-bricks-and-spiders-threat-emulation-on-the-vmware-stack-1277060/</guid>
+				<description>&lt;p&gt;Despite acquisitions, changes in names and pricing models, the VMware private cloud remains a high-value target for threat actors. From ransomware gangs to nation states, breaching vCenter or getting a shell on an ESXi host presents a range of opportunities with new TTPs observed in each campaign. But how can security teams build defences proactively?&lt;/p&gt;&#xA;&lt;p&gt;This talk will provide a guide for conducting threat-led simulations against Broadcom VCF or vSphere environments. We will also introduce a free repository containing a comprehensive collection of 80+ reproducible VMware attack techniques - complete with detection advice.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>B-Side Stream</title>
+				<link>http://localhost:1313/sessions/b-side-stream-30a644da-4324-40fc-b5c6-47de7982c014/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/b-side-stream-30a644da-4324-40fc-b5c6-47de7982c014/</guid>
+				<description>&lt;p&gt;Live stream from the B-Side room, and space to hang out.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Capture The Flag</title>
+				<link>http://localhost:1313/sessions/capture-the-flag-1335183/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/capture-the-flag-1335183/</guid>
+				<description>&lt;p&gt;A unique CTF including a Cyber Physical System setup. Get those IT and OT skills ready for this one of a kind CTF. Kindly hosted by Indurex.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Clickfix: Copy, Paste, Compromise</title>
+				<link>http://localhost:1313/sessions/clickfix-copy-paste-compromise-1287825/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/clickfix-copy-paste-compromise-1287825/</guid>
+				<description>&lt;p&gt;ClickFix is an evolving social engineering technique that tricks users with fake CAPTCHAs or software updates into manually executing malicious scripts via Windows Run or the macOS Terminal. This approach often bypasses antivirus (AV) and endpoint detection and response (EDR) systems by using trusted system tools (LOLBins) and in-memory execution, thereby mimicking expected user behaviour.&lt;/p&gt;&#xA;&lt;p&gt;This presentation explores the malware-as-a-service (MaaS) ecosystem underpinning these toolkits, which contain payloads like Lumma and DarkGate. It concludes with an analysis of a real-world attack on a Croatian student association website in April 2026, providing actionable indicators of compromise (IOCs), custom YARA rules and behavioural hardening strategies for defenders.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Closing Keynote Placeholder</title>
+				<link>http://localhost:1313/sessions/closing-keynote-placeholder-86d68273-aa68-4dd4-b176-89d2a04746f4/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/closing-keynote-placeholder-86d68273-aa68-4dd4-b176-89d2a04746f4/</guid>
+				<description>&lt;p&gt;To be announced.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Closing notes</title>
+				<link>http://localhost:1313/sessions/closing-notes-1328339/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/closing-notes-1328339/</guid>
+				<description>&lt;p&gt;Closing ceremony by the BSides Amsterdam team.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Coffee Break</title>
+				<link>http://localhost:1313/sessions/coffee-break-458ab78b-5aee-4420-b6db-ca036ab043c2/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/coffee-break-458ab78b-5aee-4420-b6db-ca036ab043c2/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Design Your First PCB: From Concept to Board</title>
+				<link>http://localhost:1313/sessions/design-your-first-pcb-from-concept-to-board-1301163/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/design-your-first-pcb-from-concept-to-board-1301163/</guid>
+				<description>&lt;p&gt;This workshop introduces you to the entire printed circuit board (PCB) design process, from the initial idea to the creation of your own board. You&amp;rsquo;ll discover why creating a custom PCB can be a high-performance alternative to using standard modules and review the essential electronic concepts for designing reliable circuits. Through hands-on exercises, you&amp;rsquo;ll learn to read and interpret component datasheets, understand the practical differences between analog and digital electronics, and use open-source PCB design software to transform a schematic into a complete PCB. We&amp;rsquo;ll cover the process of sending a PCB to manufacturing, component selection and purchasing, and explore open-source options. Whether you&amp;rsquo;re a maker, a student, or a future engineer, whether you&amp;rsquo;re a complete beginner or not, this workshop will give you the tools to design your own PCB.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Drinks</title>
+				<link>http://localhost:1313/sessions/drinks-b5a71695-0fba-407c-8ae6-8f555253ab86/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/drinks-b5a71695-0fba-407c-8ae6-8f555253ab86/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Finding the Crypto: Lessons from Cryptographic Asset Discovery in Government</title>
+				<link>http://localhost:1313/sessions/finding-the-crypto-lessons-from-cryptographic-asset-discovery-in-government-1305993/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/finding-the-crypto-lessons-from-cryptographic-asset-discovery-in-government-1305993/</guid>
+				<description>&lt;p&gt;Migration to post-quantum cryptography starts with a simple question: where is cryptography actually being used?&#xA;In practice, answering that question is really hard. Cryptographic assets are distributed across networks, applications, certificates, protocols, devices and suppliers, while existing discovery tools each reveal only part of the picture.&lt;/p&gt;&#xA;&lt;p&gt;This talk shares lessons learned from bringing Dutch government security professionals together to explore Cryptographic Asset Discovery and Inventory (CADI). We look at different approaches to network and cryptographic discovery, what tools can and cannot find, where automation helps and where human investigation remains essential.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>From Signals to Shutdowns: Tags, Transmitters, and Trips in Cyber-Physical Systems</title>
+				<link>http://localhost:1313/sessions/from-signals-to-shutdowns-tags-transmitters-and-trips-in-cyber-physical-systems-1275276/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/from-signals-to-shutdowns-tags-transmitters-and-trips-in-cyber-physical-systems-1275276/</guid>
+				<description>&lt;p&gt;Cyber-Physical Systems (CPS) rely on the interaction between industrial control systems, field instrumentation, protection functions, and physical processes to operate critical infrastructure safely and reliably. While most OT security programs focus on network visibility and protocol analysis, they often provide limited insight into the engineering and process context that determines whether a cyber event can lead to operational or safety consequences.&lt;/p&gt;&#xA;&lt;p&gt;This session examines how industrial telemetry—including instrumentation tags, process variables, transmitter data, control logic, alarms, and protection trips—can be leveraged to improve the detection and investigation of cyber-physical threats. Through practical examples, we will explore how correlating engineering and process signals with cybersecurity events helps identify configuration drift, process anomalies, unauthorized engineering changes, and conditions that may impact operational integrity.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Gamifying AI Threat Modeling and Security Requirement Analysis to Empower Agile Software Development</title>
+				<link>http://localhost:1313/sessions/gamifying-ai-threat-modeling-and-security-requirement-analysis-to-empower-agile-software-development-1276418/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/gamifying-ai-threat-modeling-and-security-requirement-analysis-to-empower-agile-software-development-1276418/</guid>
+				<description>&lt;p&gt;OWASP Cornucopia is a card game to assist software development teams in identifying security requirements in agile software development processes. It is language-, platform-, and technology-agnostic (&lt;a&#xA;  class=&#34;link&#34;&#xA;  href=&#34;https://cornucopia.owasp.org&#34;rel=&#34;external&#34;&gt;https://cornucopia.owasp.org&lt;/a&gt;&#xA;).&lt;/p&gt;&#xA;&lt;p&gt;In this session, attendees will play OWASP Cornucopia and, through practical application, learn how to use EoP-based games for threat modeling LLM applications, along with tips and tricks for scaling their threat modeling while remaining ISO27001 certified and keeping developers engaged in security requirements and design activities.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hacking Browsers: The Easy Way</title>
+				<link>http://localhost:1313/sessions/hacking-browsers-the-easy-way-1298434/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/hacking-browsers-the-easy-way-1298434/</guid>
+				<description>&lt;p&gt;When you think of hacking browsers, you perhaps think of V8 heap exploitation, deep-dive fuzzing, crazy sandbox escapes, and so on. But what if I told you that you can still find vulnerabilities in major browsers that don’t require any technical knowledge? Bugs you can even run into by accident!&#xA;In this talk, I’ll take you through my journey of how I “accidentally“ found a vulnerability in Google Chrome. And how that led me to find more vulnerabilities in Chrome as well as some vulnerabilities in Mozilla Firefox and many more bugs in other products.&#xA;So if you’re keen to find out how I could, with minimal user-interaction, steal your private GitHub repositories, then this talk is for you!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>How a regulator approaches the Cyberbeveiligingswet/NIS2</title>
+				<link>http://localhost:1313/sessions/how-a-regulator-approaches-the-cyberbeveiligingswet/nis2-1303961/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/how-a-regulator-approaches-the-cyberbeveiligingswet/nis2-1303961/</guid>
+				<description>&lt;p&gt;The past years you were drilled to prepare by companies that had an incentive to sell you a service or product. Ever wondered what the view of a regulator is? The one that actually checks if you are compliant to the law?&#xA;Since the past 15th of august the NIS2 has come into effect in Dutch law as the Cyberbeveiligingswet. During this talk you’ll learn what a regulator looks for compliance in accordance into the law and how you can further prepare your organization.  It will give a unique insight into the regulators mind and it shows the preparations that took place for the new reality. We’ll walk you through an inspection is performed and the consequences of non-compliance.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>How To Think In Graphs</title>
+				<link>http://localhost:1313/sessions/how-to-think-in-graphs-1308958/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/how-to-think-in-graphs-1308958/</guid>
+				<description>&lt;p&gt;Defenders think in lists. Attackers think in graphs. As long as this is true, attackers win&amp;quot; - this iconic quote by John Lambert, General Manager of Microsoft&amp;rsquo;s Threat Intelligence Center, has been quoted countless times and its point has been proven time and time again since the paradigm shift in identity security when the first open-source offensive attack path tooling - BloodHound - was created in 2016 by Andy Robbins, Rohan Vazarkar, and Will Schroeder.&#xA;Defenders were dominated by attackers who now both were thinking and tooling in graphs, and the defenders&amp;rsquo; problem grew as the industry adopted more identity systems than ever. Modern attack path tooling has enabled defenders to turn the battlefield to their advantage again and the attacker&amp;rsquo;s lead is narrowing.&#xA;This talk is for both defenders and attackers who want to understand why the identity graph is necessary, their inherent advantages in the identity graph space, how to tool for the modern graph, and how to shift an entire organization to think in graphs.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Inside a celebrity cyber scam: deepfakes &amp; mind games</title>
+				<link>http://localhost:1313/sessions/inside-a-celebrity-cyber-scam-deepfakes--mind-games-1305868/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/inside-a-celebrity-cyber-scam-deepfakes--mind-games-1305868/</guid>
+				<description>&lt;p&gt;What tools and tricks are criminals using to carry out celebrity imposter fraud? Go undercover with a cyber journalist to see how a real case plays out, with the attacker deploying audio, video and image deepfakes, as well as potent social engineering techniques. See why this kind of cyber fraud is so powerful, stealing billions from victims each year, and the best strategies for defense. Plus, this session will look at undercover cyber investigation techniques, both technological and psychological.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Introducing Cycas: a scalable DFIR automation pipeline in Azure</title>
+				<link>http://localhost:1313/sessions/introducing-cycas-a-scalable-dfir-automation-pipeline-in-azure-1306861/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/introducing-cycas-a-scalable-dfir-automation-pipeline-in-azure-1306861/</guid>
+				<description>&lt;p&gt;Every incident response analyst has been there: the further an investigation progresses, the more evidence has quietly disappeared. The Windows Event log rolls over. The USN journal doesn&amp;rsquo;t reach far enough back. And it&amp;rsquo;s rarely just those two. So you want to preserve the most valuable artifacts at the very start of an engagement. And if the investigation later points you at something you didn&amp;rsquo;t collect the first time, say IIS logs, you don&amp;rsquo;t want to go back to the customer to ask for a second run.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Lunch Break</title>
+				<link>http://localhost:1313/sessions/lunch-break-e4692b38-2a18-4441-bf5a-0946166facb5/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/lunch-break-e4692b38-2a18-4441-bf5a-0946166facb5/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>n00b guide into the Dutch Hacker Scene</title>
+				<link>http://localhost:1313/sessions/n00b-guide-into-the-dutch-hacker-scene-1305445/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/n00b-guide-into-the-dutch-hacker-scene-1305445/</guid>
+				<description>&lt;p&gt;This submission is hand-typed and might contain human errors :D Because I know a volunteer is reading this and I don&amp;rsquo;t want your brain fried with AI-slop submissions.&lt;/p&gt;&#xA;&lt;p&gt;Here it goes:&lt;/p&gt;&#xA;&lt;p&gt;So, you&amp;rsquo;ve decided to figure out if Cyber security in any way shape or form is what you want.&#xA;You are a student or someone looking for a career change.&#xA;It can be intimidating and scary to know where to start and to actually physically go somewhere if you don&amp;rsquo;t know what to expect. Especially if you are not that outgoing type of person and groups of people make you a bit anxious.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Opening keynote placeholder</title>
+				<link>http://localhost:1313/sessions/opening-keynote-placeholder-1660c15b-73ec-4c19-aae4-2d09310b3b19/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/opening-keynote-placeholder-1660c15b-73ec-4c19-aae4-2d09310b3b19/</guid>
+				<description>&lt;p&gt;To be announced.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Opening notes</title>
+				<link>http://localhost:1313/sessions/opening-notes-1231136/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/opening-notes-1231136/</guid>
+				<description>&lt;p&gt;Opening ceremony by the BSides Amsterdam team.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>OSINT in the Age of AI: Personal Privacy and Cyber Threat Intelligence</title>
+				<link>http://localhost:1313/sessions/osint-in-the-age-of-ai-personal-privacy-and-cyber-threat-intelligence-1269091/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/osint-in-the-age-of-ai-personal-privacy-and-cyber-threat-intelligence-1269091/</guid>
+				<description>&lt;p&gt;Open-source intelligence (OSINT) has become a critical capability in both personal privacy evaluation and modern cyber threat analysis. While most individuals are unaware of how much information they expose through public records, searchable web footprints, business registries, social platforms, metadata, and breached credentials, the same signals are often the foundation of an attacker&amp;rsquo;s recon process. This talk explores how a person can systematically assess their own digital exposure: what is publicly visible, how it can be correlated, and what traces (e-mail and physical addresses, metadata, credentials, etc.) might be used to profile them. For the second perspective, we shift to how cybersecurity professionals leverage the exact same OSINT techniques in threat intelligence and pentesting workflows.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>PhysSecHound Has Entered the Building – OpenGraphing Physical Security</title>
+				<link>http://localhost:1313/sessions/physsechound-has-entered-the-building--opengraphing-physical-security-1307017/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/physsechound-has-entered-the-building--opengraphing-physical-security-1307017/</guid>
+				<description>&lt;p&gt;Is it possible to visualize physical security attack paths?&lt;/p&gt;&#xA;&lt;p&gt;PhysSecHound is my attempt to answer that question by treating facilities, doors, readers, locks, badges, spaces, and physical assets as an attack graph rather than a set of disconnected systems. The core problem with previous attempts to visualize physical security models is that physical security data usually lives in silos: physical access control systems (PACS), floor plans, asset inventories, and other systems each describe only part of the physical security model. Any attempt to interface with one of these technologies rather than holistically would result in an incomplete graph by default.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Racing the Adversary: Accelerating IR with Intelligence-Led Velocity</title>
+				<link>http://localhost:1313/sessions/racing-the-adversary-accelerating-ir-with-intelligence-led-velocity-1246594/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/racing-the-adversary-accelerating-ir-with-intelligence-led-velocity-1246594/</guid>
+				<description>&lt;p&gt;2026 has seen the gap between initial compromise and full-scale impact reach an all-time low. For Incident Responders, the luxury of time is ever shrinking. To survive this landscape, organisations must move beyond reactive forensics and embrace Actionable Intelligence. In this session, Nick, will dive into how the world’s most sophisticated adversaries are operating today—and how tactical Cyber Threat Intelligence (CTI) is the secret weapon to keeping up with their pace. Drawing on real-world scenarios from global incident response engagements, Nick will demonstrate how CTI shifts the incident response race in favour of the defender.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Refreshments served</title>
+				<link>http://localhost:1313/sessions/refreshments-served-8ae41627-e554-49d1-b43b-dafc3c6c0e85/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/refreshments-served-8ae41627-e554-49d1-b43b-dafc3c6c0e85/</guid>
+				<description>&lt;p&gt;Grab a cookie and a juice, and power-up for the rest of the afternoon!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Signed, Sealed, Pwned: LOLBin Hollowing in Red Team Operations</title>
+				<link>http://localhost:1313/sessions/signed-sealed-pwned-lolbin-hollowing-in-red-team-operations-1242386/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/signed-sealed-pwned-lolbin-hollowing-in-red-team-operations-1242386/</guid>
+				<description>&lt;p&gt;The best hiding place is inside a binary that Microsoft signed.&#xA;This talk presents a complete red team operation built from the tradecraft of a real JScript dropper captured in April 2026 actively targeting Energy, Government, and Aerospace sectors, C2 infrastructure live at time of analysis. We decoded its full five-stage attack chain using custom tooling and operationalized every technique into a repeatable red team playbook.&lt;/p&gt;&#xA;&lt;p&gt;The centerpiece is Process Hollowing into msbuild.exe, a digitally signed Microsoft binary present on every Windows endpoint. We walk through the complete operator workflow: how the dropper delivers a fileless .NET assembly via steganographic C2 on trusted paste services, loads it through&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Social lockpicking afternoon at Bsides</title>
+				<link>http://localhost:1313/sessions/social-lockpicking-afternoon-at-bsides-1284071/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/social-lockpicking-afternoon-at-bsides-1284071/</guid>
+				<description>&lt;p&gt;How about picking a few locks during the afternoon?&lt;/p&gt;&#xA;&lt;p&gt;No experience is needed. Lockpicks and tools will be provided during the event - just bring a good mood and enjoy the challenge.&lt;/p&gt;&#xA;&lt;p&gt;Join our Lockpicking Fun Event - a casual, beginner-friendly workshop. During the event, you will not only open your first lock, which is almost guaranteed (95%), but you will also get the chance to try a wide variety of locks. You can start with simple practice locks and work your way up to more challenging ones.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Staring into the Darkness: Compromised C2 Server Analysis for Network Threat Hunting</title>
+				<link>http://localhost:1313/sessions/staring-into-the-darkness-compromised-c2-server-analysis-for-network-threat-hunting-1306949/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/staring-into-the-darkness-compromised-c2-server-analysis-for-network-threat-hunting-1306949/</guid>
+				<description>&lt;p&gt;Network threat hunting has traditionally focused on what’s happening inside the network. We look for signatures in network traffic, behavioral anomalies, endpoint telemetry, and indicators that tell us an attacker is already present. But what if we’re looking in the wrong direction?&lt;/p&gt;&#xA;&lt;p&gt;Very little research has been done on the systems our users and applications are actually communicating with. What do compromised internet-facing endpoints look like? What characteristics do command and control infrastructure, compromised servers, and attacker-controlled systems share? More importantly, how can defenders use that information to make better decisions?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Art of Same-Site Phishing</title>
+				<link>http://localhost:1313/sessions/the-art-of-same-site-phishing-1247067/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/the-art-of-same-site-phishing-1247067/</guid>
+				<description>&lt;p&gt;We all know how to prevent phishing attacks, just check if the domain you&amp;rsquo;re on is legitimate. But what if we inject the phishing HTML form on the real site!&lt;/p&gt;&#xA;&lt;p&gt;During this talk, we&amp;rsquo;ll explore this idea from a basic concept to some protections that we can bypass, as well as features that are commonly exploitable.&#xA;This won&amp;rsquo;t be your standard phishing talk, but rather a deep technical dive into how we can design realistic forms with limited HTML injections involving some novel techniques.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Context Gap: Why Your SOC Misses Attacks It Already Logged</title>
+				<link>http://localhost:1313/sessions/the-context-gap-why-your-soc-misses-attacks-it-already-logged-1289405/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/the-context-gap-why-your-soc-misses-attacks-it-already-logged-1289405/</guid>
+				<description>&lt;p&gt;Every SOC has the same secret: the breach was in the logs the whole time. The login fired, the badge swipe was recorded, the query ran. The data was there. Nobody could read the story it was telling.&lt;/p&gt;&#xA;&lt;p&gt;That&amp;rsquo;s not a visibility problem, it&amp;rsquo;s a context problem. A 2 AM login means nothing until you know the account owner resigned yesterday, the box it hit is a domain controller, and the user has wire-transfer authority. Same event, three answers, and only one of them is &amp;ldquo;escalate now.&amp;rdquo;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Cost of Security: Measuring the Operational Impact of Endpoint and SIEM Visibility</title>
+				<link>http://localhost:1313/sessions/the-cost-of-security-measuring-the-operational-impact-of-endpoint-and-siem-visibility-1307073/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/the-cost-of-security-measuring-the-operational-impact-of-endpoint-and-siem-visibility-1307073/</guid>
+				<description>&lt;p&gt;We measure what security tools detect. We measure much less often what they cost while doing it.&lt;/p&gt;&#xA;&lt;p&gt;We will focus on security controls and monitoring mechanisms for Linux endpoints and show how these controls behave under realistic production-like workloads. We will also examine how adversary simulation frameworks can help us evaluate not only whether a control produces a useful security signal, but also what that signal costs to collect, process, store, and investigate.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The hype around autonomous pentesting, and where the coverage actually is</title>
+				<link>http://localhost:1313/sessions/the-hype-around-autonomous-pentesting-and-where-the-coverage-actually-is-1305014/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/the-hype-around-autonomous-pentesting-and-where-the-coverage-actually-is-1305014/</guid>
+				<description>&lt;p&gt;Most autonomous pentesting systems land on one of two architectures: a fixed pool of specialist agents (ex. one for XSS, one for SQLi..) or a single agent that recursively spawns copies of itself.&lt;/p&gt;&#xA;&lt;p&gt;In practice, both fail for the same reason: neither controls breadth. The fixed pool treats every surface as equally important and never goes deep where it should. Pure recursion collapses into depth-first search, chases the first promising lead until the budget is gone, gets trapped by honeypots, and leaves half the application untouched. The run looks like a &amp;ldquo;pentest&amp;rdquo;. But the coverage isn&amp;rsquo;t there&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Tracing Ghost Suppliers: What DNS, TLS and JavaScript Reveal About Your Real Supply Chain</title>
+				<link>http://localhost:1313/sessions/tracing-ghost-suppliers-what-dns-tls-and-javascript-reveal-about-your-real-supply-chain-1306969/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/tracing-ghost-suppliers-what-dns-tls-and-javascript-reveal-about-your-real-supply-chain-1306969/</guid>
+				<description>&lt;p&gt;A few months ago we mapped the externally visible digital supply chains of critical infrastructure organizations in a Balkan country without credentials, agents or internal access. Starting with a root domain, we followed DNS delegations, certificate relationships, script inclusions, hosting infrastructure, ASNs and third-party services to see how far the dependency graph would take us.&lt;/p&gt;&#xA;&lt;p&gt;Quite far.&lt;/p&gt;&#xA;&lt;p&gt;One energy organisation alone produced 941 findings. Among them were still-active technical dependencies on Russian-origin infrastructure inherited through suppliers and web infrastructure; connections that persisted despite a geopolitical environment very different from the one in which the original procurement decisions were made.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Trust by Design: When Deception becomes Education</title>
+				<link>http://localhost:1313/sessions/trust-by-design-when-deception-becomes-education-1252853/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/trust-by-design-when-deception-becomes-education-1252853/</guid>
+				<description>&lt;p&gt;Security awareness is often measured by outcomes: who clicked, what was detected, and whether a training objective was met. This talk takes a different perspective. It explores how deception-based learning can be designed to educate without shaming, and why ethics should be part of security design from the very beginning. Drawing on anonymized lessons from high-security practice, Brigitte reflects on phishing simulations, feedback culture, privacy by design, and data separation as parts of one broader question: what are we really teaching when we build these systems?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Walk-in &amp; Registration</title>
+				<link>http://localhost:1313/sessions/walk-in--registration-215f4205-7e84-46a5-8e7c-c867092b6a40/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/walk-in--registration-215f4205-7e84-46a5-8e7c-c867092b6a40/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Your credentials were leaked, so what?</title>
+				<link>http://localhost:1313/sessions/your-credentials-were-leaked-so-what-1256635/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/sessions/your-credentials-were-leaked-so-what-1256635/</guid>
+				<description>&lt;p&gt;Everyday, our mailboxes are flooded with phishing emails that impersonate well-know brands or make the victim uncomfortable (hack, data-leak, risk of data loss, &amp;hellip;). Hopefully, most of us just delete them but&amp;hellip; what happens with the credentials you left by mistake on a fake login page?&lt;/p&gt;&#xA;&lt;p&gt;We developed a tool that is an advanced honeypot. First, our bot will visit the fake pages and fill forms with randomly-generated credentials. Then, we will track them expecting them to be used by threat actors against our honeypots (portal, VPN, RDP, VNC, etc). Because credentials are unique, we can link them to threat acts and track them.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

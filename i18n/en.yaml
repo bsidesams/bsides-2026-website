@@ -15,6 +15,9 @@ sessions_page.day: Day {{ . }}
 sessions_page.heading_day_filter: Date
 sessions_page.heading_track_filter: Track
 sessions_page.all_rooms: All rooms
+sessions_page.timeline_size: Timeline size
+sessions_page.zoom_in: Increase timeline size
+sessions_page.zoom_out: Decrease timeline size
 sessions_page.speaker: Speaker
 sessions_page.room: Room
 sessions_page.read_more: read more

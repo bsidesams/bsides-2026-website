@@ -12,27 +12,256 @@
   </url><url>
     <loc>http://localhost:1313/sponsorship/</loc>
   </url><url>
+    <loc>http://localhost:1313/speakers/--tcccorp---1a36f7c8-3f9b-40c2-8619-04453a6fce3a/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/1979-called.-they-already-figured-it-out.-1280605/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/a-few-dollars-to-disappear-breaking-c2-beaconing-detection-1285407/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/alan-lewis-8f34a362-fd6e-4450-aac8-be635c0e7186/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/alexandra-charikova-e8f118f8-10a2-475f-aa17-9b30b68e632c/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/antoine-carossio-e09dad0e-8506-42a0-8d2c-71bbb79bd2da/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/ants-bricks-and-spiders-threat-emulation-on-the-vmware-stack-1277060/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/b-side-stream-30a644da-4324-40fc-b5c6-47de7982c014/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/brigitte-heijkoop-169640e5-7dfb-47da-88ac-863f8863b703/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/sessions/capture-the-flag-1335183/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sessions/clickfix-copy-paste-compromise-1287825/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/closing-keynote-placeholder-86d68273-aa68-4dd4-b176-89d2a04746f4/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/closing-notes-1328339/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/coffee-break-458ab78b-5aee-4420-b6db-ca036ab043c2/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/design-your-first-pcb-from-concept-to-board-1301163/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/domagoj-mari%C4%87-bbdfba43-ebac-45b7-b092-83682bf8c07e/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/drinks-b5a71695-0fba-407c-8ae6-8f555253ab86/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/filipi-pires-e0ec5130-2811-4426-833e-17a29010269b/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/finding-the-crypto-lessons-from-cryptographic-asset-discovery-in-government-1305993/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/from-signals-to-shutdowns-tags-transmitters-and-trips-in-cyber-physical-systems-1275276/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/gamifying-ai-threat-modeling-and-security-requirement-analysis-to-empower-agile-software-development-1276418/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/hacking-browsers-the-easy-way-1298434/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/how-a-regulator-approaches-the-cyberbeveiligingswet/nis2-1303961/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/how-to-think-in-graphs-1308958/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/hugo-van-den-toorn-598f92b5-24e8-45a7-9e59-35883259aaa2/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/inside-a-celebrity-cyber-scam-deepfakes--mind-games-1305868/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/introducing-cycas-a-scalable-dfir-automation-pipeline-in-azure-1306861/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/ivan-iushkevich-8b85dc5e-264f-4f9f-b8a2-bc8afdc680d2/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/jalal-bouhdada-72bf7c9c-d37a-4a80-a8e4-b0a594a6fd7e/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/joey-dreijer-bfdf8ccd-2e44-4def-a337-597e2bffbd18/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/johan-sydseter-900c2489-01d9-412e-aa78-a4df14b461ae/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/john-strand-2566494e-a2df-4bf7-9db7-233cb372831e/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/jorian-woltjer-78d3f642-4ca9-4b01-8c8c-ce2aa8cef7ff/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/kaja-m%C3%B6ller-42c65f9c-f22b-4e4b-b26a-30102dc663a4/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/kerry-tomlinson-6e2b04cb-e09c-416d-9a4d-c34b98f8cf16/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/kieran-croucher-6cda0301-74d3-489b-b1cf-05e582b8d7ef/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/k%C4%B1van%C3%A7-ayd%C4%B1n-9112c993-35e6-420c-9d11-9b45907a728d/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/leo-tsaousis-c7530b04-00a2-44dc-8e39-8beeb0897943/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/location/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/sessions/lunch-break-e4692b38-2a18-4441-bf5a-0946166facb5/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/marina-bochenkova-48615645-061c-4128-90e2-1987ceb235bc/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/martin-sohn-christensen-d1efda77-9ef9-4268-8b7a-5aaf5fbf602d/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/marvin-ngoma-81456d3b-b74f-4d70-b10f-259f04b1c40a/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/mehmet-ergene-11312fa2-3d24-4a2b-8f57-5cc1e0f1ec75/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/mine-tem%C3%BCrhan-eb3cb4a4-5407-4267-93bf-c2369a761fb5/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/n00b-guide-into-the-dutch-hacker-scene-1305445/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/nancy-beers-1ea6c7c0-5dc4-46bd-b950-05ecb9f20495/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/nicholas-pockl-deen-6e7376d5-b155-4d05-b100-5d2bc548313b/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/opening-keynote-placeholder-1660c15b-73ec-4c19-aae4-2d09310b3b19/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/opening-notes-1231136/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/osint-in-the-age-of-ai-personal-privacy-and-cyber-threat-intelligence-1269091/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/party/</loc>
+  </url><url>
+    <loc>http://localhost:1313/speakers/pascal-kahn-18a36427-2481-4bb0-a332-ff77ccf9b69e/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/paul-moreno-08bb8f29-9c0e-4c96-9a6f-5ce6343e22d8/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/physsechound-has-entered-the-building--opengraphing-physical-security-1307017/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/previous/</loc>
   </url><url>
+    <loc>http://localhost:1313/sessions/racing-the-adversary-accelerating-ir-with-intelligence-led-velocity-1246594/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/randy-snellenburg-2ff40373-ec92-4101-9a6b-6384368fb7ad/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/references/</loc>
   </url><url>
+    <loc>http://localhost:1313/sessions/refreshments-served-8ae41627-e554-49d1-b43b-dafc3c6c0e85/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/roald-nefs-180bd1d9-532a-4957-9b6e-d373f22d650f/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/robbe-van-roey-27c505a2-ab1d-4b0b-ac5b-dc076bba1fa5/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/robin-de-vries-af13777a-301a-4767-bc12-d766ad70cd2d/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/youtube/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sessions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sessions/signed-sealed-pwned-lolbin-hollowing-in-red-team-operations-1242386/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/social-lockpicking-afternoon-at-bsides-1284071/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/</loc>
   </url><url>
     <loc>http://localhost:1313/sponsors/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/sessions/staring-into-the-darkness-compromised-c2-server-analysis-for-network-threat-hunting-1306949/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sessions/the-art-of-same-site-phishing-1247067/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/the-context-gap-why-your-soc-misses-attacks-it-already-logged-1289405/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/the-cost-of-security-measuring-the-operational-impact-of-endpoint-and-siem-visibility-1307073/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/the-hype-around-autonomous-pentesting-and-where-the-coverage-actually-is-1305014/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/tom-sturme-49f759f6-164d-4d03-9279-f66d00c08f2d/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/toni-dujmovi%C4%87-acf1216c-804b-4c56-89e9-cfd19ef6655e/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/tracing-ghost-suppliers-what-dns-tls-and-javascript-reveal-about-your-real-supply-chain-1306969/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/trust-by-design-when-deception-becomes-education-1252853/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/walk-in--registration-215f4205-7e84-46a5-8e7c-c867092b6a40/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/xavier-mertens-7bb45c6b-337d-4c50-8bb2-9a29db68cc0b/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/yacine-souam-61ab3d70-5995-4207-a7bf-5303e1b66bcb/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/sessions/your-credentials-were-leaked-so-what-1256635/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/speakers/zafer-balkan-6e35f54a-97fb-4b88-bf9c-8708cfe3eb1e/</loc>
+    <priority>0</priority>
   </url>
 </urlset>
