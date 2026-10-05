@@ -9,7 +9,7 @@
 .schedule-grid {
     display: grid;
     grid-template-columns: 5.5rem repeat(var(--schedule-room-count), minmax(13rem, 1fr));
-    grid-auto-rows: 0.75rem;
+    grid-auto-rows: 5rem;
     width: max-content;
     min-width: 100%;
     padding-bottom: 1rem;
@@ -17,7 +17,7 @@
 
 .schedule-grid__corner,
 .schedule-grid__room {
-    grid-row: 1 / span 5;
+    grid-row: 1 / span 2;
     display: flex;
     align-items: center;
     padding: 0.75rem;
@@ -45,7 +45,7 @@
     font-size: 0.875rem;
     font-weight: 700;
     text-align: right;
-    transform: translateY(-0.55rem);
+    transform: translateY(-0.65rem);
 }
 
 .schedule-grid__session {
@@ -131,7 +131,7 @@
 }
 
 .session-list-filter--rooms {
-    display: none;
+    display: flex;
 }
 
 .session-list-filter__heading {
@@ -221,6 +221,7 @@
 }
 
 /* Highlight the selected room in the mobile room picker. */
+[value='room-all'].session-filter-input:checked ~ * [for='filter-room-all'],
 [value='room-0'].session-filter-input:checked ~ * [for='filter-room-0'],
 [value='room-1'].session-filter-input:checked ~ * [for='filter-room-1'],
 [value='room-2'].session-filter-input:checked ~ * [for='filter-room-2'],
@@ -236,10 +237,6 @@
 }
 
 @media screen and (width < 768px) {
-    .session-list-filter--rooms {
-        display: flex;
-    }
-
     .schedule-grid {
         display: none;
     }
@@ -266,7 +263,58 @@
     }
 }
 
+/* Reduce the timetable to the selected room without leaving empty columns. */
+[value='room-0'].session-filter-input:checked ~ * .schedule-grid,
+[value='room-1'].session-filter-input:checked ~ * .schedule-grid,
+[value='room-2'].session-filter-input:checked ~ * .schedule-grid,
+[value='room-3'].session-filter-input:checked ~ * .schedule-grid,
+[value='room-4'].session-filter-input:checked ~ * .schedule-grid,
+[value='room-5'].session-filter-input:checked ~ * .schedule-grid,
+[value='room-6'].session-filter-input:checked ~ * .schedule-grid,
+[value='room-7'].session-filter-input:checked ~ * .schedule-grid,
+[value='room-8'].session-filter-input:checked ~ * .schedule-grid,
+[value='room-9'].session-filter-input:checked ~ * .schedule-grid {
+    grid-template-columns: 5.5rem minmax(13rem, 1fr);
+}
+
+[value='room-0'].session-filter-input:checked ~ * .schedule-grid [data-room]:not([data-room='0']):not([data-plenum]),
+[value='room-1'].session-filter-input:checked ~ * .schedule-grid [data-room]:not([data-room='1']):not([data-plenum]),
+[value='room-2'].session-filter-input:checked ~ * .schedule-grid [data-room]:not([data-room='2']):not([data-plenum]),
+[value='room-3'].session-filter-input:checked ~ * .schedule-grid [data-room]:not([data-room='3']):not([data-plenum]),
+[value='room-4'].session-filter-input:checked ~ * .schedule-grid [data-room]:not([data-room='4']):not([data-plenum]),
+[value='room-5'].session-filter-input:checked ~ * .schedule-grid [data-room]:not([data-room='5']):not([data-plenum]),
+[value='room-6'].session-filter-input:checked ~ * .schedule-grid [data-room]:not([data-room='6']):not([data-plenum]),
+[value='room-7'].session-filter-input:checked ~ * .schedule-grid [data-room]:not([data-room='7']):not([data-plenum]),
+[value='room-8'].session-filter-input:checked ~ * .schedule-grid [data-room]:not([data-room='8']):not([data-plenum]),
+[value='room-9'].session-filter-input:checked ~ * .schedule-grid [data-room]:not([data-room='9']):not([data-plenum]) {
+    display: none;
+}
+
+[value='room-0'].session-filter-input:checked ~ * .schedule-grid [data-room='0'],
+[value='room-1'].session-filter-input:checked ~ * .schedule-grid [data-room='1'],
+[value='room-2'].session-filter-input:checked ~ * .schedule-grid [data-room='2'],
+[value='room-3'].session-filter-input:checked ~ * .schedule-grid [data-room='3'],
+[value='room-4'].session-filter-input:checked ~ * .schedule-grid [data-room='4'],
+[value='room-5'].session-filter-input:checked ~ * .schedule-grid [data-room='5'],
+[value='room-6'].session-filter-input:checked ~ * .schedule-grid [data-room='6'],
+[value='room-7'].session-filter-input:checked ~ * .schedule-grid [data-room='7'],
+[value='room-8'].session-filter-input:checked ~ * .schedule-grid [data-room='8'],
+[value='room-9'].session-filter-input:checked ~ * .schedule-grid [data-room='9'],
+[value='room-0'].session-filter-input:checked ~ * .schedule-grid [data-plenum],
+[value='room-1'].session-filter-input:checked ~ * .schedule-grid [data-plenum],
+[value='room-2'].session-filter-input:checked ~ * .schedule-grid [data-plenum],
+[value='room-3'].session-filter-input:checked ~ * .schedule-grid [data-plenum],
+[value='room-4'].session-filter-input:checked ~ * .schedule-grid [data-plenum],
+[value='room-5'].session-filter-input:checked ~ * .schedule-grid [data-plenum],
+[value='room-6'].session-filter-input:checked ~ * .schedule-grid [data-plenum],
+[value='room-7'].session-filter-input:checked ~ * .schedule-grid [data-plenum],
+[value='room-8'].session-filter-input:checked ~ * .schedule-grid [data-plenum],
+[value='room-9'].session-filter-input:checked ~ * .schedule-grid [data-plenum] {
+    grid-column: 2;
+}
+
 /* Hover effect for selected room filter */
+[value='room-all'].session-filter-input:checked ~ * [for='filter-room-all']:hover,
 [value='room-0'].session-filter-input:checked ~ * [for='filter-room-0']:hover,
 [value='room-1'].session-filter-input:checked ~ * [for='filter-room-1']:hover,
 [value='room-2'].session-filter-input:checked ~ * [for='filter-room-2']:hover,

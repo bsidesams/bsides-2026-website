@@ -20,16 +20,20 @@
             {{- end }} />
     {{- end }}
 
+    <input
+        name="filter-room"
+        type="radio"
+        class="session-filter-input session-room-filter-input"
+        value="room-all"
+        id="filter-room-all"
+        checked />
     {{- range $index, $element := $sessionsGroupedByRoom }}
         <input
             name="filter-room"
             type="radio"
             class="session-filter-input session-room-filter-input"
             value="room-{{ $index }}"
-            id="filter-room-{{ $index }}"
-            {{- if eq $index 0 }}
-                checked
-            {{- end }} />
+            id="filter-room-{{ $index }}" />
     {{- end }}
 
 
@@ -37,22 +41,20 @@
         <div class="section">
             <h1 class="heading heading--1">{{ T "sessions_page.heading" }}</h1>
             <div class="session-list-filters">
-                {{- if gt ($sessionsGroupedByDay | len) 1 }}
-                    <article class="session-list-filter">
-                        <h2 class="session-list-filter__heading">
-                            {{ T "sessions_page.heading_day_filter" }}
-                        </h2>
-                        <menu class="session-list-filter__menu">
-                            {{- range $index, $element := $sessionsGroupedByDay }}
-                                <li role="presentation">
-                                    <label class="session-list-filter__label" for="filter-day-{{ $index }}">
-                                        {{ T "sessions_page.day" (add $index 1) }}
-                                    </label>
-                                </li>
-                            {{- end }}
-                        </menu>
-                    </article>
-                {{- end }}
+                <article class="session-list-filter">
+                    <h2 class="session-list-filter__heading">
+                        {{ T "sessions_page.heading_day_filter" }}
+                    </h2>
+                    <menu class="session-list-filter__menu">
+                        {{- range $index, $element := $sessionsGroupedByDay }}
+                            <li role="presentation">
+                                <label class="session-list-filter__label" for="filter-day-{{ $index }}">
+                                    {{ $element.Key | time.Format ":date_long" }}
+                                </label>
+                            </li>
+                        {{- end }}
+                    </menu>
+                </article>
 
                 {{- if gt ($sessionsGroupedByRoom | len) 1 }}
                     <article class="session-list-filter session-list-filter--rooms">
@@ -60,6 +62,9 @@
                             {{- T "sessions_page.room" }}
                         </h2>
                         <menu class="session-list-filter__menu">
+                            <li role="presentation">
+                                <label class="session-list-filter__label" for="filter-room-all">{{ T "sessions_page.all_rooms" }}</label>
+                            </li>
                             {{- range $index, $element := $sessionsGroupedByRoom }}
                                 <li role="presentation">
                                     <label class="session-list-filter__label" for="filter-room-{{ $index }}">
@@ -78,6 +83,14 @@
         {{- range $index, $element := $sessionsGroupedByDay }}
             {{- $daySessions := sort .Pages "Params.startsAt" "asc" }}
             {{- $dayStart := (index $daySessions 0).Params.startsAt }}
+            {{- $dayEnd := $dayStart }}
+            {{- range $daySessions }}
+                {{- if gt .Params.endsAt $dayEnd }}
+                    {{- $dayEnd = .Params.endsAt }}
+                {{- end }}
+            {{- end }}
+            {{- $dayDuration := div (sub $dayEnd.Unix $dayStart.Unix) 60 }}
+            {{- $timeSlots := div (add $dayDuration 29) 30 }}
             <section class="section session-day-section" data-day="{{ $index }}">
                 <h1 class="heading heading--highlighted">
                     {{ T "sessions_page.day" (add $index 1) }}
@@ -89,22 +102,23 @@
                     <div class="schedule-grid" style="--schedule-room-count: {{ len $sessionsGroupedByRoom }}">
                     <div class="schedule-grid__corner">Time</div>
                     {{- range $roomIndex, $room := $sessionsGroupedByRoom }}
-                        <div class="schedule-grid__room" style="--schedule-column: {{ add $roomIndex 2 }}">
+                        <div class="schedule-grid__room" data-room="{{ $roomIndex }}" style="--schedule-column: {{ add $roomIndex 2 }}">
                             {{ $room.Key }}
                         </div>
                     {{- end }}
 
-                    {{- range $timeIndex, $timeGroup := $daySessions.GroupByParamDate "startsAt" "2006-01-02T15:04:00" "asc" }}
-                        {{- $startMinute := div (sub ($timeGroup.Key | time.AsTime).Unix $dayStart.Unix) 60 }}
-                        <div class="schedule-grid__time" style="--schedule-row: {{ add (div $startMinute 5) 7 }}">
-                            {{ $timeGroup.Key | time.AsTime | time.Format ":time_short" }}
+                    {{- range $slotIndex := seq 0 $timeSlots }}
+                        {{- $slotMinute := mul $slotIndex 30 }}
+                        {{- $slotTime := $dayStart.Add (time.Duration (printf "%dm" $slotMinute)) }}
+                        <div class="schedule-grid__time" style="--schedule-row: {{ add $slotIndex 3 }}">
+                            {{ $slotTime | time.Format ":time_short" }}
                         </div>
                     {{- end }}
 
                     {{- range $daySessions }}
                         {{- $startMinute := div (sub .Params.startsAt.Unix $dayStart.Unix) 60 }}
                         {{- $durationMinutes := div (sub .Params.endsAt.Unix .Params.startsAt.Unix) 60 }}
-                        {{- $rowSpan := div (add $durationMinutes 4) 5 }}
+                        {{- $rowSpan := div (add $durationMinutes 29) 30 }}
                         {{- $roomIndex := index $sessionRoomIndices .Params.roomName }}
                         {{- $scheduleColumn := add $roomIndex 2 }}
                         {{- if .Params.isPlenumSession }}
@@ -113,7 +127,8 @@
                         <article
                             class="schedule-grid__session{{ if .Params.isServiceSession }} schedule-grid__session--service{{ end }}"
                             data-room="{{ $roomIndex }}"
-                            style="--schedule-column: {{ $scheduleColumn }}; --schedule-row: {{ add (div $startMinute 5) 7 }}; --schedule-row-span: {{ $rowSpan }}">
+                            {{- if .Params.isPlenumSession }} data-plenum {{ end }}
+                            style="--schedule-column: {{ $scheduleColumn }}; --schedule-row: {{ add (div $startMinute 30) 3 }}; --schedule-row-span: {{ $rowSpan }}">
                             {{- if .Params.isServiceSession }}
                                 <div class="schedule-card schedule-card--service">
                                     <time class="schedule-card__time" datetime="{{ .Params.startsAt }}">
