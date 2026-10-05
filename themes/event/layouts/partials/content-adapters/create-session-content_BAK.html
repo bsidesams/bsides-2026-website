@@ -55,27 +55,17 @@
         {{/* Store profile pictures of speakers. */}}
         {{ $speaker := . }}
         {{ with $url := $speaker.profilePicture }}
-            {{ with try (resources.GetRemote $url) }}
-                {{ with .Err }}
-                    {{ warnf "Unable to get profile picture for %s (%s): %s" $speaker.fullName $url . }}
-                {{ else with .Value }}
-                    {{ if reflect.IsImageResourceProcessable . }}
-                        {{ with . | images.Filter (images.Process "q90 webp") }}
-                            {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
-                            {{ $params := dict "alt" $speaker.fullName }}
-                            {{ $resource := dict
-                                "content" $content
-                                "params" $params
-                                "path" (printf "avatar %s %s.%s" $sessionId $speaker.id .MediaType.SubType)
-                            }}
-                            {{ $resources = $resources | append $resource }}
-                        {{ end }}
-                    {{ else }}
-                        {{ warnf "Speaker profile picture is not a processable image for %s: %s" $speaker.fullName $url }}
-                    {{ end }}
-                {{ else }}
-                    {{ warnf "Unable to get profile picture for %s (%s)" $speaker.fullName $url }}
-                {{ end }}
+            {{ with resources.GetRemote $url | images.Filter (images.Process "q90 webp") }}
+                {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
+                {{ $params := dict "alt" $speaker.fullName }}
+                {{ $resource := dict
+                    "content" $content
+                    "params" $params
+                    "path" (printf "avatar %s %s.%s" $sessionId $speaker.id .MediaType.SubType)
+                }}
+                {{ $resources = $resources | append $resource }}
+            {{ else }}
+                {{ errorf "Unable to get remote resource %s" $url }}
             {{ end }}
         {{ end }}
     {{ end }}
