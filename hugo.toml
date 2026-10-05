@@ -333,9 +333,15 @@ name = "VirtualMetric"
 sponstype = "Silver"
 
 [[params.themes.event.sponsors]]
-logo = "images/Sponsor Logos/01. Gold/Adyen/logo-adyen-rgb-green.png"
+logo = "images/Sponsor Logos/00. Platinum/Adyen/logo-adyen-rgb-green.svg"
 url = "https://adyen.com"
 name = "Adyen"
+sponstype = "Platinum"
+
+[[params.themes.event.sponsors]]
+logo = "images/Sponsor Logos/01. Gold/Elastic/logo-elastic-horizontal-color.png"
+url = "https://elastic.co"
+name = "Elastic"
 sponstype = "Gold"
 
 [[params.themes.event.sponsors]]
