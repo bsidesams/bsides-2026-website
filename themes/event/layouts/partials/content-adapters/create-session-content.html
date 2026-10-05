@@ -33,8 +33,11 @@
         "sessionId" $sessionId
         "date" $date
         "startsAt" $startsAt
+        "endsAt" (.endsAt | time.AsTime)
         "room" $room
+        "roomName" $room.name
         "isServiceSession" .isServiceSession
+        "isPlenumSession" .isPlenumSession
         "speakers" $speakers
         "speakerIds" .speakers
         "track" $sessionTrack.name
