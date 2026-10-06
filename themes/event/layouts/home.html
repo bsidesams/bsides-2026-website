@@ -74,7 +74,7 @@
                 {{- $speaker :=  . }}
                 {{- $featuredSessionSpeakers = $featuredSessionSpeakers | append (
                     dict
-                    "avatarResource" ($featuredSessionPage.Resources.GetMatch (printf "avatar-%s.*" $speaker.id))
+                    "avatarResource" (($.Site.GetPage "sessions").Resources.GetMatch (printf "avatar-%s-%s.*" $featuredSessionPage.Params.sessionId $speaker.id))
                     "name" $speaker.fullName
                     "slogan" $speaker.tagLine
                     )
