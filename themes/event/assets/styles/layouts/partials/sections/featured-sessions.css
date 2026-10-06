@@ -6,6 +6,12 @@
     gap: 3.75rem;
 }
 
+.featured-sessions-section .featured-sessions-section__list-item,
+.featured-sessions-section .featured-sessions-section__session-description,
+.featured-sessions-section .session-category {
+    color: white;
+}
+
 .featured-sessions-section__carousel {
     width: 100%;
 }
