@@ -264,7 +264,7 @@ organizers = [
   "48615645-061c-4128-90e2-1987ceb235bc",
   "e8f118f8-10a2-475f-aa17-9b30b68e632c"
 ]
-#featuredSessions = [ "944942", "943968", "945011" ]
+featuredSessions = [ "1344216", "1305868", "1306949" ]
 
 [params.themes.event.callToAction]
 enableBanner = true
