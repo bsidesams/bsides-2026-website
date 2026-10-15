@@ -2,7 +2,7 @@ countdown.days: Days
 countdown.hours: Hrs
 countdown.minutes: Mins
 countdown.seconds: Secs
-cta_banner.message: 'Ticket sales have started, grab your ticket while they last!'
+cta_banner.message: '1st wave tickets sold out - Final wave coming soon!'
 cta_button.get_ticket: 'Get Tickets'
 cta_section.heading: Join us in Amsterdam!
 cta_section.subheading: November 19, 2026
