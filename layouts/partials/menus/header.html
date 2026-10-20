@@ -60,8 +60,22 @@
 </ul>
 
 <script>
-    // Toggle dropdowns on click (keyboard + touch friendly). Hover handled by CSS.
+    // All interactions share the same explicit state, including mouse hover.
     document.querySelectorAll('.header-menu__dropdown-toggle').forEach(function (btn) {
+        const item = btn.closest('.header-menu__item--has-children');
+        item.addEventListener('pointerenter', function (event) {
+            if (event.pointerType === 'mouse' && matchMedia('(hover: hover) and (pointer: fine)').matches) {
+                btn.setAttribute('aria-expanded', 'true');
+            }
+        });
+        item.addEventListener('pointerleave', function (event) {
+            if (event.pointerType === 'mouse' && !item.contains(document.activeElement)) {
+                btn.setAttribute('aria-expanded', 'false');
+            }
+        });
+        item.addEventListener('focusout', function (event) {
+            if (!item.contains(event.relatedTarget)) btn.setAttribute('aria-expanded', 'false');
+        });
         btn.addEventListener('click', function (e) {
             e.preventDefault();
             var expanded = btn.getAttribute('aria-expanded') === 'true';
@@ -79,5 +93,12 @@
                 btn.setAttribute('aria-expanded', 'false');
             });
         }
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape') return;
+        document.querySelectorAll('#mainNavigation .header-menu__dropdown-toggle[aria-expanded="true"]').forEach(function (btn) {
+            btn.setAttribute('aria-expanded', 'false');
+            btn.focus();
+        });
     });
 </script>

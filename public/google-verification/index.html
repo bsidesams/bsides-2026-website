@@ -28,7 +28,7 @@ Our goal is to bring together at 450 people from the InfoSec community this year
 
 
         
-            <link rel="stylesheet" href="/styles.min.8f0a79b933f7b85d8b9fb79725edb23192e77d243bd8fd2c30ff4cba9407f173.css" type="text/css" media="screen" integrity="sha256-jwp5uTP3uF2Ln7eXJe2yMZLnfSQ72P0sMP9MupQH8XM=" />
+            <link rel="stylesheet" href="/styles.min.65f16a8547b9b4e54a001da920f5025834ec008a96fdfba3992a3dcbf0fa9e60.css" type="text/css" media="screen" integrity="sha256-ZfFqhUe5tOVKAB2pIPUCWDTsAIqW/fujmSo9y/D6nmA=" />
         
 
     <style>
@@ -45,9 +45,9 @@ Our goal is to bring together at 450 people from the InfoSec community this year
     </style>
     </head>
 
-    <body class="page-body">
+    <body class="page-body" data-menu-mode="sidebar">
         <input type="checkbox" class="sidebar-toggle" id="sidebarToggle" /><div class="cta-banner" aria-hidden="true">
-    <span>Ticket sales have started, grab your ticket while they last!</span>
+    <span>1st wave tickets sold out - Final wave coming soon!</span>
 </div>
 
         
@@ -58,13 +58,13 @@ Our goal is to bring together at 450 people from the InfoSec community this year
                 <nav id="mainNavigation" class="page-header__navigation" aria-labelledby="main-navigation-label">
                     
                     <label id="main-navigation-label" class="sr-only">Main Menu</label>
-                    <label class="page-header__toggle-sidebar-label" for="sidebarToggle"><svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button type="button" class="page-header__toggle-sidebar-label" aria-label="Open menu" aria-controls="pageSidebar" aria-expanded="false"><svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="22.4" height="1.33333" fill="black" />
     <rect x="5.6001" y="7.33334" width="22.4" height="1.33333" fill="black" />
     <rect y="14.6667" width="22.4" height="1.33333" fill="black" />
 </svg>
 
-                    </label>
+                    </button>
                     <a class="page-header__title-link" href="/">
                         BAMS
                     </a>
@@ -104,14 +104,14 @@ Our goal is to bring together at 450 people from the InfoSec community this year
                         <li role="none">
                             <a
                                 role="menuitem"
-                                href="/speakers/"
+                                href=""
                                     class="header-menu__sublink">Speakers
                             </a>
                         </li>
                         <li role="none">
                             <a
                                 role="menuitem"
-                                href="/sessions/"
+                                href=""
                                     class="header-menu__sublink">Schedule
                             </a>
                         </li>
@@ -179,6 +179,20 @@ Our goal is to bring together at 450 people from the InfoSec community this year
 <script>
     
     document.querySelectorAll('.header-menu__dropdown-toggle').forEach(function (btn) {
+        const item = btn.closest('.header-menu__item--has-children');
+        item.addEventListener('pointerenter', function (event) {
+            if (event.pointerType === 'mouse' && matchMedia('(hover: hover) and (pointer: fine)').matches) {
+                btn.setAttribute('aria-expanded', 'true');
+            }
+        });
+        item.addEventListener('pointerleave', function (event) {
+            if (event.pointerType === 'mouse' && !item.contains(document.activeElement)) {
+                btn.setAttribute('aria-expanded', 'false');
+            }
+        });
+        item.addEventListener('focusout', function (event) {
+            if (!item.contains(event.relatedTarget)) btn.setAttribute('aria-expanded', 'false');
+        });
         btn.addEventListener('click', function (e) {
             e.preventDefault();
             var expanded = btn.getAttribute('aria-expanded') === 'true';
@@ -196,6 +210,13 @@ Our goal is to bring together at 450 people from the InfoSec community this year
                 btn.setAttribute('aria-expanded', 'false');
             });
         }
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape') return;
+        document.querySelectorAll('#mainNavigation .header-menu__dropdown-toggle[aria-expanded="true"]').forEach(function (btn) {
+            btn.setAttribute('aria-expanded', 'false');
+            btn.focus();
+        });
     });
 </script>
 
@@ -233,19 +254,19 @@ Our goal is to bring together at 450 people from the InfoSec community this year
             </div>
         </header>
 
-        <aside class="page-sidebar">
+        <aside class="page-sidebar" id="pageSidebar" inert>
             <nav class="page-sidebar__navigation" aria-labelledby="main-navigation-label">
                 <header class="page-sidebar__header">
                     <a class="page-sidebar__heading-link" href="/">
                         BAMS
                     </a>
 
-                    <label class="page-sidebar__close-label" for="sidebarToggle"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button type="button" class="page-sidebar__close-label" aria-label="Close menu"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect x="0.943359" width="22.4" height="1.33333" transform="rotate(45 0.943359 0)" fill="white" />
     <rect y="15.8392" width="22.4" height="1.33333" transform="rotate(-45 0 15.8392)" fill="white" />
 </svg>
 
-                    </label>
+                    </button>
                 </header>
 
 
@@ -291,16 +312,16 @@ Our goal is to bring together at 450 people from the InfoSec community this year
                         </li>
                         <li class="sidebar-menu__item">
                             <a
-                                href="/speakers/"
+                                href=""
                                     class="sidebar-menu__link"
-                                aria-label="Speakers">Speakers
+                                aria-label="">Speakers
                             </a>
                         </li>
                         <li class="sidebar-menu__item">
                             <a
-                                href="/sessions/"
+                                href=""
                                     class="sidebar-menu__link"
-                                aria-label="Sessions">Schedule
+                                aria-label="">Schedule
                             </a>
                         </li>
                         <li class="sidebar-menu__item">
@@ -483,18 +504,85 @@ Our goal is to bring together at 450 people from the InfoSec community this year
             });
 
             observer.observe(intercept);
-        </script>
+        </script><script>
+    (() => {
+        const content = document.getElementById('pageHeaderContent');
+        const navigation = document.getElementById('mainNavigation');
+        const toggle = document.getElementById('sidebarToggle');
+        const sidebar = document.getElementById('pageSidebar');
+        const opener = navigation.querySelector('.page-header__toggle-sidebar-label');
+        const closer = sidebar.querySelector('.page-sidebar__close-label');
+        const panel = sidebar.querySelector('.page-sidebar__navigation');
 
-        <script>
-            function checkWhichMenuToUse() {
-                document.body.setAttribute('data-menu-mode', 'header');
-                if (pageHeaderContent.scrollWidth > pageHeaderContent.clientWidth) {
-                    document.body.setAttribute('data-menu-mode', 'sidebar');
+        function syncDrawer(restoreFocus = false) {
+            const open = toggle.checked;
+            sidebar.inert = !open;
+            opener.setAttribute('aria-expanded', String(open));
+            if (open) requestAnimationFrame(() => {
+                if (toggle.checked) closer.focus({ preventScroll: true });
+            });
+            else if (restoreFocus) opener.focus({ preventScroll: true });
+        }
+
+        opener.addEventListener('click', () => {
+            toggle.checked = !toggle.checked;
+            syncDrawer(true);
+        });
+        closer.addEventListener('click', () => {
+            toggle.checked = false;
+            syncDrawer(true);
+        });
+        toggle.addEventListener('change', () => syncDrawer(true));
+        document.addEventListener('keydown', (event) => {
+            if (!toggle.checked) return;
+            if (event.key === 'Escape') {
+                toggle.checked = false;
+                syncDrawer(true);
+            }
+            if (event.key === 'Tab') {
+                const items = panel.querySelectorAll('a[href], button:not([disabled])');
+                const first = items[0];
+                const last = items[items.length - 1];
+                if (event.shiftKey && document.activeElement === first) {
+                    event.preventDefault();
+                    last.focus();
+                } else if (!event.shiftKey && document.activeElement === last) {
+                    event.preventDefault();
+                    first.focus();
                 }
             }
+        });
 
-            new ResizeObserver(checkWhichMenuToUse).observe(document.body);
-        </script>
+        
+        const measure = document.createElement('div');
+        measure.className = 'header-menu-measure';
+        measure.inert = true;
+        measure.setAttribute('aria-hidden', 'true');
+        measure.append(navigation.querySelector('.header-menu').cloneNode(true));
+        document.body.append(measure);
+        const cta = navigation.querySelector(':scope > .button');
+
+        function checkWhichMenuToUse() {
+            const gap = parseFloat(getComputedStyle(navigation).columnGap) || 0;
+            const required = measure.getBoundingClientRect().width +
+                (cta ? cta.getBoundingClientRect().width + gap : 0);
+            const desktop = window.innerWidth >= 768 && required + 1 <= navigation.clientWidth;
+            document.body.dataset.menuMode = desktop ? 'header' : 'sidebar';
+            if (desktop && toggle.checked) {
+                toggle.checked = false;
+                syncDrawer();
+                navigation.querySelector('.header-menu__link').focus({ preventScroll: true });
+            }
+        }
+
+        new ResizeObserver(checkWhichMenuToUse).observe(content);
+        window.addEventListener('resize', checkWhichMenuToUse);
+        document.fonts.ready.then(checkWhichMenuToUse);
+        document.fonts.addEventListener('loadingdone', checkWhichMenuToUse);
+        checkWhichMenuToUse();
+    })();
+</script>
+
 
         <main class="page-main">
             
@@ -540,7 +628,7 @@ Our goal is to bring together at 450 people from the InfoSec community this year
         <li>
             <a
                 class="menu-item__link"
-                href="/speakers/"
+                href=""
                 aria-label="Speakers"
                 aria-describedby="secondary-menu-description-1">
                 <h1 class="heading heading--3 heading--embedded">Speakers</h1>

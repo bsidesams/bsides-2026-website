@@ -1,0 +1,78 @@
+<script>
+    (() => {
+        const content = document.getElementById('pageHeaderContent');
+        const navigation = document.getElementById('mainNavigation');
+        const toggle = document.getElementById('sidebarToggle');
+        const sidebar = document.getElementById('pageSidebar');
+        const opener = navigation.querySelector('.page-header__toggle-sidebar-label');
+        const closer = sidebar.querySelector('.page-sidebar__close-label');
+        const panel = sidebar.querySelector('.page-sidebar__navigation');
+
+        function syncDrawer(restoreFocus = false) {
+            const open = toggle.checked;
+            sidebar.inert = !open;
+            opener.setAttribute('aria-expanded', String(open));
+            if (open) requestAnimationFrame(() => {
+                if (toggle.checked) closer.focus({ preventScroll: true });
+            });
+            else if (restoreFocus) opener.focus({ preventScroll: true });
+        }
+
+        opener.addEventListener('click', () => {
+            toggle.checked = !toggle.checked;
+            syncDrawer(true);
+        });
+        closer.addEventListener('click', () => {
+            toggle.checked = false;
+            syncDrawer(true);
+        });
+        toggle.addEventListener('change', () => syncDrawer(true));
+        document.addEventListener('keydown', (event) => {
+            if (!toggle.checked) return;
+            if (event.key === 'Escape') {
+                toggle.checked = false;
+                syncDrawer(true);
+            }
+            if (event.key === 'Tab') {
+                const items = panel.querySelectorAll('a[href], button:not([disabled])');
+                const first = items[0];
+                const last = items[items.length - 1];
+                if (event.shiftKey && document.activeElement === first) {
+                    event.preventDefault();
+                    last.focus();
+                } else if (!event.shiftKey && document.activeElement === last) {
+                    event.preventDefault();
+                    first.focus();
+                }
+            }
+        });
+
+        // Measure an inert, off-layout copy: never flash the desktop menu to test fit.
+        const measure = document.createElement('div');
+        measure.className = 'header-menu-measure';
+        measure.inert = true;
+        measure.setAttribute('aria-hidden', 'true');
+        measure.append(navigation.querySelector('.header-menu').cloneNode(true));
+        document.body.append(measure);
+        const cta = navigation.querySelector(':scope > .button');
+
+        function checkWhichMenuToUse() {
+            const gap = parseFloat(getComputedStyle(navigation).columnGap) || 0;
+            const required = measure.getBoundingClientRect().width +
+                (cta ? cta.getBoundingClientRect().width + gap : 0);
+            const desktop = window.innerWidth >= 768 && required + 1 <= navigation.clientWidth;
+            document.body.dataset.menuMode = desktop ? 'header' : 'sidebar';
+            if (desktop && toggle.checked) {
+                toggle.checked = false;
+                syncDrawer();
+                navigation.querySelector('.header-menu__link').focus({ preventScroll: true });
+            }
+        }
+
+        new ResizeObserver(checkWhichMenuToUse).observe(content);
+        window.addEventListener('resize', checkWhichMenuToUse);
+        document.fonts.ready.then(checkWhichMenuToUse);
+        document.fonts.addEventListener('loadingdone', checkWhichMenuToUse);
+        checkWhichMenuToUse();
+    })();
+</script>
