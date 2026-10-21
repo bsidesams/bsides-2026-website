@@ -30,7 +30,7 @@
 				<link>http://localhost:1313/ctf/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/ctf/</guid>
-				<description>&lt;h2 class=&#34;heading heading--2&#34; id=&#34;bsides-amsterdam-ctf&#34;&gt;BSides Amsterdam CTF&lt;/h2&gt;&lt;p&gt;More information will follow.&lt;/p&gt;</description>
+				<description>&lt;h2 class=&#34;heading heading--2&#34; id=&#34;indurex-ctf&#34;&gt;Indurex CTF&lt;/h2&gt;&#xA;&lt;h1 class=&#34;heading heading--1&#34; id=&#34;build-the-agent-breach-the-plant&#34;&gt;Build the Agent. Breach the Plant.&lt;/h1&gt;&#xA;&lt;h4 class=&#34;heading heading--4&#34; id=&#34;an-ai-ctf-challenge-in-a-critical-infrastructure-environment&#34;&gt;&lt;em&gt;An AI CTF challenge in a critical infrastructure environment&lt;/em&gt;&lt;/h4&gt;&lt;p&gt;Industrial networks were never designed for an adversary that thinks, adapts and acts at machine speed. In this two-hour Capture the Flag, you get to build one.&lt;/p&gt;&#xA;&lt;p&gt;Design and deploy AI agents to work through a purpose-built, sandboxed OT environments. Navigate industrial systems and engineering workstations, clear increasingly difficult stages, and capture every flag you can before the clock runs out. This is not a standard CTF: it tests both your agent engineering and your understanding of how real cyber-physical systems are built, connected and protected.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title></title>
