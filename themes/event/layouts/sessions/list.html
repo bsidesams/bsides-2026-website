@@ -25,6 +25,7 @@
         type="radio"
         class="session-filter-input session-room-filter-input"
         value="room-all"
+        data-schedule-fragment="all-rooms"
         id="filter-room-all"
         checked />
     {{- range $index, $element := $sessionsGroupedByRoom }}
@@ -33,6 +34,7 @@
             type="radio"
             class="session-filter-input session-room-filter-input"
             value="room-{{ $index }}"
+            data-schedule-fragment="{{ $element.Key | anchorize }}"
             id="filter-room-{{ $index }}" />
     {{- end }}
 
@@ -241,6 +243,32 @@
     }}
 
     <script>
+        const scheduleRoomFilters = Array.from(document.querySelectorAll('[data-schedule-fragment]'));
+
+        function selectScheduleRoomFromHash() {
+            let fragment;
+            try {
+                fragment = decodeURIComponent(window.location.hash.slice(1));
+            } catch {
+                return;
+            }
+            const selected = scheduleRoomFilters.find((input) => input.dataset.scheduleFragment === (fragment || 'all-rooms'));
+            if (selected) selected.checked = true;
+        }
+
+        scheduleRoomFilters.forEach((input) => {
+            input.addEventListener('change', () => {
+                if (input.checked) {
+                    const url = new URL(window.location.href);
+                    url.hash = input.dataset.scheduleFragment;
+                    window.history.pushState(null, '', url);
+                }
+            });
+        });
+        window.addEventListener('hashchange', selectScheduleRoomFromHash);
+        window.addEventListener('popstate', selectScheduleRoomFromHash);
+        selectScheduleRoomFromHash();
+
         const scheduleZoomControls = document.querySelector('[data-schedule-zoom-controls]');
 
         if (scheduleZoomControls) {
